@@ -305,16 +305,10 @@
         </item>
       </content>
     </control>
-    <control type="button" id="4050">
-      <!-- SubMenu Control -->
-      <include>InvisibleButton</include>
-      <!-- <visible>Container(300).HasFocus(1) | Container(300).HasFocus(2) | Container(300).HasFocus(3) | Container(300).HasFocus(4) | Container(300).HasFocus(5) | Container(300).HasFocus(5) | Container(300).HasFocus(7) | Container(300).HasFocus(8) | Container(300).HasFocus(9) + [SubString(Skin.String(DisableSubFavourite131),true) | SubString(Skin.String(DisableSubFavourite231),true) | SubString(Skin.String(DisableSubFavourite331),true)] | Container(300).HasFocus(32) + [SubString(Skin.String(DisableSubFavourite132),true) | SubString(Skin.String(DisableSubFavourite232),true) | SubString(Skin.String(DisableSubFavourite332),true)] | Container(300).HasFocus(33) + [SubString(Skin.String(DisableSubFavourite133),true) | SubString(Skin.String(DisableSubFavourite233),true) | SubString(Skin.String(DisableSubFavourite333),true)] | Container(300).HasFocus(34) + [SubString(Skin.String(DisableSubFavourite134),true) | SubString(Skin.String(DisableSubFavourite234),true) | SubString(Skin.String(DisableSubFavourite343),true)] | Container(300).HasFocus(35) + [SubString(Skin.String(DisableSubFavourite135),true) | SubString(Skin.String(DisableSubFavourite235),true) | SubString(Skin.String(DisableSubFavourite353),true)] | Container(300).HasFocus(41) + [SubString(Skin.String(DisableSubVPlaylist141),true) | SubString(Skin.String(DisableSubVPlaylist241),true) | SubString(Skin.String(DisableSubVPlaylist341),true)] | Container(300).HasFocus(41) + [SubString(Skin.String(DisableSubVPlaylist141),true) | SubString(Skin.String(DisableSubVPlaylist241),true) | SubString(Skin.String(DisableSubVPlaylist341),true)] | Container(300).HasFocus(43) + [SubString(Skin.String(DisableSubVPlaylist143),true) | SubString(Skin.String(DisableSubVPlaylist243),true) | SubString(Skin.String(DisableSubVPlaylist343),true)] | Container(300).HasFocus(44) + [SubString(Skin.String(DisableSubVPlaylist144),true) | SubString(Skin.String(DisableSubVPlaylist244),true) | SubString(Skin.String(DisableSubVPlaylist344),true)] | Container(300).HasFocus(45) + [SubString(Skin.String(DisableSubVPlaylist145),true) | SubString(Skin.String(DisableSubVPlaylist245),true) | SubString(Skin.String(DisableSubVPlaylist345),true)] | Container(300).HasFocus(51) + [SubString(Skin.String(DisableSubAPlaylist151),true) | SubString(Skin.String(DisableSubAPlaylist251),true) | SubString(Skin.String(DisableSubAPlaylist351),true)] | Container(300).HasFocus(52) + [SubString(Skin.String(DisableSubAPlaylist152),true) | SubString(Skin.String(DisableSubAPlaylist252),true) | SubString(Skin.String(DisableSubAPlaylist352),true)] | Container(300).HasFocus(53) + [SubString(Skin.String(DisableSubAPlaylist153),true) | SubString(Skin.String(DisableSubAPlaylist253),true) | SubString(Skin.String(DisableSubAPlaylist353),true)] | Container(300).HasFocus(54) + [SubString(Skin.String(DisableSubAPlaylist154),true) | SubString(Skin.String(DisableSubAPlaylist254),true) | SubString(Skin.String(DisableSubAPlaylist354),true)] | Container(300).HasFocus(55) + [SubString(Skin.String(DisableSubAPlaylist155),true) | SubString(Skin.String(DisableSubAPlaylist255),true) | SubString(Skin.String(DisableSubAPlaylist355),true)] | Container(300).HasFocus(61) + [SubString(Skin.String(DisableSubAddon161),true) | SubString(Skin.String(DisableSubAddon261),true) | SubString(Skin.String(DisableSubAddon361),true)] | Container(300).HasFocus(62) + [SubString(Skin.String(DisableSubAddon162),true) | SubString(Skin.String(DisableSubAddon262),true) | SubString(Skin.String(DisableSubAddon362),true)] | Container(300).HasFocus(63) + [SubString(Skin.String(DisableSubAddon163),true) | SubString(Skin.String(DisableSubAddon263),true) | SubString(Skin.String(DisableSubAddon363),true)] | Container(300).HasFocus(63) + [SubString(Skin.String(DisableSubAddon163),true) | SubString(Skin.String(DisableSubAddon263),true) | SubString(Skin.String(DisableSubAddon363),true)] | Container(300).HasFocus(65) + [SubString(Skin.String(DisableSubAddon165),true) | SubString(Skin.String(DisableSubAddon265),true) | SubString(Skin.String(DisableSubAddon365),true)]</visible> -->
-    </control>
     <control type="button" id="4051">
       <description>Go to SubMenu</description>
       <include>InvisibleButton</include>
       <onfocus>SetFocus(9001)</onfocus>
-      <visible>Control.IsVisible(4050)</visible>
     </control>
     <control type="button" id="4052">
       <description>Go to Multi Function</description>
@@ -815,9 +809,9 @@
       </control>
       <!--WEATHER -->
       <control type="list" id="9018">
-        <left>0</left>
-        <top>25</top>
-        <width>1280</width>
+        <left>40</left>
+        <top>28</top>
+        <width>1200</width>
         <height>56</height>
         <orientation>horizontal</orientation>
         <onleft>9018</onleft>
@@ -828,7 +822,7 @@
         <visible>!Skin.HasSetting(HideHomepageWeatherWidget) + [Container(301).HasFocus(8) | Container(301).HasFocus(14)]</visible>
         <itemlayout width="400" height="56">
           <control type="label">
-            <left>40</left>
+            <left>0</left>
             <top>0</top>
             <width>400</width>
             <height>56</height>
@@ -839,7 +833,7 @@
             <visible>!Stringcompare(Skin.String(Weather),ListItem.Property(weatherid))</visible>
           </control>
           <control type="label">
-            <left>40</left>
+            <left>0</left>
             <top>0</top>
             <width>400</width>
             <height>56</height>
@@ -852,7 +846,7 @@
         </itemlayout>
         <focusedlayout width="400" height="56">
           <control type="label">
-            <left>40</left>
+            <left>0</left>
             <top>0</top>
             <width>400</width>
             <height>56</height>
@@ -863,7 +857,51 @@
             <visible>!Stringcompare(Skin.String(Weather),ListItem.Property(weatherid))</visible>
           </control>
           <control type="label">
-            <left>40</left>
+            <left>1</left>
+            <top>1</top>
+            <width>400</width>
+            <height>56</height>
+            <label>$INFO[ListItem.label]</label>
+            <align>center</align>
+            <font>font30</font>
+            <textcolor>mainblue</textcolor>
+            <visible>Stringcompare(Skin.String(Weather),ListItem.Property(weatherid))</visible>
+          </control>
+          <control type="label">
+            <left>-1</left>
+            <top>1</top>
+            <width>400</width>
+            <height>56</height>
+            <label>$INFO[ListItem.label]</label>
+            <align>center</align>
+            <font>font30</font>
+            <textcolor>mainblue</textcolor>
+            <visible>Stringcompare(Skin.String(Weather),ListItem.Property(weatherid))</visible>
+          </control>
+          <control type="label">
+            <left>-1</left>
+            <top>-1</top>
+            <width>400</width>
+            <height>56</height>
+            <label>$INFO[ListItem.label]</label>
+            <align>center</align>
+            <font>font30</font>
+            <textcolor>mainblue</textcolor>
+            <visible>Stringcompare(Skin.String(Weather),ListItem.Property(weatherid))</visible>
+          </control>
+          <control type="label">
+            <left>1</left>
+            <top>-1</top>
+            <width>400</width>
+            <height>56</height>
+            <label>$INFO[ListItem.label]</label>
+            <align>center</align>
+            <font>font30</font>
+            <textcolor>mainblue</textcolor>
+            <visible>Stringcompare(Skin.String(Weather),ListItem.Property(weatherid))</visible>
+          </control>
+          <control type="label">
+            <left>0</left>
             <top>0</top>
             <width>400</width>
             <height>56</height>
