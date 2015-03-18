@@ -279,7 +279,6 @@
               <label>$LOCALIZE[21398]</label>
               <onclick>Skin.ToggleSetting(Use_Startup_Playlist)</onclick>
               <selected>Skin.HasSetting(Use_Startup_Playlist)</selected>
-              <onclick>Skin.Reset(Use_Intro_Movie)</onclick>
             </control>
             <control type="button" id="122">
               <description>Startup Playlist Path</description>
@@ -296,14 +295,6 @@
               <colordiffuse>mainblue</colordiffuse>
               <texturefocus>MenuItemFO.png</texturefocus>
               <texturenofocus>MenuItemNF.png</texturenofocus>
-            </control>
-            <control type="radiobutton" id="123">
-              <description>Use Intro Movie</description>
-              <include>skin_settings_labels</include>
-              <label>$LOCALIZE[31010]</label>
-              <onclick>Skin.ToggleSetting(Use_Intro_Movie)</onclick>
-              <selected>Skin.HasSetting(Use_Intro_Movie)</selected>
-              <onclick>Skin.Reset(Use_Startup_Playlist)</onclick>
             </control>
           </control>
           <control type="scrollbar" id="61">
@@ -372,8 +363,8 @@
               <description>Show Recently added info</description>
               <include>skin_settings_labels</include>
               <label>$LOCALIZE[31117]</label>
-              <onclick>Skin.ToggleSetting(homepageHideRecentlyAdded)</onclick>
-              <selected>Skin.HasSetting(homepageHideRecentlyAdded)</selected>
+              <onclick>Skin.ToggleSetting(HideHomepageRecentlyAdded)</onclick>
+              <selected>!Skin.HasSetting(HideHomepageRecentlyAdded)</selected>
               <enable>System.HasAddon(service.library.data.provider)</enable>
             </control>
             <control type="button" id="2020">
@@ -390,7 +381,7 @@
               <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
               <texturenofocus>MenuItemNF.png</texturenofocus>
               <onclick>Addon.OpenSettings(service.library.data.provider)</onclick>
-              <visible>Skin.HasSetting(homepageHideRecentlyAdded)</visible>
+              <visible>!Skin.HasSetting(HideHomepageRecentlyAdded)</visible>
             </control>
             <control type="radiobutton" id="2021">
               <description>Use Recommended Items</description>
@@ -408,7 +399,7 @@
               <onclick>Skin.ToggleSetting(recommended_items)</onclick>
               <selected>Skin.HasSetting(recommended_items)</selected>
               <enable>!Skin.HasSetting(random_items)</enable>
-              <visible>Skin.HasSetting(homepageHideRecentlyAdded)</visible>
+              <visible>!Skin.HasSetting(HideHomepageRecentlyAdded)</visible>
             </control>
             <control type="radiobutton" id="2022">
               <description>Use Random Items</description>
@@ -426,7 +417,7 @@
               <onclick>Skin.ToggleSetting(random_items)</onclick>
               <selected>Skin.HasSetting(random_items)</selected>
               <enable>!Skin.HasSetting(recommended_items)</enable>
-              <visible>Skin.HasSetting(homepageHideRecentlyAdded)</visible>
+              <visible>!Skin.HasSetting(HideHomepageRecentlyAdded)</visible>
             </control>
             <control type="radiobutton" id="2023">
               <description>Only show Albums in music view</description>
@@ -444,7 +435,7 @@
               <onclick>Skin.ToggleSetting(noprefersong)</onclick>
               <selected>!Skin.HasSetting(noprefersong)</selected>
               <enable>Skin.HasSetting(random_items)</enable>
-              <visible>Skin.HasSetting(homepageHideRecentlyAdded)</visible>
+              <visible>!Skin.HasSetting(HideHomepageRecentlyAdded)</visible>
             </control>
             <control type="radiobutton" id="2024">
               <description>Show Large Recently added tvinfo</description>
@@ -461,7 +452,7 @@
               <texturenofocus>MenuItemNF.png</texturenofocus>
               <onclick>Skin.ToggleSetting(BigRecentTV)</onclick>
               <selected>Skin.HasSetting(BigRecentTV)</selected>
-              <visible>Skin.HasSetting(homepageHideRecentlyAdded)</visible>
+              <visible>!Skin.HasSetting(HideHomepageRecentlyAdded)</visible>
             </control>
             <control type="radiobutton" id="2025">
               <description>Show TV Airing Today</description>
@@ -497,8 +488,8 @@
               <description>Show Weather Widget</description>
               <include>skin_settings_labels</include>
               <label>31241</label>
-              <onclick>Skin.ToggleSetting(HomepageWeatherWidget)</onclick>
-              <selected>Skin.HasSetting(HomepageWeatherWidget)</selected>
+              <onclick>Skin.ToggleSetting(HideHomepageWeatherWidget)</onclick>
+              <selected>!Skin.HasSetting(HideHomepageWeatherWidget)</selected>
             </control>
             <!--End Weather Widget-->
             <control type="radiobutton" id="205">

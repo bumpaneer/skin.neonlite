@@ -52,7 +52,7 @@
       <texture>home_main_menu.png</texture>
       <include>Animation_CommonFadeNoHide</include>
     </control>
-    <include condition="Skin.HasSetting(homepageHideRecentlyAdded)">NewRecentlyAdded</include>
+    <include condition="!Skin.HasSetting(HideHomepageRecentlyAdded)">NewRecentlyAdded</include>
     <include condition="!Skin.HasSetting(HideHomepageWeatherWidget)">HomepageWeatherWidget_2</include>
     <include>HorizontalHomeBottom</include>
     <!-- stoli - new home animation - 030511 -->
