@@ -12,71 +12,48 @@
       <timeperimage>7000</timeperimage>
       <randomize>true</randomize>
       <fadetime>400</fadetime>
-      <animation effect="zoom" start="110" end="130" center="auto" time="16000" tween="cubic" easing="inout" pulse="true" condition="Skin.HasSetting(animation_bg)">Conditional</animation>
-      <animation effect="slide" start="-10,-10" end="20,20" time="8000" tween="cubic" easing="inout" pulse="true" condition="Skin.HasSetting(animation_bg)">Conditional</animation>
       <include>Animation_CommonFadeNoHide</include>
     </control>
     <include>TVGuide</include>
     <include>CommonMediaPlayingBackground</include>
     <control type="image">
       <left>0</left>
-      <top>445</top>
-      <height>200</height>
-      <colordiffuse>mainblue</colordiffuse>
-      <include>Dimensions_Fullscreen</include>
-      <texture>mainmenu/home_bottom_back.png</texture>
-      <include>Animation_CommonFadeNoHideBack-Home</include>
-      <visible>Skin.HasSetting(horizontal_bottom_align) + ControlGroup(9001).HasFocus()</visible>
-      <animation effect="slide" start="0,0" end="0,40" time="300" condition="ControlGroup(9001).HasFocus()">conditional</animation>
-    </control>
-    <control type="image">
-      <left>0</left>
-      <top>445</top>
-      <height>200</height>
-      <include>Dimensions_Fullscreen</include>
-      <texture>mainmenu/home_bottom_align.png</texture>
-      <include>Animation_CommonFadeNoHide</include>
-      <visible>Skin.HasSetting(horizontal_bottom_align) + ControlGroup(9001).HasFocus()</visible>
-      <animation effect="slide" start="0,0" end="0,40" time="300" condition="ControlGroup(9001).HasFocus()">conditional</animation>
-    </control>
-    <control type="image">
-      <left>0</left>
-      <top>445</top>
-      <height>200</height>
+      <top>570</top>
+      <height>75</height>
       <include>Dimensions_Fullscreen</include>
       <colordiffuse>mainblue</colordiffuse>
-      <texture>mainmenu/home_bottom_back.png</texture>
+      <texture>home_main_menu_back.png</texture>
       <include>Animation_CommonFadeNoHideBack-Home</include>
       <animation effect="slide" start="0,40" end="0,0" time="300" condition="!ControlGroup(9001).HasFocus()">conditional</animation>
     </control>
     <control type="image">
       <left>0</left>
-      <top>445</top>
-      <height>200</height>
+      <top>570</top>
+      <height>75</height>
       <include>Dimensions_Fullscreen</include>
-      <texture>mainmenu/home_bottom_align.png</texture>
+      <texture>home_main_menu.png</texture>
       <include>Animation_CommonFadeNoHide</include>
       <animation effect="slide" start="0,40" end="0,0" time="300" condition="!ControlGroup(9001).HasFocus()">conditional</animation>
     </control>
     <control type="image">
       <left>0</left>
-      <top>445</top>
-      <height>200</height>
+      <top>570</top>
+      <height>75</height>
       <include>Dimensions_Fullscreen</include>
       <colordiffuse>mainblue</colordiffuse>
-      <texture>mainmenu/home_bottom_back.png</texture>
+      <texture>home_main_menu_back.png</texture>
       <include>Animation_CommonFadeNoHideBack-Home</include>
     </control>
     <control type="image">
       <left>0</left>
-      <top>445</top>
-      <height>200</height>
+      <top>570</top>
+      <height>75</height>
       <include>Dimensions_Fullscreen</include>
-      <texture>mainmenu/home_bottom_align.png</texture>
+      <texture>home_main_menu.png</texture>
       <include>Animation_CommonFadeNoHide</include>
     </control>
     <include condition="Skin.HasSetting(homepageHideRecentlyAdded)">NewRecentlyAdded</include>
-    <include condition="Skin.HasSetting(HomepageWeatherWidget)">HomepageWeatherWidget_2</include>
+    <include condition="!Skin.HasSetting(HideHomepageWeatherWidget)">HomepageWeatherWidget_2</include>
     <include>HorizontalHomeBottom</include>
     <!-- stoli - new home animation - 030511 -->
     <control type="image">
@@ -84,7 +61,7 @@
       <top>565</top>
       <width>211</width>
       <height>23</height>
-      <texture>sweep2.png</texture>
+      <texture>sweep.png</texture>
       <include>Animation_Bartowski_Context_Zoom</include>
       <animation type="Conditional" reversible="false" condition="true" loop="true">
         <effect type="fade" start="0" end="100" time="3000" delay="2000" />
@@ -98,7 +75,7 @@
       <top>628</top>
       <width>211</width>
       <height>23</height>
-      <texture flipy="true">sweep2.png</texture>
+      <texture flipy="true">sweep.png</texture>
       <include>Animation_Bartowski_Context_Zoom</include>
       <animation type="Conditional" reversible="false" condition="true" loop="true">
         <effect type="fade" start="0" end="100" time="3000" delay="2000" />
@@ -106,20 +83,6 @@
         <effect type="fade" start="100" end="0" time="4500" delay="6000" />
         <effect type="slide" start="0,0" end="0,0" time="10000" delay="10000" loop="false" />
       </animation>
-    </control>
-    <control type="button" id="8999">
-      <description>Don't run Recently added</description>
-      <left>-20</left>
-      <top>-20</top>
-      <width>1</width>
-      <height>1</height>
-      <label>-</label>
-      <font>-</font>
-      <onfocus>Skin.Reset(LibraryUpdated)</onfocus>
-      <include>switch_horizontal_home</include>
-      <texturenofocus>-</texturenofocus>
-      <texturefocus>-</texturefocus>
-      <visible>!Skin.HasSetting(homepageHideRecentlyAdded) + Skin.HasSetting(LibraryUpdated)</visible>
     </control>
     <!-- Now Playing Video Window -->
     <control type="group">
