@@ -8,7 +8,7 @@
       <top>0</top>
       <width>1280</width>
       <height>720</height>
-      <imagepath fallback="special://skin/backgrounds/logoff.jpg" background="true">$INFO[Skin.String(Home_Custom_Back_Video_Folder)]</imagepath>
+      <imagepath fallback="special://skin/backgrounds/skindefault.png" background="true">$INFO[Skin.String(Home_Custom_Back_Video_Folder)]</imagepath>
       <timeperimage>10000</timeperimage>
       <randomize>true</randomize>
       <fadetime>1000</fadetime>

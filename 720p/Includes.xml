@@ -101,7 +101,7 @@
       <top>0</top>
       <width>1280</width>
       <height>720</height>
-      <imagepath fallback="special://skin/backgrounds/settings.jpg" background="true">$INFO[Skin.String(CustomSettingsFolder)]</imagepath>
+      <imagepath fallback="special://skin/backgrounds/skindefault.png" background="true">$INFO[Skin.String(CustomSettingsFolder)]</imagepath>
       <timeperimage>10000</timeperimage>
       <randomize>true</randomize>
       <fadetime>1000</fadetime>
@@ -149,7 +149,7 @@
       <top>0</top>
       <width>1280</width>
       <height>720</height>
-      <imagepath fallback="special://skin/backgrounds/music.jpg" background="true">$INFO[Skin.String(CustomMusicFolder)]</imagepath>
+      <imagepath fallback="special://skin/backgrounds/skindefault.png" background="true">$INFO[Skin.String(CustomMusicFolder)]</imagepath>
       <timeperimage>10000</timeperimage>
       <randomize>true</randomize>
       <fadetime>1000</fadetime>
@@ -1013,7 +1013,7 @@
       <top>0</top>
       <width>1280</width>
       <height>720</height>
-      <imagepath fallback="special://skin/backgrounds/weather.jpg" background="true">$INFO[Skin.String(Home_Custom_Back_Weather_Folder1)]$INFO[Weather.FanartCode]</imagepath>
+      <imagepath fallback="special://skin/backgrounds/skindefault.png" background="true">$INFO[Skin.String(Home_Custom_Back_Weather_Folder1)]$INFO[Weather.FanartCode]</imagepath>
       <timeperimage>10000</timeperimage>
       <randomize>true</randomize>
       <fadetime>1000</fadetime>

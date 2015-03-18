@@ -12,7 +12,7 @@
           <width>1280</width>
           <height>720</height>
           <aspectratio>scale</aspectratio>
-          <texture>special://skin/backgrounds/programs.jpg</texture>
+          <texture>special://skin/backgrounds/skindefault.png</texture>
         </control>
       </control>
       <control type="grouplist">

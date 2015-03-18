@@ -16,7 +16,7 @@
       </control>
       <control type="image">
         <include>Dimensions_Fullscreen</include>
-        <texture border="20">special://skin/backgrounds/addons.jpg</texture>
+        <texture border="20">special://skin/backgrounds/skindefault.png</texture>
         <visible>[Control.IsVisible(56) | Control.IsVisible(50)] + !Window.IsVisible(146)</visible>
       </control>
       <include>CommonMediaPlayingBackground</include>

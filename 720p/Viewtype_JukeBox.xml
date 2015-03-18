@@ -231,7 +231,7 @@
       <top>146</top>
       <width>585</width>
       <height>286</height>
-      <texture diffuse="music/jukebox_fanart_diffuse.png" fallback="special://skin/backgrounds/music.jpg" background="true">$INFO[ListItem.Property(Fanart_Image)]</texture>
+      <texture diffuse="music/jukebox_fanart_diffuse.png" fallback="special://skin/backgrounds/skindefault.png" background="true">$INFO[ListItem.Property(Fanart_Image)]</texture>
       <visible>Control.IsVisible(54) + ![Container.Content(albums) | Container.Content(artists)]</visible>
     </control>
     <control type="image">
