@@ -46,7 +46,7 @@
       <align>center</align>
       <textcolor>mainblue</textcolor>
       <label>$LOCALIZE[1036]</label>
-      <font>Font_InfoYear2</font>
+      <font>font30</font>
     </control>
     <control type="list" id="450">
       <left>410</left>
@@ -68,7 +68,7 @@
           <textcolor>FavListItem</textcolor>
           <selectedcolor>FavListItemSelected</selectedcolor>
           <aligny>center</aligny>
-          <font>Font_FavouritesItemLabel</font>
+          <font>font16</font>
           <info>ListItem.Label</info>
         </control>
       </itemlayout>
@@ -88,7 +88,7 @@
           <height>30</height>
           <textcolor>white</textcolor>
           <aligny>center</aligny>
-          <font>Font_FavouritesItemLabel</font>
+          <font>font16</font>
           <info>ListItem.Label</info>
         </control>
       </focusedlayout>

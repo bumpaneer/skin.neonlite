@@ -74,7 +74,7 @@
         <texturenofocus border="45,0,45,0">DialogContextMiddleNF.png</texturenofocus>
         <onclick>XBMC.Quit()</onclick>
         <pulseonselect>no</pulseonselect>
-        <font>Font_Bartowski_Press_S</font>
+        <font>font16</font>
         <label>13012</label>
         <visible>System.ShowExitButton</visible>
       </control>
@@ -92,7 +92,7 @@
         <texturenofocus border="45,0,45,0">DialogContextMiddleNF.png</texturenofocus>
         <onclick>XBMC.Powerdown()</onclick>
         <pulseonselect>no</pulseonselect>
-        <font>Font_Bartowski_Press_S</font>
+        <font>font16</font>
         <label>13016</label>
         <visible>System.CanPowerDown</visible>
       </control>
@@ -110,7 +110,7 @@
         <texturenofocus border="45,0,45,0">DialogContextMiddleNF.png</texturenofocus>
         <onclick>XBMC.AlarmClock(shutdowntimer,XBMC.Shutdown())</onclick>
         <pulseonselect>no</pulseonselect>
-        <font>Font_Bartowski_Press_S</font>
+        <font>font16</font>
         <label>20150</label>
         <visible>!System.HasAlarm(shutdowntimer)</visible>
         <visible>System.CanPowerDown | System.CanSuspend | System.CanHibernate</visible>
@@ -129,7 +129,7 @@
         <texturenofocus border="45,0,45,0">DialogContextMiddleNF.png</texturenofocus>
         <onclick>XBMC.CancelAlarm(shutdowntimer)</onclick>
         <pulseonselect>no</pulseonselect>
-        <font>Font_Bartowski_Press_S</font>
+        <font>font16</font>
         <label>20151</label>
         <visible>System.HasAlarm(shutdowntimer)</visible>
       </control>
@@ -147,7 +147,7 @@
         <texturenofocus border="45,0,45,0">DialogContextMiddleNF.png</texturenofocus>
         <onclick>XBMC.Suspend()</onclick>
         <pulseonselect>no</pulseonselect>
-        <font>Font_Bartowski_Press_S</font>
+        <font>font16</font>
         <label>13011</label>
         <visible>System.CanSuspend</visible>
       </control>
@@ -165,7 +165,7 @@
         <texturenofocus border="45,0,45,0">DialogContextMiddleNF.png</texturenofocus>
         <onclick>XBMC.Hibernate()</onclick>
         <pulseonselect>no</pulseonselect>
-        <font>Font_Bartowski_Press_S</font>
+        <font>font16</font>
         <label>13010</label>
         <visible>System.CanHibernate</visible>
       </control>
@@ -183,7 +183,7 @@
         <texturenofocus border="45,0,45,0">DialogContextMiddleNF.png</texturenofocus>
         <onclick>XBMC.Reset()</onclick>
         <pulseonselect>no</pulseonselect>
-        <font>Font_Bartowski_Press_S</font>
+        <font>font16</font>
         <label>13013</label>
         <visible>System.CanReboot</visible>
       </control>
@@ -201,7 +201,7 @@
         <texturenofocus border="45,0,45,0">DialogContextMiddleNF.png</texturenofocus>
         <onclick>ActivateWindow(SystemInfo)</onclick>
         <pulseonselect>no</pulseonselect>
-        <font>Font_Bartowski_Press_S</font>
+        <font>font16</font>
         <label>130</label>
       </control>
       <control type="image" id="3118">

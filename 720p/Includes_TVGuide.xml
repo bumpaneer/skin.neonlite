@@ -60,7 +60,7 @@
             <top>10</top>
             <width>600</width>
             <height>30</height>
-            <font>Font_Neon_24</font>
+            <font>font16</font>
             <label>[B]$LOCALIZE[31515][/B]</label>
             <align>center</align>
             <aligny>center</aligny>
@@ -94,7 +94,7 @@
                 <height>35</height>
                 <align>center</align>
                 <aligny>center</aligny>
-                <font>Font_Neon_18</font>
+                <font>fontContextMenu</font>
                 <textcolor>mainblue</textcolor>
                 <scroll>true</scroll>
                 <label fallback="-">$INFO[Window(Home).Property(NextAired.1.Label)]</label>
@@ -107,7 +107,7 @@
                 <height>17</height>
                 <align>center</align>
                 <aligny>center</aligny>
-                <font>Font_Neon_18</font>
+                <font>fontContextMenu</font>
                 <textcolor>mainblue</textcolor>
                 <label fallback="-">$INFO[Window(Home).Property(NextAired.1.NextTitle)]</label>
               </control>
@@ -118,7 +118,7 @@
                 <height>17</height>
                 <align>center</align>
                 <aligny>center</aligny>
-                <font>Font_Neon_16</font>
+                <font>font12</font>
                 <textcolor>grey</textcolor>
                 <label fallback="-">$INFO[Window(Home).Property(NextAired.1.ShortTime)] on $INFO[Window(Home).Property(NextAired.1.Network)]</label>
               </control>
@@ -129,7 +129,7 @@
                 <height>17</height>
                 <align>center</align>
                 <aligny>center</aligny>
-                <font>Font_Neon_18</font>
+                <font>fontContextMenu</font>
                 <textcolor>mainblue</textcolor>
                 <label fallback="-">$INFO[Window(Home).Property(NextAired.1.NextNumber),$LOCALIZE[20359] - ]</label>
               </control>
@@ -140,7 +140,7 @@
                 <height>17</height>
                 <align>center</align>
                 <aligny>center</aligny>
-                <font>Font_Neon_16</font>
+                <font>font12</font>
                 <textcolor>grey</textcolor>
                 <label fallback="-">$INFO[Window(Home).Property(NextAired.1.RunTime),, $LOCALIZE[12391]]</label>
               </control>
@@ -166,7 +166,7 @@
                 <height>35</height>
                 <align>center</align>
                 <aligny>center</aligny>
-                <font>Font_Neon_18</font>
+                <font>fontContextMenu</font>
                 <textcolor>mainblue</textcolor>
                 <scroll>true</scroll>
                 <label fallback="-">$INFO[Window(Home).Property(NextAired.2.Label)]</label>
@@ -179,7 +179,7 @@
                 <height>17</height>
                 <align>center</align>
                 <aligny>center</aligny>
-                <font>Font_Neon_18</font>
+                <font>fontContextMenu</font>
                 <textcolor>mainblue</textcolor>
                 <label fallback="-">$INFO[Window(Home).Property(NextAired.2.NextTitle)]</label>
               </control>
@@ -190,7 +190,7 @@
                 <height>17</height>
                 <align>center</align>
                 <aligny>center</aligny>
-                <font>Font_Neon_16</font>
+                <font>font12</font>
                 <textcolor>grey</textcolor>
                 <label fallback="-">$INFO[Window(Home).Property(NextAired.2.ShortTime)] on $INFO[Window(Home).Property(NextAired.2.Network)]</label>
               </control>
@@ -201,7 +201,7 @@
                 <height>17</height>
                 <align>center</align>
                 <aligny>center</aligny>
-                <font>Font_Neon_18</font>
+                <font>fontContextMenu</font>
                 <textcolor>mainblue</textcolor>
                 <label fallback="-">$INFO[Window(Home).Property(NextAired.2.NextNumber),$LOCALIZE[20359] - ]</label>
               </control>
@@ -212,7 +212,7 @@
                 <height>17</height>
                 <align>center</align>
                 <aligny>center</aligny>
-                <font>Font_Neon_16</font>
+                <font>font12</font>
                 <textcolor>grey</textcolor>
                 <label fallback="-">$INFO[Window(Home).Property(NextAired.2.RunTime),, $LOCALIZE[12391]]</label>
               </control>
@@ -238,7 +238,7 @@
                 <height>35</height>
                 <align>center</align>
                 <aligny>center</aligny>
-                <font>Font_Neon_18</font>
+                <font>fontContextMenu</font>
                 <textcolor>mainblue</textcolor>
                 <scroll>true</scroll>
                 <label fallback="-">$INFO[Window(Home).Property(NextAired.3.Label)]</label>
@@ -251,7 +251,7 @@
                 <height>17</height>
                 <align>center</align>
                 <aligny>center</aligny>
-                <font>Font_Neon_18</font>
+                <font>fontContextMenu</font>
                 <textcolor>mainblue</textcolor>
                 <label fallback="-">$INFO[Window(Home).Property(NextAired.3.NextTitle)]</label>
               </control>
@@ -262,7 +262,7 @@
                 <height>17</height>
                 <align>center</align>
                 <aligny>center</aligny>
-                <font>Font_Neon_16</font>
+                <font>font12</font>
                 <textcolor>grey</textcolor>
                 <label fallback="-">$INFO[Window(Home).Property(NextAired.3.ShortTime)] on $INFO[Window(Home).Property(NextAired.3.Network)]</label>
               </control>
@@ -273,7 +273,7 @@
                 <height>17</height>
                 <align>center</align>
                 <aligny>center</aligny>
-                <font>Font_Neon_18</font>
+                <font>fontContextMenu</font>
                 <textcolor>mainblue</textcolor>
                 <label fallback="-">$INFO[Window(Home).Property(NextAired.3.NextNumber),$LOCALIZE[20359] - ]</label>
               </control>
@@ -284,7 +284,7 @@
                 <height>17</height>
                 <align>center</align>
                 <aligny>center</aligny>
-                <font>Font_Neon_16</font>
+                <font>font12</font>
                 <textcolor>grey</textcolor>
                 <label fallback="-">$INFO[Window(Home).Property(NextAired.3.RunTime),, $LOCALIZE[12391]]</label>
               </control>
@@ -310,7 +310,7 @@
                 <height>35</height>
                 <align>center</align>
                 <aligny>center</aligny>
-                <font>Font_Neon_18</font>
+                <font>fontContextMenu</font>
                 <textcolor>mainblue</textcolor>
                 <scroll>true</scroll>
                 <label fallback="-">$INFO[Window(Home).Property(NextAired.4.Label)]</label>
@@ -323,7 +323,7 @@
                 <height>17</height>
                 <align>center</align>
                 <aligny>center</aligny>
-                <font>Font_Neon_18</font>
+                <font>fontContextMenu</font>
                 <textcolor>mainblue</textcolor>
                 <label fallback="-">$INFO[Window(Home).Property(NextAired.4.NextTitle)]</label>
               </control>
@@ -334,7 +334,7 @@
                 <height>17</height>
                 <align>center</align>
                 <aligny>center</aligny>
-                <font>Font_Neon_16</font>
+                <font>font12</font>
                 <textcolor>grey</textcolor>
                 <label fallback="-">$INFO[Window(Home).Property(NextAired.4.ShortTime)] on $INFO[Window(Home).Property(NextAired.4.Network)]</label>
               </control>
@@ -345,7 +345,7 @@
                 <height>17</height>
                 <align>center</align>
                 <aligny>center</aligny>
-                <font>Font_Neon_18</font>
+                <font>fontContextMenu</font>
                 <textcolor>mainblue</textcolor>
                 <label fallback="-">$INFO[Window(Home).Property(NextAired.4.NextNumber),$LOCALIZE[20359] - ]</label>
               </control>
@@ -356,7 +356,7 @@
                 <height>17</height>
                 <align>center</align>
                 <aligny>center</aligny>
-                <font>Font_Neon_16</font>
+                <font>font12</font>
                 <textcolor>grey</textcolor>
                 <label fallback="-">$INFO[Window(Home).Property(NextAired.4.RunTime),, $LOCALIZE[12391]]</label>
               </control>
@@ -382,7 +382,7 @@
                 <height>35</height>
                 <align>center</align>
                 <aligny>center</aligny>
-                <font>Font_Neon_18</font>
+                <font>fontContextMenu</font>
                 <textcolor>mainblue</textcolor>
                 <scroll>true</scroll>
                 <label fallback="-">$INFO[Window(Home).Property(NextAired.5.Label)]</label>
@@ -395,7 +395,7 @@
                 <height>17</height>
                 <align>center</align>
                 <aligny>center</aligny>
-                <font>Font_Neon_18</font>
+                <font>fontContextMenu</font>
                 <textcolor>mainblue</textcolor>
                 <label fallback="-">$INFO[Window(Home).Property(NextAired.5.NextTitle)]</label>
               </control>
@@ -406,7 +406,7 @@
                 <height>17</height>
                 <align>center</align>
                 <aligny>center</aligny>
-                <font>Font_Neon_16</font>
+                <font>font12</font>
                 <textcolor>grey</textcolor>
                 <label fallback="-">$INFO[Window(Home).Property(NextAired.5.ShortTime)] on $INFO[Window(Home).Property(NextAired.5.Network)]</label>
               </control>
@@ -417,7 +417,7 @@
                 <height>17</height>
                 <align>center</align>
                 <aligny>center</aligny>
-                <font>Font_Neon_18</font>
+                <font>fontContextMenu</font>
                 <textcolor>mainblue</textcolor>
                 <label fallback="-">$INFO[Window(Home).Property(NextAired.5.NextNumber),$LOCALIZE[20359] - ]</label>
               </control>
@@ -428,7 +428,7 @@
                 <height>17</height>
                 <align>center</align>
                 <aligny>center</aligny>
-                <font>Font_Neon_16</font>
+                <font>font12</font>
                 <textcolor>grey</textcolor>
                 <label fallback="-">$INFO[Window(Home).Property(NextAired.5.RunTime),, $LOCALIZE[12391]]</label>
               </control>
@@ -454,7 +454,7 @@
                 <height>35</height>
                 <align>center</align>
                 <aligny>center</aligny>
-                <font>Font_Neon_18</font>
+                <font>fontContextMenu</font>
                 <textcolor>mainblue</textcolor>
                 <scroll>true</scroll>
                 <label fallback="-">$INFO[Window(Home).Property(NextAired.6.Label)]</label>
@@ -467,7 +467,7 @@
                 <height>17</height>
                 <align>center</align>
                 <aligny>center</aligny>
-                <font>Font_Neon_18</font>
+                <font>fontContextMenu</font>
                 <textcolor>mainblue</textcolor>
                 <label fallback="-">$INFO[Window(Home).Property(NextAired.6.NextTitle)]</label>
               </control>
@@ -478,7 +478,7 @@
                 <height>17</height>
                 <align>center</align>
                 <aligny>center</aligny>
-                <font>Font_Neon_16</font>
+                <font>font12</font>
                 <textcolor>grey</textcolor>
                 <label fallback="-">$INFO[Window(Home).Property(NextAired.6.ShortTime)] on $INFO[Window(Home).Property(NextAired.6.Network)]</label>
               </control>
@@ -489,7 +489,7 @@
                 <height>17</height>
                 <align>center</align>
                 <aligny>center</aligny>
-                <font>Font_Neon_18</font>
+                <font>fontContextMenu</font>
                 <textcolor>mainblue</textcolor>
                 <label fallback="-">$INFO[Window(Home).Property(NextAired.6.NextNumber),$LOCALIZE[20359] - ]</label>
               </control>
@@ -500,7 +500,7 @@
                 <height>17</height>
                 <align>center</align>
                 <aligny>center</aligny>
-                <font>Font_Neon_16</font>
+                <font>font12</font>
                 <textcolor>grey</textcolor>
                 <label fallback="-">$INFO[Window(Home).Property(NextAired.6.RunTime),, $LOCALIZE[12391]]</label>
               </control>
@@ -526,7 +526,7 @@
                 <height>35</height>
                 <align>center</align>
                 <aligny>center</aligny>
-                <font>Font_Neon_18</font>
+                <font>fontContextMenu</font>
                 <textcolor>mainblue</textcolor>
                 <scroll>true</scroll>
                 <label fallback="-">$INFO[Window(Home).Property(NextAired.7.Label)]</label>
@@ -539,7 +539,7 @@
                 <height>17</height>
                 <align>center</align>
                 <aligny>center</aligny>
-                <font>Font_Neon_18</font>
+                <font>fontContextMenu</font>
                 <textcolor>mainblue</textcolor>
                 <label fallback="-">$INFO[Window(Home).Property(NextAired.7.NextTitle)]</label>
               </control>
@@ -550,7 +550,7 @@
                 <height>17</height>
                 <align>center</align>
                 <aligny>center</aligny>
-                <font>Font_Neon_16</font>
+                <font>font12</font>
                 <textcolor>grey</textcolor>
                 <label fallback="-">$INFO[Window(Home).Property(NextAired.7.ShortTime)] on $INFO[Window(Home).Property(NextAired.7.Network)]</label>
               </control>
@@ -561,7 +561,7 @@
                 <height>17</height>
                 <align>center</align>
                 <aligny>center</aligny>
-                <font>Font_Neon_18</font>
+                <font>fontContextMenu</font>
                 <textcolor>mainblue</textcolor>
                 <label fallback="-">$INFO[Window(Home).Property(NextAired.7.NextNumber),$LOCALIZE[20359] - ]</label>
               </control>
@@ -572,7 +572,7 @@
                 <height>17</height>
                 <align>center</align>
                 <aligny>center</aligny>
-                <font>Font_Neon_16</font>
+                <font>font12</font>
                 <textcolor>grey</textcolor>
                 <label fallback="-">$INFO[Window(Home).Property(NextAired.7.RunTime),, $LOCALIZE[12391]]</label>
               </control>
@@ -598,7 +598,7 @@
                 <height>35</height>
                 <align>center</align>
                 <aligny>center</aligny>
-                <font>Font_Neon_18</font>
+                <font>fontContextMenu</font>
                 <textcolor>mainblue</textcolor>
                 <scroll>true</scroll>
                 <label fallback="-">$INFO[Window(Home).Property(NextAired.8.Label)]</label>
@@ -611,7 +611,7 @@
                 <height>17</height>
                 <align>center</align>
                 <aligny>center</aligny>
-                <font>Font_Neon_18</font>
+                <font>fontContextMenu</font>
                 <textcolor>mainblue</textcolor>
                 <label fallback="-">$INFO[Window(Home).Property(NextAired.8.NextTitle)]</label>
               </control>
@@ -622,7 +622,7 @@
                 <height>17</height>
                 <align>center</align>
                 <aligny>center</aligny>
-                <font>Font_Neon_16</font>
+                <font>font12</font>
                 <textcolor>grey</textcolor>
                 <label fallback="-">$INFO[Window(Home).Property(NextAired.8.ShortTime)] on $INFO[Window(Home).Property(NextAired.8.Network)]</label>
               </control>
@@ -633,7 +633,7 @@
                 <height>17</height>
                 <align>center</align>
                 <aligny>center</aligny>
-                <font>Font_Neon_18</font>
+                <font>fontContextMenu</font>
                 <textcolor>mainblue</textcolor>
                 <label fallback="-">$INFO[Window(Home).Property(NextAired.8.NextNumber),$LOCALIZE[20359] - ]</label>
               </control>
@@ -644,7 +644,7 @@
                 <height>17</height>
                 <align>center</align>
                 <aligny>center</aligny>
-                <font>Font_Neon_16</font>
+                <font>font12</font>
                 <textcolor>grey</textcolor>
                 <label fallback="-">$INFO[Window(Home).Property(NextAired.8.RunTime),, $LOCALIZE[12391]]</label>
               </control>
@@ -670,7 +670,7 @@
                 <height>35</height>
                 <align>center</align>
                 <aligny>center</aligny>
-                <font>Font_Neon_18</font>
+                <font>fontContextMenu</font>
                 <textcolor>mainblue</textcolor>
                 <scroll>true</scroll>
                 <label fallback="-">$INFO[Window(Home).Property(NextAired.9.Label)]</label>
@@ -683,7 +683,7 @@
                 <height>17</height>
                 <align>center</align>
                 <aligny>center</aligny>
-                <font>Font_Neon_18</font>
+                <font>fontContextMenu</font>
                 <textcolor>mainblue</textcolor>
                 <label fallback="-">$INFO[Window(Home).Property(NextAired.9.NextTitle)]</label>
               </control>
@@ -694,7 +694,7 @@
                 <height>17</height>
                 <align>center</align>
                 <aligny>center</aligny>
-                <font>Font_Neon_16</font>
+                <font>font12</font>
                 <textcolor>grey</textcolor>
                 <label fallback="-">$INFO[Window(Home).Property(NextAired.9.ShortTime)] on $INFO[Window(Home).Property(NextAired.9.Network)]</label>
               </control>
@@ -705,7 +705,7 @@
                 <height>17</height>
                 <align>center</align>
                 <aligny>center</aligny>
-                <font>Font_Neon_18</font>
+                <font>fontContextMenu</font>
                 <textcolor>mainblue</textcolor>
                 <label fallback="-">$INFO[Window(Home).Property(NextAired.9.NextNumber),$LOCALIZE[20359] - ]</label>
               </control>
@@ -716,7 +716,7 @@
                 <height>17</height>
                 <align>center</align>
                 <aligny>center</aligny>
-                <font>Font_Neon_16</font>
+                <font>font12</font>
                 <textcolor>grey</textcolor>
                 <label fallback="-">$INFO[Window(Home).Property(NextAired.9.RunTime),, $LOCALIZE[12391]]</label>
               </control>

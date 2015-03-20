@@ -8,7 +8,7 @@
     <label>-</label>
     <align>left</align>
     <aligny>center</aligny>
-    <font>Font_Settings</font>
+    <font>font30</font>
     <textcolor>Text</textcolor>
     <focusedcolor>TextFocused</focusedcolor>
     <selectedcolor>TextFocused</selectedcolor>
@@ -24,11 +24,11 @@
     <height>213</height>
     <align>left</align>
     <textcolor>white</textcolor>
-    <font>Font_Settings</font>
+    <font>font30</font>
   </default>
   <default type="label">
     <label>-</label>
-    <font>Font_Settings</font>
+    <font>font30</font>
     <textcolor>Text</textcolor>
     <focusedcolor>TextFocused</focusedcolor>
     <selectedcolor>TextFocused</selectedcolor>
@@ -39,7 +39,7 @@
     <label>-</label>
     <align>left</align>
     <aligny>center</aligny>
-    <font>Font_Settings</font>
+    <font>font30</font>
     <textcolor>Text</textcolor>
     <focusedcolor>TextFocused</focusedcolor>
     <selectedcolor>TextFocused</selectedcolor>
@@ -61,7 +61,7 @@
     <label>-</label>
     <align>left</align>
     <aligny>center</aligny>
-    <font>Font_Settings</font>
+    <font>font30</font>
     <textcolor>Text</textcolor>
     <focusedcolor>TextFocused</focusedcolor>
     <selectedcolor>TextFocused</selectedcolor>
@@ -81,7 +81,7 @@
     <label>-</label>
     <align>left</align>
     <aligny>center</aligny>
-    <font>Font_Settings</font>
+    <font>font30</font>
     <textcolor>Text</textcolor>
     <focusedcolor>TextFocused</focusedcolor>
     <selectedcolor>TextFocused</selectedcolor>
@@ -103,7 +103,7 @@
     <label>-</label>
     <align>left</align>
     <aligny>center</aligny>
-    <font>Font_Settings</font>
+    <font>font30</font>
     <textcolor>Text</textcolor>
     <focusedcolor>TextFocused</focusedcolor>
     <selectedcolor>TextFocused</selectedcolor>
@@ -131,7 +131,7 @@
     <texturedownfocus>settings/spin-down-focus.png</texturedownfocus>
     <align>left</align>
     <aligny>center</aligny>
-    <font>Font_Settings</font>
+    <font>font30</font>
     <textcolor>Text</textcolor>
     <focusedcolor>TextFocused</focusedcolor>
     <selectedcolor>TextFocused</selectedcolor>
@@ -155,7 +155,7 @@
     <textureslidernibfocus>OSDSliderNibFO.png</textureslidernibfocus>
     <align>left</align>
     <aligny>center</aligny>
-    <font>Font_Settings</font>
+    <font>font30</font>
     <textcolor>Text</textcolor>
     <focusedcolor>TextFocused</focusedcolor>
     <selectedcolor>TextFocused</selectedcolor>

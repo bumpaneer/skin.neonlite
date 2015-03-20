@@ -38,7 +38,7 @@
           <top>20</top>
           <width>225</width>
           <height>20</height>
-          <font>Font_Bartowski_Main_SubMenu</font>
+          <font>font30</font>
           <align>center</align>
           <textcolor>mainblue</textcolor>
         </control>
@@ -49,7 +49,7 @@
           <height>20</height>
           <left>-40</left>
           <top>60</top>
-          <font>Font_Bartowski_Movies</font>
+          <font>font13</font>
           <align>center</align>
         </control>
         <!-- Uv Index -->
@@ -59,7 +59,7 @@
           <height>20</height>
           <left>-40</left>
           <top>85</top>
-          <font>Font_Bartowski_Movies</font>
+          <font>font13</font>
           <align>center</align>
         </control>
         <!-- Dew Point -->
@@ -69,7 +69,7 @@
           <height>20</height>
           <left>-40</left>
           <top>115</top>
-          <font>Font_Bartowski_Movies</font>
+          <font>font13</font>
           <align>center</align>
         </control>
         <!-- Humidity -->
@@ -79,7 +79,7 @@
           <height>20</height>
           <left>-40</left>
           <top>145</top>
-          <font>Font_Bartowski_Movies</font>
+          <font>font13</font>
           <align>center</align>
           <textcolor>SettingsDetail</textcolor>
         </control>
@@ -123,7 +123,7 @@
           <top>100</top>
           <width>95</width>
           <height>20</height>
-          <font>Font_Bartowski_Movies</font>
+          <font>font13</font>
           <align>center</align>
           <textcolor>mainblue</textcolor>
         </control>
@@ -133,7 +133,7 @@
           <height>20</height>
           <left>60</left>
           <top>126</top>
-          <font>Font_Bartowski_Movies</font>
+          <font>font13</font>
           <align>center</align>
           <textcolor>white</textcolor>
         </control>
@@ -145,7 +145,7 @@
           <height>20</height>
           <left>5</left>
           <top>155</top>
-          <font>Font_Bartowski_Movies</font>
+          <font>font13</font>
           <align>center</align>
         </control>
         <!-- Dew Point -->
@@ -155,7 +155,7 @@
           <height>20</height>
           <left>5</left>
           <top>175</top>
-          <font>Font_Bartowski_Movies</font>
+          <font>font13</font>
           <align>center</align>
         </control>
         <!-- Humidity -->
@@ -165,7 +165,7 @@
           <height>20</height>
           <left>5</left>
           <top>195</top>
-          <font>Font_Bartowski_Movies</font>
+          <font>font13</font>
           <align>center</align>
           <textcolor>SettingsDetail</textcolor>
         </control>
@@ -202,7 +202,7 @@
           <width>195</width>
           <height>20</height>
           <label>[B]$INFO[Window(Weather).Property(Day2.Title)][/B]</label>
-          <font>Font_Bartowski_Movies</font>
+          <font>font13</font>
           <textcolor>white</textcolor>
           <align>center</align>
           <animation effect="slide" start="450,0" end="0,0" time="600" delay="400" tween="cubic" easing="inout" condition="!Skin.HasSetting(horizontal_bottom_align) + [Container(301).HasFocus(8) | Container(301).HasFocus(14)]">Conditional</animation>
@@ -233,7 +233,7 @@
           <width>195</width>
           <height>20</height>
           <label>[B]$INFO[Window(Weather).Property(Day1.Title)][/B]</label>
-          <font>Font_Bartowski_Movies</font>
+          <font>font13</font>
           <textcolor>white</textcolor>
           <align>center</align>
           <animation effect="slide" start="450,0" end="0,0" time="600" delay="800" tween="cubic" easing="inout" condition="!Skin.HasSetting(horizontal_bottom_align) + [Container(301).HasFocus(8) | Container(301).HasFocus(14)]">Conditional</animation>
@@ -279,7 +279,7 @@
           <top>100</top>
           <width>95</width>
           <height>20</height>
-          <font>Font_Bartowski_Movies</font>
+          <font>font13</font>
           <align>center</align>
           <textcolor>mainblue</textcolor>
         </control>
@@ -289,7 +289,7 @@
           <height>20</height>
           <left>60</left>
           <top>126</top>
-          <font>Font_Bartowski_Movies</font>
+          <font>font13</font>
           <align>center</align>
           <textcolor>white</textcolor>
         </control>
@@ -301,7 +301,7 @@
           <height>20</height>
           <left>5</left>
           <top>155</top>
-          <font>Font_Bartowski_Movies</font>
+          <font>font13</font>
           <align>center</align>
         </control>
         <!-- Dew Point -->
@@ -311,7 +311,7 @@
           <height>20</height>
           <left>5</left>
           <top>175</top>
-          <font>Font_Bartowski_Movies</font>
+          <font>font13</font>
           <align>center</align>
         </control>
         <!-- Humidity -->
@@ -321,7 +321,7 @@
           <height>20</height>
           <left>5</left>
           <top>195</top>
-          <font>Font_Bartowski_Movies</font>
+          <font>font13</font>
           <align>center</align>
           <textcolor>SettingsDetail</textcolor>
         </control>
@@ -357,7 +357,7 @@
             <width>195</width>
             <height>20</height>
             <label>[B]$INFO[Window(Weather).Property(Day3.Title)][/B]</label>
-            <font>Font_Bartowski_Movies</font>
+            <font>font13</font>
             <textcolor>white</textcolor>
             <align>center</align>
           </control>
@@ -368,7 +368,7 @@
             <height>20</height>
             <left>-150</left>
             <top>528</top>
-            <font>Font_Bartowski_Movies</font>
+            <font>font13</font>
             <align>center</align>
           </control>
           <!-- LowTemp -->
@@ -378,7 +378,7 @@
             <height>20</height>
             <left>-150</left>
             <top>548</top>
-            <font>Font_Bartowski_Movies</font>
+            <font>font13</font>
             <align>center</align>
             <textcolor>SettingsDetail</textcolor>
           </control>
@@ -406,7 +406,7 @@
             <width>195</width>
             <height>20</height>
             <label>[B]$INFO[Window(Weather).Property(Day2.Title)][/B]</label>
-            <font>Font_Bartowski_Movies</font>
+            <font>font13</font>
             <textcolor>white</textcolor>
             <align>center</align>
           </control>
@@ -417,7 +417,7 @@
             <height>20</height>
             <left>-150</left>
             <top>350</top>
-            <font>Font_Bartowski_Movies</font>
+            <font>font13</font>
             <align>center</align>
           </control>
           <!-- LowTemp -->
@@ -427,7 +427,7 @@
             <height>20</height>
             <left>-150</left>
             <top>370</top>
-            <font>Font_Bartowski_Movies</font>
+            <font>font13</font>
             <align>center</align>
             <textcolor>SettingsDetail</textcolor>
           </control>
@@ -456,7 +456,7 @@
             <width>195</width>
             <height>20</height>
             <label>[B]$INFO[Window(Weather).Property(Day1.Title)][/B]</label>
-            <font>Font_Bartowski_Movies</font>
+            <font>font13</font>
             <textcolor>white</textcolor>
             <align>center</align>
           </control>
@@ -467,7 +467,7 @@
             <height>20</height>
             <left>-150</left>
             <top>175</top>
-            <font>Font_Bartowski_Movies</font>
+            <font>font13</font>
             <align>center</align>
           </control>
           <!-- LowTemp -->
@@ -477,7 +477,7 @@
             <height>20</height>
             <left>-150</left>
             <top>195</top>
-            <font>Font_Bartowski_Movies</font>
+            <font>font13</font>
             <align>center</align>
             <textcolor>SettingsDetail</textcolor>
           </control>

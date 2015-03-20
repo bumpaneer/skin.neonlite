@@ -94,7 +94,7 @@
         <textoffsety>28</textoffsety>
         <align>right</align>
         <aligny>top</aligny>
-        <font>font13caps</font>
+        <font>font13_title</font>
         <textcolor>selected</textcolor>
         <focusedcolor>selected</focusedcolor>
         <colordiffuse>mainblue</colordiffuse>
@@ -138,7 +138,7 @@
         <top>20</top>
         <width>740</width>
         <height>30</height>
-        <font>Font_Neon_25</font>
+        <font>font16</font>
         <label>$INFO[Control.GetLabel(2)] - $LOCALIZE[5]</label>
         <align>left</align>
         <aligny>center</aligny>
@@ -179,7 +179,7 @@
         <top>517</top>
         <width>750</width>
         <height>83</height>
-        <font>Font_Neon_20</font>
+        <font>font13</font>
         <align>justify</align>
         <aligny>bottom</aligny>
         <textcolor>white</textcolor>
@@ -193,7 +193,7 @@
       <width>260</width>
       <align>center</align>
       <aligny>center</aligny>
-      <font>font24caps_title</font>
+      <font>font28_title</font>
       <textcolor>grey3</textcolor>
       <focusedcolor>white</focusedcolor>
       <colordiffuse>mainblue</colordiffuse>
@@ -204,7 +204,7 @@
     <control type="button" id="7">
       <description>Default Button</description>
       <height>40</height>
-      <font>Font_Neon_25</font>
+      <font>font16</font>
       <textcolor>grey2</textcolor>
       <textoffsetx>25</textoffsetx>
       <focusedcolor>white</focusedcolor>
@@ -215,7 +215,7 @@
     <control type="radiobutton" id="8">
       <description>Default RadioButton</description>
       <height>40</height>
-      <font>Font_Neon_25</font>
+      <font>font16</font>
       <textcolor>grey2</textcolor>
       <textoffsetx>25</textoffsetx>
       <radioposx>677</radioposx>
@@ -227,7 +227,7 @@
     <control type="spincontrolex" id="9">
       <description>Default SpinControlex</description>
       <height>40</height>
-      <font>Font_Neon_25</font>
+      <font>font16</font>
       <textcolor>grey2</textcolor>
       <textoffsetx>25</textoffsetx>
       <focusedcolor>white</focusedcolor>

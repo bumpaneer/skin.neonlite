@@ -76,7 +76,7 @@
             <top>0</top>
             <width>260</width>
             <height>45</height>
-            <font>font24caps_title</font>
+            <font>font28_title</font>
             <textcolor>grey3</textcolor>
             <textoffsetx>10</textoffsetx>
             <align>center</align>
@@ -98,7 +98,7 @@
             <top>0</top>
             <width>260</width>
             <height>45</height>
-            <font>font24caps_title</font>
+            <font>font28_title</font>
             <textcolor>white</textcolor>
             <textoffsetx>10</textoffsetx>
             <align>center</align>
@@ -173,7 +173,7 @@
         <top>20</top>
         <width>740</width>
         <height>30</height>
-        <font>Font_Neon_25</font>
+        <font>font16</font>
         <label>$LOCALIZE[20077] - $INFO[Container(9000).ListItem.Label]</label>
         <align>left</align>
         <aligny>center</aligny>
@@ -198,7 +198,7 @@
               <description></description>
               <width>740</width>
               <height>45</height>
-              <font>Font_Neon_20</font>
+              <font>font13</font>
               <textoffsetx>15</textoffsetx>
               <label>$LOCALIZE[31256]</label>
               <textcolor>mainblue</textcolor>
@@ -239,7 +239,7 @@
             <control type="label" id="104">
                 <width>740</width>
                 <height>45</height>
-                <font>Font_Neon_20</font>
+                <font>font13</font>
                 <label>$LOCALIZE[20343]</label>
                 <textoffsetx>15</textoffsetx>
                 <textcolor>mainblue</textcolor>
@@ -267,7 +267,7 @@
               <width>740</width>
               <height>45</height>
               <label>$LOCALIZE[512]</label>
-              <font>Font_Neon_20</font>
+              <font>font13</font>
               <textoffsetx>15</textoffsetx>
               <textcolor>mainblue</textcolor>
               <shadowcolor>black</shadowcolor>
@@ -284,7 +284,7 @@
               <description>Startup Playlist Path</description>
               <width>813</width>
               <height>30</height>
-              <font>Font_KeyboardTitle</font>
+              <font>fontContextMenu</font>
               <textcolor>grey2</textcolor>
               <focusedcolor>white</focusedcolor>
               <textoffsetx>40</textoffsetx>
@@ -330,7 +330,7 @@
             <control type="label" id="200">
               <width>740</width>
               <height>45</height>
-              <font>Font_Neon_20</font>
+              <font>font13</font>
               <textoffsetx>15</textoffsetx>
               <label>$LOCALIZE[31259]</label>
               <!--31101-->
@@ -372,7 +372,7 @@
               <width>798</width>
               <height>30</height>
               <radioposx>640</radioposx>
-              <font>Font_KeyboardTitle</font>
+              <font>fontContextMenu</font>
               <textoffsetx>40</textoffsetx>
               <label>$LOCALIZE[31518]</label>
               <textcolor>grey2</textcolor>
@@ -388,7 +388,7 @@
               <width>798</width>
               <height>30</height>
               <radioposx>640</radioposx>
-              <font>Font_KeyboardTitle</font>
+              <font>fontContextMenu</font>
               <textoffsetx>40</textoffsetx>
               <label>$LOCALIZE[31517]</label>
               <textcolor>grey2</textcolor>
@@ -406,7 +406,7 @@
               <width>798</width>
               <height>30</height>
               <radioposx>640</radioposx>
-              <font>Font_KeyboardTitle</font>
+              <font>fontContextMenu</font>
               <textoffsetx>40</textoffsetx>
               <label>$LOCALIZE[31516]</label>
               <textcolor>grey2</textcolor>
@@ -423,7 +423,7 @@
               <description>Only show Albums in music view</description>
               <width>798</width>
               <height>30</height>
-              <font>Font_KeyboardTitle</font>
+              <font>fontContextMenu</font>
               <radioposx>640</radioposx>
               <textoffsetx>40</textoffsetx>
               <label>$LOCALIZE[31982]</label>
@@ -441,7 +441,7 @@
               <description>Show Large Recently added tvinfo</description>
               <width>798</width>
               <height>30</height>
-              <font>Font_KeyboardTitle</font>
+              <font>fontContextMenu</font>
               <radioposx>640</radioposx>
               <textoffsetx>40</textoffsetx>
               <label>$LOCALIZE[31979]</label>
@@ -471,7 +471,7 @@
             <control type="button" id="229">
               <width>798</width>
               <height>30</height>
-              <font>Font_KeyboardTitle</font>
+              <font>fontContextMenu</font>
               <textcolor>grey2</textcolor>
               <focusedcolor>white</focusedcolor>
               <textoffsetx>40</textoffsetx>
@@ -502,7 +502,7 @@
             <control type="button" id="206">
               <width>798</width>
               <height>30</height>
-              <font>Font_KeyboardTitle</font>
+              <font>fontContextMenu</font>
               <focusedcolor>white</focusedcolor>
               <textoffsetx>40</textoffsetx>
               <label>$LOCALIZE[31012]</label>
@@ -524,7 +524,7 @@
               <description>Global Ken Burns</description>
               <width>798</width>
               <height>26</height>
-              <font>Font_KeyboardTitle</font>
+              <font>fontContextMenu</font>
               <radioposx>640</radioposx>
               <textoffsetx>40</textoffsetx>
               <textoffsety>4</textoffsety>
@@ -544,7 +544,7 @@
               <width>740</width>
               <height>45</height>
               <label>$LOCALIZE[13008]</label>
-              <font>Font_Neon_20</font>
+              <font>font13</font>
               <textoffsetx>15</textoffsetx>
               <textcolor>mainblue</textcolor>
               <shadowcolor>black</shadowcolor>
@@ -589,7 +589,7 @@
                     <top>0</top>
                     <width>600</width>
                     <height>34</height>
-                    <font>Font_Neon_25</font>
+                    <font>font16</font>
                     <textcolor>grey2</textcolor>
                     <align>left</align>
                     <aligny>center</aligny>
@@ -601,7 +601,7 @@
                     <top>0</top>
                     <width>600</width>
                     <height>34</height>
-                    <font>Font_Neon_25</font>
+                    <font>font16</font>
                     <textcolor>white</textcolor>
                     <align>left</align>
                     <aligny>center</aligny>
@@ -772,7 +772,7 @@
             <control type="label" id="210">
               <width>860</width>
               <height>45</height>
-              <font>Font_Neon_20</font>
+              <font>font13</font>
               <textoffsetx>15</textoffsetx>
               <label>$LOCALIZE[31042]</label>
               <textcolor>mainblue</textcolor>
@@ -986,7 +986,7 @@
                 <top>0</top>
                 <width>600</width>
                 <height>40</height>
-                <font>Font_KeyboardKeys</font>
+                <font>font16</font>
                 <textcolor>grey2</textcolor>
                 <align>left</align>
                 <aligny>center</aligny>
@@ -998,7 +998,7 @@
                 <top>0</top>
                 <width>600</width>
                 <height>40</height>
-                <font>Font_KeyboardKeys</font>
+                <font>font16</font>
                 <textcolor>white</textcolor>
                 <align>left</align>
                 <aligny>center</aligny>
@@ -1010,7 +1010,7 @@
                 <top>0</top>
                 <width>690</width>
                 <height>40</height>
-                <font>Font_KeyboardKeys</font>
+                <font>font16</font>
                 <textcolor>grey2</textcolor>
                 <align>right</align>
                 <aligny>center</aligny>
@@ -1022,7 +1022,7 @@
                 <top>0</top>
                 <width>690</width>
                 <height>40</height>
-                <font>Font_KeyboardKeys</font>
+                <font>font16</font>
                 <textcolor>white</textcolor>
                 <align>right</align>
                 <aligny>center</aligny>
@@ -1241,7 +1241,7 @@
                 <width>180</width>
                 <height>40</height>
                 <label>31113</label>
-                <font>font12caps_title</font>
+                <font>font12_title</font>
                 <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.SetImage(CustomVideosFolder)</onclick>
                 <onleft>302</onleft>
@@ -1256,7 +1256,7 @@
                 <width>180</width>
                 <height>40</height>
                 <label>31114</label>
-                <font>font12caps_title</font>
+                <font>font12_title</font>
                 <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.SetPath(CustomVideosFolder)</onclick>
                 <onleft>300</onleft>
@@ -1271,7 +1271,7 @@
                 <width>180</width>
                 <height>40</height>
                 <label>571</label>
-                <font>font12caps_title</font>
+                <font>font12_title</font>
                 <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.Reset(CustomVideosFolder)</onclick>
                 <onleft>301</onleft>
@@ -1289,7 +1289,7 @@
                 <width>180</width>
                 <height>40</height>
                 <label>31113</label>
-                <font>font12caps_title</font>
+                <font>font12_title</font>
                 <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.SetImage(CustomMusicFolder)</onclick>
                 <onleft>302</onleft>
@@ -1304,7 +1304,7 @@
                 <width>180</width>
                 <height>40</height>
                 <label>31114</label>
-                <font>font12caps_title</font>
+                <font>font12_title</font>
                 <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.SetPath(CustomMusicFolder)</onclick>
                 <onleft>300</onleft>
@@ -1319,7 +1319,7 @@
                 <width>180</width>
                 <height>40</height>
                 <label>571</label>
-                <font>font12caps_title</font>
+                <font>font12_title</font>
                 <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.Reset(CustomMusicFolder)</onclick>
                 <onleft>301</onleft>
@@ -1337,7 +1337,7 @@
                 <width>180</width>
                 <height>40</height>
                 <label>31113</label>
-                <font>font12caps_title</font>
+                <font>font12_title</font>
                 <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.SetImage(CustomPicturesFolder)</onclick>
                 <onleft>302</onleft>
@@ -1352,7 +1352,7 @@
                 <width>180</width>
                 <height>40</height>
                 <label>31114</label>
-                <font>font12caps_title</font>
+                <font>font12_title</font>
                 <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.SetPath(CustomPicturesFolder)</onclick>
                 <onleft>300</onleft>
@@ -1367,7 +1367,7 @@
                 <width>180</width>
                 <height>40</height>
                 <label>571</label>
-                <font>font12caps_title</font>
+                <font>font12_title</font>
                 <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.Reset(CustomPicturesFolder)</onclick>
                 <onleft>301</onleft>
@@ -1385,7 +1385,7 @@
                 <width>180</width>
                 <height>40</height>
                 <label>31113</label>
-                <font>font12caps_title</font>
+                <font>font12_title</font>
                 <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.SetImage(CustomHDMoviesFolder)</onclick>
                 <onleft>302</onleft>
@@ -1400,7 +1400,7 @@
                 <width>180</width>
                 <height>40</height>
                 <label>31114</label>
-                <font>font12caps_title</font>
+                <font>font12_title</font>
                 <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.SetPath(CustomHDMoviesFolder)</onclick>
                 <onleft>300</onleft>
@@ -1415,7 +1415,7 @@
                 <width>180</width>
                 <height>40</height>
                 <label>571</label>
-                <font>font12caps_title</font>
+                <font>font12_title</font>
                 <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.Reset(CustomHDMoviesFolder)</onclick>
                 <onleft>301</onleft>
@@ -1433,7 +1433,7 @@
                 <width>180</width>
                 <height>40</height>
                 <label>31113</label>
-                <font>font12caps_title</font>
+                <font>font12_title</font>
                 <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.SetImage(Home_Custom_Back_Weather_Folder)</onclick>
                 <onleft>302</onleft>
@@ -1448,7 +1448,7 @@
                 <width>180</width>
                 <height>40</height>
                 <label>31114</label>
-                <font>font12caps_title</font>
+                <font>font12_title</font>
                 <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.SetPath(Home_Custom_Back_Weather_Folder)</onclick>
                 <onleft>300</onleft>
@@ -1463,7 +1463,7 @@
                 <width>180</width>
                 <height>40</height>
                 <label>571</label>
-                <font>font12caps_title</font>
+                <font>font12_title</font>
                 <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.Reset(Home_Custom_Back_Weather_Folder)</onclick>
                 <onleft>301</onleft>
@@ -1481,7 +1481,7 @@
                 <width>180</width>
                 <height>40</height>
                 <label>31113</label>
-                <font>font12caps_title</font>
+                <font>font12_title</font>
                 <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.SetImage(CustomScriptsFolder)</onclick>
                 <onleft>302</onleft>
@@ -1496,7 +1496,7 @@
                 <width>180</width>
                 <height>40</height>
                 <label>31114</label>
-                <font>font12caps_title</font>
+                <font>font12_title</font>
                 <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.SetPath(CustomScriptsFolder)</onclick>
                 <onleft>300</onleft>
@@ -1511,7 +1511,7 @@
                 <width>180</width>
                 <height>40</height>
                 <label>571</label>
-                <font>font12caps_title</font>
+                <font>font12_title</font>
                 <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.Reset(CustomScriptsFolder)</onclick>
                 <onleft>301</onleft>
@@ -1529,7 +1529,7 @@
                 <width>180</width>
                 <height>40</height>
                 <label>31113</label>
-                <font>font12caps_title</font>
+                <font>font12_title</font>
                 <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.SetImage(CustomfavouritesFolder)</onclick>
                 <onleft>302</onleft>
@@ -1544,7 +1544,7 @@
                 <width>180</width>
                 <height>40</height>
                 <label>31114</label>
-                <font>font12caps_title</font>
+                <font>font12_title</font>
                 <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.SetPath(CustomfavouritesFolder)</onclick>
                 <onleft>300</onleft>
@@ -1559,7 +1559,7 @@
                 <width>180</width>
                 <height>40</height>
                 <label>571</label>
-                <font>font12caps_title</font>
+                <font>font12_title</font>
                 <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.Reset(CustomfavouritesFolder)</onclick>
                 <onleft>301</onleft>
@@ -1577,7 +1577,7 @@
                 <width>180</width>
                 <height>40</height>
                 <label>31113</label>
-                <font>font12caps_title</font>
+                <font>font12_title</font>
                 <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.SetImage(CustomSettingsFolder)</onclick>
                 <onleft>302</onleft>
@@ -1592,7 +1592,7 @@
                 <width>180</width>
                 <height>40</height>
                 <label>31114</label>
-                <font>font12caps_title</font>
+                <font>font12_title</font>
                 <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.SetPath(CustomSettingsFolder)</onclick>
                 <onleft>300</onleft>
@@ -1607,7 +1607,7 @@
                 <width>180</width>
                 <height>40</height>
                 <label>571</label>
-                <font>font12caps_title</font>
+                <font>font12_title</font>
                 <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.Reset(CustomSettingsFolder)</onclick>
                 <onleft>301</onleft>
@@ -1625,7 +1625,7 @@
                 <width>180</width>
                 <height>40</height>
                 <label>31113</label>
-                <font>font12caps_title</font>
+                <font>font12_title</font>
                 <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.SetImage(Home_Custom_Back_Shutdown_Folder)</onclick>
                 <onleft>302</onleft>
@@ -1640,7 +1640,7 @@
                 <width>180</width>
                 <height>40</height>
                 <label>31114</label>
-                <font>font12caps_title</font>
+                <font>font12_title</font>
                 <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.SetPath(Home_Custom_Back_Shutdown_Folder)</onclick>
                 <onleft>300</onleft>
@@ -1655,7 +1655,7 @@
                 <width>180</width>
                 <height>40</height>
                 <label>571</label>
-                <font>font12caps_title</font>
+                <font>font12_title</font>
                 <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.Reset(Home_Custom_Back_Shutdown_Folder)</onclick>
                 <onleft>301</onleft>
@@ -1673,7 +1673,7 @@
                 <width>180</width>
                 <height>40</height>
                 <label>31113</label>
-                <font>font12caps_title</font>
+                <font>font12_title</font>
                 <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.SetImage(CustomMoviesFolder)</onclick>
                 <onleft>302</onleft>
@@ -1688,7 +1688,7 @@
                 <width>180</width>
                 <height>40</height>
                 <label>31114</label>
-                <font>font12caps_title</font>
+                <font>font12_title</font>
                 <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.SetPath(CustomMoviesFolder)</onclick>
                 <onleft>300</onleft>
@@ -1703,7 +1703,7 @@
                 <width>180</width>
                 <height>40</height>
                 <label>571</label>
-                <font>font12caps_title</font>
+                <font>font12_title</font>
                 <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.Reset(CustomMoviesFolder)</onclick>
                 <onleft>301</onleft>
@@ -1721,7 +1721,7 @@
                 <width>180</width>
                 <height>40</height>
                 <label>31113</label>
-                <font>font12caps_title</font>
+                <font>font12_title</font>
                 <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.SetImage(CustomTVShowsFolder)</onclick>
                 <onleft>302</onleft>
@@ -1736,7 +1736,7 @@
                 <width>180</width>
                 <height>40</height>
                 <label>31114</label>
-                <font>font12caps_title</font>
+                <font>font12_title</font>
                 <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.SetPath(CustomTVShowsFolder)</onclick>
                 <onleft>300</onleft>
@@ -1751,7 +1751,7 @@
                 <width>180</width>
                 <height>40</height>
                 <label>571</label>
-                <font>font12caps_title</font>
+                <font>font12_title</font>
                 <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.Reset(CustomTVShowsFolder)</onclick>
                 <onleft>301</onleft>
@@ -1769,7 +1769,7 @@
                 <width>180</width>
                 <height>40</height>
                 <label>31113</label>
-                <font>font12caps_title</font>
+                <font>font12_title</font>
                 <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.SetImage(Menu_Custom1_Folder)</onclick>
                 <onleft>302</onleft>
@@ -1784,7 +1784,7 @@
                 <width>180</width>
                 <height>40</height>
                 <label>31114</label>
-                <font>font12caps_title</font>
+                <font>font12_title</font>
                 <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.SetPath(Menu_Custom1_Folder)</onclick>
                 <onleft>300</onleft>
@@ -1799,7 +1799,7 @@
                 <width>180</width>
                 <height>40</height>
                 <label>571</label>
-                <font>font12caps_title</font>
+                <font>font12_title</font>
                 <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.Reset(Menu_Custom1_Folder)</onclick>
                 <onleft>301</onleft>
@@ -1817,7 +1817,7 @@
                 <width>180</width>
                 <height>40</height>
                 <label>31113</label>
-                <font>font12caps_title</font>
+                <font>font12_title</font>
                 <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.SetImage(Menu_Custom2_Folder)</onclick>
                 <onleft>302</onleft>
@@ -1832,7 +1832,7 @@
                 <width>180</width>
                 <height>40</height>
                 <label>31114</label>
-                <font>font12caps_title</font>
+                <font>font12_title</font>
                 <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.SetPath(Menu_Custom2_Folder)</onclick>
                 <onleft>300</onleft>
@@ -1847,7 +1847,7 @@
                 <width>180</width>
                 <height>40</height>
                 <label>571</label>
-                <font>font12caps_title</font>
+                <font>font12_title</font>
                 <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.Reset(Menu_Custom2_Folder)</onclick>
                 <onleft>301</onleft>
@@ -1865,7 +1865,7 @@
                 <width>180</width>
                 <height>40</height>
                 <label>31113</label>
-                <font>font12caps_title</font>
+                <font>font12_title</font>
                 <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.SetImage(Menu_Custom3_Folder)</onclick>
                 <onleft>302</onleft>
@@ -1880,7 +1880,7 @@
                 <width>180</width>
                 <height>40</height>
                 <label>31114</label>
-                <font>font12caps_title</font>
+                <font>font12_title</font>
                 <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.SetPath(Menu_Custom3_Folder)</onclick>
                 <onleft>300</onleft>
@@ -1895,7 +1895,7 @@
                 <width>180</width>
                 <height>40</height>
                 <label>571</label>
-                <font>font12caps_title</font>
+                <font>font12_title</font>
                 <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.Reset(Menu_Custom3_Folder)</onclick>
                 <onleft>301</onleft>
@@ -1913,7 +1913,7 @@
                 <width>180</width>
                 <height>40</height>
                 <label>31113</label>
-                <font>font12caps_title</font>
+                <font>font12_title</font>
                 <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.SetImage(Menu_Custom4_Folder)</onclick>
                 <onleft>302</onleft>
@@ -1928,7 +1928,7 @@
                 <width>180</width>
                 <height>40</height>
                 <label>31114</label>
-                <font>font12caps_title</font>
+                <font>font12_title</font>
                 <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.SetPath(Menu_Custom4_Folder)</onclick>
                 <onleft>300</onleft>
@@ -1943,7 +1943,7 @@
                 <width>180</width>
                 <height>40</height>
                 <label>571</label>
-                <font>font12caps_title</font>
+                <font>font12_title</font>
                 <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.Reset(Menu_Custom4_Folder)</onclick>
                 <onleft>301</onleft>
@@ -1961,7 +1961,7 @@
                 <width>180</width>
                 <height>40</height>
                 <label>31113</label>
-                <font>font12caps_title</font>
+                <font>font12_title</font>
                 <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.SetImage(Menu_Custom5_Folder)</onclick>
                 <onleft>302</onleft>
@@ -1976,7 +1976,7 @@
                 <width>180</width>
                 <height>40</height>
                 <label>31114</label>
-                <font>font12caps_title</font>
+                <font>font12_title</font>
                 <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.SetPath(Menu_Custom5_Folder)</onclick>
                 <onleft>300</onleft>
@@ -1991,7 +1991,7 @@
                 <width>180</width>
                 <height>40</height>
                 <label>571</label>
-                <font>font12caps_title</font>
+                <font>font12_title</font>
                 <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.Reset(Menu_Custom5_Folder)</onclick>
                 <onleft>301</onleft>
@@ -2009,7 +2009,7 @@
                 <width>180</width>
                 <height>40</height>
                 <label>31113</label>
-                <font>font12caps_title</font>
+                <font>font12_title</font>
                 <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.SetImage(Menu_Custom6_Folder)</onclick>
                 <onleft>302</onleft>
@@ -2024,7 +2024,7 @@
                 <width>180</width>
                 <height>40</height>
                 <label>31114</label>
-                <font>font12caps_title</font>
+                <font>font12_title</font>
                 <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.SetPath(Menu_Custom6_Folder)</onclick>
                 <onleft>300</onleft>
@@ -2039,7 +2039,7 @@
                 <width>180</width>
                 <height>40</height>
                 <label>571</label>
-                <font>font12caps_title</font>
+                <font>font12_title</font>
                 <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.Reset(Menu_Custom6_Folder)</onclick>
                 <onleft>301</onleft>
@@ -2057,7 +2057,7 @@
                 <width>180</width>
                 <height>40</height>
                 <label>31113</label>
-                <font>font12caps_title</font>
+                <font>font12_title</font>
                 <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.SetImage(Menu_Custom7_Folder)</onclick>
                 <onleft>302</onleft>
@@ -2072,7 +2072,7 @@
                 <width>180</width>
                 <height>40</height>
                 <label>31114</label>
-                <font>font12caps_title</font>
+                <font>font12_title</font>
                 <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.SetPath(Menu_Custom7_Folder)</onclick>
                 <onleft>300</onleft>
@@ -2087,7 +2087,7 @@
                 <width>180</width>
                 <height>40</height>
                 <label>571</label>
-                <font>font12caps_title</font>
+                <font>font12_title</font>
                 <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.Reset(Menu_Custom7_Folder)</onclick>
                 <onleft>301</onleft>
@@ -2105,7 +2105,7 @@
                 <width>180</width>
                 <height>40</height>
                 <label>31113</label>
-                <font>font12caps_title</font>
+                <font>font12_title</font>
                 <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.SetImage(Menu_Custom8_Folder)</onclick>
                 <onleft>302</onleft>
@@ -2120,7 +2120,7 @@
                 <width>180</width>
                 <height>40</height>
                 <label>31114</label>
-                <font>font12caps_title</font>
+                <font>font12_title</font>
                 <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.SetPath(Menu_Custom8_Folder)</onclick>
                 <onleft>300</onleft>
@@ -2135,7 +2135,7 @@
                 <width>180</width>
                 <height>40</height>
                 <label>571</label>
-                <font>font12caps_title</font>
+                <font>font12_title</font>
                 <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.Reset(Menu_Custom8_Folder)</onclick>
                 <onleft>301</onleft>
@@ -2153,7 +2153,7 @@
                 <width>180</width>
                 <height>40</height>
                 <label>31113</label>
-                <font>font12caps_title</font>
+                <font>font12_title</font>
                 <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.SetImage(Menu_Custom9_Folder)</onclick>
                 <onleft>302</onleft>
@@ -2168,7 +2168,7 @@
                 <width>180</width>
                 <height>40</height>
                 <label>31114</label>
-                <font>font12caps_title</font>
+                <font>font12_title</font>
                 <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.SetPath(Menu_Custom9_Folder)</onclick>
                 <onleft>300</onleft>
@@ -2183,7 +2183,7 @@
                 <width>180</width>
                 <height>40</height>
                 <label>571</label>
-                <font>font12caps_title</font>
+                <font>font12_title</font>
                 <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.Reset(Menu_Custom9_Folder)</onclick>
                 <onleft>301</onleft>
@@ -2201,7 +2201,7 @@
                 <width>180</width>
                 <height>40</height>
                 <label>31113</label>
-                <font>font12caps_title</font>
+                <font>font12_title</font>
                 <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.SetImage(Menu_Custom10_Folder)</onclick>
                 <onleft>302</onleft>
@@ -2216,7 +2216,7 @@
                 <width>180</width>
                 <height>40</height>
                 <label>31114</label>
-                <font>font12caps_title</font>
+                <font>font12_title</font>
                 <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.SetPath(Menu_Custom10_Folder)</onclick>
                 <onleft>300</onleft>
@@ -2231,7 +2231,7 @@
                 <width>180</width>
                 <height>40</height>
                 <label>571</label>
-                <font>font12caps_title</font>
+                <font>font12_title</font>
                 <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.Reset(Menu_Custom10_Folder)</onclick>
                 <onleft>301</onleft>
@@ -2249,7 +2249,7 @@
                 <width>180</width>
                 <height>40</height>
                 <label>31113</label>
-                <font>font12caps_title</font>
+                <font>font12_title</font>
                 <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.SetImage(Home_Custom_Back_TV_Folder)</onclick>
                 <onleft>302</onleft>
@@ -2264,7 +2264,7 @@
                 <width>180</width>
                 <height>40</height>
                 <label>31114</label>
-                <font>font12caps_title</font>
+                <font>font12_title</font>
                 <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.SetPath(Home_Custom_Back_TV_Folder)</onclick>
                 <onleft>300</onleft>
@@ -2279,7 +2279,7 @@
                 <width>180</width>
                 <height>40</height>
                 <label>571</label>
-                <font>font12caps_title</font>
+                <font>font12_title</font>
                 <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.Reset(Home_Custom_Back_TV_Folder)</onclick>
                 <onleft>301</onleft>
@@ -2297,7 +2297,7 @@
                 <width>180</width>
                 <height>40</height>
                 <label>31113</label>
-                <font>font12caps_title</font>
+                <font>font12_title</font>
                 <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.SetImage(Home_Custom_Back_Radio_Folder)</onclick>
                 <onleft>302</onleft>
@@ -2312,7 +2312,7 @@
                 <width>180</width>
                 <height>40</height>
                 <label>31114</label>
-                <font>font12caps_title</font>
+                <font>font12_title</font>
                 <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.SetPath(Home_Custom_Back_Radio_Folder)</onclick>
                 <onleft>300</onleft>
@@ -2327,7 +2327,7 @@
                 <width>180</width>
                 <height>40</height>
                 <label>571</label>
-                <font>font12caps_title</font>
+                <font>font12_title</font>
                 <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.Reset(Home_Custom_Back_Radio_Folder)</onclick>
                 <onleft>301</onleft>
@@ -2354,7 +2354,7 @@
             <height>20</height>
             <align>center</align>
             <aligny>center</aligny>
-            <font>Font_Neon_16</font>
+            <font>font12</font>
             <haspath>yes</haspath>
             <label fallback="571">$INFO[Container(9003).ListItem.Thumb]</label>
             <textcolor>white</textcolor>
@@ -2376,7 +2376,7 @@
             <control type="label" id="400">
               <width>740</width>
               <height>45</height>
-              <font>Font_Neon_20</font>
+              <font>font13</font>
               <textoffsetx>15</textoffsetx>
               <label>$LOCALIZE[31018]</label>
               <textcolor>mainblue</textcolor>
@@ -2507,7 +2507,7 @@
             <!--<control type="label" id="419">
               <width>860</width>
               <height>45</height>
-              <font>Font_KeyboardKeys</font>
+              <font>font16</font>
               <label>31122</label>
               <textcolor>mainblue</textcolor>
               <shadowcolor>black</shadowcolor>
@@ -2518,7 +2518,7 @@
             <control type="radiobutton" id="420">
               <width>860</width>
               <height>40</height>
-               <font>Font_Neon_20</font>
+               <font>font13</font>
               <label>$LOCALIZE[31119]</label>
               <textcolor>grey2</textcolor>
               <focusedcolor>white</focusedcolor>
@@ -2530,7 +2530,7 @@
             <control type="button" id="421">
               <width>860</width>
               <height>40</height>
-               <font>Font_Neon_16</font>
+               <font>font12</font>
               <label> - $LOCALIZE[31120]</label>
               <label2>[COLOR=selected]$INFO[Skin.String(WeatherScript_Label)][/COLOR]</label2>
               <textcolor>grey2</textcolor>
@@ -2543,7 +2543,7 @@
             <control type="button" id="422">
               <width>860</width>
               <height>40</height>
-               <font>Font_Neon_16</font>
+               <font>font12</font>
               <label> - $LOCALIZE[31121]</label>
               <label2>[COLOR=selected]$INFO[Skin.String(WeatherScript_Path)][/COLOR]</label2>
               <textcolor>grey2</textcolor>
@@ -2557,7 +2557,7 @@
             <control type="label" id="423">
               <width>860</width>
               <height>45</height>
-              <font>Font_KeyboardKeys</font>
+              <font>font16</font>
               <label>31128</label>
               <textcolor>mainblue</textcolor>
               <shadowcolor>black</shadowcolor>
@@ -2568,7 +2568,7 @@
             <control type="radiobutton" id="424">
               <width>860</width>
               <height>35</height>
-               <font>Font_Neon_20</font>
+               <font>font13</font>
               <label>$LOCALIZE[31126]</label>
               <textcolor>grey2</textcolor>
               <focusedcolor>white</focusedcolor>
@@ -2580,7 +2580,7 @@
             <control type="button" id="425">
               <width>860</width>
               <height>35</height>
-               <font>Font_Neon_16</font>
+               <font>font12</font>
               <label>- $LOCALIZE[31127]</label>
               <label2>[COLOR=selected]$INFO[Skin.String(LyricScript_Path)][/COLOR]</label2>
               <textcolor>grey2</textcolor>
@@ -2627,7 +2627,7 @@
             <control type="label" id="500">
               <width>740</width>
               <height>45</height>
-              <font>Font_Neon_20</font>
+              <font>font13</font>
               <textoffsetx>15</textoffsetx>
               <label>$LOCALIZE[31043]</label>
               <textcolor>mainblue</textcolor>
@@ -2701,7 +2701,7 @@
             <control type="label" id="509">
               <width>860</width>
               <height>26</height>
-              <font>Font_KeyboardTitle</font>
+              <font>fontContextMenu</font>
               <textoffsetx>40</textoffsetx>
               <label>$LOCALIZE[31270]</label>
               <textcolor>grey2</textcolor>
@@ -2716,7 +2716,7 @@
             <control type="label" id="511">
               <width>860</width>
               <height>26</height>
-              <font>Font_KeyboardTitle</font>
+              <font>fontContextMenu</font>
               <textoffsetx>40</textoffsetx>
               <label>$LOCALIZE[31267]</label>
               <textcolor>grey2</textcolor>
@@ -2725,7 +2725,7 @@
             <control type="radiobutton" id="5100">
               <width>798</width>
               <height>30</height>
-              <font>Font_KeyboardTitle</font>
+              <font>fontContextMenu</font>
               <radioposx>640</radioposx>
               <textoffsetx>40</textoffsetx>
               <textcolor>grey2</textcolor>
@@ -2741,7 +2741,7 @@
             <!--<control type="label" id="512">
               <width>860</width>
               <height>45</height>
-              <font>Font_Neon_20</font>
+              <font>font13</font>
               <label>
 </label>
               <textcolor>mainblue</textcolor>
@@ -2752,7 +2752,7 @@
             <control type="label" id="513">
               <width>860</width>
               <height>45</height>
-              <font>Font_Neon_20</font>
+              <font>font13</font>
               <textoffsetx>15</textoffsetx>
               <label>$LOCALIZE[31263]</label>
               <textcolor>mainblue</textcolor>
@@ -2825,7 +2825,7 @@
             <control type="label" id="112">
               <width>740</width>
               <height>45</height>
-              <font>Font_Neon_20</font>
+              <font>font13</font>
               <textoffsetx>15</textoffsetx>
               <label>$LOCALIZE[31038]</label>
               <textcolor>mainblue</textcolor>
@@ -2842,7 +2842,7 @@
             <control type="radiobutton" id="114">
               <width>798</width>
               <height>30</height>
-              <font>Font_KeyboardTitle</font>
+              <font>fontContextMenu</font>
               <radioposx>640</radioposx>
               <textoffsetx>40</textoffsetx>
               <label>$LOCALIZE[31041]</label>
@@ -2858,7 +2858,7 @@
             <control type="radiobutton" id="115">
               <width>798</width>
               <height>30</height>
-              <font>Font_KeyboardTitle</font>
+              <font>fontContextMenu</font>
               <radioposx>640</radioposx>
               <textoffsetx>40</textoffsetx>
               <label>$LOCALIZE[31257]</label>
@@ -2874,7 +2874,7 @@
             <control type="radiobutton" id="116">
               <width>798</width>
               <height>30</height>
-              <font>Font_KeyboardTitle</font>
+              <font>fontContextMenu</font>
               <radioposx>640</radioposx>
               <textoffsetx>40</textoffsetx>
               <label>$LOCALIZE[31258]</label>
@@ -2902,7 +2902,7 @@
             <control type="label" id="900">
               <width>860</width>
               <height>45</height>
-              <font>Font_Neon_20</font>
+              <font>font13</font>
               <textoffsetx>15</textoffsetx>
               <label>$LOCALIZE[2]</label>
               <textcolor>mainblue</textcolor>
@@ -2966,7 +2966,7 @@
             <control type="label" id="600">
               <width>860</width>
               <height>45</height>
-              <font>Font_Neon_20</font>
+              <font>font13</font>
               <textoffsetx>15</textoffsetx>
               <label>$LOCALIZE[31068]</label>
               <textcolor>red</textcolor>
@@ -3015,7 +3015,7 @@
             <control type="label" id="600">
               <width>860</width>
               <height>45</height>
-              <font>Font_Neon_20</font>
+              <font>font13</font>
               <textoffsetx>15</textoffsetx>
               <label>$LOCALIZE[31047]</label>
               <textcolor>mainblue</textcolor>
@@ -3116,7 +3116,7 @@
             <control type="label" id="616">
               <width>860</width>
               <height>45</height>
-              <font>Font_Neon_20</font>
+              <font>font13</font>
               <textoffsetx>15</textoffsetx>
               <label>$LOCALIZE[31065]</label>
               <textcolor>mainblue</textcolor>
@@ -3183,7 +3183,7 @@
             <control type="label" id="701">
               <width>860</width>
               <height>45</height>
-              <font>Font_Neon_20</font>
+              <font>font13</font>
               <textoffsetx>15</textoffsetx>
               <label>$LOCALIZE[31260]</label>
               <textcolor>mainblue</textcolor>
@@ -3491,7 +3491,7 @@
             <control type="label" id="712">
               <width>860</width>
               <height>45</height>
-              <font>Font_Neon_20</font>
+              <font>font13</font>
               <textoffsetx>15</textoffsetx>
               <label>$LOCALIZE[31292]</label>
               <textcolor>mainblue</textcolor>
@@ -3553,7 +3553,7 @@
             <control type="label" id="715">
               <width>860</width>
               <height>45</height>
-              <font>Font_Neon_20</font>
+              <font>font13</font>
               <textoffsetx>15</textoffsetx>
               <label>$LOCALIZE[31295]</label>
               <textcolor>mainblue</textcolor>
@@ -3615,7 +3615,7 @@
             <control type="label" id="718">
               <width>860</width>
               <height>45</height>
-              <font>Font_Neon_20</font>
+              <font>font13</font>
               <textoffsetx>15</textoffsetx>
               <label>$LOCALIZE[31070]</label>
               <textcolor>mainblue</textcolor>

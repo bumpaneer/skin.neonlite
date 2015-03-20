@@ -41,7 +41,7 @@
       <top>15</top>
       <width>650</width>
       <height>30</height>
-      <font>Font_Bartowski_Episode_ContextMenu</font>
+      <font>font30</font>
       <label>$LOCALIZE[19053]</label>
       <align>center</align>
       <aligny>center</aligny>
@@ -72,7 +72,7 @@
       <top>70</top>
       <width>650</width>
       <height>30</height>
-      <font>Font_Bartowski_Press_S_title</font>
+      <font>font24_title</font>
       <label>$INFO[ListItem.Title]</label>
       <align>center</align>
       <aligny>center</aligny>
@@ -90,7 +90,7 @@
         <height>25</height>
         <align>right</align>
         <aligny>center</aligny>
-        <font>Font_Bartowski_Press_S</font>
+        <font>font16</font>
         <textcolor>mainblue</textcolor>
         <label>$LOCALIZE[552]:</label>
       </control>
@@ -102,7 +102,7 @@
         <height>25</height>
         <align>left</align>
         <aligny>center</aligny>
-        <font>Font_Bartowski_Press_S</font>
+        <font>font16</font>
         <textcolor>white</textcolor>
         <label>$INFO[ListItem.StartDate]</label>
       </control>
@@ -114,7 +114,7 @@
         <height>25</height>
         <align>right</align>
         <aligny>center</aligny>
-        <font>Font_Bartowski_Press_S</font>
+        <font>font16</font>
         <textcolor>mainblue</textcolor>
         <label>$LOCALIZE[142]</label>
       </control>
@@ -126,7 +126,7 @@
         <height>25</height>
         <align>left</align>
         <aligny>center</aligny>
-        <font>Font_Bartowski_Press_S</font>
+        <font>font16</font>
         <textcolor>white</textcolor>
         <label>$INFO[ListItem.StartTime]</label>
       </control>
@@ -138,7 +138,7 @@
         <height>25</height>
         <align>right</align>
         <aligny>center</aligny>
-        <font>Font_Bartowski_Press_S</font>
+        <font>font16</font>
         <textcolor>mainblue</textcolor>
         <label>$LOCALIZE[19148]:</label>
       </control>
@@ -150,7 +150,7 @@
         <height>25</height>
         <align>left</align>
         <aligny>center</aligny>
-        <font>Font_Bartowski_Press_S</font>
+        <font>font16</font>
         <textcolor>white</textcolor>
         <label>$INFO[ListItem.ChannelName]</label>
       </control>
@@ -162,7 +162,7 @@
         <height>25</height>
         <align>right</align>
         <aligny>center</aligny>
-        <font>Font_Bartowski_Press_S</font>
+        <font>font16</font>
         <textcolor>mainblue</textcolor>
         <label>$LOCALIZE[180]:</label>
       </control>
@@ -173,7 +173,7 @@
         <width>470</width>
         <label>$INFO[ListItem.Duration]</label>
         <align>left</align>
-        <font>Font_Bartowski_Press_S</font>
+        <font>font16</font>
         <scroll>true</scroll>
       </control>
       <control type="label">
@@ -184,7 +184,7 @@
         <height>25</height>
         <align>right</align>
         <aligny>center</aligny>
-        <font>Font_Bartowski_Press_S</font>
+        <font>font16</font>
         <textcolor>mainblue</textcolor>
         <label>$LOCALIZE[135]:</label>
       </control>
@@ -195,7 +195,7 @@
         <width>470</width>
         <label fallback="161">$INFO[ListItem.Genre]</label>
         <align>left</align>
-        <font>Font_Bartowski_Press_S</font>
+        <font>font16</font>
         <scroll>true</scroll>
       </control>
       <control type="label">
@@ -205,7 +205,7 @@
         <width>650</width>
         <label>$INFO[ListItem.PlotOutline]</label>
         <align>center</align>
-        <font>Font_Bartowski_Press_S</font>
+        <font>font16</font>
         <textcolor>mainblue</textcolor>
         <scroll>true</scroll>
         <visible>!IsEmpty(ListItem.PlotOutline)</visible>
@@ -216,7 +216,7 @@
       <top>370</top>
       <width>400</width>
       <height>30</height>
-      <font>Font_Neon_20</font>
+      <font>font13</font>
       <textcolor>grey</textcolor>
       <shadowcolor>black</shadowcolor>
       <scroll>true</scroll>
@@ -246,7 +246,7 @@
       <top>402</top>
       <width>650</width>
       <height>178</height>
-      <font>Font_Bartowski_Press_S</font>
+      <font>font16</font>
       <align>justify</align>
       <pagecontrol>60</pagecontrol>
       <label fallback="161">$INFO[ListItem.Plot]</label>

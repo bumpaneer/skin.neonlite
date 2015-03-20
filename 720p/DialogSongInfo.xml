@@ -27,7 +27,7 @@
         <top>20</top>
         <width>580</width>
         <height>30</height>
-         <font>Font_Neon_30</font>
+         <font>font30</font>
         <label>$LOCALIZE[658]</label>
         <align>left</align>
         <aligny>center</aligny>
@@ -42,7 +42,7 @@
         <height>30</height>
         <align>center</align>
         <aligny>center</aligny>
-        <font>Font_Neon_40</font>
+        <font>font30</font>
         <textcolor>mainblue</textcolor>
         <label>[B]"$INFO[ListItem.Title]"[/B]</label>
       </control>
@@ -80,7 +80,7 @@
           <height>25</height>
           <align>right</align>
           <aligny>center</aligny>
-          <font>Font_Neon_25</font>
+          <font>font16</font>
           <textcolor>mainblue</textcolor>
           <label>$LOCALIZE[557]:</label>
         </control>
@@ -92,7 +92,7 @@
           <height>25</height>
           <align>left</align>
           <aligny>center</aligny>
-          <font>Font_Neon_20_title</font>
+          <font>font13_title</font>
           <textcolor>white</textcolor>
           <label fallback="161">$INFO[ListItem.Artist]</label>
         </control>
@@ -104,7 +104,7 @@
           <height>25</height>
           <align>right</align>
           <aligny>center</aligny>
-          <font>Font_Neon_25</font>
+          <font>font16</font>
           <textcolor>mainblue</textcolor>
           <label>$LOCALIZE[558]:</label>
         </control>
@@ -116,7 +116,7 @@
           <height>25</height>
           <align>left</align>
           <aligny>center</aligny>
-          <font>Font_Neon_20_title</font>
+          <font>font13_title</font>
           <textcolor>white</textcolor>
           <label fallback="161">$INFO[ListItem.Album]$INFO[musicplayer.discnumber, - $LOCALIZE[427]:]</label>
         </control>
@@ -128,7 +128,7 @@
           <height>25</height>
           <align>right</align>
           <aligny>center</aligny>
-          <font>Font_Neon_25</font>
+          <font>font16</font>
           <textcolor>mainblue</textcolor>
           <label>$LOCALIZE[515]:</label>
         </control>
@@ -140,7 +140,7 @@
           <height>25</height>
           <align>left</align>
           <aligny>center</aligny>
-          <font>Font_Neon_20_title</font>
+          <font>font13_title</font>
           <textcolor>white</textcolor>
           <label fallback="161">$INFO[ListItem.Genre]</label>
         </control>
@@ -152,7 +152,7 @@
           <height>25</height>
           <align>right</align>
           <aligny>center</aligny>
-          <font>Font_Neon_25</font>
+          <font>font16</font>
           <textcolor>mainblue</textcolor>
           <label>$LOCALIZE[562]:</label>
         </control>
@@ -164,7 +164,7 @@
           <height>25</height>
           <align>left</align>
           <aligny>center</aligny>
-          <font>Font_Neon_20_title</font>
+          <font>font13_title</font>
           <textcolor>white</textcolor>
           <label fallback="161">$INFO[ListItem.Year]</label>
         </control>
@@ -176,7 +176,7 @@
           <height>25</height>
           <align>right</align>
           <aligny>center</aligny>
-          <font>Font_Neon_25</font>
+          <font>font16</font>
           <textcolor>mainblue</textcolor>
           <label>$LOCALIZE[554]:</label>
         </control>
@@ -188,7 +188,7 @@
           <height>25</height>
           <align>left</align>
           <aligny>center</aligny>
-          <font>Font_Neon_20_title</font>
+          <font>font13_title</font>
           <textcolor>white</textcolor>
           <label fallback="161">$INFO[ListItem.TrackNumber]</label>
         </control>
@@ -200,7 +200,7 @@
           <height>25</height>
           <align>right</align>
           <aligny>center</aligny>
-          <font>Font_Neon_25</font>
+          <font>font16</font>
           <textcolor>mainblue</textcolor>
           <label>$LOCALIZE[563]:</label>
         </control>
@@ -212,7 +212,7 @@
           <height>25</height>
           <align>left</align>
           <aligny>center</aligny>
-          <font>Font_Neon_20</font>
+          <font>font13</font>
           <textcolor>white</textcolor>
           <label fallback="161">$INFO[ListItem.Rating]</label>
         </control>
@@ -224,7 +224,7 @@
           <height>25</height>
           <align>right</align>
           <aligny>center</aligny>
-          <font>Font_Neon_25</font>
+          <font>font16</font>
           <textcolor>mainblue</textcolor>
           <label>$LOCALIZE[569]:</label>
         </control>
@@ -234,7 +234,7 @@
           <top>352</top>
           <width>460</width>
           <height>98</height>
-          <font>Font_Neon_20</font>
+          <font>font13</font>
           <textcolor>white</textcolor>
           <pagecontrol>-</pagecontrol>
           <label fallback="161">$INFO[ListItem.Comment]</label>
@@ -307,7 +307,7 @@
           <width>160</width>
           <height>30</height>
           <align>center</align>
-          <font>Font_Bartowski_Smaller_MenuTitle</font>
+          <font>font13</font>
           <textcolor>grey</textcolor>
           <focusedcolor>white</focusedcolor>
           <colordiffuse>mainblue</colordiffuse>
@@ -323,7 +323,7 @@
           <width>160</width>
           <height>30</height>
           <align>center</align>
-          <font>Font_Bartowski_Smaller_MenuTitle</font>
+          <font>font13</font>
           <textcolor>grey</textcolor>
           <focusedcolor>white</focusedcolor>
           <colordiffuse>mainblue</colordiffuse>
@@ -339,7 +339,7 @@
           <width>160</width>
           <height>30</height>
           <align>center</align>
-          <font>Font_Bartowski_Smaller_MenuTitle</font>
+          <font>font13</font>
           <textcolor>grey</textcolor>
           <focusedcolor>white</focusedcolor>
           <colordiffuse>mainblue</colordiffuse>
@@ -355,7 +355,7 @@
           <width>160</width>
           <height>30</height>
           <align>center</align>
-          <font>Font_Bartowski_Smaller_MenuTitle</font>
+          <font>font13</font>
           <textcolor>grey</textcolor>
           <focusedcolor>white</focusedcolor>
           <colordiffuse>mainblue</colordiffuse>

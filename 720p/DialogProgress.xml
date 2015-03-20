@@ -53,7 +53,7 @@
         <top>18</top>
         <width>560</width>
         <height>30</height>
-        <font>Font_Neon_25</font>
+        <font>font16</font>
         <label>$INFO[Control.GetLabel(1)] $INFO[System.Progressbar,- ,%]</label>
         <align>left</align>
         <aligny>center</aligny>
@@ -67,7 +67,7 @@
         <height>28</height>
         <align>center</align>
         <label>-</label>
-        <font>Font_Neon_20</font>
+        <font>font13</font>
         <textcolor>white</textcolor>
         <autoscroll time="3000" delay="4000" repeat="5000">Skin.HasSetting(AutoScroll)</autoscroll>
       </control>
@@ -91,7 +91,7 @@
         <width>200</width>
         <height>40</height>
         <label>222</label>
-        <font>Font_Neon_25</font>
+        <font>font16</font>
         <textcolor>mainblue</textcolor>
         <focusedcolor>white</focusedcolor>
         <align>center</align>

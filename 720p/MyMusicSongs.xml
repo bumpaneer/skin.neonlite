@@ -42,11 +42,11 @@
     <include>Time</include>
     <include>ScrollOffsetLabel</include>
     <control type="group">
-      <left>-839</left>
+      <left>-246</left>
       <include>SideBladeLeft</include>
       <control type="image">
         <description>LOGO</description>
-        <left>579</left>
+        <left>0</left>
         <top>30</top>
         <width>220</width>
         <height>60</height>
@@ -55,13 +55,13 @@
         <texture>neon.png</texture>
       </control>
       <control type="grouplist" id="7000">
-        <left>579</left>
+        <left>0</left>
         <top>130</top>
         <include>WindowMenuVars_Vertical</include>
         <control type="label" id="200">
           <width>250</width>
           <height>35</height>
-          <font>Font_Neon_26</font>
+          <font>font16</font>
           <label>$LOCALIZE[31513]</label>
           <textcolor>mainblue</textcolor>
           <align>center</align>

@@ -3315,7 +3315,7 @@
           <scrollout>false</scrollout>
           <pauseatend>600</pauseatend>
           <scrollspeed>20</scrollspeed>
-          <font>Font_Neon_30</font>
+          <font>font30</font>
           <textcolor>mainblue</textcolor>
           <label>[B]$INFO[ListItem.Label][/B]</label>
         </control>

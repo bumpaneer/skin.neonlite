@@ -37,7 +37,7 @@
             <top>0</top>
             <width>34</width>
             <height>29</height>
-            <font>Font_Neon_18</font>
+            <font>fontContextMenu</font>
             <aligny>center</aligny>
             <selectedcolor>selected</selectedcolor>
             <align>left</align>
@@ -59,7 +59,7 @@
             <top>5</top>
             <width>40</width>
             <height>35</height>
-            <font>Font_Neon_18</font>
+            <font>fontContextMenu</font>
             <align>left</align>
             <aligny>center</aligny>
             <textcolor>grey</textcolor>
@@ -79,7 +79,7 @@
             <top>0</top>
             <width>160</width>
             <height>48</height>
-            <font>special12</font>
+            <font>font12</font>
             <aligny>center</aligny>
             <selectedcolor>selected</selectedcolor>
             <align>left</align>
@@ -112,7 +112,7 @@
             <top>5</top>
             <width>40</width>
             <height>35</height>
-            <font>Font_Neon_18</font>
+            <font>fontContextMenu</font>
             <align>left</align>
             <aligny>center</aligny>
             <textcolor>grey</textcolor>
@@ -132,7 +132,7 @@
             <top>0</top>
             <width>160</width>
             <height>48</height>
-            <font>special12</font>
+            <font>font12</font>
             <aligny>center</aligny>
             <selectedcolor>selected</selectedcolor>
             <align>left</align>
@@ -153,7 +153,7 @@
             <top>3</top>
             <width>30</width>
             <height>25</height>
-            <font>Font_Neon_18</font>
+            <font>fontContextMenu</font>
             <aligny>center</aligny>
             <selectedcolor>selected</selectedcolor>
             <align>left</align>
@@ -197,7 +197,7 @@
             <top>3</top>
             <width>30</width>
             <height>25</height>
-            <font>Font_Neon_18</font>
+            <font>fontContextMenu</font>
             <aligny>center</aligny>
             <selectedcolor>selected</selectedcolor>
             <align>left</align>
@@ -239,7 +239,7 @@
           <width>840</width>
           <height>20</height>
           <label>[B]$INFO[ListItem.Label][/B]</label>
-          <font>Font_Neon_20</font>
+          <font>font13</font>
           <textcolor>white</textcolor>
         </control>
         <control type="label">
@@ -248,7 +248,7 @@
           <width>840</width>
           <height>20</height>
           <label>$INFO[ListItem.StartTime]$INFO[ListItem.EndTime, - ]$INFO[ListItem.Genre, • ]</label>
-          <font>Font_Neon_18</font>
+          <font>fontContextMenu</font>
           <textcolor>grey</textcolor>
         </control>
         <control type="textbox">
@@ -257,7 +257,7 @@
           <top>57</top>
           <width>840</width>
           <height>63</height>
-          <font>Font_Neon_18</font>
+          <font>fontContextMenu</font>
           <align>justify</align>
           <textcolor>grey</textcolor>
           <autoscroll delay="10000" time="3000" repeat="6000">true</autoscroll>
@@ -365,7 +365,7 @@
               <top>0</top>
               <width>280</width>
               <height>40</height>
-              <font>Font_Neon_18</font>
+              <font>fontContextMenu</font>
               <align>center</align>
               <aligny>center</aligny>
               <textcolor>grey2</textcolor>
@@ -377,7 +377,7 @@
               <top>0</top>
               <width>640</width>
               <height>40</height>
-              <font>Font_Neon_20</font>
+              <font>font13</font>
               <align>left</align>
               <aligny>center</aligny>
               <textcolor>grey2</textcolor>
@@ -485,7 +485,7 @@
               <top>0</top>
               <width>280</width>
               <height>40</height>
-              <font>Font_Neon_18</font>
+              <font>fontContextMenu</font>
               <align>center</align>
               <aligny>center</aligny>
               <textcolor>white</textcolor>
@@ -497,7 +497,7 @@
               <top>0</top>
               <width>640</width>
               <height>40</height>
-              <font>Font_Neon_20</font>
+              <font>font13</font>
               <align>left</align>
               <aligny>center</aligny>
               <textcolor>white</textcolor>
@@ -510,7 +510,7 @@
               <top>42</top>
               <width>1000</width>
               <height>58</height>
-              <font>Font_Neon_18</font>
+              <font>fontContextMenu</font>
               <align>justify</align>
               <textcolor>grey2</textcolor>
               <shadowcolor>black</shadowcolor>
@@ -584,7 +584,7 @@
         <top>53r</top>
         <width>500</width>
         <height>20</height>
-        <font>Font_Neon_18</font>
+        <font>fontContextMenu</font>
         <textcolor>grey</textcolor>
         <scroll>false</scroll>
         <align>right</align>
@@ -705,7 +705,7 @@
               <top>0</top>
               <width>100</width>
               <height>40</height>
-              <font>Font_Neon_18</font>
+              <font>fontContextMenu</font>
               <align>center</align>
               <aligny>center</aligny>
               <textcolor>grey2</textcolor>
@@ -724,7 +724,7 @@
               <top>0</top>
               <width>190</width>
               <height>35</height>
-              <font>Font_Neon_18</font>
+              <font>fontContextMenu</font>
               <align>left</align>
               <aligny>center</aligny>
               <textcolor>grey2</textcolor>
@@ -736,7 +736,7 @@
               <top>0</top>
               <width>590</width>
               <height>35</height>
-              <font>Font_Neon_20</font>
+              <font>font13</font>
               <align>left</align>
               <aligny>center</aligny>
               <textcolor>grey2</textcolor>
@@ -844,7 +844,7 @@
               <top>0</top>
               <width>100</width>
               <height>40</height>
-              <font>Font_Neon_18</font>
+              <font>fontContextMenu</font>
               <align>center</align>
               <aligny>center</aligny>
               <textcolor>white</textcolor>
@@ -863,7 +863,7 @@
               <top>0</top>
               <width>190</width>
               <height>35</height>
-              <font>Font_Neon_18</font>
+              <font>fontContextMenu</font>
               <align>left</align>
               <aligny>center</aligny>
               <textcolor>white</textcolor>
@@ -875,7 +875,7 @@
               <top>0</top>
               <width>590</width>
               <height>35</height>
-              <font>Font_Neon_20</font>
+              <font>font13</font>
               <align>left</align>
               <aligny>center</aligny>
               <textcolor>white</textcolor>
@@ -888,7 +888,7 @@
               <top>42</top>
               <width>1000</width>
               <height>58</height>
-              <font>Font_Neon_18</font>
+              <font>fontContextMenu</font>
               <align>justify</align>
               <textcolor>grey2</textcolor>
               <shadowcolor>black</shadowcolor>
@@ -962,7 +962,7 @@
         <top>53r</top>
         <width>500</width>
         <height>20</height>
-        <font>Font_Neon_18</font>
+        <font>fontContextMenu</font>
         <textcolor>grey</textcolor>
         <scroll>false</scroll>
         <align>right</align>
@@ -1083,7 +1083,7 @@
               <top>0</top>
               <width>100</width>
               <height>40</height>
-              <font>Font_Neon_18</font>
+              <font>fontContextMenu</font>
               <align>center</align>
               <aligny>center</aligny>
               <textcolor>grey2</textcolor>
@@ -1102,7 +1102,7 @@
               <top>0</top>
               <width>190</width>
               <height>35</height>
-              <font>Font_Neon_18</font>
+              <font>fontContextMenu</font>
               <align>left</align>
               <aligny>center</aligny>
               <textcolor>grey2</textcolor>
@@ -1114,7 +1114,7 @@
               <top>0</top>
               <width>590</width>
               <height>35</height>
-              <font>Font_Neon_20</font>
+              <font>font13</font>
               <align>left</align>
               <aligny>center</aligny>
               <textcolor>grey2</textcolor>
@@ -1222,7 +1222,7 @@
               <top>0</top>
               <width>100</width>
               <height>40</height>
-              <font>Font_Neon_18</font>
+              <font>fontContextMenu</font>
               <align>center</align>
               <aligny>center</aligny>
               <textcolor>white</textcolor>
@@ -1241,7 +1241,7 @@
               <top>0</top>
               <width>190</width>
               <height>35</height>
-              <font>Font_Neon_18</font>
+              <font>fontContextMenu</font>
               <align>left</align>
               <aligny>center</aligny>
               <textcolor>white</textcolor>
@@ -1253,7 +1253,7 @@
               <top>0</top>
               <width>590</width>
               <height>35</height>
-              <font>Font_Neon_20</font>
+              <font>font13</font>
               <align>left</align>
               <aligny>center</aligny>
               <textcolor>white</textcolor>
@@ -1266,7 +1266,7 @@
               <top>42</top>
               <width>1000</width>
               <height>58</height>
-              <font>Font_Neon_18</font>
+              <font>fontContextMenu</font>
               <align>justify</align>
               <textcolor>grey2</textcolor>
               <shadowcolor>black</shadowcolor>
@@ -1340,7 +1340,7 @@
         <top>53r</top>
         <width>500</width>
         <height>20</height>
-        <font>Font_Neon_18</font>
+        <font>fontContextMenu</font>
         <textcolor>grey</textcolor>
         <scroll>false</scroll>
         <align>right</align>

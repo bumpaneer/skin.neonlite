@@ -57,7 +57,7 @@
           <top>10</top>
           <width>930</width>
           <height>40</height>
-          <font>Font_Bartowski_Episode_ContextMenu</font>
+          <font>font30</font>
           <label>19143</label>
           <align>center</align>
           <aligny>center</aligny>
@@ -113,7 +113,7 @@
                 <top>0</top>
                 <width>280</width>
                 <height>40</height>
-                <font>Font_Neon_20</font>
+                <font>font13</font>
                 <align>left</align>
                 <aligny>center</aligny>
                 <textcolor>grey2</textcolor>
@@ -145,7 +145,7 @@
                 <top>0</top>
                 <width>280</width>
                 <height>40</height>
-                <font>Font_Neon_20</font>
+                <font>font13</font>
                 <align>left</align>
                 <aligny>center</aligny>
                 <textcolor>white</textcolor>
@@ -228,7 +228,7 @@
                 <top>0</top>
                 <width>250</width>
                 <height>40</height>
-                <font>Font_Neon_20</font>
+                <font>font13</font>
                 <align>left</align>
                 <aligny>center</aligny>
                 <textcolor>grey2</textcolor>
@@ -268,7 +268,7 @@
                 <top>0</top>
                 <width>250</width>
                 <height>40</height>
-                <font>Font_Neon_20</font>
+                <font>font13</font>
                 <align>left</align>
                 <aligny>center</aligny>
                 <textcolor>white</textcolor>
@@ -351,7 +351,7 @@
                 <top>0</top>
                 <width>250</width>
                 <height>40</height>
-                <font>Font_Neon_20</font>
+                <font>font13</font>
                 <align>left</align>
                 <aligny>center</aligny>
                 <textcolor>grey2</textcolor>
@@ -391,7 +391,7 @@
                 <top>0</top>
                 <width>250</width>
                 <height>40</height>
-                <font>Font_Neon_20</font>
+                <font>font13</font>
                 <align>left</align>
                 <aligny>center</aligny>
                 <textcolor>white</textcolor>

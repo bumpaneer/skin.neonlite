@@ -43,7 +43,7 @@
         <top>15</top>
         <width>710</width>
         <height>30</height>
-        <font>Font_Bartowski_Episode_ContextMenu</font>
+        <font>font30</font>
         <label>$LOCALIZE[19047]</label>
         <align>center</align>
         <aligny>center</aligny>

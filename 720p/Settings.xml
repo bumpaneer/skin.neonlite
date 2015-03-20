@@ -76,7 +76,7 @@
             <top>0</top>
             <width>260</width>
             <height>45</height>
-            <font>font24caps_title</font>
+            <font>font28_title</font>
             <textcolor>grey3</textcolor>
             <align>center</align>
             <aligny>center</aligny>
@@ -97,7 +97,7 @@
             <top>0</top>
             <width>260</width>
             <height>45</height>
-            <font>font24caps_title</font>
+            <font>font28_title</font>
             <textcolor>white</textcolor>
             <align>center</align>
             <aligny>center</aligny>
@@ -143,7 +143,7 @@
           </item>
           <item id="7">
             <label>24001</label>
-            <font>Font_Neon_20</font>
+            <font>font13</font>
             <label2>31408</label2>
             <onclick>ActivateWindow(AddonBrowser)</onclick>
             <icon>special://skin/backgrounds/settings.jpg</icon>
@@ -182,7 +182,7 @@
         <top>20</top>
         <width>740</width>
         <height>30</height>
-        <font>Font_Neon_25</font>
+        <font>font16</font>
         <label>$LOCALIZE[31000] $LOCALIZE[5]</label>
         <align>left</align>
         <aligny>center</aligny>
@@ -211,7 +211,7 @@
         <top>522</top>
         <width>740</width>
         <height>98</height>
-        <font>Font_Neon_20</font>
+        <font>font13</font>
         <label>$INFO[Container(9000).ListItem.Label2]</label>
         <align>left</align>
         <textcolor>white</textcolor>

@@ -143,7 +143,7 @@
               <top>0</top>
               <width>90</width>
               <height>38</height>
-              <font>font18</font>
+              <font>fontContextMenu</font>
               <aligny>center</aligny>
               <textcolor>white</textcolor>
               <selectedcolor>selected</selectedcolor>
@@ -171,7 +171,7 @@
               <top>0</top>
               <width>495</width>
               <height>38</height>
-              <font>font18</font>
+              <font>fontContextMenu</font>
               <aligny>center</aligny>
               <textcolor>white</textcolor>
               <selectedcolor>selected</selectedcolor>
@@ -214,7 +214,7 @@
               <top>0</top>
               <width>90</width>
               <height>38</height>
-              <font>font18</font>
+              <font>fontContextMenu</font>
               <aligny>center</aligny>
               <textcolor>white</textcolor>
               <selectedcolor>selected</selectedcolor>
@@ -242,7 +242,7 @@
               <top>0</top>
               <width>495</width>
               <height>38</height>
-              <font>font18</font>
+              <font>fontContextMenu</font>
               <aligny>center</aligny>
               <textcolor>white</textcolor>
               <selectedcolor>selected</selectedcolor>
@@ -370,7 +370,7 @@
               <top>0</top>
               <width>230</width>
               <height>38</height>
-              <font>font18</font>
+              <font>fontContextMenu</font>
               <aligny>center</aligny>
               <textcolor>white</textcolor>
               <selectedcolor>selected</selectedcolor>
@@ -399,7 +399,7 @@
               <top>0</top>
               <width>230</width>
               <height>38</height>
-              <font>font18</font>
+              <font>fontContextMenu</font>
               <aligny>center</aligny>
               <textcolor>white</textcolor>
               <selectedcolor>selected</selectedcolor>
@@ -419,7 +419,7 @@
           <onup>150</onup>
           <ondown>150</ondown>
           <label>$LOCALIZE[24120]</label>
-          <font>Font_Neon_22</font>
+          <font>font14</font>
           <textcolor>white</textcolor>
           <focusedcolor>white</focusedcolor>
           <align>center</align>

@@ -20,7 +20,7 @@
         <width>1280</width>
         <height>50</height>
         <align>center</align>
-        <font>Font_Bartowski_BigMusic</font>
+        <font>font30</font>
         <shadowcolor>678b8b8b</shadowcolor>
         <textcolor>678b8b8b</textcolor>
         <label>$LOCALIZE[31235]</label>
@@ -35,7 +35,7 @@
         <width>1280</width>
         <height>50</height>
         <align>center</align>
-        <font>Font_Bartowski_BigMusic</font>
+        <font>font30</font>
         <shadowcolor>678b8b8b</shadowcolor>
         <textcolor>678b8b8b</textcolor>
         <label>$INFO[ListItem.label]</label>
@@ -67,7 +67,7 @@
         <height>150</height>
         <align>center</align>
         <aligny>center</aligny>
-        <font>Font_Neon_26</font>
+        <font>font16</font>
         <shadowcolor>ff000000</shadowcolor>
         <info>Container(588).ListItem.Tagline</info>
         <wrapmultiline>true</wrapmultiline>
@@ -95,7 +95,7 @@
           <width>300</width>
           <height>193</height>
           <animation effect="rotatey" center="0" start="50" end="-45" time="0" condition="true">Conditional</animation>
-          <font>Font_Neon_20</font>
+          <font>font13</font>
           <textcolor>FFFFFFFF</textcolor>
           <label>$INFO[Container(588).ListItem.PlotOutline]</label>
           <autoscroll delay="10000" time="2000" repeat="10000">Skin.HasSetting(autoscroll)</autoscroll>
@@ -169,7 +169,7 @@
           <control type="group">
             <top>22</top>
             <control type="label">
-              <font>Font_Neon_16</font>
+              <font>font12</font>
               <textcolor>FFFFFAA6</textcolor>
               <label>$LOCALIZE[31022]:</label>
             </control>
@@ -178,7 +178,7 @@
               <top>17</top>
               <width>200</width>
               <scroll>true</scroll>
-              <font>Font_Neon_19</font>
+              <font>fontContextMenu</font>
               <textcolor>FFFFFFFF</textcolor>
               <label>[UPPERCASE]$INFO[Container(588).ListItem.Director][/UPPERCASE]</label>
             </control>
@@ -186,7 +186,7 @@
           <control type="group">
             <top>70</top>
             <control type="label">
-              <font>Font_Neon_16</font>
+              <font>font12</font>
               <textcolor>FFFFFAA6</textcolor>
               <label>$LOCALIZE[345]:</label>
             </control>
@@ -194,7 +194,7 @@
               <left>0</left>
               <top>17</top>
               <width>150</width>
-              <font>Font_Neon_19</font>
+              <font>fontContextMenu</font>
               <textcolor>FFFFFFFF</textcolor>
               <label>[UPPERCASE]$INFO[Container(588).ListItem.Year][/UPPERCASE] | [UPPERCASE]$INFO[Container(588).ListItem.Duration][/UPPERCASE] min</label>
             </control>
@@ -203,7 +203,7 @@
             <top>22</top>
             <left>200</left>
             <control type="label">
-              <font>Font_Neon_16</font>
+              <font>font12</font>
               <textcolor>FFFFFAA6</textcolor>
               <label>$LOCALIZE[515]:</label>
             </control>
@@ -213,7 +213,7 @@
               <width>88</width>
               <height>124</height>
               <autoscroll delay="35000" time="2000" repeat="20000">Skin.HasSetting(autoscroll)</autoscroll>
-              <font>Font_Neon_19</font>
+              <font>fontContextMenu</font>
               <textcolor>FFFFFFFF</textcolor>
               <label>[UPPERCASE]$INFO[Container(588).ListItem.Genre][/UPPERCASE]</label>
             </control>
@@ -226,7 +226,7 @@
               <top>0</top>
               <width>180</width>
               <height>13</height>
-              <font>Font_Neon_16</font>
+              <font>font12</font>
               <textcolor>FFFFFAA6</textcolor>
               <label>$LOCALIZE[31008]:</label>
             </control>
@@ -235,7 +235,7 @@
               <top>17</top>
               <width>180</width>
               <height>13</height>
-              <font>Font_Neon_19</font>
+              <font>fontContextMenu</font>
               <textcolor>FFFFFFFF</textcolor>
               <label>[UPPERCASE]$INFO[Container(588).ListItem.RatingAndVotes][/UPPERCASE]</label>
             </control>
@@ -296,7 +296,7 @@
           <height>338</height>
           <label>$INFO[ListItem.Plot]</label>
           <autoscroll delay="35000" time="2000" repeat="20000">Skin.HasSetting(autoscroll)</autoscroll>
-          <font>Font_Neon_20</font>
+          <font>font13</font>
           <align>center</align>
           <textcolor>FFFFFFFF</textcolor>
           <animation effect="fade" start="100" end="0" time="1000" condition="Player.HasVideo">Conditional</animation>
@@ -309,7 +309,7 @@
           <height>338</height>
           <label>$INFO[ListItem.PlotOutline]</label>
           <autoscroll delay="35000" time="2000" repeat="20000">Skin.HasSetting(autoscroll)</autoscroll>
-          <font>Font_Neon_20</font>
+          <font>font13</font>
           <align>center</align>
           <textcolor>FFFFFFFF</textcolor>
           <animation effect="fade" start="100" end="0" time="1000" condition="Player.HasVideo">Conditional</animation>
@@ -363,7 +363,7 @@
           <align>center</align>
           <width>486</width>
           <height>271</height>
-          <font>Font_Neon_14</font>
+          <font>font10</font>
           <textcolor>mainblue</textcolor>
           <label>$LOCALIZE[31237]</label>
           <animation effect="fade" start="20" time="800" condition="!IsEmpty(ListItem.Year)">Conditional</animation>
@@ -376,7 +376,7 @@
         <align>center</align>
         <width>640</width>
         <height>271</height>
-        <font>Font_Neon_14</font>
+        <font>font10</font>
         <label>$LOCALIZE[31274]:    $INFO[VideoPlayer.Title]</label>
         <visible>Player.HasVideo</visible>
         <textcolor>FFFFFFFF</textcolor>
@@ -390,7 +390,7 @@
         <scroll>true</scroll>
         <aligny>center</aligny>
         <align>center</align>
-        <font>Font_Neon_45</font>
+        <font>font30</font>
         <textcolor>mainblue</textcolor>
         <shadowcolor>ff000000</shadowcolor>
         <label>$INFO[Container(588).ListItem.Label]</label>
@@ -409,7 +409,7 @@
           <scroll>true</scroll>
           <aligny>center</aligny>
           <align>center</align>
-          <font>Font_Neon_45</font>
+          <font>font30</font>
           <textcolor>mainblue</textcolor>
           <shadowcolor>ff000000</shadowcolor>
           <label>$INFO[Container(588).ListItem.Label]</label>

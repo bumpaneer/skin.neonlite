@@ -158,7 +158,7 @@
   <include name="dialogConfirmButton">
     <width>120</width>
     <height>42</height>
-    <font>Font_Neon_25</font>
+    <font>font16</font>
     <align>center</align>
     <aligny>center</aligny>
     <textoffsety>10</textoffsety>
@@ -172,7 +172,7 @@
     <width>798</width>
     <height>34</height>
     <textoffsetx>30</textoffsetx>
-    <font>Font_Neon_25</font>
+    <font>font16</font>
     <textcolor>grey2</textcolor>
     <focusedcolor>white</focusedcolor>
     <colordiffuse>mainblue</colordiffuse>
@@ -183,7 +183,7 @@
     <width>798</width>
     <height>34</height>
     <textoffsetx>40</textoffsetx>
-    <font>Font_Neon_25</font>
+    <font>font16</font>
     <textcolor>grey2</textcolor>
     <focusedcolor>white</focusedcolor>
     <colordiffuse>mainblue</colordiffuse>
@@ -194,7 +194,7 @@
     <width>798</width>
     <height>34</height>
     <textoffsetx>40</textoffsetx>
-    <font>Font_Neon_25</font>
+    <font>font16</font>
     <textcolor>grey2</textcolor>
     <focusedcolor>white</focusedcolor>
     <colordiffuse>mainblue</colordiffuse>
@@ -215,7 +215,7 @@
   <include name="DialogID">
     <left>10</left>
     <top>35</top>
-    <font>Font_Neon_16</font>
+    <font>font12</font>
     <textcolor>TextDisabled</textcolor>
     <align>left</align>
   </include>
@@ -251,15 +251,15 @@
   </include>
   <!-- Below from Confluence for Weather -->
   <include name="SideBladeLeft">
-    <animation effect="slide" start="0,0" end="260,0" time="400" tween="quadratic" easing="out" condition="ControlGroup(7000).HasFocus | Control.HasFocus(8999)">Conditional</animation>
-  <animation effect="slide" start="0,0" end="-300,0" time="400" tween="quadratic" easing="out" condition="ControlGroup(7000).HasFocus">WindowClose</animation>
-  <animation effect="slide" start="0,0" end="-50,0" time="300" tween="quadratic" easing="out" condition="!ControlGroup(7000).HasFocus">WindowClose</animation>
-  <animation effect="slide" start="-50,0" end="0,0" time="300" tween="quadratic" easing="out">WindowOpen</animation>
+    <animation effect="slide" start="0,0" end="246,0" time="400" tween="quadratic" easing="out" condition="ControlGroup(7000).HasFocus | Control.HasFocus(8999)">Conditional</animation>
+    <animation effect="slide" start="0,0" end="-300,0" time="400" tween="quadratic" easing="out" condition="ControlGroup(7000).HasFocus">WindowClose</animation>
+    <animation effect="slide" start="0,0" end="-50,0" time="300" tween="quadratic" easing="out" condition="!ControlGroup(7000).HasFocus">WindowClose</animation>
+    <animation effect="slide" start="-50,0" end="0,0" time="300" tween="quadratic" easing="out">WindowOpen</animation>
     <control type="button" id="8999">
       <description>Fake button for mouse control</description>
       <left>0</left>
       <top>0</top>
-      <width>846</width>
+      <width>256</width>
       <height>720</height>
       <label>-</label>
       <font>-</font>
@@ -270,17 +270,17 @@
     <control type="image">
       <left>0</left>
       <top>0</top>
-      <width>846</width>
+      <width>256</width>
       <height>720</height>
       <colordiffuse>mainblue</colordiffuse>
-      <texture>HomeBlade.png</texture>
+      <texture>sideblade_left.png</texture>
     </control>
   </include>
   <include name="WindowTitleCommons">
     <top>0</top>
     <width>1060</width>
     <height>28</height>
-    <font>Font_Neon_20</font>
+    <font>font13</font>
     <textcolor>white</textcolor>
     <scroll>false</scroll>
     <align>right</align>
@@ -293,7 +293,7 @@
     <textwidth>600</textwidth>
     <left>150</left>
     <top>91</top>
-    <font>Font_Bartowski_Main_SubMenu</font>
+    <font>font30</font>
     <textcolor>38b8b7b7</textcolor>
     <focusedcolor>white</focusedcolor>
     <colordiffuse>mainblue</colordiffuse>
@@ -303,7 +303,7 @@
   <include name="ButtonHomeSubCommonValues_Horizontal">
     <width>320</width>
     <height>56</height>
-    <font>Font_Bartowski_Main_SubMenu</font>
+    <font>font30</font>
     <textcolor>ffb8b7b7</textcolor>
     <focusedcolor>mainblue</focusedcolor>
   </include>
@@ -313,7 +313,7 @@
     <textoffsetx>20</textoffsetx>
     <textwidth>195</textwidth>
     <aligny>center</aligny>
-    <font>Font_Neon_22</font>
+    <font>font14</font>
     <textcolor>grey2</textcolor>
     <focusedcolor>white</focusedcolor>
     <colordiffuse>mainblue</colordiffuse>
@@ -344,7 +344,7 @@
         <aligny>center</aligny>
         <label>[B]$INFO[ListItem.SortLetter][/B]</label>
         <textcolor>mainblue</textcolor>
-        <font>Font_Neon_30</font>
+        <font>font30</font>
       </control>
     </control>
   </include>
@@ -520,12 +520,12 @@
           <left>-150</left>
           <top>0</top>
           <colordiffuse>mainblue</colordiffuse>
-          <texture flipx="true">MenuItemFO_small.png</texture>
+          <texture flipx="true">upper_item_back.png</texture>
         </control>
         <control type="group">
           <left>10</left>
           <top>2</top>
-          <font>Font_RSS</font>
+          <font>font13</font>
           <control type="label">
             <description>Movies</description>
             <label>[COLOR=mainblue]$LOCALIZE[342][/COLOR] - $INFO[Container.NumItems,, $LOCALIZE[31981]]</label>
@@ -545,21 +545,21 @@
             <visible>IsEmpty(Container.PluginName) + Container.Content(plugins) + !Window.IsActive(134)</visible>
           </control>
           <control type="label">
-            <font>Font_RSS</font>
+            <font>font13</font>
             <description>Tv Shows</description>
             <label>[COLOR=mainblue]$LOCALIZE[20343][/COLOR] - $INFO[Container.NumItems,, $LOCALIZE[31981]]</label>
             <include>Global_HeadingSectionVars2</include>
             <visible>Window.IsActive(25) + Container.Content(tvshows) + !Window.IsActive(134)</visible>
           </control>
           <control type="label">
-            <font>Font_RSS</font>
+            <font>font13</font>
             <description>Tv Shows</description>
             <label>[COLOR=mainblue]$LOCALIZE[20373][/COLOR] - $INFO[Container.NumItems,, $LOCALIZE[31981]]</label>
             <include>Global_HeadingSectionVars2</include>
             <visible>Window.IsActive(25) + Container.Content(seasons) + !Window.IsActive(134)</visible>
           </control>
           <control type="label">
-            <font>Font_RSS</font>
+            <font>font13</font>
             <description>Tv Shows</description>
             <label>[COLOR=mainblue]$LOCALIZE[20360][/COLOR] - $INFO[Container.NumItems,, $LOCALIZE[31981]]</label>
             <include>Global_HeadingSectionVars2</include>
@@ -671,12 +671,12 @@
         <left>0</left>
       <top>0</top>
           <colordiffuse>mainblue</colordiffuse>
-          <texture flipx="true">MenuItemFO_small.png</texture>
+          <texture flipx="true">upper_item_back.png</texture>
         </control>
         <control type="label">
           <left>265</left>
           <top>0</top>
-          <font>Font_RSS</font>
+          <font>font13</font>
           <width>100</width>
           <textcolor>white</textcolor>
           <label>$INFO[Player.FinishTime]</label>
@@ -690,13 +690,13 @@
       <left>0</left>
       <top>0</top>
           <colordiffuse>mainblue</colordiffuse>
-          <texture flipx="true">MenuItemFO_small.png</texture>
+          <texture flipx="true">upper_item_back.png</texture>
         </control>
         <control type="label">
           <left>195</left>
           <top>0</top>
           <width>180</width>
-          <font>Font_RSS</font>
+          <font>font13</font>
           <textcolor>white</textcolor>
           <label>$LOCALIZE[31075]</label>
           <align>center</align>
@@ -775,7 +775,7 @@
           <width>300</width>
           <height>25</height>
           <align>left</align>
-          <font>Font_RSS_Unicode</font>
+          <font>font16</font>
           <textcolor>mainblue</textcolor>
           <label>$INFO[VideoPlayer.Duration]</label>
           <visible>!Window.IsActive(115) + !Window.IsActive(2901) +!Window.IsVisible(musicosd)</visible>
@@ -785,7 +785,7 @@
           <top>3</top>
           <width>300</width>
           <height>25</height>
-          <font>Font_RSS_Unicode</font>
+          <font>font16</font>
           <textcolor>mainblue</textcolor>
           <label>$INFO[VideoPlayer.Duration]</label>
           <visible>!Window.IsActive(115) + !Window.IsActive(2901) +!Window.IsVisible(musicosd)</visible>
@@ -799,26 +799,26 @@
   </include>
   <include name="Global_HeadingSectionVars">
     <width>960</width>
-    <font>Font_Neon_40</font>
+    <font>font30</font>
     <textcolor>ffffffff</textcolor>
     <align>right</align>
   </include>
   <include name="Global_HeadingSectionVars1">
     <width>960</width>
-    <font>Font_Date</font>
+    <font>font13</font>
     <textcolor>white</textcolor>
     <align>right</align>
   </include>
   <include name="Global_HeadingSectionVars2">
     <width>960</width>
-    <font>Font_Date</font>
+    <font>font13</font>
     <textcolor>white</textcolor>
     <align>left</align>
   </include>
   <include name="Global_HeadingDetailVars">
     <top>40</top>
     <width>800</width>
-    <font>Font_Date</font>
+    <font>font13</font>
     <textcolor>Date</textcolor>
     <align>right</align>
   </include>
@@ -829,7 +829,7 @@
     <textoffsetx>10</textoffsetx>
     <align>center</align>
     <aligny>center</aligny>
-    <font>Font_Bartowski_Buttons</font>
+    <font>font14</font>
     <textcolor>grey2</textcolor>
     <focusedcolor>white</focusedcolor>
     <colordiffuse>mainblue</colordiffuse>
@@ -843,7 +843,7 @@
     <textoffsetx>20</textoffsetx>
     <align>center</align>
     <aligny>center</aligny>
-    <font>Font_Bartowski_Press_S</font>
+    <font>font16</font>
     <textcolor>ff000000</textcolor>
     <focusedcolor>white</focusedcolor>
     <colordiffuse>mainblue</colordiffuse>
@@ -860,7 +860,7 @@
     <textwidth>235</textwidth>
     <aligny>center</aligny>
     <focusedcolor>white</focusedcolor>
-    <font>Font_Neon_20</font>
+    <font>font13</font>
     <colordiffuse>mainblue</colordiffuse>
     <texturefocus>button-focus.png</texturefocus>
     <texturenofocus>-</texturenofocus>
@@ -892,7 +892,7 @@
       <width>1400</width>
       <height>35</height>
       <aligny>bottom</aligny>
-      <font>Font_RSS</font>
+      <font>font13</font>
       <textcolor>red</textcolor>
       <headlinecolor>white</headlinecolor>
       <highlightcolor>white</highlightcolor>
@@ -919,7 +919,7 @@
       <width>1260</width>
       <height>40</height>
       <aligny>bottom</aligny>
-      <font>Font_RSS_Unicode</font>
+      <font>font16</font>
       <textcolor>mainblue</textcolor>
       <headlinecolor>white</headlinecolor>
       <highlightcolor>white</highlightcolor>
@@ -951,7 +951,7 @@
     <width>400</width>
     <height>30</height>
     <align>left</align>
-    <font>Font_Bartowski_Smaller_MenuTitle</font>
+    <font>font13</font>
     <textoffsetx>10</textoffsetx>
     <textcolor>ff000000</textcolor>
     <focusedcolor>white</focusedcolor>
@@ -988,7 +988,7 @@
     <width>150</width>
     <height>30</height>
     <align>center</align>
-    <font>Font_Bartowski_Smaller_MenuTitle</font>
+    <font>font13</font>
     <textcolor>grey</textcolor>
     <focusedcolor>white</focusedcolor>
     <colordiffuse>mainblue</colordiffuse>
@@ -999,7 +999,7 @@
     <width>250</width>
     <height>32</height>
     <align>left</align>
-    <font>Font_Bartowski_Smaller_MenuTitle</font>
+    <font>font13</font>
     <textcolor>grey</textcolor>
     <textoffsetx>10</textoffsetx>
     <focusedcolor>white</focusedcolor>
@@ -1039,7 +1039,7 @@
     <height>30</height>
     <align>center</align>
     <textoffsetx>10</textoffsetx>
-    <font>Font_Bartowski_Smaller_MenuTitle</font>
+    <font>font13</font>
     <textcolor>ff000000</textcolor>
     <focusedcolor>white</focusedcolor>
     <colordiffuse>mainblue</colordiffuse>
@@ -1059,7 +1059,7 @@
     <radiotop>30</radiotop>
     <radioheight>7</radioheight>
     <radiowidth>100</radiowidth>
-    <font>Font_MenuValue</font>
+    <font>font30</font>
     <textcolor>MenuValue</textcolor>
     <textureradioon>common/radioUnderline.png</textureradioon>
     <textureradiooff>-</textureradiooff>
@@ -1071,7 +1071,7 @@
     <width>150</width>
     <height>30</height>
     <align>center</align>
-    <font>Font_Bartowski_Smaller_MenuTitle</font>
+    <font>font13</font>
     <textcolor>mainblue</textcolor>
     <!--<shadowcolor>black</shadowcolor>-->
     <aligny>bottom</aligny>
@@ -1082,7 +1082,7 @@
     <width>150</width>
     <height>30</height>
     <align>left</align>
-    <font>Font_Bartowski_Smaller_MenuTitle</font>
+    <font>font13</font>
     <textcolor>mainblue</textcolor>
     <!--<shadowcolor>black</shadowcolor>-->
     <aligny>bottom</aligny>
@@ -1093,7 +1093,7 @@
     <width>220</width>
     <height>30</height>
     <align>center</align>
-    <font>Font_Bartowski_Smaller_MenuTitle</font>
+    <font>font13</font>
     <textcolor>mainblue</textcolor>
     <!--<shadowcolor>black</shadowcolor>-->
     <aligny>bottom</aligny>
@@ -1149,7 +1149,7 @@
         <label>$INFO[MusicPlayer.Title]</label>
         <align>left</align>
         <aligny>center</aligny>
-        <font>Font_Neon_20</font>
+        <font>font13</font>
         <textcolor>white</textcolor>
         <shadowcolor>black</shadowcolor>
         <scrollout>false</scrollout>
@@ -1203,7 +1203,7 @@
         <label>$INFO[VideoPlayer.Title]</label>
         <align>left</align>
         <aligny>center</aligny>
-        <font>Font_Neon_20</font>
+        <font>font13</font>
         <textcolor>white</textcolor>
         <shadowcolor>black</shadowcolor>
         <scrollout>false</scrollout>
@@ -1245,7 +1245,7 @@
     <control type="label" id="202">
       <width>250</width>
       <height>35</height>
-      <font>font12caps</font>
+      <font>font12_title</font>
       <label>31023</label>
       <textcolor>mainblue</textcolor>
       <align>center</align>
@@ -1597,7 +1597,7 @@
       <label>$INFO[MusicPlayer.Artist]</label>
       <align>left</align>
       <aligny>center</aligny>
-      <font>Font_Neon_22</font>
+      <font>font14</font>
       <textcolor>grey2</textcolor>
       <shadowcolor>black</shadowcolor>
     </control>
@@ -1625,7 +1625,7 @@
       <label>$INFO[MusicPlayer.Album]$INFO[musicplayer.discnumber, - $LOCALIZE[427]:]</label>
       <align>left</align>
       <aligny>center</aligny>
-      <font>Font_Neon_20</font>
+      <font>font13</font>
       <textcolor>white</textcolor>
       <shadowcolor>black</shadowcolor>
     </control>
@@ -1638,7 +1638,7 @@
       <label>$INFO[MusicPlayer.Time]$INFO[MusicPlayer.Duration, / ]</label>
       <align>left</align>
       <aligny>center</aligny>
-      <font>Font_Neon_20</font>
+      <font>font13</font>
       <textcolor>white</textcolor>
       <shadowcolor>black</shadowcolor>
     </control>
@@ -1651,7 +1651,7 @@
       <label>[COLOR=blue]$LOCALIZE[209] :[/COLOR] $INFO[MusicPlayer.offset(1).Title]</label>
       <align>right</align>
       <aligny>center</aligny>
-      <font>Font_Neon_20</font>
+      <font>font13</font>
       <textcolor>grey</textcolor>
       <shadowcolor>black</shadowcolor>
     </control>
@@ -1685,7 +1685,7 @@
       <label>$INFO[VideoPlayer.Studio]</label>
       <align>left</align>
       <aligny>center</aligny>
-      <font>Font_Neon_22</font>
+      <font>font14</font>
       <textcolor>grey2</textcolor>
       <shadowcolor>black</shadowcolor>
       <visible>!videoplayer.content(episodes) + !videoplayer.content(musicvideos)</visible>
@@ -1699,7 +1699,7 @@
       <label>$INFO[VideoPlayer.tvshowtitle]</label>
       <align>left</align>
       <aligny>center</aligny>
-      <font>Font_Neon_22</font>
+      <font>font14</font>
       <textcolor>white</textcolor>
       <shadowcolor>black</shadowcolor>
       <visible>videoplayer.content(episodes)</visible>
@@ -1713,7 +1713,7 @@
       <label>$INFO[VideoPlayer.Artist]</label>
       <align>left</align>
       <aligny>center</aligny>
-      <font>Font_Neon_22</font>
+      <font>font14</font>
       <textcolor>white</textcolor>
       <shadowcolor>black</shadowcolor>
       <visible>videoplayer.content(musicvideos)</visible>
@@ -1744,7 +1744,7 @@
       <label>$INFO[VideoPlayer.Genre]</label>
       <align>left</align>
       <aligny>center</aligny>
-      <font>Font_Neon_20</font>
+      <font>font13</font>
       <textcolor>white</textcolor>
       <shadowcolor>black</shadowcolor>
       <visible>!videoplayer.content(episodes) + !videoplayer.content(musicvideos)</visible>
@@ -1757,7 +1757,7 @@
       <label>$INFO[VideoPlayer.Album]</label>
       <align>left</align>
       <aligny>center</aligny>
-      <font>Font_Neon_20</font>
+      <font>font13</font>
       <textcolor>white</textcolor>
       <shadowcolor>black</shadowcolor>
       <visible>videoplayer.content(musicvideos)</visible>
@@ -1771,7 +1771,7 @@
       <label>$LOCALIZE[20373] $INFO[VideoPlayer.Season] - $LOCALIZE[20359] $INFO[VideoPlayer.episode]</label>
       <align>left</align>
       <aligny>center</aligny>
-      <font>Font_Neon_20</font>
+      <font>font13</font>
       <textcolor>white</textcolor>
       <shadowcolor>black</shadowcolor>
       <visible>videoplayer.content(episodes)</visible>
@@ -1785,7 +1785,7 @@
       <label>$INFO[VideoPlayer.Time]$INFO[VideoPlayer.Duration, / ]</label>
       <align>left</align>
       <aligny>center</aligny>
-      <font>Font_Neon_20</font>
+      <font>font13</font>
       <textcolor>white</textcolor>
       <shadowcolor>black</shadowcolor>
     </control>
@@ -1796,7 +1796,7 @@
   <include name="Global_NextAired">
     <width>1020</width>
     <height>30</height>
-    <font>Font_RSS</font>
+    <font>font13</font>
     <textcolor>mainblue</textcolor>
     <align>center</align>
     <aligny>center</aligny>
@@ -1825,7 +1825,7 @@
         <height>60</height>
         <align>center</align>
         <aligny>center</aligny>
-        <font>Font_RSS</font>
+        <font>font13</font>
         <label>[COLOR=mainblue]$LOCALIZE[31523]:[/COLOR]  [COLOR=white]$INFO[Window(Home).Property(NextAired.NextTitle)][COLOR=red] - [/COLOR]$INFO[Window(Home).Property(NextAired.AirTime)][COLOR=red] - [/COLOR]$INFO[Window(Home).Property(NextAired.NextDate)][/COLOR]</label>
       </control>
     </control>
@@ -1853,11 +1853,11 @@
   </include>
   <include name="PVRSideBlade">
     <control type="group">
-      <left>-839</left>
+      <left>-246</left>
       <include>SideBladeLeft</include>
       <control type="image">
         <description>LOGO</description>
-        <left>579</left>
+        <left>0</left>
         <top>30</top>
         <width>220</width>
         <height>60</height>
@@ -1866,13 +1866,13 @@
         <texture>Neon.png</texture>
       </control>
       <control type="grouplist" id="7000">
-        <left>579</left>
+        <left>0</left>
         <top>130</top>
         <include>WindowMenuVars_Vertical</include>
         <control type="label" id="200">
           <width>250</width>
           <height>35</height>
-          <font>font12caps</font>
+          <font>font12_title</font>
           <label>$LOCALIZE[33063]</label>
           <textcolor>mainblue</textcolor>
           <align>center</align>
@@ -1940,7 +1940,7 @@
         <control type="label" id="201">
           <width>250</width>
           <height>35</height>
-          <font>font12caps</font>
+          <font>font12_title</font>
           <label>31513</label>
           <textcolor>mainblue</textcolor>
           <align>center</align>
@@ -1999,7 +1999,7 @@
         <control type="label" id="205">
           <width>250</width>
           <height>35</height>
-          <font>font12caps</font>
+          <font>font12_title</font>
           <label>31026</label>
           <textcolor>mainblue</textcolor>
           <align>center</align>

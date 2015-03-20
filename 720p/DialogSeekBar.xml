@@ -27,7 +27,7 @@
         <align>center</align>
         <aligny>center</aligny>
         <textcolor>red</textcolor>
-        <font>Font_RSS_Unicode</font>
+        <font>font16</font>
         <visible>[Player.Paused + Player.Caching] + !Player.Seeking</visible>
       </control>
     </control>
@@ -93,7 +93,7 @@
           <height>25</height>
           <label>"$INFO[VideoPlayer.Title]"</label>
           <textcolor>white</textcolor>
-          <font>Font_Neon_22</font>
+          <font>font14</font>
           <align>center</align>
           <animation type="Conditional" reversible="false" condition="Player.Paused" loop="true">
             <effect type="fade" start="0" end="100" time="500" delay="0" />
@@ -110,7 +110,7 @@
           <height>25</height>
           <label>"$INFO[VideoPlayer.Title]"</label>
           <textcolor>white</textcolor>
-          <font>Font_Neon_22</font>
+          <font>font14</font>
           <visible>Player.Paused + !Skin.HasSetting(no_global_clock)</visible>
           <align>center</align>
         </control>
@@ -121,7 +121,7 @@
           <height>25</height>
           <label>$LOCALIZE[31074]: [COLOR=mainblue]$INFO[System.Time][/COLOR] | $LOCALIZE[31075]: [COLOR=mainblue]$INFO[Player.FinishTime][/COLOR]</label>
           <textcolor>white</textcolor>
-          <font>Font_Neon_22</font>
+          <font>font14</font>
           <align>center</align>
           <visible>Player.Paused + Skin.HasSetting(no_global_clock)</visible>
           <animation type="Conditional" reversible="false" condition="Player.Paused" loop="true">
@@ -139,7 +139,7 @@
           <height>25</height>
           <label>$LOCALIZE[31074] [COLOR=mainblue]$INFO[System.Time][/COLOR] | $LOCALIZE[31075]: [COLOR=mainblue]$INFO[Player.FinishTime][/COLOR]</label>
           <textcolor>white</textcolor>
-          <font>Font_Neon_22</font>
+          <font>font14</font>
           <align>center</align>
           <visible>Player.Paused + Skin.HasSetting(no_global_clock)</visible>
           <animation effect="fade" start="100" end="0" time="0">windowclose</animation>
@@ -153,7 +153,7 @@
           <width>105</width>
           <height>25</height>
           <align>right</align>
-          <font>Font_RSS_Unicode</font>
+          <font>font16</font>
           <textcolor>mainblue</textcolor>
           <label>$INFO[VideoPlayer.Time]</label>
           <animation effect="slide" start="0,0" end="-10,0" time="0" tween="cubic" easing="inout" condition="VideoPlayer.Content(episodes) + ![IsEmpty(Control.GetLabel(7657)) + IsEmpty(Control.GetLabel(7658))]">Conditional</animation>
@@ -163,7 +163,7 @@
           <top>121</top>
           <width>105</width>
           <height>25</height>
-          <font>Font_RSS_Unicode</font>
+          <font>font16</font>
           <textcolor>mainblue</textcolor>
           <label>$INFO[VideoPlayer.Duration]</label>
           <animation effect="slide" start="0,0" end="-304,0" time="0" tween="cubic" easing="inout" condition="VideoPlayer.Content(episodes) + ![IsEmpty(Control.GetLabel(7657)) + IsEmpty(Control.GetLabel(7658))]">Conditional</animation>
@@ -263,7 +263,7 @@
         <label>$INFO[VideoPlayer.TVShowTitle]</label>
         <align>left</align>
         <aligny>center</aligny>
-        <font>Font_Bartowski_Title_TVShow</font>
+        <font>font30</font>
         <textcolor>mainblue</textcolor>
         <visible>VideoPlayer.Content(episodes)+ ![[Player.Paused + Player.Caching] + !Player.Seeking]</visible>
       </control>
@@ -275,7 +275,7 @@
         <label>$INFO[VideoPlayer.Title]</label>
         <align>left</align>
         <aligny>center</aligny>
-        <font>Font_Bartowski_Title_TVShow</font>
+        <font>font30</font>
         <textcolor>mainblue</textcolor>
         <visible>!VideoPlayer.Content(episodes)+ ![[Player.Paused + Player.Caching] + !Player.Seeking]</visible>
       </control>
@@ -287,7 +287,7 @@
         <label>$LOCALIZE[20373] $INFO[VideoPlayer.season]/$LOCALIZE[20359] $INFO[VideoPlayer.episode]</label>
         <align>left</align>
         <aligny>center</aligny>
-        <font>Font_Bartowski_Under_Pause</font>
+        <font>font14</font>
         <textcolor>white</textcolor>
         <visible>VideoPlayer.Content(episodes)+ ![[Player.Paused + Player.Caching] + !Player.Seeking]</visible>
       </control>
@@ -299,7 +299,7 @@
         <label>$INFO[VideoPlayer.Year]</label>
         <align>left</align>
         <aligny>center</aligny>
-        <font>Font_Bartowski_Under_Pause</font>
+        <font>font14</font>
         <textcolor>white</textcolor>
         <visible>VideoPlayer.Content(movies)+ ![[Player.Paused + Player.Caching] + !Player.Seeking]</visible>
       </control>
@@ -312,7 +312,7 @@
         <align>center</align>
         <!-- <label>[LOWERCASE]$LOCALIZE[112][/LOWERCASE]</label> -->
         <label>[B]=[/B]</label>
-        <font>Font_Neon_Pause</font>
+        <font>font30</font>
         <angle>90</angle>
         <textcolor>33ffffff</textcolor>
         <visible>Player.Paused + ![[Player.Paused + Player.Caching] + !Player.Seeking]</visible>
@@ -323,7 +323,7 @@
         <width>1920</width>
         <align>center</align>
         <label>FFx2</label>
-        <font>Font_Bartowski_BigMusic</font>
+        <font>font30</font>
         <textcolor>33ffffff</textcolor>
         <visible>Player.Forwarding2x + ![[Player.Paused + Player.Caching] + !Player.Seeking]</visible>
       </control>
@@ -333,7 +333,7 @@
         <width>1920</width>
         <align>center</align>
         <label>FFx4</label>
-        <font>Font_Bartowski_BigMusic</font>
+        <font>font30</font>
         <textcolor>33ffffff</textcolor>
         <visible>Player.Forwarding4x + ![[Player.Paused + Player.Caching] + !Player.Seeking]</visible>
       </control>
@@ -343,7 +343,7 @@
         <width>1920</width>
         <align>center</align>
         <label>FFx8</label>
-        <font>Font_Bartowski_BigMusic</font>
+        <font>font30</font>
         <textcolor>33ffffff</textcolor>
         <visible>Player.Forwarding8x + ![[Player.Paused + Player.Caching] + !Player.Seeking]</visible>
       </control>
@@ -353,7 +353,7 @@
         <width>1920</width>
         <align>center</align>
         <label>FFx16</label>
-        <font>Font_Bartowski_BigMusic</font>
+        <font>font30</font>
         <textcolor>33ffffff</textcolor>
         <visible>Player.Forwarding16x + ![[Player.Paused + Player.Caching] + !Player.Seeking]</visible>
       </control>
@@ -363,7 +363,7 @@
         <width>1920</width>
         <align>center</align>
         <label>FFx32</label>
-        <font>Font_Bartowski_BigMusic</font>
+        <font>font30</font>
         <textcolor>33ffffff</textcolor>
         <visible>Player.Forwarding32x + ![[Player.Paused + Player.Caching] + !Player.Seeking]</visible>
       </control>
@@ -373,7 +373,7 @@
         <width>1920</width>
         <align>center</align>
         <label>RWx2</label>
-        <font>Font_Bartowski_BigMusic</font>
+        <font>font30</font>
         <textcolor>33ffffff</textcolor>
         <visible>Player.Rewinding2x + ![[Player.Paused + Player.Caching] + !Player.Seeking]</visible>
       </control>
@@ -383,7 +383,7 @@
         <width>1920</width>
         <align>center</align>
         <label>RWx4</label>
-        <font>Font_Bartowski_BigMusic</font>
+        <font>font30</font>
         <textcolor>33ffffff</textcolor>
         <visible>Player.Rewinding4x + ![[Player.Paused + Player.Caching] + !Player.Seeking]</visible>
       </control>
@@ -393,7 +393,7 @@
         <width>1920</width>
         <align>center</align>
         <label>RWx8</label>
-        <font>Font_Bartowski_BigMusic</font>
+        <font>font30</font>
         <textcolor>33ffffff</textcolor>
         <visible>Player.Rewinding8x + ![[Player.Paused + Player.Caching] + !Player.Seeking]</visible>
       </control>
@@ -403,7 +403,7 @@
         <width>1920</width>
         <align>center</align>
         <label>RWx16</label>
-        <font>Font_Bartowski_BigMusic</font>
+        <font>font30</font>
         <textcolor>33ffffff</textcolor>
         <visible>Player.Rewinding16x + ![[Player.Paused + Player.Caching] + !Player.Seeking]</visible>
       </control>
@@ -413,7 +413,7 @@
         <width>1920</width>
         <align>center</align>
         <label>RWx32</label>
-        <font>Font_Bartowski_BigMusic</font>
+        <font>font30</font>
         <textcolor>33ffffff</textcolor>
         <visible>Player.Rewinding32x + ![[Player.Paused + Player.Caching] + !Player.Seeking]</visible>
       </control>
@@ -433,7 +433,7 @@
         <label>[COLOR=mainblue]IMDB:[/COLOR] $INFO[VideoPlayer.RatingAndVotes ]</label>
         <align>right</align>
         <aligny>center</aligny>
-        <font>Font_Bartowski_Movies</font>
+        <font>font13</font>
         <textcolor>ffffffff</textcolor>
         <visible>VideoPlayer.Content(movies)+ ![[Player.Paused + Player.Caching] + !Player.Seeking]</visible>
       </control>
@@ -445,7 +445,7 @@
         <label>[COLOR=mainblue]Directed by:[/COLOR] $INFO[VideoPlayer.Director]</label>
         <align>right</align>
         <aligny>center</aligny>
-        <font>Font_Bartowski_Movies</font>
+        <font>font13</font>
         <textcolor>ffffffff</textcolor>
         <visible>VideoPlayer.Content(movies)+ ![[Player.Paused + Player.Caching] + !Player.Seeking]</visible>
       </control>
@@ -457,7 +457,7 @@
         <label>[COLOR=mainblue]Chapter Name:[/COLOR] $INFO[Player.ChapterName]</label>
         <align>right</align>
         <aligny>center</aligny>
-        <font>Font_Bartowski_Movies</font>
+        <font>font13</font>
         <textcolor>ffffffff</textcolor>
         <visible>VideoPlayer.Content(movies)+ Player.ChapterChapterName +![[Player.Paused + Player.Caching] + !Player.Seeking]</visible>
       </control>
@@ -469,7 +469,7 @@
         <label>$INFO[Player.Chapter,[COLOR=mainblue]$LOCALIZE[21396]:[/COLOR] ]$INFO[Player.ChapterCount, / ]</label>
         <align>right</align>
         <aligny>center</aligny>
-        <font>Font_Bartowski_Movies</font>
+        <font>font13</font>
         <textcolor>ffffffff</textcolor>
         <visible>VideoPlayer.Content(movies) + Player.ChapterCount + ![[Player.Paused + Player.Caching] + !Player.Seeking]</visible>
       </control>
@@ -481,7 +481,7 @@
         <label>[COLOR=mainblue]$LOCALIZE[31226]:[/COLOR] $INFO[VideoPlayer.mpaa]</label>
         <align>right</align>
         <aligny>center</aligny>
-        <font>Font_Bartowski_Movies</font>
+        <font>font13</font>
         <textcolor>ffffffff</textcolor>
         <visible>VideoPlayer.Content(movies) + !Player.ChapterCount + ![[Player.Paused + Player.Caching] + !Player.Seeking]</visible>
       </control>

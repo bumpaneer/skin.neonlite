@@ -42,7 +42,7 @@
         <height>60</height>
         <textoffsety>13</textoffsety>
         <label>186</label>
-        <font>font24caps_title</font>
+        <font>font28_title</font>
         <textcolor>grey3</textcolor>
         <focusedcolor>white</focusedcolor>
         <textoffsetx>10</textoffsetx>
@@ -105,7 +105,7 @@
         <textoffsetx>13</textoffsetx>
         <width>380</width>
         <height>35</height>
-        <font>Font_Neon_20</font>
+        <font>font13</font>
         <textcolor>white</textcolor>
         <focusedcolor>white</focusedcolor>
         <shadowcolor>black</shadowcolor>
@@ -128,7 +128,7 @@
         <textoffsetx>13</textoffsetx>
         <width>380</width>
         <height>35</height>
-        <font>Font_Neon_20</font>
+        <font>font13</font>
         <textcolor>white</textcolor>
         <focusedcolor>white</focusedcolor>
         <shadowcolor>black</shadowcolor>
@@ -148,7 +148,7 @@
         <textoffsetx>13</textoffsetx>
         <width>380</width>
         <height>35</height>
-        <font>Font_Neon_20</font>
+        <font>font13</font>
         <textcolor>white</textcolor>
         <focusedcolor>white</focusedcolor>
         <colordiffuse>mainblue</colordiffuse>
@@ -176,7 +176,7 @@
         <textoffsetx>13</textoffsetx>
         <width>380</width>
         <height>35</height>
-        <font>Font_Neon_20</font>
+        <font>font13</font>
         <textcolor>white</textcolor>
         <focusedcolor>white</focusedcolor>
         <shadowcolor>black</shadowcolor>
@@ -199,7 +199,7 @@
         <textoffsetx>13</textoffsetx>
         <width>380</width>
         <height>35</height>
-        <font>Font_Neon_20</font>
+        <font>font13</font>
         <textcolor>white</textcolor>
         <focusedcolor>white</focusedcolor>
         <colordiffuse>mainblue</colordiffuse>
@@ -218,7 +218,7 @@
         <textoffsetx>13</textoffsetx>
         <width>380</width>
         <height>35</height>
-        <font>Font_Neon_20</font>
+        <font>font13</font>
         <textcolor>white</textcolor>
         <focusedcolor>white</focusedcolor>
         <shadowcolor>black</shadowcolor>
@@ -241,7 +241,7 @@
         <textoffsetx>13</textoffsetx>
         <width>380</width>
         <height>35</height>
-        <font>Font_Neon_20</font>
+        <font>font13</font>
         <textcolor>white</textcolor>
         <focusedcolor>white</focusedcolor>
         <colordiffuse>mainblue</colordiffuse>
@@ -261,7 +261,7 @@
         <textoffsetx>13</textoffsetx>
         <width>380</width>
         <height>35</height>
-        <font>Font_Neon_20</font>
+        <font>font13</font>
         <textcolor>white</textcolor>
         <focusedcolor>white</focusedcolor>
         <colordiffuse>mainblue</colordiffuse>
@@ -281,7 +281,7 @@
         <textoffsetx>13</textoffsetx>
         <width>380</width>
         <height>35</height>
-        <font>Font_Neon_20</font>
+        <font>font13</font>
         <textcolor>white</textcolor>
         <focusedcolor>white</focusedcolor>
         <colordiffuse>mainblue</colordiffuse>
@@ -302,7 +302,7 @@
         <textoffsetx>13</textoffsetx>
         <width>380</width>
         <height>35</height>
-        <font>Font_Neon_20</font>
+        <font>font13</font>
         <textcolor>white</textcolor>
         <focusedcolor>white</focusedcolor>
         <colordiffuse>mainblue</colordiffuse>
@@ -370,7 +370,7 @@
             <top>0</top>
             <width>50</width>
             <height>35</height>
-            <font>Font_Neon_20</font>
+            <font>font13</font>
             <align>left</align>
             <aligny>center</aligny>
             <textcolor>gray</textcolor>
@@ -383,7 +383,7 @@
             <top>0</top>
             <width>50</width>
             <height>35</height>
-            <font>Font_Neon_20</font>
+            <font>font13</font>
             <align>left</align>
             <aligny>center</aligny>
             <textcolor>white</textcolor>
@@ -396,7 +396,7 @@
             <top>0</top>
             <width>190</width>
             <height>35</height>
-            <font>Font_Neon_20</font>
+            <font>font13</font>
             <align>left</align>
             <aligny>center</aligny>
             <textcolor>gray</textcolor>
@@ -409,7 +409,7 @@
             <top>0</top>
             <width>190</width>
             <height>35</height>
-            <font>Font_Neon_20</font>
+            <font>font13</font>
             <align>left</align>
             <aligny>center</aligny>
             <textcolor>white</textcolor>
@@ -458,7 +458,7 @@
             <top>0</top>
             <width>50</width>
             <height>35</height>
-            <font>Font_Neon_20</font>
+            <font>font13</font>
             <align>left</align>
             <aligny>center</aligny>
             <textcolor>gray</textcolor>
@@ -471,7 +471,7 @@
             <top>0</top>
             <width>50</width>
             <height>35</height>
-            <font>Font_Neon_20</font>
+            <font>font13</font>
             <align>left</align>
             <aligny>center</aligny>
             <textcolor>white</textcolor>
@@ -484,7 +484,7 @@
             <top>0</top>
             <width>190</width>
             <height>35</height>
-            <font>Font_Neon_20</font>
+            <font>font13</font>
             <align>left</align>
             <aligny>center</aligny>
             <textcolor>gray</textcolor>
@@ -497,7 +497,7 @@
             <top>0</top>
             <width>190</width>
             <height>35</height>
-            <font>Font_Neon_20</font>
+            <font>font13</font>
             <align>left</align>
             <aligny>center</aligny>
             <textcolor>white</textcolor>
@@ -548,7 +548,7 @@
         <top>600</top>
         <width>500</width>
         <height>20</height>
-        <font>Font_Neon_20</font>
+        <font>font13</font>
         <textcolor>grey</textcolor>
         <scroll>false</scroll>
         <align>right</align>
@@ -576,7 +576,7 @@
         <top>20</top>
         <width>740</width>
         <height>30</height>
-        <font>font16caps</font>
+        <font>font24_title</font>
         <label>$LOCALIZE[19199] - $LOCALIZE[19023]</label>
         <align>left</align>
         <aligny>center</aligny>
@@ -590,7 +590,7 @@
         <top>20</top>
         <width>740</width>
         <height>30</height>
-        <font>font16caps</font>
+        <font>font24_title</font>
         <label>$LOCALIZE[19199] - $LOCALIZE[19024]</label>
         <align>left</align>
         <aligny>center</aligny>

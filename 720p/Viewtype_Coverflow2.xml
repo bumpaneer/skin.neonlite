@@ -2767,7 +2767,7 @@
           <scrollout>false</scrollout>
           <pauseatend>600</pauseatend>
           <scrollspeed>20</scrollspeed>
-          <font>Font_ShowcaseTitle</font>
+          <font>font24_title</font>
           <textcolor>LandscapeTitle</textcolor>
           <label>[B]$INFO[ListItem.Label][/B]</label>
           <visible>[Container.Content(movies) + Skin.HasSetting(HideMovieWatchedOverlays)] | [!Container.Content(movies) + Skin.HasSetting(HideTVWatchedOverlays)] | !stringcompare(ListItem.Overlay,OverlayWatched.png)</visible>
@@ -2783,7 +2783,7 @@
           <scrollout>false</scrollout>
           <pauseatend>600</pauseatend>
           <scrollspeed>20</scrollspeed>
-          <font>Font_ShowcaseTitle</font>
+          <font>font24_title</font>
           <textcolor>LandscapeTitle</textcolor>
           <label>[B]$INFO[ListItem.Label][/B]  ‡</label>
           <visible>[Container.Content(movies) + !Skin.HasSetting(HideMovieWatchedOverlays) + stringcompare(ListItem.Overlay,OverlayWatched.png)] | [!Container.Content(movies) + !Skin.HasSetting(HideTVWatchedOverlays) + stringcompare(ListItem.Overlay,OverlayWatched.png)]</visible>
@@ -2795,7 +2795,7 @@
           <height>50</height>
           <align>center</align>
           <aligny>center</aligny>
-          <font>Font_LandscapeLabel</font>
+          <font>font13</font>
           <textcolor>LandscapeTitle</textcolor>
           <label>[B]$INFO[ListItem.Genre][/B]</label>
           <visible>!IsEmpty(ListItem.Genre)</visible>
@@ -2807,7 +2807,7 @@
           <height>50</height>
           <align>center</align>
           <aligny>center</aligny>
-          <font>Font_LandscapeLabel</font>
+          <font>font13</font>
           <textcolor>LandscapeTitle</textcolor>
           <label>$LOCALIZE[31313]</label>
           <visible>IsEmpty(ListItem.Genre) + Container.Content(movies) + IsEmpty(ListItem.foldername) + !StringCompare(ListItem.Label,..)</visible>

@@ -303,7 +303,7 @@
         <width>1200</width>
         <height>50</height>
         <aligny>center</aligny>
-        <font>Font_Neon_50</font>
+        <font>font30</font>
         <textcolor>mainblue</textcolor>
         <label>$INFO[ListItem.TVShowTitle]</label>
         <include>Animation_Viewtype_3dland_Lefttop</include>
@@ -321,7 +321,7 @@
         <width>604</width>
         <height>50</height>
         <aligny>center</aligny>
-        <font>Font_TVShow</font>
+        <font>font16</font>
         <textcolor>ffffffff</textcolor>
         <label>$LOCALIZE[20373] $INFO[ListItem.Season]/$LOCALIZE[20359] $INFO[ListItem.Episode]</label>
       </control>
@@ -331,7 +331,7 @@
         <width>604</width>
         <height>50</height>
         <aligny>center</aligny>
-        <font>Font_TVShow</font>
+        <font>font16</font>
         <textcolor>ffffffff</textcolor>
         <label>$LOCALIZE[31231]: $INFO[ListItem.Date]</label>
       </control>
@@ -349,7 +349,7 @@
         <top>-4</top>
         <width>630</width>
         <height>89</height>
-        <font>Font_Neon_26</font>
+        <font>font16</font>
         <textcolor>white</textcolor>
         <label>$LOCALIZE[20373] $INFO[ListItem.season]</label>
       </control>
@@ -359,7 +359,7 @@
         <top>0</top>
         <width>630</width>
         <height>89</height>
-        <font>Font_TVShow</font>
+        <font>font16</font>
         <label>[COLOR=ListTrackF]$LOCALIZE[515][/COLOR] [COLOR=white]$INFO[ListItem.Genre][/COLOR]</label>
       </control>
       <control type="label">
@@ -368,7 +368,7 @@
         <top>30</top>
         <width>630</width>
         <height>89</height>
-        <font>Font_TVShow</font>
+        <font>font16</font>
         <label>[COLOR=ListTrackF]$LOCALIZE[31231][/COLOR] [COLOR=white]$INFO[ListItem.Date][/COLOR]</label>
       </control>
       <control type="label">
@@ -377,7 +377,7 @@
         <top>60</top>
         <width>630</width>
         <height>89</height>
-        <font>Font_TVShow</font>
+        <font>font16</font>
         <label>[COLOR=ListTrackF]$LOCALIZE[368][/COLOR] [COLOR=white]$INFO[ListItem.Rating][/COLOR]      [COLOR=ListTrackF]$LOCALIZE[31226][/COLOR] [COLOR=white]$INFO[ListItem.mpaa][/COLOR]</label>
       </control>
       <include>Poster_Next_Aired</include>

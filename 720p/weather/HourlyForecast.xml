@@ -10,7 +10,7 @@
         <top>15</top>
         <width>610</width>
         <height>30</height>
-        <font>Font_Neon_28</font>
+        <font>font16</font>
         <label>[B]$LOCALIZE[31902][/B]</label>
         <align>center</align>
         <aligny>center</aligny>
@@ -42,7 +42,7 @@
             <top>0</top>
             <width>100</width>
             <height>120</height>
-            <font>Font_Neon_20</font>
+            <font>font13</font>
             <textcolor>white</textcolor>
             <selectedcolor>selected</selectedcolor>
             <align>center</align>
@@ -62,7 +62,7 @@
             <top>5</top>
             <width>390</width>
             <height>70</height>
-            <font>Font_Neon_20</font>
+            <font>font13</font>
             <textcolor>white</textcolor>
             <selectedcolor>selected</selectedcolor>
             <align>right</align>
@@ -74,7 +74,7 @@
             <top>82</top>
             <width>590</width>
             <height>48</height>
-            <font>Font_Neon_20</font>
+            <font>font13</font>
             <textcolor>white</textcolor>
             <selectedcolor>selected</selectedcolor>
             <align>center</align>
@@ -106,7 +106,7 @@
             <top>0</top>
             <width>100</width>
             <height>120</height>
-            <font>Font_Neon_20</font>
+            <font>font13</font>
             <textcolor>white</textcolor>
             <selectedcolor>selected</selectedcolor>
             <align>center</align>
@@ -126,7 +126,7 @@
             <top>5</top>
             <width>390</width>
             <height>70</height>
-            <font>Font_Neon_20</font>
+            <font>font13</font>
             <textcolor>white</textcolor>
             <selectedcolor>selected</selectedcolor>
             <align>right</align>
@@ -138,7 +138,7 @@
             <top>82</top>
             <width>590</width>
             <height>48</height>
-            <font>Font_Neon_20</font>
+            <font>font13</font>
             <textcolor>white</textcolor>
             <selectedcolor>selected</selectedcolor>
             <align>center</align>

@@ -102,7 +102,7 @@
             <width>300</width>
             <height>50</height>
             <align>center</align>
-            <font>Font_Neon_18</font>
+            <font>fontContextMenu</font>
             <textcolor>white</textcolor>
             <label>$INFO[ListItem.Label]</label>
             <animation effect="fade" start="60" end="60" time="0" condition="stringcompare(ListItem.Overlay,OverlayWatched.png)">Conditional</animation>
@@ -115,7 +115,7 @@
             <width>294</width>
             <height>50</height>
             <align>center</align>
-            <font>Font_Neon_18</font>
+            <font>fontContextMenu</font>
             <textcolor>white</textcolor>
             <label>$INFO[ListItem.Label]</label>
             <animation effect="rotatex" start="180" end="180" center="330" time="0" condition="true">Conditional</animation>
@@ -303,7 +303,7 @@
             <width>392</width>
             <height>50</height>
             <align>center</align>
-            <font>Font_Neon_22</font>
+            <font>font14</font>
             <textcolor>white</textcolor>
             <label>$INFO[ListItem.Label]</label>
             <animation effect="fade" start="60" end="60" time="0" condition="stringcompare(ListItem.Overlay,OverlayWatched.png)">Conditional</animation>
@@ -319,7 +319,7 @@
             <width>392</width>
             <height>50</height>
             <align>center</align>
-            <font>Font_Neon_22</font>
+            <font>font14</font>
             <textcolor>white</textcolor>
             <label>$INFO[ListItem.Label]</label>
             <animation effect="rotatex" start="180" end="180" center="350" time="0" condition="true">Conditional</animation>
@@ -404,7 +404,7 @@
           <width>1200</width>
           <height>50</height>
           <aligny>center</aligny>
-          <font>Font_Neon_40</font>
+          <font>font30</font>
           <textcolor>mainblue</textcolor>
           <label>$INFO[ListItem.TVShowTitle]</label>
           <visible>[Container.Content(episodes) + IsEmpty(Control.GetLabel(7018)) + IsEmpty(Control.GetLabel(9018))] | [[Container.Content(tvshows) | Container.Content(seasons)] + IsEmpty(Control.GetLabel(7018))]</visible>
@@ -416,7 +416,7 @@
           <width>230</width>
           <height>89</height>
           <align>center</align>
-          <font>Font_Neon_22</font>
+          <font>font14</font>
           <textcolor>white</textcolor>
           <label>$INFO[ListItem.Label]</label>
           <animation effect="slide" start="0,0" end="0,-40" time="0" condition="IsEmpty(Control.GetLabel(7018))">Conditional</animation>
@@ -433,7 +433,7 @@
           <width>1200</width>
           <height>50</height>
           <aligny>center</aligny>
-          <font>Font_Neon_34</font>
+          <font>font30</font>
           <textcolor>mainblue</textcolor>
           <label>$INFO[ListItem.Label]</label>
         </control>
@@ -442,7 +442,7 @@
           <top>40</top>
           <width>630</width>
           <height>89</height>
-          <font>Font_Neon_22</font>
+          <font>font14</font>
           <label>[COLOR=ListTrackF]$LOCALIZE[515][/COLOR] [COLOR=white]$INFO[ListItem.Genre][/COLOR]</label>
         </control>
         <control type="label">
@@ -450,7 +450,7 @@
           <top>64</top>
           <width>630</width>
           <height>89</height>
-          <font>Font_Neon_22</font>
+          <font>font14</font>
           <label>[COLOR=ListTrackF]$LOCALIZE[345][/COLOR] [COLOR=white]$INFO[ListItem.Year][/COLOR]</label>
           <visible>!IsEmpty(ListItem.Year)</visible>
         </control>
@@ -462,7 +462,7 @@
           <height>232</height>
           <align>justify</align>
           <info>ListItem.Plot</info>
-          <font>Font_Neon_20</font>
+          <font>font13</font>
           <textcolor>white</textcolor>
           <autoscroll time="3000" delay="5000" repeat="5000">Skin.HasSetting(autoscroll)</autoscroll>
           <animation effect="slide" start="0,0" end="0,-26" time="0" condition="IsEmpty(ListItem.Year)">Conditional</animation>
@@ -482,7 +482,7 @@
           <width>604</width>
           <height>50</height>
           <aligny>center</aligny>
-          <font>Font_Neon_22</font>
+          <font>font14</font>
           <textcolor>white</textcolor>
           <label>$LOCALIZE[20373] $INFO[ListItem.Season]/$LOCALIZE[20359] $INFO[ListItem.Episode]</label>
           <animation effect="slide" start="0,0" end="0,-50" time="0" condition="IsEmpty(Control.GetLabel(7018)) + IsEmpty(Control.GetLabel(9018))">Conditional</animation>
@@ -493,7 +493,7 @@
           <width>604</width>
           <height>50</height>
           <aligny>center</aligny>
-          <font>Font_Neon_22</font>
+          <font>font14</font>
           <textcolor>white</textcolor>
           <label>$LOCALIZE[31231]: $INFO[ListItem.Date]</label>
           <animation effect="slide" start="0,0" end="0,-50" time="0" condition="IsEmpty(Control.GetLabel(7018)) + IsEmpty(Control.GetLabel(9018))">Conditional</animation>
@@ -506,7 +506,7 @@
           <height>232</height>
           <align>justify</align>
           <info>ListItem.Plot</info>
-          <font>Font_Neon_20</font>
+          <font>font13</font>
           <textcolor>white</textcolor>
           <autoscroll time="3000" delay="5000" repeat="5000">Skin.HasSetting(autoscroll)</autoscroll>
         </control>
@@ -523,7 +523,7 @@
           <top>-4</top>
           <width>630</width>
           <height>89</height>
-          <font>Font_Neon_20</font>
+          <font>font13</font>
           <textcolor>white</textcolor>
           <label>$LOCALIZE[20373] $INFO[ListItem.season]</label>
         </control>
@@ -533,7 +533,7 @@
           <top>0</top>
           <width>630</width>
           <height>89</height>
-          <font>Font_Neon_22</font>
+          <font>font14</font>
           <label>[COLOR=ListTrackF]$LOCALIZE[515][/COLOR] [COLOR=white]$INFO[ListItem.Genre][/COLOR]</label>
         </control>
         <control type="label">
@@ -542,7 +542,7 @@
           <top>30</top>
           <width>630</width>
           <height>89</height>
-          <font>Font_Neon_22</font>
+          <font>font14</font>
           <label>[COLOR=ListTrackF]$LOCALIZE[31231][/COLOR] [COLOR=white]$INFO[ListItem.Date][/COLOR]</label>
         </control>
         <control type="label">
@@ -551,7 +551,7 @@
           <top>60</top>
           <width>630</width>
           <height>89</height>
-          <font>Font_Neon_22</font>
+          <font>font14</font>
           <label>[COLOR=ListTrackF]$LOCALIZE[368][/COLOR] [COLOR=white]$INFO[ListItem.Rating][/COLOR]      [COLOR=ListTrackF]$LOCALIZE[31226][/COLOR] [COLOR=white]$INFO[ListItem.mpaa][/COLOR]</label>
         </control>
         <include>Poster_Next_Aired</include>

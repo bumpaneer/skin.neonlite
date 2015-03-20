@@ -81,7 +81,7 @@
           <width>300</width>
           <height>25</height>
           <align>right</align>
-          <font>Font_RSS_Unicode</font>
+          <font>font16</font>
           <textcolor>mainblue</textcolor>
           <label>$INFO[VideoPlayer.Time]</label>
           <visible>!Skin.HasSetting(no_global_clock)</visible>
@@ -92,7 +92,7 @@
           <width>300</width>
           <height>25</height>
           <align>left</align>
-          <font>Font_Neon_22</font>
+          <font>font14</font>
           <textcolor>mainblue</textcolor>
           <label>$INFO[VideoPlayer.Time]</label>
           <visible>Skin.HasSetting(no_global_clock)</visible>
@@ -103,7 +103,7 @@
           <width>300</width>
           <height>25</height>
           <align>left</align>
-          <font>Font_RSS_Unicode</font>
+          <font>font16</font>
           <textcolor>mainblue</textcolor>
           <label>$INFO[VideoPlayer.Duration]</label>
           <visible>!Skin.HasSetting(no_global_clock)</visible>
@@ -113,7 +113,7 @@
           <top>133</top>
           <width>300</width>
           <height>25</height>
-          <font>Font_Neon_22</font>
+          <font>font14</font>
           <textcolor>mainblue</textcolor>
           <label>$INFO[VideoPlayer.Duration]</label>
           <visible>Skin.HasSetting(no_global_clock)</visible>
@@ -136,7 +136,7 @@
             <label>$INFO[VideoPlayer.Title]</label>
             <align>left</align>
             <aligny>center</aligny>
-            <font>Font_Bartowski_Title_Movie</font>
+            <font>font30</font>
             <textcolor>mainblue</textcolor>
             <visible>VideoPlayer.Content(episodes)</visible>
           </control>
@@ -148,7 +148,7 @@
             <label>$INFO[VideoPlayer.Title]</label>
             <align>left</align>
             <aligny>center</aligny>
-            <font>Font_Bartowski_Title_Movie</font>
+            <font>font30</font>
             <textcolor>mainblue</textcolor>
             <visible>VideoPlayer.Content(movies)</visible>
           </control>
@@ -160,7 +160,7 @@
             <label>$INFO[VideoPlayer.Title]</label>
             <align>left</align>
             <aligny>center</aligny>
-            <font>Font_Bartowski_Title_Movie</font>
+            <font>font30</font>
             <textcolor>mainblue</textcolor>
             <visible>![VideoPlayer.Content(episodes) | VideoPlayer.Content(movies)]</visible>
           </control>
@@ -172,7 +172,7 @@
             <label>$INFO[VideoPlayer.Year]</label>
             <align>left</align>
             <aligny>center</aligny>
-            <font>Font_Bartowski_Under_Pause</font>
+            <font>font14</font>
             <textcolor>ffffffff</textcolor>
             <visible>VideoPlayer.Content(movies)</visible>
           </control>
@@ -184,7 +184,7 @@
             <label>[COLOR=mainblue]IMDB:[/COLOR] $INFO[VideoPlayer.RatingAndVotes ]</label>
             <align>right</align>
             <aligny>center</aligny>
-            <font>Font_Bartowski_Movies</font>
+            <font>font13</font>
             <textcolor>ffffffff</textcolor>
             <visible>VideoPlayer.Content(movies)</visible>
           </control>
@@ -196,7 +196,7 @@
             <label>[COLOR=mainblue]Directed by:[/COLOR] $INFO[VideoPlayer.Director]</label>
             <align>right</align>
             <aligny>center</aligny>
-            <font>Font_Bartowski_Movies</font>
+            <font>font13</font>
             <textcolor>ffffffff</textcolor>
             <visible>VideoPlayer.Content(movies) + !Player.ChapterName</visible>
           </control>
@@ -208,7 +208,7 @@
             <label>$INFO[Player.Chapter,[COLOR=mainblue]$LOCALIZE[21396]:[/COLOR] ]$INFO[Player.ChapterCount, / ] [COLOR=mainblue]-[/COLOR] $INFO[Player.ChapterName]</label>
             <align>right</align>
             <aligny>center</aligny>
-            <font>Font_Bartowski_Movies</font>
+            <font>font13</font>
             <textcolor>ffffffff</textcolor>
             <visible>Player.ChapterCount</visible>
           </control>
@@ -220,7 +220,7 @@
             <label>[COLOR=mainblue]$LOCALIZE[31226]:[/COLOR] $INFO[VideoPlayer.mpaa]</label>
             <align>right</align>
             <aligny>center</aligny>
-            <font>Font_Bartowski_Movies</font>
+            <font>font13</font>
             <textcolor>ffffffff</textcolor>
             <!--<scroll>true</scroll>
           <scrollspeed>30</scrollspeed> -->
@@ -234,7 +234,7 @@
             <label>$LOCALIZE[20359] $INFO[VideoPlayer.Season]x$INFO[VideoPlayer.Episode]</label>
             <align>left</align>
             <aligny>center</aligny>
-            <font>Font_Bartowski_Under_Pause</font>
+            <font>font14</font>
             <textcolor>ffffffff</textcolor>
             <visible>VideoPlayer.Content(episodes)</visible>
           </control>
@@ -246,7 +246,7 @@
           <height>25</height>
           <label>[COLOR=mainblue]$LOCALIZE[31075]:[/COLOR] $INFO[Player.FinishTime]</label>
           <textcolor>ffffffff</textcolor>
-          <font>Font_Neon_22</font>
+          <font>font14</font>
           <align>right</align>
           <animation effect="fade" start="100" end="0" time="0">windowclose</animation>
           <visible>Skin.HasSetting(no_global_clock)</visible>
@@ -258,7 +258,7 @@
           <height>25</height>
           <label>[COLOR=mainblue]$LOCALIZE[31074][/COLOR] $INFO[System.Time]</label>
           <textcolor>ffffffff</textcolor>
-          <font>Font_Neon_22</font>
+          <font>font14</font>
           <align>right</align>
           <animation effect="fade" start="100" end="0" time="0">windowclose</animation>
           <visible>Skin.HasSetting(no_global_clock)</visible>
@@ -308,7 +308,7 @@
           <top>133</top>
           <width>225</width>
           <height>20</height>
-          <font>Font_Neon_22</font>
+          <font>font14</font>
           <align>center</align>
           <textcolor>mainblue</textcolor>
           <visible>VideoPlayer.Content(episodes)+ ![[Player.Paused + Player.Caching] + !Player.Seeking]</visible>
@@ -331,7 +331,7 @@
           <top>80</top>
           <width>150</width>
           <height>20</height>
-          <font>Font_Neon_22</font>
+          <font>font14</font>
           <align>center</align>
           <textcolor>mainblue</textcolor>
           <visible>VideoPlayer.Content(episodes)+ ![[Player.Paused + Player.Caching] + !Player.Seeking]</visible>
@@ -342,7 +342,7 @@
           <top>105</top>
           <width>150</width>
           <height>20</height>
-          <font>Font_Neon_22</font>
+          <font>font14</font>
           <align>center</align>
           <textcolor>white</textcolor>
           <visible>VideoPlayer.Content(episodes)+ ![[Player.Paused + Player.Caching] + !Player.Seeking]</visible>

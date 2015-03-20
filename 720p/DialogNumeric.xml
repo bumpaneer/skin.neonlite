@@ -50,7 +50,7 @@
         <top>70</top>
         <width>250</width>
         <height>50</height>
-        <font>Font_Neon_20</font>
+        <font>font13</font>
         <textcolor>selected</textcolor>
         <disabledcolor>grey2</disabledcolor>
         <align>center</align>
@@ -71,7 +71,7 @@
         <top>20</top>
         <width>280</width>
         <height>40</height>
-        <font>Font_Neon_20</font>
+        <font>font13</font>
         <textcolor>white</textcolor>
         <shadowcolor>black</shadowcolor>
         <align>center</align>
@@ -96,7 +96,7 @@
           <top>0</top>
           <width>60</width>
           <height>60</height>
-          <font>Font_Neon_20</font>
+          <font>font13</font>
           <align>center</align>
           <aligny>center</aligny>
           <colordiffuse>mainblue</colordiffuse>
@@ -115,7 +115,7 @@
           <top>0</top>
           <width>60</width>
           <height>60</height>
-          <font>Font_Neon_20</font>
+          <font>font13</font>
           <align>center</align>
           <aligny>center</aligny>
           <colordiffuse>mainblue</colordiffuse>
@@ -134,7 +134,7 @@
           <top>0</top>
           <width>60</width>
           <height>60</height>
-          <font>Font_Neon_20</font>
+          <font>font13</font>
           <align>center</align>
           <aligny>center</aligny>
           <colordiffuse>mainblue</colordiffuse>
@@ -153,7 +153,7 @@
           <top>0</top>
           <width>60</width>
           <height>120</height>
-          <font>Font_Neon_16</font>
+          <font>font12</font>
           <align>center</align>
           <aligny>center</aligny>
           <colordiffuse>mainblue</colordiffuse>
@@ -174,7 +174,7 @@
           <top>60</top>
           <width>60</width>
           <height>60</height>
-          <font>Font_Neon_20</font>
+          <font>font13</font>
           <align>center</align>
           <aligny>center</aligny>
           <colordiffuse>mainblue</colordiffuse>
@@ -193,7 +193,7 @@
           <top>60</top>
           <width>60</width>
           <height>60</height>
-          <font>Font_Neon_20</font>
+          <font>font13</font>
           <align>center</align>
           <aligny>center</aligny>
           <colordiffuse>mainblue</colordiffuse>
@@ -212,7 +212,7 @@
           <top>60</top>
           <width>60</width>
           <height>60</height>
-          <font>Font_Neon_20</font>
+          <font>font13</font>
           <align>center</align>
           <aligny>center</aligny>
           <colordiffuse>mainblue</colordiffuse>
@@ -231,7 +231,7 @@
           <top>120</top>
           <width>60</width>
           <height>60</height>
-          <font>Font_Neon_20</font>
+          <font>font13</font>
           <align>center</align>
           <aligny>center</aligny>
           <colordiffuse>mainblue</colordiffuse>
@@ -250,7 +250,7 @@
           <top>120</top>
           <width>60</width>
           <height>60</height>
-          <font>Font_Neon_20</font>
+          <font>font13</font>
           <align>center</align>
           <aligny>center</aligny>
           <colordiffuse>mainblue</colordiffuse>
@@ -269,7 +269,7 @@
           <top>120</top>
           <width>60</width>
           <height>60</height>
-          <font>Font_Neon_20</font>
+          <font>font13</font>
           <align>center</align>
           <aligny>center</aligny>
           <colordiffuse>mainblue</colordiffuse>
@@ -288,7 +288,7 @@
           <top>120</top>
           <width>60</width>
           <height>120</height>
-          <font>Font_Neon_16</font>
+          <font>font12</font>
           <align>center</align>
           <aligny>center</aligny>
           <colordiffuse>mainblue</colordiffuse>
@@ -328,7 +328,7 @@
           <top>180</top>
           <width>60</width>
           <height>60</height>
-          <font>Font_Neon_20</font>
+          <font>font13</font>
           <align>center</align>
           <aligny>center</aligny>
           <colordiffuse>mainblue</colordiffuse>

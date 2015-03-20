@@ -20,7 +20,7 @@
         <top>0</top>
         <width>860</width>
         <height>18</height>
-        <font>Font_RSS</font>
+        <font>font13</font>
         <textcolor>white</textcolor>
         <shadowcolor>black</shadowcolor>
         <align>center</align>
@@ -115,7 +115,7 @@
           <width min="10" max="400">auto</width>
           <align>left</align>
           <height>18</height>
-          <font>Font_Bartowski_Showcase_Title</font>
+          <font>font30</font>
           <textcolor>mainblue</textcolor>
           <shadowcolor>black</shadowcolor>
           <label>$INFO[MusicPlayer.Title]</label>
@@ -132,7 +132,7 @@
           <height>18</height>
           <aligny>center</aligny>
           <align>left</align>
-          <font>Font_Date</font>
+          <font>font13</font>
           <textcolor>ffffffff</textcolor>
           <shadowcolor>black</shadowcolor>
           <label>$INFO[MusicPlayer.Artist,$LOCALIZE[557]: ]</label>
@@ -149,7 +149,7 @@
           <height>18</height>
           <aligny>center</aligny>
           <align>left</align>
-          <font>Font_Date</font>
+          <font>font13</font>
           <textcolor>ffffffff</textcolor>
           <shadowcolor>black</shadowcolor>
           <label>$INFO[MusicPlayer.Album,$LOCALIZE[558]: ]</label>
@@ -164,7 +164,7 @@
           <height>18</height>
           <aligny>center</aligny>
           <align>left</align>
-          <font>Font_Date</font>
+          <font>font13</font>
           <textcolor>ffffffff</textcolor>
           <shadowcolor>black</shadowcolor>
           <label>$INFO[MusicPlayer.year,$LOCALIZE[345]: ]</label>
@@ -195,7 +195,7 @@
           <width min="40" max="400">auto</width>
           <align>left</align>
           <height>18</height>
-          <font>Font_Date</font>
+          <font>font13</font>
           <textcolor>ffffffff</textcolor>
           <shadowcolor>black</shadowcolor>
           <label>[COLOR=mainblue]$LOCALIZE[209]...[/COLOR]</label>
@@ -208,7 +208,7 @@
           <width min="40" max="400">auto</width>
           <align>left</align>
           <height>18</height>
-          <font>Font_Bartowski_Showcase_Title</font>
+          <font>font30</font>
           <textcolor>ffffffff</textcolor>
           <shadowcolor>black</shadowcolor>
           <label>$INFO[MusicPlayer.offset(1).Title]</label>
@@ -223,7 +223,7 @@
           <height>18</height>
           <aligny>center</aligny>
           <align>left</align>
-          <font>Font_Date</font>
+          <font>font13</font>
           <textcolor>ffffffff</textcolor>
           <shadowcolor>black</shadowcolor>
           <label>$INFO[MusicPlayer.offset(1).Artist,$LOCALIZE[557]: ]</label>
@@ -238,7 +238,7 @@
           <height>18</height>
           <aligny>center</aligny>
           <align>left</align>
-          <font>Font_Date</font>
+          <font>font13</font>
           <textcolor>ffffffff</textcolor>
           <shadowcolor>black</shadowcolor>
           <label>$INFO[MusicPlayer.offset(1).Album,$LOCALIZE[558]: ]</label>
@@ -283,7 +283,7 @@
         <height>18</height>
         <aligny>center</aligny>
         <align>center</align>
-        <font>Font_Bartowski_Zune</font>
+        <font>fontContextMenu</font>
         <textcolor>grey2</textcolor>
         <shadowcolor>black</shadowcolor>
         <label>$INFO[MusicPlayer.Artist]</label>
@@ -301,7 +301,7 @@
         <height>18</height>
         <aligny>center</aligny>
         <align>center</align>
-        <font>Font_Bartowski_Zune</font>
+        <font>fontContextMenu</font>
         <textcolor>grey2</textcolor>
         <shadowcolor>black</shadowcolor>
         <label>$INFO[MusicPlayer.Album]</label>

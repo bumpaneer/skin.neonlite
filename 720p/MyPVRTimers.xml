@@ -133,7 +133,7 @@
                   <top>0</top>
                   <width>150</width>
                   <height>40</height>
-                  <font>Font_Neon_18</font>
+                  <font>fontContextMenu</font>
                   <aligny>center</aligny>
                   <selectedcolor>selected</selectedcolor>
                   <info>ListItem.Label</info>
@@ -153,7 +153,7 @@
                   <top>0</top>
                   <width>150</width>
                   <height>40</height>
-                  <font>Font_Neon_18</font>
+                  <font>fontContextMenu</font>
                   <aligny>center</aligny>
                   <selectedcolor>selected</selectedcolor>
                   <info>ListItem.ChannelName</info>
@@ -163,7 +163,7 @@
                   <top>0</top>
                   <width>290</width>
                   <height>40</height>
-                  <font>Font_Neon_18</font>
+                  <font>fontContextMenu</font>
                   <aligny>center</aligny>
                   <selectedcolor>selected</selectedcolor>
                   <info>ListItem.Label</info>
@@ -173,7 +173,7 @@
                   <top>0</top>
                   <width>400</width>
                   <height>40</height>
-                  <font>Font_Neon_18</font>
+                  <font>fontContextMenu</font>
                   <aligny>center</aligny>
                   <selectedcolor>selected</selectedcolor>
                   <info>ListItem.Date</info>
@@ -183,7 +183,7 @@
                   <top>0</top>
                   <width>170</width>
                   <height>40</height>
-                  <font>Font_Neon_18</font>
+                  <font>fontContextMenu</font>
                   <aligny>center</aligny>
                   <selectedcolor>selected</selectedcolor>
                   <info>ListItem.Comment</info>
@@ -206,7 +206,7 @@
                   <top>0</top>
                   <width>150</width>
                   <height>40</height>
-                  <font>Font_Neon_18</font>
+                  <font>fontContextMenu</font>
                   <aligny>center</aligny>
                   <selectedcolor>selected</selectedcolor>
                   <info>ListItem.Label</info>
@@ -226,7 +226,7 @@
                   <top>0</top>
                   <width>150</width>
                   <height>40</height>
-                  <font>Font_Neon_18</font>
+                  <font>fontContextMenu</font>
                   <aligny>center</aligny>
                   <selectedcolor>selected</selectedcolor>
                   <info>ListItem.ChannelName</info>
@@ -236,7 +236,7 @@
                   <top>0</top>
                   <width>290</width>
                   <height>40</height>
-                  <font>Font_Neon_18</font>
+                  <font>fontContextMenu</font>
                   <aligny>center</aligny>
                   <selectedcolor>selected</selectedcolor>
                   <info>ListItem.Label</info>
@@ -246,7 +246,7 @@
                   <top>0</top>
                   <width>400</width>
                   <height>40</height>
-                  <font>Font_Neon_18</font>
+                  <font>fontContextMenu</font>
                   <aligny>center</aligny>
                   <selectedcolor>selected</selectedcolor>
                   <info>ListItem.Date</info>
@@ -256,7 +256,7 @@
                   <top>0</top>
                   <width>150</width>
                   <height>40</height>
-                  <font>Font_Neon_18</font>
+                  <font>fontContextMenu</font>
                   <aligny>center</aligny>
                   <selectedcolor>selected</selectedcolor>
                   <info>ListItem.Comment</info>
@@ -294,7 +294,7 @@
             <top>545</top>
             <width>1010</width>
             <height>30</height>
-            <font>Font_Neon_20</font>
+            <font>font13</font>
             <align>center</align>
             <aligny>center</aligny>
             <scroll>true</scroll>
@@ -310,7 +310,7 @@
           <top>53r</top>
           <width>500</width>
           <height>20</height>
-          <font>Font_Neon_18</font>
+          <font>fontContextMenu</font>
           <textcolor>grey</textcolor>
           <scroll>false</scroll>
           <align>right</align>

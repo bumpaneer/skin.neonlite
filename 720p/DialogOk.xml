@@ -37,7 +37,7 @@
         <top>18</top>
         <width>560</width>
         <height>30</height>
-        <font>Font_Neon_30</font>
+        <font>font30</font>
         <label>13406</label>
         <align>center</align>
         <aligny>center</aligny>
@@ -51,7 +51,7 @@
         <height>98</height>
         <align>center</align>
         <label>-</label>
-        <font>Font_Neon_20</font>
+        <font>font13</font>
         <textcolor>white</textcolor>
     <autoscroll time="3000" delay="4000" repeat="5000">Skin.HasSetting(AutoScroll)</autoscroll>
       </control>
@@ -62,7 +62,7 @@
         <width>200</width>
         <height>40</height>
         <label>186</label>
-        <font>Font_Neon_25</font>
+        <font>font16</font>
         <textcolor>white</textcolor>
         <focusedcolor>white</focusedcolor>
         <align>center</align>

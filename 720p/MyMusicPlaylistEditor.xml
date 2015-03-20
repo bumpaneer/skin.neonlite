@@ -20,7 +20,7 @@
         <top>45</top>
         <width>330</width>
         <height>30</height>
-        <font>Font_Neon_20</font>
+        <font>font13</font>
         <textcolor>mainblue</textcolor>
         <scroll>true</scroll>
         <align>center</align>
@@ -86,7 +86,7 @@
           <top>302</top>
           <width>320</width>
           <height>218</height>
-          <font>Font_Neon_16</font>
+          <font>font12</font>
           <align>center</align>
           <textcolor>white</textcolor>
           <shadowcolor>black</shadowcolor>
@@ -110,7 +110,7 @@
           <top>302</top>
           <width>350</width>
           <height>218</height>
-          <font>Font_Neon_16</font>
+          <font>font12</font>
           <align>center</align>
           <textcolor>white</textcolor>
           <shadowcolor>black</shadowcolor>
@@ -134,7 +134,7 @@
         <top>40</top>
         <width>410</width>
         <height>30</height>
-        <font>Font_Neon_24</font>
+        <font>font16</font>
         <textcolor>white</textcolor>
         <scroll>true</scroll>
         <align>left</align>
@@ -160,7 +160,7 @@
         <left>30</left>
         <bottom>38</bottom>
         <width>410</width>
-        <font>Font_Neon_16</font>
+        <font>font12</font>
         <align>left</align>
         <scroll>true</scroll>
         <textcolor>mainblue</textcolor>
@@ -200,7 +200,7 @@
             <top>0</top>
             <width>380</width>
             <height>30</height>
-            <font>Font_Neon_16</font>
+            <font>font12</font>
             <textcolor>grey2</textcolor>
             <selectedcolor>selected</selectedcolor>
             <align>left</align>
@@ -212,7 +212,7 @@
             <top>0</top>
             <width>360</width>
             <height>30</height>
-            <font>Font_Neon_16</font>
+            <font>font12</font>
             <textcolor>grey2</textcolor>
             <selectedcolor>selected</selectedcolor>
             <align>right</align>
@@ -236,7 +236,7 @@
             <top>0</top>
             <width>380</width>
             <height>30</height>
-            <font>Font_Neon_16</font>
+            <font>font12</font>
             <textcolor>white</textcolor>
             <selectedcolor>selected</selectedcolor>
             <align>left</align>
@@ -248,7 +248,7 @@
             <top>0</top>
             <width>360</width>
             <height>30</height>
-            <font>Font_Neon_16</font>
+            <font>font12</font>
             <textcolor>white</textcolor>
             <selectedcolor>selected</selectedcolor>
             <align>right</align>
@@ -274,7 +274,7 @@
         <top>40</top>
         <width>410</width>
         <height>30</height>
-        <font>Font_Neon_24</font>
+        <font>font16</font>
         <textcolor>white</textcolor>
         <scroll>true</scroll>
         <align>right</align>
@@ -301,7 +301,7 @@
         <top>38r</top>
         <width>300</width>
         <height>20</height>
-        <font>Font_Neon_16</font>
+        <font>font12</font>
         <textcolor>mainblue</textcolor>
         <scroll>false</scroll>
         <align>right</align>
@@ -341,7 +341,7 @@
             <top>0</top>
             <width>380</width>
             <height>30</height>
-            <font>Font_Neon_16</font>
+            <font>font12</font>
             <textcolor>grey2</textcolor>
             <selectedcolor>selected</selectedcolor>
             <align>left</align>
@@ -353,7 +353,7 @@
             <top>0</top>
             <width>360</width>
             <height>30</height>
-            <font>Font_Neon_16</font>
+            <font>font12</font>
             <textcolor>grey2</textcolor>
             <selectedcolor>selected</selectedcolor>
             <align>right</align>
@@ -377,7 +377,7 @@
             <top>0</top>
             <width>380</width>
             <height>30</height>
-            <font>Font_Neon_16</font>
+            <font>font12</font>
             <textcolor>white</textcolor>
             <selectedcolor>selected</selectedcolor>
             <align>left</align>
@@ -389,7 +389,7 @@
             <top>0</top>
             <width>360</width>
             <height>30</height>
-            <font>Font_Neon_16</font>
+            <font>font12</font>
             <textcolor>white</textcolor>
             <selectedcolor>selected</selectedcolor>
             <align>right</align>
@@ -410,7 +410,7 @@
         <width>250</width>
         <height>30</height>
         <colordiffuse>mainblue</colordiffuse>
-        <texture flipx="true">MenuItemFO_small.png</texture>
+        <texture flipx="true">upper_item_back.png</texture>
       </control>
       <control type="label">
         <include>WindowTitleCommons</include>

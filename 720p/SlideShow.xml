@@ -44,7 +44,7 @@
         <left>175</left>
         <top>99</top>
         <width>1034</width>
-        <font>Font_ListDetail</font>
+        <font>font13</font>
         <label>$INFO[MusicPlayer.Artist]</label>
         <textcolor>NowPlayingArtist</textcolor>
       </control>
@@ -52,7 +52,7 @@
         <left>175</left>
         <top>143</top>
         <width>1034</width>
-        <font>Font_ListDetail</font>
+        <font>font13</font>
         <label>$INFO[MusicPlayer.Album]</label>
         <textcolor>NowPlayingArtist</textcolor>
       </control>
@@ -61,7 +61,7 @@
         <left>175</left>
         <top>121</top>
         <width>1034</width>
-        <font>Font_ListDetail</font>
+        <font>font13</font>
         <label>[B]$INFO[MusicPlayer.Title][/B]</label>
         <textcolor>NowPlayingTrack</textcolor>
       </control>

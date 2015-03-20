@@ -55,7 +55,7 @@
           <top>15</top>
           <width>460</width>
           <height>30</height>
-          <font>Font_Neon_28</font>
+          <font>font16</font>
           <label>[B]$LOCALIZE[31300][/B]</label>
           <align>center</align>
           <aligny>center</aligny>
@@ -76,7 +76,7 @@
           <top>60</top>
           <width>460</width>
           <height>35</height>
-          <font>Font_Neon_28</font>
+          <font>font16</font>
           <textcolor>white</textcolor>
           <scroll>true</scroll>
           <align>center</align>
@@ -92,7 +92,7 @@
             <top>110</top>
             <width>460</width>
             <height>30</height>
-            <font>Font_Neon_28</font>
+            <font>font16</font>
             <textcolor>white</textcolor>
             <scroll>false</scroll>
             <align>center</align>
@@ -105,7 +105,7 @@
             <top>140</top>
             <width>460</width>
             <height>35</height>
-            <font>Font_Neon_28</font>
+            <font>font16</font>
             <label>$LOCALIZE[31301] - $INFO[Window.Property(Updated)]</label>
             <align>center</align>
             <aligny>center</aligny>
@@ -117,7 +117,7 @@
             <top>185</top>
             <width>180</width>
             <height>40</height>
-            <font>Font_Neon_85</font>
+            <font>WeatherTemp</font>
             <align>right</align>
             <aligny>top</aligny>
             <label>$INFO[Window.Property(Current.Temperature)]</label>
@@ -130,7 +130,7 @@
             <top>195</top>
             <width>100</width>
             <height>40</height>
-            <font>Font_Neon_18</font>
+            <font>fontContextMenu</font>
             <align>left</align>
             <aligny>top</aligny>
             <label>$INFO[System.TemperatureUnits]</label>
@@ -154,7 +154,7 @@
             <height>30</height>
             <info>Window.Property(Current.Condition)</info>
             <wrapmultiline>true</wrapmultiline>
-            <font>Font_Neon_28</font>
+            <font>font16</font>
             <align>center</align>
             <aligny>center</aligny>
             <textcolor>white</textcolor>
@@ -174,7 +174,7 @@
           <top>390</top>
           <width>170</width>
           <height>35</height>
-          <font>Font_Neon_28</font>
+          <font>font16</font>
           <align>right</align>
           <aligny>center</aligny>
           <label>$LOCALIZE[402] :</label>
@@ -187,7 +187,7 @@
           <top>410</top>
           <width>170</width>
           <height>35</height>
-          <font>Font_Neon_28</font>
+          <font>font16</font>
           <align>right</align>
           <aligny>center</aligny>
           <label>$LOCALIZE[405] :</label>
@@ -200,7 +200,7 @@
           <top>450</top>
           <width>170</width>
           <height>35</height>
-          <font>Font_Neon_28</font>
+          <font>font16</font>
           <align>right</align>
           <aligny>center</aligny>
           <label>$LOCALIZE[406] :</label>
@@ -213,7 +213,7 @@
           <top>480</top>
           <width>170</width>
           <height>35</height>
-          <font>Font_Neon_28</font>
+          <font>font16</font>
           <align>right</align>
           <aligny>center</aligny>
           <label>$LOCALIZE[403] :</label>
@@ -226,7 +226,7 @@
           <top>510</top>
           <width>170</width>
           <height>35</height>
-          <font>Font_Neon_28</font>
+          <font>font16</font>
           <align>right</align>
           <aligny>center</aligny>
           <label>$LOCALIZE[404] :</label>
@@ -239,7 +239,7 @@
           <top>390</top>
           <width>300</width>
           <height>35</height>
-          <font>Font_Neon_28</font>
+          <font>font16</font>
           <align>left</align>
           <aligny>center</aligny>
           <label>$INFO[Window.Property(Current.FeelsLike)]$INFO[System.TemperatureUnits]</label>
@@ -252,7 +252,7 @@
           <top>410</top>
           <width>300</width>
           <height>35</height>
-          <font>Font_Neon_28</font>
+          <font>font16</font>
           <align>left</align>
           <aligny>center</aligny>
           <label>$INFO[Window.Property(Current.DewPoint)]$INFO[System.TemperatureUnits]</label>
@@ -265,7 +265,7 @@
           <top>450</top>
           <width>300</width>
           <height>35</height>
-          <font>Font_Neon_28</font>
+          <font>font16</font>
           <align>left</align>
           <aligny>center</aligny>
           <info>Window.Property(Current.Humidity)</info>
@@ -278,7 +278,7 @@
           <top>480</top>
           <width>300</width>
           <height>35</height>
-          <font>Font_Neon_28</font>
+          <font>font16</font>
           <align>left</align>
           <aligny>center</aligny>
           <info>Window.Property(Current.UVIndex)</info>
@@ -291,7 +291,7 @@
           <top>510</top>
           <width>300</width>
           <height>35</height>
-          <font>Font_Neon_28</font>
+          <font>font16</font>
           <align>left</align>
           <aligny>center</aligny>
           <info>Window.Property(Current.Wind)</info>
@@ -306,7 +306,7 @@
             <top>560</top>
             <width>300</width>
             <height>35</height>
-            <font>Font_Neon_28</font>
+            <font>font16</font>
             <align>left</align>
             <aligny>center</aligny>
             <label>$LOCALIZE[33027] : [COLOR=white]$INFO[Window.Property(Today.Sunrise)][/COLOR]</label>
@@ -320,7 +320,7 @@
             <top>560</top>
             <width>300</width>
             <height>35</height>
-            <font>Font_Neon_28</font>
+            <font>font16</font>
             <align>right</align>
             <aligny>center</aligny>
             <label>$LOCALIZE[33028] : [COLOR=white]$INFO[Window.Property(Today.Sunset)][/COLOR]</label>
@@ -369,11 +369,11 @@
       </control>
     </control>
     <control type="group">
-      <left>-839</left>
+      <left>-246</left>
       <include>SideBladeLeft</include>
       <control type="image">
         <description>LOGO</description>
-        <left>579</left>
+        <left>0</left>
         <top>30</top>
         <width>220</width>
         <height>60</height>
@@ -382,13 +382,13 @@
         <texture>neon.png</texture>
       </control>
       <control type="grouplist" id="7000">
-        <left>579</left>
+        <left>0</left>
         <top>130</top>
         <include>WindowMenuVars_Vertical</include>
         <control type="label" id="200">
           <width>250</width>
           <height>35</height>
-          <font>Font_Neon_28caps</font>
+          <font>font28_title</font>
           <label>$LOCALIZE[31513]</label>
           <textcolor>mainblue</textcolor>
           <align>center</align>
@@ -421,7 +421,7 @@
               <top>0</top>
               <width>200</width>
               <height>35</height>
-              <font>Font_Neon_28</font>
+              <font>font16</font>
               <label>31027</label>
               <textcolor>white</textcolor>
               <align>left</align>
@@ -478,7 +478,7 @@
         <control type="label" id="201">
           <width>250</width>
           <height>35</height>
-          <font>Font_Neon_28caps</font>
+          <font>font28_title</font>
           <label>31026</label>
           <textcolor>mainblue</textcolor>
           <align>center</align>
@@ -539,13 +539,13 @@
         <top>0</top>
         <left>-100</left>
         <colordiffuse>mainblue</colordiffuse>
-        <texture flipx="true">MenuItemFO_small.png</texture>
+        <texture flipx="true">upper_item_back.png</texture>
       </control>
       <control type="label">
         <top>2</top>
         <left>10</left>
         <width>300</width>
-        <font>Font_RSS</font>
+        <font>font13</font>
         <textcolor>white</textcolor>
         <info>System.Date</info>
         <align>left</align>

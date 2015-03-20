@@ -32,7 +32,7 @@
             <top>0</top>
             <width>660</width>
             <height>40</height>
-            <font>Font_Neon_20</font>
+            <font>font13</font>
             <textcolor>grey2</textcolor>
             <selectedcolor>selected</selectedcolor>
             <align>left</align>
@@ -44,7 +44,7 @@
             <top>0</top>
             <width>400</width>
             <height>40</height>
-            <font>Font_Neon_20</font>
+            <font>font13</font>
             <textcolor>grey2</textcolor>
             <selectedcolor>selected</selectedcolor>
             <align>right</align>
@@ -57,7 +57,7 @@
             <top>0</top>
             <width>400</width>
             <height>40</height>
-            <font>Font_Neon_20</font>
+            <font>font13</font>
             <textcolor>grey2</textcolor>
             <selectedcolor>selected</selectedcolor>
             <align>right</align>
@@ -118,7 +118,7 @@
             <top>0</top>
             <width>660</width>
             <height>40</height>
-            <font>Font_Neon_20</font>
+            <font>font13</font>
             <textcolor>white</textcolor>
             <selectedcolor>selected</selectedcolor>
             <align>left</align>
@@ -130,7 +130,7 @@
             <top>0</top>
             <width>400</width>
             <height>40</height>
-            <font>Font_Neon_20</font>
+            <font>font13</font>
             <textcolor>grey2</textcolor>
             <selectedcolor>selected</selectedcolor>
             <align>right</align>
@@ -143,7 +143,7 @@
             <top>0</top>
             <width>400</width>
             <height>40</height>
-            <font>Font_Neon_20</font>
+            <font>font13</font>
             <textcolor>grey2</textcolor>
             <selectedcolor>selected</selectedcolor>
             <align>right</align>
@@ -277,7 +277,7 @@
               <top>160</top>
               <width>208</width>
               <height>25</height>
-              <font>Font_Neon_20</font>
+              <font>font13</font>
               <textcolor>grey2</textcolor>
               <selectedcolor>selected</selectedcolor>
               <align>center</align>
@@ -322,7 +322,7 @@
               <top>160</top>
               <width>208</width>
               <height>25</height>
-              <font>Font_Neon_20</font>
+              <font>font13</font>
               <textcolor>white</textcolor>
               <selectedcolor>selected</selectedcolor>
               <align>center</align>
@@ -355,7 +355,7 @@
               <top>186</top>
               <width>200</width>
               <height>25</height>
-              <font>Font_Neon_20</font>
+              <font>font13</font>
               <textcolor>grey2</textcolor>
               <selectedcolor>selected</selectedcolor>
               <align>center</align>
@@ -388,7 +388,7 @@
               <top>186</top>
               <width>200</width>
               <height>25</height>
-              <font>Font_Neon_20</font>
+              <font>font13</font>
               <textcolor>white</textcolor>
               <selectedcolor>selected</selectedcolor>
               <align>center</align>

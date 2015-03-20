@@ -23,7 +23,7 @@
       <top>18</top>
       <width>760</width>
       <height>30</height>
-      <font>Font_Neon_20_title</font>
+      <font>font13_title</font>
       <label>[UPPERCASE]$LOCALIZE[298][/UPPERCASE] - ($INFO[Container(11).NumItems]) $LOCALIZE[31025] - $LOCALIZE[31024] ($INFO[Container(11).CurrentPage]/$INFO[Container(11).NumPages])</label>
       <align>center</align>
       <aligny>center</aligny>
@@ -63,7 +63,7 @@
           <top>150</top>
           <width>225</width>
           <height>15</height>
-          <font>Font_Neon_16</font>
+          <font>font12</font>
           <selectedcolor>green</selectedcolor>
           <align>center</align>
           <aligny>center</aligny>
@@ -90,7 +90,7 @@
           <top>1507</top>
           <width>225</width>
           <height>15</height>
-          <font>Font_Neon_16</font>
+          <font>font12</font>
           <selectedcolor>green</selectedcolor>
           <align>center</align>
           <aligny>center</aligny>

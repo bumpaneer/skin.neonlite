@@ -30,7 +30,7 @@
           <top>20</top>
           <width>640</width>
           <height>30</height>
-          <font>font24caps_title</font>
+          <font>font28_title</font>
           <align>left</align>
           <aligny>center</aligny>
           <textcolor>white</textcolor>
@@ -41,7 +41,7 @@
           <top>20</top>
           <width>640</width>
           <height>30</height>
-          <font>font24caps_title</font>
+          <font>font28_title</font>
           <label>-</label>
           <align>left</align>
           <aligny>center</aligny>
@@ -54,7 +54,7 @@
           <width>800</width>
           <height>498</height>
           <label>-</label>
-          <font>Font_Neon_20</font>
+          <font>font13</font>
           <align>justify</align>
           <textcolor>grey</textcolor>
           <pagecontrol>61</pagecontrol>

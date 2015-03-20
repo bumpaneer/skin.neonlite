@@ -41,7 +41,7 @@
       <top>15</top>
       <width>785</width>
       <height>30</height>
-      <font>Font_Bartowski_Episode_ContextMenu</font>
+      <font>font30</font>
       <label>$LOCALIZE[19142]</label>
       <align>center</align>
       <aligny>center</aligny>
@@ -73,7 +73,7 @@
       <top>60</top>
       <width>320</width>
       <height>40</height>
-      <font>font12caps</font>
+      <font>font12_title</font>
       <label>$LOCALIZE[19133]</label>
       <align>left</align>
       <aligny>center</aligny>
@@ -113,7 +113,7 @@
       <width>800</width>
       <height>68</height>
       <align>left</align>
-      <font>Font_Bartowski_Press_S</font>
+      <font>font16</font>
       <textcolor>white</textcolor>
       <label>$LOCALIZE[19001] $LOCALIZE[19002]</label>
     </control>
@@ -126,7 +126,7 @@
         <top>0</top>
         <height>35</height>
         <width>400</width>
-        <font>Font_Bartowski_Press_S</font>
+        <font>font16</font>
         <textoffsetx>8</textoffsetx>
         <textcolor>grey2</textcolor>
         <focusedcolor>white</focusedcolor>
@@ -148,7 +148,7 @@
         <top>35</top>
         <height>35</height>
         <width>400</width>
-        <font>Font_Bartowski_Press_S</font>
+        <font>font16</font>
         <textoffsetx>8</textoffsetx>
         <textcolor>grey2</textcolor>
         <focusedcolor>white</focusedcolor>
@@ -170,7 +170,7 @@
         <top>70</top>
         <width>400</width>
         <height>35</height>
-        <font>Font_Bartowski_Press_S</font>
+        <font>font16</font>
         <textoffsetx>8</textoffsetx>
         <textcolor>grey2</textcolor>
         <focusedcolor>white</focusedcolor>
@@ -189,7 +189,7 @@
         <top>105</top>
         <width>400</width>
         <height>35</height>
-        <font>Font_Bartowski_Press_S</font>
+        <font>font16</font>
         <textoffsetx>8</textoffsetx>
         <textcolor>grey2</textcolor>
         <focusedcolor>white</focusedcolor>
@@ -208,7 +208,7 @@
         <top>140</top>
         <width>400</width>
         <height>35</height>
-        <font>Font_Bartowski_Press_S</font>
+        <font>font16</font>
         <textoffsetx>8</textoffsetx>
         <textcolor>grey2</textcolor>
         <focusedcolor>white</focusedcolor>
@@ -228,7 +228,7 @@
         <top>175</top>
         <height>35</height>
         <width>400</width>
-        <font>Font_Bartowski_Press_S</font>
+        <font>font16</font>
         <align>left</align>
         <aligny>center</aligny>
         <textoffsetx>8</textoffsetx>
@@ -251,7 +251,7 @@
         <top>210</top>
         <height>35</height>
         <width>400</width>
-        <font>Font_Bartowski_Press_S</font>
+        <font>font16</font>
         <align>left</align>
         <aligny>center</aligny>
         <textoffsetx>8</textoffsetx>
@@ -274,7 +274,7 @@
         <top>245</top>
         <height>35</height>
         <width>400</width>
-        <font>Font_Bartowski_Press_S</font>
+        <font>font16</font>
         <align>left</align>
         <aligny>center</aligny>
         <textoffsetx>8</textoffsetx>
@@ -301,7 +301,7 @@
         <top>0</top>
         <width>400</width>
         <height>35</height>
-        <font>Font_Bartowski_Press_S</font>
+        <font>font16</font>
         <textoffsetx>8</textoffsetx>
         <textcolor>grey2</textcolor>
         <focusedcolor>white</focusedcolor>
@@ -321,7 +321,7 @@
         <top>35</top>
         <width>400</width>
         <height>35</height>
-        <font>Font_Bartowski_Press_S</font>
+        <font>font16</font>
         <textoffsetx>8</textoffsetx>
         <textcolor>grey2</textcolor>
         <focusedcolor>white</focusedcolor>
@@ -341,7 +341,7 @@
         <top>70</top>
         <width>400</width>
         <height>35</height>
-        <font>Font_Bartowski_Press_S</font>
+        <font>font16</font>
         <textoffsetx>8</textoffsetx>
         <textcolor>grey2</textcolor>
         <focusedcolor>white</focusedcolor>
@@ -360,7 +360,7 @@
         <top>105</top>
         <width>400</width>
         <height>35</height>
-        <font>Font_Bartowski_Press_S</font>
+        <font>font16</font>
         <textoffsetx>8</textoffsetx>
         <textcolor>grey2</textcolor>
         <focusedcolor>white</focusedcolor>
@@ -379,7 +379,7 @@
         <top>140</top>
         <width>400</width>
         <height>35</height>
-        <font>Font_Bartowski_Press_S</font>
+        <font>font16</font>
         <align>left</align>
         <aligny>center</aligny>
         <textoffsetx>8</textoffsetx>
@@ -402,7 +402,7 @@
         <top>175</top>
         <width>400</width>
         <height>35</height>
-        <font>Font_Bartowski_Press_S</font>
+        <font>font16</font>
         <textoffsetx>8</textoffsetx>
         <textcolor>grey2</textcolor>
         <focusedcolor>white</focusedcolor>
@@ -422,7 +422,7 @@
         <top>210</top>
         <width>400</width>
         <height>35</height>
-        <font>Font_Bartowski_Press_S</font>
+        <font>font16</font>
         <textoffsetx>8</textoffsetx>
         <textcolor>grey2</textcolor>
         <focusedcolor>white</focusedcolor>
@@ -442,7 +442,7 @@
         <top>245</top>
         <height>35</height>
         <width>400</width>
-        <font>Font_Bartowski_Press_S</font>
+        <font>font16</font>
         <textoffsetx>8</textoffsetx>
         <textcolor>grey2</textcolor>
         <focusedcolor>white</focusedcolor>

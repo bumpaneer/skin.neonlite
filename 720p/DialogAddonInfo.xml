@@ -44,7 +44,7 @@
         <top>20</top>
         <width>840</width>
         <height>30</height>
-        <font>Font_Neon_26</font>
+        <font>font16</font>
         <label>$LOCALIZE[24003]</label>
         <align>center</align>
         <aligny>center</aligny>
@@ -87,7 +87,7 @@
         <height>30</height>
         <align>left</align>
         <aligny>center</aligny>
-        <font>Font_Neon_20</font>
+        <font>font13</font>
         <label>[B]$INFO[ListItem.Property(Addon.Name)][/B]</label>
         <textcolor>white</textcolor>
         <scroll>true</scroll>
@@ -104,7 +104,7 @@
           <label>$LOCALIZE[146]</label>
           <align>right</align>
           <aligny>center</aligny>
-          <font>Font_Neon_20</font>
+          <font>font13</font>
           <textcolor>mainblue</textcolor>
         </control>
         <control type="label">
@@ -116,7 +116,7 @@
           <label fallback="416">$INFO[ListItem.Property(Addon.Type)]</label>
           <align>left</align>
           <aligny>center</aligny>
-          <font>Font_Neon_20</font>
+          <font>font13</font>
           <scroll>true</scroll>
         </control>
         <control type="label">
@@ -128,7 +128,7 @@
           <label>$LOCALIZE[21863]:</label>
           <align>right</align>
           <aligny>center</aligny>
-          <font>Font_Neon_20</font>
+          <font>font13</font>
           <textcolor>mainblue</textcolor>
         </control>
         <control type="label">
@@ -140,7 +140,7 @@
           <label fallback="416">$INFO[ListItem.Property(Addon.Creator)]</label>
           <align>left</align>
           <aligny>center</aligny>
-          <font>Font_Neon_20</font>
+          <font>font13</font>
           <scroll>true</scroll>
         </control>
         <control type="label">
@@ -152,7 +152,7 @@
           <label>$LOCALIZE[24051]</label>
           <align>right</align>
           <aligny>center</aligny>
-          <font>Font_Neon_20</font>
+          <font>font13</font>
           <textcolor>mainblue</textcolor>
         </control>
         <control type="label">
@@ -164,7 +164,7 @@
           <label fallback="416">$INFO[ListItem.Property(Addon.Version)]</label>
           <align>left</align>
           <aligny>center</aligny>
-          <font>Font_Neon_20</font>
+          <font>font13</font>
           <scroll>true</scroll>
         </control>
         <control type="label">
@@ -176,7 +176,7 @@
           <label>$LOCALIZE[563]:</label>
           <align>right</align>
           <aligny>center</aligny>
-          <font>Font_Neon_20</font>
+          <font>font13</font>
           <textcolor>mainblue</textcolor>
         </control>
         <control type="image">
@@ -197,7 +197,7 @@
           <label>$LOCALIZE[20037]:</label>
           <align>right</align>
           <aligny>center</aligny>
-          <font>Font_Neon_20</font>
+          <font>font13</font>
           <textcolor>mainblue</textcolor>
         </control>
         <control type="fadelabel">
@@ -209,7 +209,7 @@
           <label fallback="416">$INFO[ListItem.Property(Addon.Summary)]</label>
           <align>left</align>
           <aligny>center</aligny>
-          <font>Font_Neon_20</font>
+          <font>font13</font>
           <scrollout>false</scrollout>
           <pauseatend>2000</pauseatend>
         </control>
@@ -229,7 +229,7 @@
           <label>$LOCALIZE[21821]</label>
           <align>left</align>
           <aligny>center</aligny>
-          <font>Font_Neon_20</font>
+          <font>font13</font>
           <textcolor>mainblue</textcolor>
         </control>
         <control type="group">
@@ -243,7 +243,7 @@
             <label>$INFO[Container(400).CurrentPage, $LOCALIZE[31024] [COLOR=mainblue]([/COLOR]]$INFO[Container(400).NumPages,/,[COLOR=mainblue])[/COLOR]]</label>
             <align>right</align>
             <aligny>center</aligny>
-            <font>Font_Neon_20</font>
+            <font>font13</font>
             <textcolor>grey</textcolor>
           </control>
           <control type="textbox" id="400">
@@ -252,7 +252,7 @@
             <top>192</top>
             <width>600</width>
             <height>188</height>
-            <font>Font_Neon_20</font>
+            <font>font13</font>
             <align>justify</align>
             <textcolor>white</textcolor>
             <label>$INFO[ListItem.Property(Addon.Description)]</label>
@@ -282,7 +282,7 @@
             <label>$LOCALIZE[24052]</label>
             <align>left</align>
             <aligny>center</aligny>
-            <font>Font_Neon_20</font>
+            <font>font13</font>
             <textcolor>orange</textcolor>
           </control>
           <control type="textbox">
@@ -291,7 +291,7 @@
             <top>427</top>
             <width>600</width>
             <height>38</height>
-            <font>Font_Neon_20</font>
+            <font>font13</font>
             <align>justify</align>
             <textcolor>white</textcolor>
             <label>$INFO[ListItem.Property(Addon.Disclaimer)]</label>
@@ -309,7 +309,7 @@
             <label>$INFO[Container(401).CurrentPage, $LOCALIZE[31024] [COLOR=mainblue]([/COLOR]]$INFO[Container(401).NumPages,/,[COLOR=mainblue])[/COLOR]]</label>
             <align>right</align>
             <aligny>center</aligny>
-            <font>Font_Neon_20</font>
+            <font>font13</font>
             <textcolor>grey</textcolor>
           </control>
           <control type="textbox" id="401">
@@ -318,7 +318,7 @@
             <top>197</top>
             <width>600</width>
             <height>258</height>
-            <font>Font_Neon_20</font>
+            <font>font13</font>
             <align>justify</align>
             <textcolor>white</textcolor>
             <label>$INFO[ListItem.Property(Addon.Description)]</label>
@@ -349,7 +349,7 @@
           <width>220</width>
           <height>38</height>
           <label>24020</label>
-          <font>Font_Neon_20</font>
+          <font>font13</font>
           <textcolor>grey</textcolor>
           <focusedcolor>white</focusedcolor>
           <align>center</align>
@@ -363,7 +363,7 @@
           <width>220</width>
           <height>38</height>
           <label>24069</label>
-          <font>Font_Neon_20</font>
+          <font>font13</font>
           <textcolor>grey</textcolor>
           <focusedcolor>white</focusedcolor>
           <align>center</align>
@@ -377,7 +377,7 @@
           <width>220</width>
           <height>38</height>
           <label>518</label>
-          <font>Font_Neon_20</font>
+          <font>font13</font>
           <textcolor>grey</textcolor>
           <focusedcolor>white</focusedcolor>
           <align>center</align>
@@ -391,7 +391,7 @@
           <width>220</width>
           <height>38</height>
           <label>24022</label>
-          <font>Font_Neon_20</font>
+          <font>font13</font>
           <textcolor>grey</textcolor>
           <focusedcolor>white</focusedcolor>
           <align>center</align>
@@ -405,7 +405,7 @@
           <width>220</width>
           <height>38</height>
           <label>24021</label>
-          <font>Font_Neon_20</font>
+          <font>font13</font>
           <textcolor>grey</textcolor>
           <focusedcolor>white</focusedcolor>
           <align>center</align>
@@ -419,7 +419,7 @@
           <width>220</width>
           <height>38</height>
           <label>24048</label>
-          <font>Font_Neon_20</font>
+          <font>font13</font>
           <textcolor>grey</textcolor>
           <focusedcolor>white</focusedcolor>
           <align>center</align>
@@ -433,7 +433,7 @@
           <width>220</width>
           <height>38</height>
           <label>24036</label>
-          <font>Font_Neon_20</font>
+          <font>font13</font>
           <textcolor>grey</textcolor>
           <focusedcolor>white</focusedcolor>
           <align>center</align>
@@ -469,7 +469,7 @@
           <top>15</top>
           <width>800</width>
           <height>25</height>
-          <font>Font_Neon_20</font>
+          <font>font13</font>
           <label>24096</label>
           <align>left</align>
           <aligny>center</aligny>
@@ -482,7 +482,7 @@
           <top>37</top>
           <width>800</width>
           <height>48</height>
-          <font>Font_Neon_20</font>
+          <font>font13</font>
           <label>$INFO[ListItem.Property(Addon.broken)]</label>
           <align>left</align>
           <textcolor>white</textcolor>

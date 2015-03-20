@@ -479,7 +479,7 @@
         <scroll>true</scroll>
         <align>left</align>
         <aligny>center</aligny>
-        <font>Font_Neon_20</font>
+        <font>font13</font>
         <textcolor>grey</textcolor>
         <shadowcolor>black</shadowcolor>
         <!--  <visible>Window.IsTopmost(VideoOSD)</visible> -->
@@ -493,7 +493,7 @@
         <scroll>true</scroll>
         <align>right</align>
         <aligny>center</aligny>
-        <font>Font_Neon_20</font>
+        <font>font13</font>
         <textcolor>grey</textcolor>
         <shadowcolor>black</shadowcolor>
       </control>
@@ -551,7 +551,7 @@
       <control type="label">
         <width>185</width>
         <height>20</height>
-        <font>Font_Neon_16_Bold</font>
+        <font>font12_title</font>
         <label>36501</label>
         <textcolor>mainblue</textcolor>
         <textoffsetx>10</textoffsetx>
@@ -569,7 +569,7 @@
         <height>20</height>
         <width>185</width>
         <aligny>center</aligny>
-        <font>Font_Neon_16_Bold</font>
+        <font>font12_title</font>
         <label>31362</label>
         <onclick>ToggleStereoMode</onclick>
         <selected>IntegerGreaterThan(System.StereoscopicMode,0)</selected>
@@ -581,7 +581,7 @@
         <height>20</height>
         <width>185</width>
         <aligny>center</aligny>
-        <font>Font_Neon_16_Bold</font>
+        <font>font12_title</font>
         <focusedcolor>selected</focusedcolor>
         <pulseonselect>false</pulseonselect>
         <label>31361</label>
@@ -591,7 +591,7 @@
         <height>20</height>
         <width>185</width>
         <aligny>center</aligny>
-        <font>Font_Neon_16_Bold</font>
+        <font>font12_title</font>
         <label>31360</label>
         <onclick>StereoModeToMono</onclick>
         <selected>StringCompare(System.StereoscopicMode,7)</selected>

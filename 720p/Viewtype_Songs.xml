@@ -46,7 +46,7 @@
           <width>680</width>
           <height>46</height>
           <aligny>center</aligny>
-          <font>Font_Neon_24</font>
+          <font>font16</font>
           <textcolor>Text-Filemode</textcolor>
           <label>$INFO[ListItem.TrackNumber]$INFO[ListItem.Title,. ][COLOR Date]$INFO[ListItem.Duration, ][/COLOR]</label>
           <visible>Container.Content(songs)</visible>
@@ -57,7 +57,7 @@
           <width>720</width>
           <height>46</height>
           <aligny>center</aligny>
-          <font>Font_Neon_24</font>
+          <font>font16</font>
           <textcolor>Text-Filemode</textcolor>
           <label>$INFO[ListItem.Label]</label>
           <visible>!Container.Content(songs)</visible>
@@ -80,7 +80,7 @@
           <width>720</width>
           <height>46</height>
           <aligny>center</aligny>
-          <font>Font_Neon_24</font>
+          <font>font16</font>
           <textcolor>ffffffff</textcolor>
           <label>$INFO[ListItem.Label]</label>
           <visible>!Container.Content(songs)</visible>
@@ -91,7 +91,7 @@
           <width>680</width>
           <height>46</height>
           <aligny>center</aligny>
-          <font>Font_Neon_24</font>
+          <font>font16</font>
           <label>[COLOR white]$INFO[ListItem.TrackNumber]$INFO[ListItem.Title,. ]$INFO[ListItem.Duration, - ][/COLOR]</label>
           <visible>Container.Content(songs)</visible>
         </control>
@@ -115,7 +115,7 @@
         <width>1200</width>
         <height>50</height>
         <aligny>center</aligny>
-        <font>Font_Neon_40</font>
+        <font>font30</font>
         <textcolor>mainblue</textcolor>
         <label>$INFO[ListItem.Album]</label>
       </control>
@@ -125,7 +125,7 @@
         <width>604</width>
         <height>50</height>
         <aligny>center</aligny>
-        <font>Font_Neon_26</font>
+        <font>font16</font>
         <textcolor>ffffffff</textcolor>
         <label>$INFO[ListItem.artist]</label>
       </control>
@@ -135,7 +135,7 @@
         <width>604</width>
         <height>50</height>
         <aligny>center</aligny>
-        <font>Font_Neon_26</font>
+        <font>font16</font>
         <textcolor>ffffffff</textcolor>
         <label>$INFO[ListItem.year]</label>
       </control>
@@ -191,7 +191,7 @@
         <width>546</width>
         <height>50</height>
         <aligny>center</aligny>
-        <font>Font_RSS_Big</font>
+        <font>font16</font>
         <textcolor>mainblue</textcolor>
         <label>[B]Years Active:[/B] [COLOR=ffffffff]$INFO[ListItem.Property(Artist_YearsActive)][/COLOR]</label>
         <visible>!IsEmpty(ListItem.Property(Artist_YearsActive))</visible>
@@ -202,7 +202,7 @@
         <width>546</width>
         <height>50</height>
         <aligny>center</aligny>
-        <font>Font_RSS_Big</font>
+        <font>font16</font>
         <textcolor>mainblue</textcolor>
         <label>[B]Artist Born:[/B] [COLOR=ffffffff]$INFO[ListItem.Property(Artist_Born)][/COLOR]</label>
         <visible>!IsEmpty(ListItem.Property(Artist_Born))</visible>
@@ -213,7 +213,7 @@
         <width>546</width>
         <height>50</height>
         <aligny>center</aligny>
-        <font>Font_RSS_Big</font>
+        <font>font16</font>
         <textcolor>mainblue</textcolor>
         <label>[B]Group Formed:[/B] [COLOR=ffffffff]$INFO[ListItem.Property(Artist_Formed)][/COLOR]</label>
         <visible>!IsEmpty(ListItem.Property(Artist_Formed))</visible>
@@ -224,7 +224,7 @@
         <width>546</width>
         <height>50</height>
         <aligny>center</aligny>
-        <font>Font_RSS_Big</font>
+        <font>font16</font>
         <textcolor>mainblue</textcolor>
         <label>[B]Genre:[/B] [COLOR=ffffffff]$INFO[ListItem.Property(Artist_Genre)][/COLOR]</label>
         <visible>!IsEmpty(ListItem.Property(Artist_Genre))</visible>
@@ -236,7 +236,7 @@
       <top>402</top>
       <width>540</width>
       <height>244</height>
-      <font>Font_Bartowski_Showcase_plot</font>
+      <font>font13</font>
       <textcolor>ffffffff</textcolor>
       <label>$INFO[ListItem.Property(Artist_Description)]</label>
       <align>justify</align>
@@ -251,7 +251,7 @@
       <top>402</top>
       <width>540</width>
       <height>316</height>
-      <font>Font_Bartowski_Showcase_plot</font>
+      <font>font13</font>
       <textcolor>ffffffff</textcolor>
       <label>$INFO[ListItem.Property(Artist_Description)]</label>
       <align>justify</align>

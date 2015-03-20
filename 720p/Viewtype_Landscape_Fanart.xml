@@ -67,7 +67,7 @@
           <width>230</width>
           <height>89</height>
           <align>center</align>
-          <font>Font_Neon_44</font>
+          <font>font30</font>
           <textcolor>ListTrackF</textcolor>
           <label>$LOCALIZE[20359] $INFO[ListItem.Episode]</label>
         </control>
@@ -78,7 +78,7 @@
           <width>230</width>
           <height>89</height>
           <align>center</align>
-          <font>Font_Neon_44</font>
+          <font>font30</font>
           <textcolor>ListTrackF</textcolor>
           <label>$INFO[ListItem.Label]</label>
         </control>
@@ -88,7 +88,7 @@
           <width>230</width>
           <height>89</height>
           <align>center</align>
-          <font>Font_Neon_16</font>
+          <font>font12</font>
           <textcolor>ListTrackNF</textcolor>
           <label>-$LOCALIZE[16102]-</label>
           <visible>!Skin.HasSetting(DisableTvOverlays) + Container.Content(tvshows) + stringcompare(ListItem.Overlay,OverlayWatched.png)</visible>
@@ -132,7 +132,7 @@
           <height>89</height>
           <align>center</align>
           <aligny>bottom</aligny>
-          <font>Font_Neon_44</font>
+          <font>font30</font>
           <textcolor>ffffffff</textcolor>
           <label>[B]$LOCALIZE[20359] $INFO[ListItem.Episode][/B]</label>
         </control>
@@ -144,7 +144,7 @@
           <height>89</height>
           <align>center</align>
           <aligny>bottom</aligny>
-          <font>Font_Neon_44</font>
+          <font>font30</font>
           <textcolor>ffffffff</textcolor>
           <label>[B]$INFO[ListItem.Label][/B]</label>
         </control>
@@ -156,7 +156,7 @@
           <height>89</height>
           <align>center</align>
           <aligny>bottom</aligny>
-          <font>Font_Neon_44</font>
+          <font>font30</font>
           <textcolor>ffffffff</textcolor>
           <label>[B]$INFO[ListItem.Label][/B]</label>
         </control>
@@ -166,7 +166,7 @@
           <width>230</width>
           <height>89</height>
           <align>center</align>
-          <font>Font_Neon_18</font>
+          <font>fontContextMenu</font>
           <textcolor>ListTrackNF</textcolor>
           <label>[B]-$LOCALIZE[16102]-[/B]</label>
           <visible>!Skin.HasSetting(DisableTvOverlays) + Container.Content(tvshows) + stringcompare(ListItem.Overlay,OverlayWatched.png)</visible>
@@ -217,7 +217,7 @@
         <width>1200</width>
         <height>50</height>
         <aligny>center</aligny>
-        <font>Font_Neon_50</font>
+        <font>font30</font>
         <textcolor>mainblue</textcolor>
         <label>[B]$INFO[ListItem.TVShowTitle][/B]</label>
         <visible>IsEmpty(Control.GetLabel(37015)) + IsEmpty(Control.GetLabel(39015))</visible>
@@ -228,7 +228,7 @@
         <width>230</width>
         <height>89</height>
         <align>center</align>
-        <font>Font_Neon_26</font>
+        <font>font16</font>
         <textcolor>white</textcolor>
         <label>[B]$LOCALIZE[20373] $INFO[ListItem.Season][/B]</label>
         <visible>Container.Content(episodes) + !IsEmpty(ListItem.Title)</visible>
@@ -276,7 +276,7 @@
         <width>390</width>
         <label>[B]$INFO[ListItem.Title][/B]</label>
         <align>center</align>
-        <font>Font_Neon_22</font>
+        <font>font14</font>
         <textcolor>ffffffff</textcolor>
         <visible>!IsEmpty(ListItem.Title)</visible>
       </control>
@@ -307,7 +307,7 @@
         <top>426</top>
         <width>386</width>
         <height>186</height>
-        <font>Font_KeyboardKeys_Plot</font>
+        <font>font16</font>
         <textcolor>ffffffff</textcolor>
         <label>$INFO[ListItem.Plot]</label>
         <align>justify</align>
@@ -331,7 +331,7 @@
         <top>426</top>
         <width>386</width>
         <height>186</height>
-        <font>Font_KeyboardKeys_Plot</font>
+        <font>font16</font>
         <textcolor>ffffffff</textcolor>
         <label>$INFO[ListItem.Plot]</label>
         <align>justify</align>

@@ -10,7 +10,7 @@
         <top>15</top>
         <width>610</width>
         <height>30</height>
-        <font>Font_Neon_24</font>
+        <font>font16</font>
         <label>31910</label>
         <align>center</align>
         <aligny>center</aligny>
@@ -55,7 +55,7 @@
         <top>565</top>
         <width>500</width>
         <height>30</height>
-        <font>Font_Neon_24</font>
+        <font>font16</font>
         <label>$INFO[Container(53).ListItem.Label]</label>
         <align>center</align>
         <aligny>center</aligny>
@@ -207,7 +207,7 @@
         <top>15</top>
         <width>610</width>
         <height>30</height>
-        <font>Font_Neon_24</font>
+        <font>font16</font>
         <label>33050</label>
         <align>center</align>
         <aligny>center</aligny>
@@ -219,7 +219,7 @@
         <top>75</top>
         <width>570</width>
         <height>30</height>
-        <font>Font_Neon_24</font>
+        <font>font16</font>
         <textcolor>mainblue</textcolor>
         <align>center</align>
         <aligny>center</aligny>
@@ -232,7 +232,7 @@
           <top>117</top>
           <width>570</width>
           <height>398</height>
-          <font>Font_Neon_20</font>
+          <font>font13</font>
           <textcolor>white</textcolor>
           <selectedcolor>selected</selectedcolor>
           <align>center</align>
@@ -245,7 +245,7 @@
         <top>200</top>
         <width>570</width>
         <height>30</height>
-        <font>Font_Neon_24</font>
+        <font>font16</font>
         <textcolor>white</textcolor>
         <align>center</align>
         <aligny>center</aligny>

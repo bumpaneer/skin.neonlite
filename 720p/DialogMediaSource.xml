@@ -42,7 +42,7 @@
         <top>20</top>
         <width>600</width>
         <label>$LOCALIZE[1021]</label>
-        <font>Font_Neon_25</font>
+        <font>font16</font>
         <textcolor>white</textcolor>
       </control>
       <control type="list" id="10">
@@ -142,7 +142,7 @@
         <top>326</top>
         <width>420</width>
         <label>$LOCALIZE[1022]</label>
-        <font>Font_Neon_25</font>
+        <font>font16</font>
         <textcolor>white</textcolor>
       </control>
       <control type="image">

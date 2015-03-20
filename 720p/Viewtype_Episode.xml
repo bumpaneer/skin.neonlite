@@ -70,7 +70,7 @@
           <width>235</width>
           <label>$LOCALIZE[20359] $INFO[ListItem.Episode]</label>
           <align>center</align>
-          <font>Font_Neon_22</font>
+          <font>font14</font>
           <textcolor>ffffffff</textcolor>
           <visible>!IsEmpty(ListItem.Title)</visible>
         </control>
@@ -128,7 +128,7 @@
           <width>235</width>
           <label>$LOCALIZE[20359] $INFO[ListItem.Episode]</label>
           <align>center</align>
-          <font>Font_Neon_22</font>
+          <font>font14</font>
           <textcolor>ffffffff</textcolor>
           <visible>!IsEmpty(ListItem.Title)</visible>
           <animation type="Focus" reversible="false">
@@ -196,7 +196,7 @@
       <align>justify</align>
       <info>Container(51).ListItem.Plot</info>
       <autoscroll time="3000" delay="5000" repeat="5000">Skin.HasSetting(autoscroll)</autoscroll>
-      <font>Font_EpisodePlot</font>
+      <font>font13</font>
       <textcolor>ffffffff</textcolor>
       <include>Animation_HiddenByInfo</include>
       <include>Animation_Viewtype_Episode_LeftSide</include>
@@ -237,7 +237,7 @@
         <width>600</width>
         <height>50</height>
         <align>center</align>
-        <font>Font_Bartowski_Title_TVShow</font>
+        <font>font30</font>
         <textcolor>mainblue</textcolor>
         <label>$INFO[ListItem.Title]</label>
         <scroll>true</scroll>
@@ -251,7 +251,7 @@
         <width>600</width>
         <height>50</height>
         <align>center</align>
-        <font>Font_Bartowski_Title_TVShow</font>
+        <font>font30</font>
         <textcolor>mainblue</textcolor>
         <label>[UPPERCASE]$INFO[ListItem.Title][/UPPERCASE]</label>
         <visible>Window.IsActive(videoplaylist)</visible>
@@ -263,7 +263,7 @@
         <width>600</width>
         <height>50</height>
         <align>center</align>
-        <font>Font_TVShow</font>
+        <font>font16</font>
         <textcolor>ffffffff</textcolor>
         <label>$LOCALIZE[20373] $INFO[ListItem.Season]/$LOCALIZE[20359] $INFO[ListItem.Episode]</label>
       </control>
@@ -274,7 +274,7 @@
         <width>600</width>
         <height>50</height>
         <align>center</align>
-        <font>Font_TVShow</font>
+        <font>font16</font>
         <textcolor>ffffffff</textcolor>
         <label>$LOCALIZE[31231]: $INFO[ListItem.Date]</label>
       </control>
@@ -305,7 +305,7 @@
       <width>500</width>
       <!--1200 50 -->
       <height>298</height>
-      <font>Font_Episode_Landscape_TVTitle</font>
+      <font>font30</font>
       <textcolor>mainblue</textcolor>
       <label>$INFO[ListItem.TVShowtitle]</label>
       <include>Animation_HiddenByInfo</include>

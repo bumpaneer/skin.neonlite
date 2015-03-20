@@ -106,7 +106,7 @@
             <width>460</width>
             <height>50</height>
             <aligny>center</aligny>
-            <font>Font_Neon_30</font>
+            <font>font30</font>
             <textcolor>mainblue</textcolor>
             <label>$INFO[ListItem.Title]</label>
             <!--  <animation effect="fade" start="50" end="50" time="0" condition="true">conditional</animation> -->
@@ -118,7 +118,7 @@
             <width>460</width>
             <height>50</height>
             <aligny>center</aligny>
-            <font>Font_EpisodePlot2</font>
+            <font>fontContextMenu</font>
             <textcolor>ListTrackF</textcolor>
             <label>$LOCALIZE[20373] $INFO[ListItem.Season]/$LOCALIZE[20359] $INFO[ListItem.Episode] - Aired $INFO[ListItem.Date]</label>
             <visible>!IsEmpty(ListItem.Title)</visible>
@@ -132,7 +132,7 @@
             <height>102</height>
             <align>justify</align>
             <info>ListItem.Plot</info>
-            <font>Font_Bartowski_Movies_Plot</font>
+            <font>font14</font>
             <textcolor>ffffffff</textcolor>
             <!--  <animation effect="fade" start="50" end="50" time="0" condition="true">conditional</animation> -->
             <autoscroll time="3000" delay="5000" repeat="5000">Skin.HasSetting(autoscroll)</autoscroll>
@@ -233,7 +233,7 @@
             <width>460</width>
             <height>50</height>
             <aligny>center</aligny>
-            <font>Font_Neon_35</font>
+            <font>font30</font>
             <textcolor>mainblue</textcolor>
             <label>$INFO[ListItem.Title]</label>
           </control>
@@ -244,7 +244,7 @@
             <width>460</width>
             <height>50</height>
             <aligny>center</aligny>
-            <font>Font_Neon_20</font>
+            <font>font13</font>
             <textcolor>ListTrackF</textcolor>
             <label>$LOCALIZE[20373] $INFO[ListItem.Season]/$LOCALIZE[20359] $INFO[ListItem.Episode] - Aired $INFO[ListItem.Date]</label>
             <visible>!IsEmpty(ListItem.Title)</visible>
@@ -257,7 +257,7 @@
             <height>102</height>
             <align>justify</align>
             <info>ListItem.Plot</info>
-            <font>Font_Bartowski_Movies_Plot</font>
+            <font>font14</font>
             <textcolor>ffffffff</textcolor>
             <autoscroll time="3000" delay="5000" repeat="5000">Skin.HasSetting(autoscroll)</autoscroll>
           </control>

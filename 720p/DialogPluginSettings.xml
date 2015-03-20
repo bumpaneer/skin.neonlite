@@ -41,7 +41,7 @@
         <top>18</top>
         <width>760</width>
         <height>30</height>
-        <font>font24caps_title</font>
+        <font>font28_title</font>
         <label>-</label>
         <align>center</align>
         <aligny>center</aligny>
@@ -62,7 +62,7 @@
       <control type="button" id="3">
         <description>Default Button</description>
         <height>40</height>
-        <font>Font_Neon_20_title</font>
+        <font>font13_title</font>
         <textoffsetx>20</textoffsetx>
         <textcolor>ff8F8D8E</textcolor>
         <focusedcolor>white</focusedcolor>
@@ -72,7 +72,7 @@
       <control type="radiobutton" id="4">
         <description>Default RadioButton</description>
         <height>40</height>
-        <font>Font_Neon_20_title</font>
+        <font>font13_title</font>
         <textoffsetx>20</textoffsetx>
         <textcolor>ff8F8D8E</textcolor>
         <focusedcolor>white</focusedcolor>
@@ -86,14 +86,14 @@
         <focusedcolor>white</focusedcolor>
         <colordiffuse>mainblue</colordiffuse>
         <texturefocus>button-focus.png</texturefocus>
-        <font>Font_Neon_20_title</font>
+        <font>font13_title</font>
         <textoffsetx>20</textoffsetx>
         <aligny>center</aligny>
         <reverse>yes</reverse>
       </control>
       <control type="label" id="7">
         <height>45</height>
-        <font>Font_KeyboardKeys</font>
+        <font>font16</font>
         <label>-</label>
         <textcolor>black</textcolor>
         <align>left</align>
@@ -116,7 +116,7 @@
           <aligny>center</aligny>
           <colordiffuse>mainblue</colordiffuse>
           <texturefocus>button-focus.png</texturefocus>
-          <font>Font_Neon_25</font>
+          <font>font16</font>
           <textcolor>black</textcolor>
           <focusedcolor>white</focusedcolor>
           <label>186</label>
@@ -135,7 +135,7 @@
           <aligny>center</aligny>
           <colordiffuse>mainblue</colordiffuse>
           <texturefocus>button-focus.png</texturefocus>
-          <font>Font_Neon_25</font>
+          <font>font16</font>
           <textcolor>black</textcolor>
           <focusedcolor>white</focusedcolor>
           <label>222</label>
@@ -154,7 +154,7 @@
           <aligny>center</aligny>
           <colordiffuse>mainblue</colordiffuse>
           <texturefocus>button-focus.png</texturefocus>
-          <font>Font_Neon_25</font>
+          <font>font16</font>
           <textcolor>black</textcolor>
           <focusedcolor>white</focusedcolor>
           <label>409</label>

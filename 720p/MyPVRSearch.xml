@@ -133,7 +133,7 @@
                   <top>0</top>
                   <width>650</width>
                   <height>40</height>
-                  <font>Font_Neon_18</font>
+                  <font>fontContextMenu</font>
                   <aligny>center</aligny>
                   <textcolor>grey2</textcolor>
                   <selectedcolor>selected</selectedcolor>
@@ -154,7 +154,7 @@
                   <top>0</top>
                   <width>190</width>
                   <height>40</height>
-                  <font>Font_Neon_18</font>
+                  <font>fontContextMenu</font>
                   <aligny>center</aligny>
                   <textcolor>grey2</textcolor>
                   <selectedcolor>selected</selectedcolor>
@@ -165,7 +165,7 @@
                   <top>0</top>
                   <width>450</width>
                   <height>40</height>
-                  <font>Font_Neon_18</font>
+                  <font>fontContextMenu</font>
                   <aligny>center</aligny>
                   <textcolor>grey2</textcolor>
                   <selectedcolor>selected</selectedcolor>
@@ -176,7 +176,7 @@
                   <top>0</top>
                   <width>270</width>
                   <height>40</height>
-                  <font>Font_Neon_18</font>
+                  <font>fontContextMenu</font>
                   <aligny>center</aligny>
                   <textcolor>grey2</textcolor>
                   <selectedcolor>selected</selectedcolor>
@@ -249,7 +249,7 @@
                   <top>0</top>
                   <width>650</width>
                   <height>40</height>
-                  <font>Font_Neon_18</font>
+                  <font>fontContextMenu</font>
                   <aligny>center</aligny>
                   <textcolor>white</textcolor>
                   <selectedcolor>selected</selectedcolor>
@@ -270,7 +270,7 @@
                   <top>0</top>
                   <width>190</width>
                   <height>40</height>
-                  <font>Font_Neon_18</font>
+                  <font>fontContextMenu</font>
                   <aligny>center</aligny>
                   <textcolor>white</textcolor>
                   <selectedcolor>selected</selectedcolor>
@@ -281,7 +281,7 @@
                   <top>0</top>
                   <width>450</width>
                   <height>40</height>
-                  <font>Font_Neon_18</font>
+                  <font>fontContextMenu</font>
                   <aligny>center</aligny>
                   <textcolor>white</textcolor>
                   <selectedcolor>selected</selectedcolor>
@@ -292,7 +292,7 @@
                   <top>0</top>
                   <width>270</width>
                   <height>40</height>
-                  <font>Font_Neon_18</font>
+                  <font>fontContextMenu</font>
                   <aligny>center</aligny>
                   <textcolor>white</textcolor>
                   <selectedcolor>selected</selectedcolor>
@@ -364,7 +364,7 @@
           <top>53r</top>
           <width>500</width>
           <height>20</height>
-          <font>Font_Neon_18</font>
+          <font>fontContextMenu</font>
           <textcolor>grey</textcolor>
           <scroll>false</scroll>
           <align>right</align>

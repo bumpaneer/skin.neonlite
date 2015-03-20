@@ -57,7 +57,7 @@
           <width>400</width>
           <height>46</height>
           <aligny>center</aligny>
-          <font>Font_Bartowski_Episode_ContextMenu</font>
+          <font>font30</font>
           <textcolor>Text-Filemode</textcolor>
           <selectedcolor>mainblue</selectedcolor>
           <label>$INFO[ListItem.label]</label>
@@ -69,7 +69,7 @@
           <width>400</width>
           <height>46</height>
           <aligny>center</aligny>
-          <font>Font_Bartowski_Episode_ContextMenu</font>
+          <font>font30</font>
           <textcolor>Text-Filemode</textcolor>
           <selectedcolor>mainblue</selectedcolor>
           <label>$INFO[ListItem.Label]$INFO[ListItem.Label2, - ]</label>
@@ -156,7 +156,7 @@
           <width>400</width>
           <height>46</height>
           <aligny>center</aligny>
-          <font>Font_Bartowski_Episode_ContextMenu</font>
+          <font>font30</font>
           <textcolor>mainblue</textcolor>
           <label>$INFO[ListItem.Label]</label>
           <visible>[!Window.IsActive(Programs) | Window.IsActive(musicplaylist)]</visible>
@@ -167,7 +167,7 @@
           <width>400</width>
           <height>46</height>
           <aligny>center</aligny>
-          <font>Font_Bartowski_Episode_ContextMenu</font>
+          <font>font30</font>
           <textcolor>ffffffff</textcolor>
           <selectedcolor>mainblue</selectedcolor>
           <label>$INFO[ListItem.Label]$INFO[ListItem.Label2, - ]</label>
@@ -691,7 +691,7 @@
       <width>470</width>
       <height>50</height>
       <align>center</align>
-      <font>Font_Bartowski_TV_Title</font>
+      <font>font30</font>
       <textcolor>mainblue</textcolor>
       <label>$INFO[ListItem.TVShowtitle]</label>
       <include>Animation_Viewtype_Files_RightArea</include>

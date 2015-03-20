@@ -67,7 +67,7 @@
             <height>46</height>
             <align>right</align>
             <aligny>center</aligny>
-            <font>Font_Bartowski_Movies</font>
+            <font>font13</font>
             <textcolor>Text-Filemode</textcolor>
             <label>$INFO[ListItem.Label2]</label>
             <visible></visible>
@@ -86,7 +86,7 @@
             <width>615</width>
             <height>46</height>
             <aligny>center</aligny>
-            <font>Font_Bartowski_Movies</font>
+            <font>font13</font>
             <textoffsetx>20</textoffsetx>
             <textcolor>Text-Filemode</textcolor>
             <label>$INFO[ListItem.Label]</label>
@@ -110,7 +110,7 @@
             <width>615</width>
             <height>46</height>
             <aligny>center</aligny>
-            <font>Font_Bartowski_Movies</font>
+            <font>font13</font>
             <textoffsetx>20</textoffsetx>
             <textcolor>ffffffff</textcolor>
             <label>$INFO[ListItem.Label]</label>
@@ -122,7 +122,7 @@
             <height>46</height>
             <align>right</align>
             <aligny>center</aligny>
-            <font>Font_Bartowski_Movies</font>
+            <font>font13</font>
             <textcolor>white</textcolor>
             <label>$INFO[ListItem.Label2]</label>
           </control>
@@ -185,7 +185,7 @@
       <height>278</height>
       <align>justify</align>
       <info>ListItem.Property(Addon.Description)</info>
-      <font>Font_Bartowski_Movies</font>
+      <font>font13</font>
       <textcolor>ffffffff</textcolor>
       <autoscroll time="3000" delay="5000" repeat="5000">Skin.HasSetting(autoscroll)</autoscroll>
       <!-- <include>Animation_HiddenByInfo</include> -->

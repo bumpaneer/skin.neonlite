@@ -29,7 +29,7 @@
         <top>40</top>
         <width>710</width>
         <height>30</height>
-        <font>Font_Neon_45_Context</font>
+        <font>font30</font>
         <label>$LOCALIZE[13406]</label>
         <aligny>center</aligny>
         <textcolor>white</textcolor>
@@ -52,7 +52,7 @@
             <top>0</top>
             <width>160</width>
             <height>35</height>
-            <font>Font_Neon_20_title</font>
+            <font>font13_title</font>
             <aligny>center</aligny>
             <textcolor>mainblue</textcolor>
             <shadowcolor>black</shadowcolor>
@@ -65,7 +65,7 @@
             <top>0</top>
             <width>390</width>
             <height>35</height>
-            <font>Font_KeyboardEdit</font>
+            <font>font13</font>
             <aligny>center</aligny>
             <shadowcolor>black</shadowcolor>
             <selectedcolor>selected</selectedcolor>
@@ -96,7 +96,7 @@
             <top>0</top>
             <width>160</width>
             <height>35</height>
-            <font>Font_Neon_20_title</font>
+            <font>font13_title</font>
             <aligny>center</aligny>
             <textcolor>mainblue</textcolor>
             <shadowcolor>black</shadowcolor>
@@ -109,7 +109,7 @@
             <top>0</top>
             <width>390</width>
             <height>35</height>
-            <font>Font_KeyboardEdit</font>
+            <font>font13</font>
             <aligny>center</aligny>
             <shadowcolor>black</shadowcolor>
             <textcolor>white</textcolor>

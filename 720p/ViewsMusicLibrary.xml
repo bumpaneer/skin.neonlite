@@ -42,7 +42,7 @@
             <top>0</top>
             <width>725</width>
             <height>40</height>
-            <font>Font_Neon_22</font>
+            <font>font14</font>
             <textcolor>grey2</textcolor>
             <selectedcolor>selected</selectedcolor>
             <align>left</align>
@@ -54,7 +54,7 @@
             <top>0</top>
             <width>700</width>
             <height>40</height>
-            <font>Font_Neon_18</font>
+            <font>fontContextMenu</font>
             <textcolor>grey2</textcolor>
             <selectedcolor>selected</selectedcolor>
             <align>right</align>
@@ -87,7 +87,7 @@
             <top>0</top>
             <width>725</width>
             <height>40</height>
-            <font>Font_Neon_22</font>
+            <font>font14</font>
             <textcolor>white</textcolor>
             <selectedcolor>selected</selectedcolor>
             <align>left</align>
@@ -99,7 +99,7 @@
             <top>0</top>
             <width>700</width>
             <height>40</height>
-            <font>Font_Neon_18</font>
+            <font>fontContextMenu</font>
             <textcolor>grey2</textcolor>
             <selectedcolor>selected</selectedcolor>
             <align>right</align>
@@ -164,7 +164,7 @@
           <scroll>true</scroll>
           <align>center</align>
           <aligny>center</aligny>
-          <font>Font_Neon_35</font>
+          <font>font30</font>
           <textcolor>mainblue</textcolor>
           <shadowcolor>black</shadowcolor>
         </control>
@@ -177,7 +177,7 @@
           <wrapmultiline>true</wrapmultiline>
           <align>center</align>
           <aligny>center</aligny>
-          <font>Font_Neon_22</font>
+          <font>font14</font>
           <textcolor>grey2</textcolor>
           <shadowcolor>black</shadowcolor>
         </control>
@@ -189,7 +189,7 @@
           <label>$INFO[ListItem.Title]</label>
           <scroll>true</scroll>
           <align>center</align>
-          <font>Font_Neon_22</font>
+          <font>font14</font>
           <textcolor>white</textcolor>
           <shadowcolor>black</shadowcolor>
           <wrapmultiline>true</wrapmultiline>
@@ -203,7 +203,7 @@
           <label>$INFO[ListItem.Genre]</label>
           <scroll>true</scroll>
           <align>center</align>
-          <font>Font_Neon_22</font>
+          <font>font14</font>
           <textcolor>white</textcolor>
           <shadowcolor>black</shadowcolor>
           <wrapmultiline>true</wrapmultiline>
@@ -218,7 +218,7 @@
           <label>$INFO[listitem.TrackNumber,[COLOR=mainblue]$LOCALIZE[31724]: [/COLOR]]</label>
           <align>center</align>
           <aligny>center</aligny>
-          <font>Font_Neon_22</font>
+          <font>font14</font>
           <textcolor>white</textcolor>
           <visible>!Container.Content(Albums)</visible>
         </control>
@@ -231,7 +231,7 @@
           <label>$INFO[listitem.Year,[COLOR=mainblue]$LOCALIZE[345]: [/COLOR]]</label>
           <align>center</align>
           <aligny>center</aligny>
-          <font>Font_Neon_22</font>
+          <font>font14</font>
           <textcolor>white</textcolor>
         </control>
         <control type="image">
@@ -355,7 +355,7 @@
         <top>195</top>
         <width>1200</width>
         <height>30</height>
-        <font>Font_Neon_35</font>
+        <font>font30</font>
         <textcolor>mainblue</textcolor>
         <shadowcolor>black</shadowcolor>
         <scroll>true</scroll>
@@ -422,7 +422,7 @@
             <top>0</top>
             <width>720</width>
             <height>40</height>
-            <font>Font_Neon_22</font>
+            <font>font14</font>
             <textcolor>grey2</textcolor>
             <selectedcolor>selected</selectedcolor>
             <align>left</align>
@@ -434,7 +434,7 @@
             <top>0</top>
             <width>700</width>
             <height>40</height>
-            <font>Font_Neon_18</font>
+            <font>fontContextMenu</font>
             <textcolor>grey2</textcolor>
             <selectedcolor>selected</selectedcolor>
             <align>right</align>
@@ -475,7 +475,7 @@
             <top>0</top>
             <width>720</width>
             <height>40</height>
-            <font>Font_Neon_22</font>
+            <font>font14</font>
             <textcolor>white</textcolor>
             <selectedcolor>selected</selectedcolor>
             <align>left</align>
@@ -487,7 +487,7 @@
             <top>0</top>
             <width>700</width>
             <height>40</height>
-            <font>Font_Neon_18</font>
+            <font>fontContextMenu</font>
             <textcolor>grey2</textcolor>
             <selectedcolor>selected</selectedcolor>
             <align>right</align>
@@ -572,7 +572,7 @@
           <scroll>true</scroll>
           <align>center</align>
           <aligny>center</aligny>
-          <font>Font_Neon_35</font>
+          <font>font30</font>
           <textcolor>mainblue</textcolor>
           <shadowcolor>black</shadowcolor>
         </control>
@@ -585,7 +585,7 @@
           <wrapmultiline>true</wrapmultiline>
           <align>center</align>
           <aligny>center</aligny>
-          <font>Font_Neon_22</font>
+          <font>font14</font>
           <textcolor>grey2</textcolor>
           <shadowcolor>black</shadowcolor>
         </control>
@@ -597,7 +597,7 @@
           <label>$INFO[ListItem.Title]</label>
           <scroll>true</scroll>
           <align>center</align>
-          <font>Font_Neon_22</font>
+          <font>font14</font>
           <textcolor>white</textcolor>
           <shadowcolor>black</shadowcolor>
           <wrapmultiline>true</wrapmultiline>
@@ -611,7 +611,7 @@
           <label>$INFO[ListItem.Studio]</label>
           <scroll>true</scroll>
           <align>center</align>
-          <font>Font_Neon_22</font>
+          <font>font14</font>
           <textcolor>grey2</textcolor>
           <shadowcolor>black</shadowcolor>
           <wrapmultiline>true</wrapmultiline>
@@ -625,7 +625,7 @@
           <label>$INFO[listitem.Year,[COLOR=mainblue]$LOCALIZE[345]: [/COLOR]]</label>
           <align>center</align>
           <aligny>center</aligny>
-          <font>Font_Neon_22</font>
+          <font>font14</font>
           <textcolor>white</textcolor>
         </control>
         <control type="image">
@@ -681,7 +681,7 @@
             <top>0</top>
             <width>560</width>
             <height>40</height>
-            <font>Font_Neon_22</font>
+            <font>font14</font>
             <textcolor>grey2</textcolor>
             <selectedcolor>selected</selectedcolor>
             <align>left</align>
@@ -714,7 +714,7 @@
             <top>0</top>
             <width>560</width>
             <height>40</height>
-            <font>Font_Neon_22</font>
+            <font>font14</font>
             <textcolor>white</textcolor>
             <selectedcolor>selected</selectedcolor>
             <align>left</align>
@@ -755,7 +755,7 @@
           <label>[B]$INFO[ListItem.Label][/B]</label>
           <align>center</align>
           <aligny>center</aligny>
-          <font>Font_Neon_35</font>
+          <font>font30</font>
           <textcolor>mainblue</textcolor>
           <shadowcolor>black</shadowcolor>
           <wrapmultiline>true</wrapmultiline>
@@ -812,7 +812,7 @@
             <label>$LOCALIZE[21893]:</label>
             <align>right</align>
             <aligny>center</aligny>
-            <font>Font_Neon_22</font>
+            <font>font14</font>
             <textcolor>mainblue</textcolor>
             <visible>!IsEmpty(ListItem.Property(Artist_Born))</visible>
           </control>
@@ -825,7 +825,7 @@
             <label>$INFO[ListItem.Property(Artist_Born)]</label>
             <align>left</align>
             <aligny>center</aligny>
-            <font>Font_Neon_22</font>
+            <font>font14</font>
             <scroll>true</scroll>
             <visible>!IsEmpty(ListItem.Property(Artist_Born))</visible>
           </control>
@@ -838,7 +838,7 @@
             <label>$LOCALIZE[21894]:</label>
             <align>right</align>
             <aligny>center</aligny>
-            <font>Font_Neon_22</font>
+            <font>font14</font>
             <textcolor>mainblue</textcolor>
             <visible>!IsEmpty(ListItem.Property(Artist_Formed))</visible>
           </control>
@@ -851,7 +851,7 @@
             <label>$INFO[ListItem.Property(Artist_Formed)]</label>
             <align>left</align>
             <aligny>center</aligny>
-            <font>Font_Neon_22</font>
+            <font>font14</font>
             <scroll>true</scroll>
             <visible>!IsEmpty(ListItem.Property(Artist_Formed))</visible>
           </control>
@@ -864,7 +864,7 @@
             <label>$LOCALIZE[515]:</label>
             <align>right</align>
             <aligny>center</aligny>
-            <font>Font_Neon_22</font>
+            <font>font14</font>
             <textcolor>mainblue</textcolor>
           </control>
           <control type="label">
@@ -876,7 +876,7 @@
             <label fallback="416">$INFO[ListItem.Property(Artist_Genre)]</label>
             <align>left</align>
             <aligny>center</aligny>
-            <font>Font_Neon_22</font>
+            <font>font14</font>
             <scroll>true</scroll>
           </control>
           <control type="image">
@@ -892,7 +892,7 @@
             <top>292</top>
             <width>600</width>
             <height>118</height>
-            <font>Font_Neon_20</font>
+            <font>font13</font>
             <align>justify</align>
             <textcolor>white</textcolor>
             <label>$INFO[ListItem.Property(Artist_Description)]</label>
@@ -943,7 +943,7 @@
             <top>0</top>
             <width>730</width>
             <height>40</height>
-            <font>Font_Neon_22</font>
+            <font>font14</font>
             <textcolor>grey2</textcolor>
             <selectedcolor>selected</selectedcolor>
             <align>left</align>
@@ -955,7 +955,7 @@
             <top>0</top>
             <width>700</width>
             <height>40</height>
-            <font>Font_Neon_18</font>
+            <font>fontContextMenu</font>
             <textcolor>grey2</textcolor>
             <selectedcolor>selected</selectedcolor>
             <align>right</align>
@@ -988,7 +988,7 @@
             <top>0</top>
             <width>730</width>
             <height>40</height>
-            <font>Font_Neon_22</font>
+            <font>font14</font>
             <textcolor>white</textcolor>
             <selectedcolor>selected</selectedcolor>
             <align>left</align>
@@ -1000,7 +1000,7 @@
             <top>0</top>
             <width>700</width>
             <height>40</height>
-            <font>Font_Neon_18</font>
+            <font>fontContextMenu</font>
             <textcolor>grey2</textcolor>
             <selectedcolor>selected</selectedcolor>
             <align>right</align>
@@ -1080,7 +1080,7 @@
           <scroll>true</scroll>
           <align>center</align>
           <aligny>center</aligny>
-          <font>Font_Neon_35</font>
+          <font>font30</font>
           <textcolor>mainblue</textcolor>
           <shadowcolor>black</shadowcolor>
         </control>
@@ -1093,7 +1093,7 @@
           <wrapmultiline>true</wrapmultiline>
           <align>center</align>
           <aligny>center</aligny>
-          <font>Font_Neon_24</font>
+          <font>font16</font>
           <textcolor>grey2</textcolor>
           <shadowcolor>black</shadowcolor>
         </control>
@@ -1105,7 +1105,7 @@
           <label>$INFO[ListItem.Genre]</label>
           <scroll>true</scroll>
           <align>center</align>
-          <font>Font_Neon_24</font>
+          <font>font16</font>
           <textcolor>white</textcolor>
           <shadowcolor>black</shadowcolor>
           <wrapmultiline>true</wrapmultiline>
@@ -1119,7 +1119,7 @@
           <label>$INFO[listitem.Year,[COLOR=mainblue]$LOCALIZE[345]: [/COLOR]]</label>
           <align>center</align>
           <aligny>center</aligny>
-          <font>Font_Neon_24</font>
+          <font>font16</font>
           <textcolor>white</textcolor>
         </control>
         <control type="image">
@@ -1148,7 +1148,7 @@
           <label>21821</label>
           <align>left</align>
           <aligny>center</aligny>
-          <font>Font_Neon_24</font>
+          <font>font16</font>
           <textcolor>mainblue</textcolor>
           <shadowcolor>black</shadowcolor>
         </control>
@@ -1158,7 +1158,7 @@
           <top>492</top>
           <width>750</width>
           <height>163</height>
-          <font>Font_Neon_20</font>
+          <font>font13</font>
           <align>justify</align>
           <pagecontrol>51361</pagecontrol>
           <textcolor>white</textcolor>

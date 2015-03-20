@@ -53,7 +53,7 @@
         <top>18</top>
         <width>760</width>
         <height>30</height>
-        <font>Font_Neon_24</font>
+        <font>font16</font>
         <label>-</label>
         <align>center</align>
         <aligny>center</aligny>
@@ -67,7 +67,7 @@
         <width>760</width>
         <height>40</height>
         <label>467</label>
-        <font>Font_Neon_24</font>
+        <font>font16</font>
         <focusedcolor>white</focusedcolor>
         <colordiffuse>mainblue</colordiffuse>
         <textoffsetx>20</textoffsetx>
@@ -84,7 +84,7 @@
         <top>120</top>
         <width>740</width>
         <label>21433</label>
-        <font>Font_Neon_20</font>
+        <font>font13</font>
         <textcolor>mainblue</textcolor>
         <shadowcolor>black</shadowcolor>
       </control>
@@ -97,7 +97,7 @@
         <textoffsetx>15</textoffsetx>
         <textoffsety>5</textoffsety>
         <textwidth>750</textwidth>
-        <font>Font_Neon_24</font>
+        <font>font16</font>
         <focusedcolor>white</focusedcolor>
         <textcolor>grey2</textcolor>
         <align>center</align>
@@ -117,7 +117,7 @@
         <width>740</width>
         <align>left</align>
         <label>21434</label>
-        <font>Font_Neon_20</font>
+        <font>font13</font>
         <textcolor>mainblue</textcolor>
         <shadowcolor>black</shadowcolor>
       </control>
@@ -147,7 +147,7 @@
             <aligny>center</aligny>
             <info>ListItem.Label</info>
             <selectedcolor>selected</selectedcolor>
-            <font>Font_Neon_24</font>
+            <font>font16</font>
           </control>
         </itemlayout>
         <focusedlayout width="560" height="40">
@@ -177,7 +177,7 @@
             <aligny>center</aligny>
             <info>ListItem.Label</info>
             <selectedcolor>selected</selectedcolor>
-            <font>Font_Neon_24</font>
+            <font>font16</font>
           </control>
         </focusedlayout>
       </control>
@@ -191,7 +191,7 @@
           <width>180</width>
           <height>41</height>
           <label>15019</label>
-          <font>Font_Neon_20</font>
+          <font>font13</font>
           <align>center</align>
           <aligny>center</aligny>
           <focusedcolor>white</focusedcolor>
@@ -210,7 +210,7 @@
           <height>41</height>
           <width>180</width>
           <label>1210</label>
-          <font>Font_Neon_20</font>
+          <font>font13</font>
           <align>center</align>
           <aligny>center</aligny>
           <focusedcolor>white</focusedcolor>
@@ -229,7 +229,7 @@
           <height>41</height>
           <width>180</width>
           <label>21435</label>
-          <font>Font_Neon_20</font>
+          <font>font13</font>
           <align>center</align>
           <aligny>center</aligny>
           <focusedcolor>white</focusedcolor>
@@ -248,7 +248,7 @@
         <top>370</top>
         <width>740</width>
         <label>31325</label>
-        <font>Font_Neon_20</font>
+        <font>font13</font>
         <textcolor>mainblue</textcolor>
         <shadowcolor>black</shadowcolor>
       </control>
@@ -258,7 +258,7 @@
         <width>760</width>
         <height>41</height>
         <label>21424</label>
-        <font>Font_Neon_24</font>
+        <font>font16</font>
         <focusedcolor>white</focusedcolor>
         <textoffsetx>20</textoffsetx>
         <colordiffuse>mainblue</colordiffuse>
@@ -275,7 +275,7 @@
         <width>760</width>
         <height>41</height>
         <label>21427</label>
-        <font>Font_Neon_24</font>
+        <font>font16</font>
         <focusedcolor>white</focusedcolor>
         <colordiffuse>mainblue</colordiffuse>
         <textoffsetx>20</textoffsetx>
@@ -292,7 +292,7 @@
         <width>560</width>
         <height>41</height>
         <label>21429</label>
-        <font>Font_Neon_24</font>
+        <font>font16</font>
         <focusedcolor>white</focusedcolor>
         <colordiffuse>mainblue</colordiffuse>
         <textoffsetx>20</textoffsetx>
@@ -308,7 +308,7 @@
         <top>485</top>
         <width>180</width>
         <height>40</height>
-        <font>Font_Neon_20</font>
+        <font>font13</font>
         <align>center</align>
         <aligny>center</aligny>
         <focusedcolor>white</focusedcolor>
@@ -330,7 +330,7 @@
         <width>560</width>
         <height>40</height>
         <label>21458</label>
-        <font>Font_Neon_24</font>
+        <font>font16</font>
         <focusedcolor>white</focusedcolor>
         <colordiffuse>mainblue</colordiffuse>
         <textoffsetx>20</textoffsetx>
@@ -346,7 +346,7 @@
         <top>530</top>
         <width>180</width>
         <height>40</height>
-        <font>Font_Neon_20</font>
+        <font>font13</font>
         <aligny>center</aligny>
         <textoffsetx>40</textoffsetx>
         <radioposx>75</radioposx>
@@ -374,7 +374,7 @@
           <texturefocus border="5">button-focus.png</texturefocus>
           <label>186</label>
           <focusedcolor>white</focusedcolor>
-          <font>Font_Neon_20</font>
+          <font>font13</font>
           <onup>23</onup>
           <onleft>21</onleft>
           <onright>21</onright>
@@ -393,7 +393,7 @@
           <texturenofocus border="5">MenuItemNF.png</texturenofocus>
           <texturefocus border="5">button-focus.png</texturefocus>
           <label>222</label>
-          <font>Font_Neon_20</font>
+          <font>font13</font>
           <onup>23</onup>
           <onleft>20</onleft>
           <onright>20</onright>

@@ -36,7 +36,7 @@
       <description>Heading</description>
       <left>390</left>
       <top>200</top>
-      <font>Font_Bartowski_Episode_ContextMenu</font>
+      <font>font30</font>
       <textcolor>white</textcolor>
       <label>-</label>
       <width>500</width>
@@ -48,7 +48,7 @@
       <top>252</top>
       <width>500</width>
       <height>98</height>
-      <font>Font_Bartowski_Episode_ContextMenu</font>
+      <font>font30</font>
       <textcolor>white</textcolor>
       <align>center</align>
       <autoscroll time="3000" delay="4000" repeat="5000">Skin.HasSetting(AutoScroll)</autoscroll>
@@ -59,7 +59,7 @@
       <top>400</top>
       <height>39</height>
       <width>200</width>
-      <font>Font_Bartowski_Press_S</font>
+      <font>font16</font>
       <textcolor>mainblue</textcolor>
       <focusedcolor>white</focusedcolor>
       <colordiffuse>mainblue</colordiffuse>
@@ -81,7 +81,7 @@
       <width>200</width>
       <align>center</align>
       <aligny>center</aligny>
-      <font>Font_Bartowski_Press_S</font>
+      <font>font16</font>
       <textcolor>mainblue</textcolor>
       <focusedcolor>white</focusedcolor>
       <colordiffuse>mainblue</colordiffuse>

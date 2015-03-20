@@ -40,7 +40,7 @@
           <top>0</top>
           <width>295</width>
           <height>38</height>
-          <font>Font_Bartowski_Episode_ContextMenu</font>
+          <font>font30</font>
           <align>center</align>
           <textcolor>grey2</textcolor>
           <focusedcolor>white</focusedcolor>

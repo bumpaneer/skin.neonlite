@@ -40,7 +40,7 @@
       <top>20</top>
       <width>720</width>
       <height>30</height>
-      <font>Font_Neon_26</font>
+      <font>font16</font>
       <label>587</label>
       <align>center</align>
       <aligny>center</aligny>
@@ -174,7 +174,7 @@
         <texturenofocus>button-nofocus.png</texturenofocus>
         <texturefocus>button-focus.png</texturefocus>
         <label>186</label>
-        <font>Font_Neon_22</font>
+        <font>font14</font>
         <onup>5</onup>
         <onleft>27</onleft>
         <onright>27</onright>
@@ -193,7 +193,7 @@
         <texturenofocus>button-nofocus.png</texturenofocus>
         <texturefocus>button-focus.png</texturefocus>
         <label>192</label>
-        <font>Font_Neon_22</font>
+        <font>font14</font>
         <onup>5</onup>
         <onleft>28</onleft>
         <onright>28</onright>

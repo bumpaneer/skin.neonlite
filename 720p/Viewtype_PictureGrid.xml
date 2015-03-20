@@ -124,7 +124,7 @@
       <label>$INFO[ListItem.Label]</label>
       <align>left</align>
       <aligny>center</aligny>
-      <font>Font_Neon_44</font>
+      <font>font30</font>
       <textcolor>mainblue</textcolor>
       <shadowcolor>black</shadowcolor>
       <include>Animation_BackdropFade</include>
@@ -204,7 +204,7 @@
         <label>$INFO[ListItem.Label]</label>
         <align>center</align>
         <aligny>center</aligny>
-        <font>Font_Neon_44</font>
+        <font>font30</font>
         <textcolor>mainblue</textcolor>
         <shadowcolor>black</shadowcolor>
       </control>
@@ -226,7 +226,7 @@
         <label>$INFO[ListItem.PictureDateTime,[COLOR=mainblue]$LOCALIZE[31326][/COLOR] - ]</label>
         <align>center</align>
         <aligny>center</aligny>
-        <font>Font_Neon_20</font>
+        <font>font13</font>
         <textcolor>white</textcolor>
         <shadowcolor>black</shadowcolor>
       </control>
@@ -239,7 +239,7 @@
         <label>$INFO[ListItem.PictureResolution,[COLOR=mainblue]$LOCALIZE[31327][/COLOR] - ]</label>
         <align>center</align>
         <aligny>center</aligny>
-        <font>Font_Neon_20</font>
+        <font>font13</font>
         <textcolor>white</textcolor>
         <shadowcolor>black</shadowcolor>
       </control>

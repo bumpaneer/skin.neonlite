@@ -322,7 +322,7 @@
           <width>555</width>
           <height>50</height>
           <align>center</align>
-          <font>Font_Neon_30</font>
+          <font>font30</font>
           <textcolor>mainblue</textcolor>
           <label>$INFO[ListItem.Label]</label>
         </control>
@@ -343,7 +343,7 @@
           <width>555</width>
           <height>50</height>
           <align>center</align>
-          <font>LiberationSans_Regular_30</font>
+          <font>font30</font>
           <textcolor>mainblue</textcolor>
           <label>$INFO[ListItem.Label]</label>
         </control>
@@ -354,7 +354,7 @@
           <width>555</width>
           <height>50</height>
           <align>center</align>
-          <font>Font_Neon_20</font>
+          <font>font13</font>
           <textcolor>white</textcolor>
           <label>$INFO[ListItem.Genre]</label>
         </control>
@@ -364,7 +364,7 @@
           <width>555</width>
           <height>50</height>
           <align>center</align>
-          <font>Font_Neon_20</font>
+          <font>font13</font>
           <textcolor>white</textcolor>
           <label>31508</label>
           <visible>Container.Content(movies) + IsEmpty(ListItem.foldername) + !substring(Container.Listitem.Label,..,left) + !Container.Content(genres) + Window.IsActive(videolibrary)</visible>
@@ -375,7 +375,7 @@
           <width>555</width>
           <height>50</height>
           <align>center</align>
-          <font>Font_Neon_20</font>
+          <font>font13</font>
           <textcolor>white</textcolor>
           <label>$INFO[ListItem.Year] / $INFO[ListItem.Duration] $LOCALIZE[12391]</label>
           <visible>Container.Content(movies) + !SubString(ListItem.Icon,DefaultFolderBack.png,Left) + !IsEmpty(ListItem.Duration) + !SubString(ListItem.Duration,min)</visible>
@@ -386,7 +386,7 @@
           <width>555</width>
           <height>50</height>
           <align>center</align>
-          <font>Font_Neon_20</font>
+          <font>font13</font>
           <textcolor>white</textcolor>
           <label>$INFO[ListItem.Year] / $INFO[ListItem.Duration]</label>
           <visible>Container.Content(movies) + !SubString(ListItem.Icon,DefaultFolderBack.png,Left) + !IsEmpty(ListItem.Duration) + SubString(ListItem.Duration,min)</visible>
@@ -399,7 +399,7 @@
           <top>392</top>
           <width>540</width>
           <height>274</height>
-          <font>Font_Neon_18</font>
+          <font>fontContextMenu</font>
           <textcolor>white</textcolor>
           <label>$INFO[ListItem.Plot]</label>
           <align>justify</align>
@@ -412,7 +412,7 @@
           <top>392</top>
           <width>540</width>
           <height>168</height>
-          <font>Font_Neon_18</font>
+          <font>fontContextMenu</font>
           <textcolor>white</textcolor>
           <label>$INFO[ListItem.Plot]</label>
           <autoscroll time="3000" delay="5000" repeat="5000">Skin.HasSetting(autoscroll)</autoscroll>

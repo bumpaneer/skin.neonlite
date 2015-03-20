@@ -33,7 +33,7 @@
       <width>1280</width>
       <height>50</height>
       <align>center</align>
-      <font>Font_Bartowski_BigMusic</font>
+      <font>font30</font>
       <shadowcolor>678b8b8b</shadowcolor>
       <textcolor>678b8b8b</textcolor>
       <label>$INFO[ListItem.label]</label>
@@ -49,7 +49,7 @@
       <width>1280</width>
       <height>50</height>
       <align>center</align>
-      <font>Font_Bartowski_BigMusic</font>
+      <font>font30</font>
       <shadowcolor>678b8b8b</shadowcolor>
       <textcolor>678b8b8b</textcolor>
       <label>$LOCALIZE[31235]</label>
@@ -532,7 +532,7 @@
         <height>234</height>
         <align>justify</align>
         <info>ListItem.Plot</info>
-        <font>Font_Bartowski_Movies_Plot</font>
+        <font>font14</font>
         <textcolor>ffffffff</textcolor>
         <animation effect="fade" start="0" end="100" time="400" delay="3000" condition="Control.IsVisible(55) + Skin.HasSetting(PosterPlus) + Container.Content(movies) + !Skin.HasSetting(Poster_Fanart) + ![Container(55).OnNext | Container(55).OnPrevious]">WindowOpen</animation>
         <animation effect="slide" start="1000,0" end="0,0" time="400" delay="3600" condition="Skin.HasSetting(PosterPlus) + Container.Content(movies) + !Skin.HasSetting(Poster_Fanart) + ![Container(55).OnNext | Container(55).OnPrevious]">Conditional</animation>
@@ -545,7 +545,7 @@
         <width>1200</width>
         <height>50</height>
         <aligny>center</aligny>
-        <font>Font_Bartowski_Title_TVShow</font>
+        <font>font30</font>
         <textcolor>mainblue</textcolor>
         <label>$INFO[ListItem.Label]</label>
         <visible>Container.Content(movies) + !Skin.HasSetting(clean_poster)</visible>
@@ -578,7 +578,7 @@
         <width>1200</width>
         <height>50</height>
         <aligny>center</aligny>
-        <font>Font_Bartowski_Title_TVShow</font>
+        <font>font30</font>
         <textcolor>mainblue</textcolor>
         <label>$INFO[ListItem.TVShowTitle]</label>
         <visible>[Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes)] + IsEmpty(Control.GetLabel(7015)) + IsEmpty(Control.GetLabel(9015))</visible>
@@ -589,7 +589,7 @@
         <width>604</width>
         <height>50</height>
         <aligny>center</aligny>
-        <font>Font_RSS_Big</font>
+        <font>font16</font>
         <textcolor>ffffffff</textcolor>
         <label>$INFO[ListItem.Duration] $LOCALIZE[12391]</label>
         <visible>Container.Content(movies) + !Skin.HasSetting(clean_poster) + ![Player.HasVideo | substring(container.folderpath,plugin://video/)] + !IsEmpty(ListItem.Duration)</visible>
@@ -600,7 +600,7 @@
         <width>604</width>
         <height>50</height>
         <aligny>center</aligny>
-        <font>Font_RSS_Big</font>
+        <font>font16</font>
         <textcolor>ffffffff</textcolor>
         <label>$LOCALIZE[31005]</label>
         <visible>IsEmpty(ListItem.foldername) + !Skin.HasSetting(Poster_Fanart) + !Skin.HasSetting(clean_poster) + !substring(Container.Listitem.Label,..,left) + Container.Content(movies) + Window.IsActive(videolibrary)</visible>
@@ -611,7 +611,7 @@
         <width>604</width>
         <height>50</height>
         <aligny>center</aligny>
-        <font>Font_Neon_26</font>
+        <font>font16</font>
         <textcolor>ffffffff</textcolor>
         <label>$INFO[ListItem.year]</label>
         <visible>Container.Content(movies) + !Skin.HasSetting(clean_poster) + ![Player.HasVideo | substring(container.folderpath,plugin://video/)]</visible>
@@ -637,7 +637,7 @@
         <width>370</width>
         <height>50</height>
         <aligny>center</aligny>
-        <font>Font_Neon_16</font>
+        <font>font12</font>
         <textcolor>ffffffff</textcolor>
         <label>*$LOCALIZE[31237]*</label>
         <shadowcolor>black</shadowcolor>
@@ -652,7 +652,7 @@
         <width>370</width>
         <height>50</height>
         <aligny>center</aligny>
-        <font>Font_Neon_16</font>
+        <font>font12</font>
         <textcolor>ffffffff</textcolor>
         <label>*$LOCALIZE[31238]*</label>
         <shadowcolor>black</shadowcolor>
@@ -671,7 +671,7 @@
         <width>600</width>
         <height>20</height>
         <aligny>center</aligny>
-        <font>Font_Bartowski_Showcase_Right_Under</font>
+        <font>font14</font>
         <textcolor>ffffffff</textcolor>
         <label>[COLOR=mainblue]$LOCALIZE[20339][/COLOR] - $INFO[ListItem.Director]</label>
         <animation effect="fade" start="0" end="100" time="400" delay="3000" condition="Skin.HasSetting(PosterPlus) + Container.Content(movies) + !Skin.HasSetting(Poster_Fanart) + ![Container(55).OnNext | Container(55).OnPrevious]">WindowOpen</animation>
@@ -680,7 +680,7 @@
         <width>600</width>
         <height>20</height>
         <aligny>center</aligny>
-        <font>Font_Bartowski_Showcase_Right_Under</font>
+        <font>font14</font>
         <textcolor>ffffffff</textcolor>
         <label>[COLOR=mainblue]$LOCALIZE[20417][/COLOR] - $INFO[ListItem.Writer]</label>
         <animation effect="fade" start="0" end="100" time="400" delay="3000" condition="Skin.HasSetting(PosterPlus) + Container.Content(movies) + !Skin.HasSetting(Poster_Fanart) + ![Container(55).OnNext | Container(55).OnPrevious]">WindowOpen</animation>
@@ -689,7 +689,7 @@
         <width>600</width>
         <height>20</height>
         <aligny>center</aligny>
-        <font>Font_Bartowski_Showcase_Right_Under</font>
+        <font>font14</font>
         <textcolor>ffffffff</textcolor>
         <label>[COLOR=mainblue]$LOCALIZE[515][/COLOR] - $INFO[ListItem.Genre]</label>
         <animation effect="fade" start="0" end="100" time="400" delay="3000" condition="Skin.HasSetting(PosterPlus) + Container.Content(movies) + !Skin.HasSetting(Poster_Fanart) + ![Container(55).OnNext | Container(55).OnPrevious]">WindowOpen</animation>
@@ -698,7 +698,7 @@
         <width>600</width>
         <height>20</height>
         <aligny>center</aligny>
-        <font>Font_Bartowski_Showcase_Right_Under</font>
+        <font>font14</font>
         <textcolor>ffffffff</textcolor>
         <label>[COLOR=mainblue]$LOCALIZE[572][/COLOR] - $INFO[ListItem.Studio]</label>
         <animation effect="fade" start="0" end="100" time="400" delay="3000" condition="Skin.HasSetting(PosterPlus) + Container.Content(movies) + !Skin.HasSetting(Poster_Fanart) + ![Container(55).OnNext | Container(55).OnPrevious]">WindowOpen</animation>
@@ -707,7 +707,7 @@
         <width>600</width>
         <height>20</height>
         <aligny>center</aligny>
-        <font>Font_Bartowski_Showcase_Right_Under</font>
+        <font>font14</font>
         <textcolor>ffffffff</textcolor>
         <label>[COLOR=mainblue]$LOCALIZE[563][/COLOR] - $INFO[ListItem.Rating]</label>
         <animation effect="fade" start="0" end="100" time="400" delay="3000" condition="Skin.HasSetting(PosterPlus) + Container.Content(movies) + !Skin.HasSetting(Poster_Fanart) + ![Container(55).OnNext | Container(55).OnPrevious]">WindowOpen</animation>
@@ -726,7 +726,7 @@
         <top>30</top>
         <width>230</width>
         <height>89</height>
-        <font>Font_Neon_26</font>
+        <font>font16</font>
         <textcolor>white</textcolor>
         <align>center</align>
         <label>$INFO[ListItem.Label]</label>
@@ -737,7 +737,7 @@
         <top>30</top>
         <width>630</width>
         <height>89</height>
-        <font>Font_TVShow</font>
+        <font>font16</font>
         <label>[COLOR=ListTrackF]$LOCALIZE[515][/COLOR] [COLOR=white]$INFO[ListItem.Genre][/COLOR]</label>
       </control>
       <control type="label">
@@ -746,7 +746,7 @@
         <top>60</top>
         <width>630</width>
         <height>89</height>
-        <font>Font_TVShow</font>
+        <font>font16</font>
         <label>[COLOR=ListTrackF]$LOCALIZE[31231][/COLOR] [COLOR=white]$INFO[ListItem.Date][/COLOR]</label>
       </control>
       <control type="label">
@@ -755,7 +755,7 @@
         <top>90</top>
         <width>630</width>
         <height>89</height>
-        <font>Font_TVShow</font>
+        <font>font16</font>
         <label>[COLOR=ListTrackF]$LOCALIZE[368][/COLOR] [COLOR=white]$INFO[ListItem.Rating][/COLOR]      [COLOR=ListTrackF]$LOCALIZE[31226][/COLOR] [COLOR=white]$INFO[ListItem.mpaa][/COLOR]</label>
       </control>
     </control>
@@ -768,7 +768,7 @@
         <top>0</top>
         <width>630</width>
         <height>89</height>
-        <font>Font_TVShow</font>
+        <font>font16</font>
         <label>[COLOR=ListTrackF]$LOCALIZE[515][/COLOR] [COLOR=white]$INFO[ListItem.Genre][/COLOR]</label>
         <include>Animation_HiddenByInfo</include>
       </control>
@@ -777,7 +777,7 @@
         <top>30</top>
         <width>630</width>
         <height>89</height>
-        <font>Font_TVShow</font>
+        <font>font16</font>
         <label>[COLOR=ListTrackF]$LOCALIZE[172][/COLOR] [COLOR=white]$INFO[ListItem.Property(releasedate)][/COLOR]</label>
         <include>Animation_HiddenByInfo</include>
       </control>
@@ -786,7 +786,7 @@
         <top>60</top>
         <width>630</width>
         <height>89</height>
-        <font>Font_TVShow</font>
+        <font>font16</font>
         <label>[COLOR=ListTrackF]$LOCALIZE[31226][/COLOR] [COLOR=white]$INFO[ListItem.mpaa][/COLOR]</label>
         <include>Animation_HiddenByInfo</include>
       </control>

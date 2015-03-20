@@ -81,7 +81,7 @@
             <width>540</width>
             <height>30</height>
             <aligny>center</aligny>
-            <font>Font_Neon_30</font>
+            <font>font30</font>
             <textcolor>mainblue</textcolor>
             <label>$INFO[Container(510).ListItem.Label]</label>
             <scrollout>false</scrollout>
@@ -160,7 +160,7 @@
                 <top>123</top>
                 <width>260</width>
                 <height>10</height>
-                <font>Font_Bartowski_Movies</font>
+                <font>font13</font>
                 <textcolor>mainblue</textcolor>
                 <shadowcolor>black</shadowcolor>
                 <selectedcolor>selected</selectedcolor>
@@ -175,7 +175,7 @@
                 <width>260</width>
                 <scroll>false</scroll>
                 <height>20</height>
-                <font>Font_Neon_16</font>
+                <font>font12</font>
                 <textcolor>white</textcolor>
                 <shadowcolor>black</shadowcolor>
                 <selectedcolor>selected</selectedcolor>
@@ -228,7 +228,7 @@
                 <width>960</width>
                 <height>50</height>
                 <aligny>center</aligny>
-                <font>Font_Neon_30</font>
+                <font>font30</font>
                 <textcolor>mainblue</textcolor>
                 <label>[COLOR=mainblue]$INFO[ListItem.TVshowTitle] - [UPPERCASE]$INFO[ListItem.Property(episodeno)][/UPPERCASE][/COLOR] - [COLOR=white]$INFO[ListItem.Label][/COLOR]</label>
               </control>
@@ -239,7 +239,7 @@
                 <height>102</height>
                 <align>justify</align>
                 <label>$INFO[ListItem.Plot]</label>
-                <font>Font_Bartowski_Movies_Plot</font>
+                <font>font14</font>
                 <textcolor>grey</textcolor>
                 <autoscroll time="3000" delay="5000" repeat="5000">Skin.HasSetting(autoscroll)</autoscroll>
               </control>
@@ -250,7 +250,7 @@
           <include condition="Skin.HasSetting(random_items)">RandomEpisodes</include>
         </control>
       </control>
-      <!-- TV Shows small -->
+      <!-- TV Shows font10 -->
       <control type="group">
         <visible>Container(301).HasFocus(5) + Library.HasContent(TVShows) + !Skin.HasSetting(BigRecentTV)</visible>
         <left>-900</left>
@@ -305,7 +305,7 @@
             <width>540</width>
             <height>30</height>
             <aligny>center</aligny>
-            <font>Font_Neon_30</font>
+            <font>font30</font>
             <textcolor>mainblue</textcolor>
             <label>[UPPERCASE]$INFO[Container(510).ListItem.Title][/UPPERCASE]</label>
             <scrollout>false</scrollout>
@@ -323,7 +323,7 @@
             <width>540</width>
             <height>20</height>
             <aligny>center</aligny>
-            <font>Font_Neon_22</font>
+            <font>font14</font>
             <textcolor>ccFFFFFF</textcolor>
             <label>[UPPERCASE]$INFO[Container(510).ListItem.TVshowTitle][/UPPERCASE]</label>
             <scrollout>false</scrollout>
@@ -393,7 +393,7 @@
             <height>30</height>
             <width>375</width>
             <aligny>center</aligny>
-            <font>Font_Neon_30</font>
+            <font>font30</font>
             <textcolor>mainblue</textcolor>
             <label>[UPPERCASE]$INFO[Container(510).ListItem.Label][/UPPERCASE]</label>
             <scrollout>false</scrollout>
@@ -411,7 +411,7 @@
             <width>375</width>
             <height>25</height>
             <aligny>center</aligny>
-            <font>Font_Neon_22</font>
+            <font>font14</font>
             <textcolor>abFFFFFF</textcolor>
             <label>[UPPERCASE]$INFO[Container(510).ListItem.Artist][/UPPERCASE]</label>
             <scrollout>false</scrollout>
@@ -423,7 +423,7 @@
             <width>375</width>
             <height>25</height>
             <aligny>center</aligny>
-            <font>Font_Neon_22</font>
+            <font>font14</font>
             <textcolor>abFFFFFF</textcolor>
             <label>[UPPERCASE]$INFO[Container(510).ListItem.Album][/UPPERCASE]</label>
             <scrollout>false</scrollout>
@@ -800,7 +800,7 @@
     <top>2</top>
     <width>270</width>
     <height>30</height>
-    <font>Font_Neon_24</font>
+    <font>font16</font>
     <align>left</align>
     <aligny>center</aligny>
     <label>$INFO[ListItem.Label]</label>
@@ -810,7 +810,7 @@
     <top>182</top>
     <width>220</width>
     <height>25</height>
-    <font>Font_Neon_20</font>
+    <font>font13</font>
     <align>center</align>
     <aligny>center</aligny>
     <scrollspeed>70</scrollspeed>
@@ -824,7 +824,7 @@
     <top>206</top>
     <width>220</width>
     <height>20</height>
-    <font>Font_Time</font>
+    <font>font13</font>
     <align>center</align>
     <aligny>center</aligny>
   </include>
@@ -833,7 +833,7 @@
     <top>2</top>
     <width>270</width>
     <height>30</height>
-    <font>Font_Neon_20</font>
+    <font>font13</font>
     <align>left</align>
     <aligny>center</aligny>
     <label>$INFO[ListItem.Label]</label>
@@ -843,7 +843,7 @@
     <top>193</top>
     <width>220</width>
     <height>20</height>
-    <font>Font_Neon_24</font>
+    <font>font16</font>
     <textcolor>red</textcolor>
     <align>center</align>
     <aligny>center</aligny>
@@ -855,7 +855,7 @@
     <height>25</height>
     <aligny>center</aligny>
     <textcolor>ab749a9a</textcolor>
-    <font>Font_Neon_22</font>
+    <font>font14</font>
   </include>
   <include name="Home_Movie_Plot">
     <left>195</left>
@@ -864,7 +864,7 @@
     <height>169</height>
     <aligny>top</aligny>
     <textcolor>c0FFFFFF</textcolor>
-    <font>Font_Neon_22</font>
+    <font>font14</font>
     <align>justify</align>
     <autoscroll delay="8000" time="2000" repeat="8000">!Skin.HasSetting(noallowscroll)</autoscroll>
   </include>
@@ -875,7 +875,7 @@
     <height>25</height>
     <aligny>center</aligny>
     <textcolor>ab749a9a</textcolor>
-    <font>Font_Neon_22</font>
+    <font>font14</font>
   </include>
   <include name="Home_Episode_Plot">
     <left>340</left>
@@ -884,7 +884,7 @@
     <height>77</height>
     <aligny>top</aligny>
     <textcolor>c0FFFFFF</textcolor>
-    <font>Font_Neon_22</font>
+    <font>font14</font>
     <align>justify</align>
     <autoscroll delay="8000" time="2000" repeat="8000">!Skin.HasSetting(noallowscroll)</autoscroll>
   </include>
@@ -895,7 +895,7 @@
     <height>25</height>
     <aligny>center</aligny>
     <textcolor>ab749a9a</textcolor>
-    <font>Font_Neon_22</font>
+    <font>font14</font>
   </include>
   <include name="Home_Song_Plot">
     <left>305</left>
@@ -904,7 +904,7 @@
     <height>130</height>
     <aligny>center</aligny>
     <textcolor>c0FFFFFF</textcolor>
-    <font>Font_Neon_20</font>
+    <font>font13</font>
     <align>justify</align>
     <autoscroll delay="8000" time="2000" repeat="8000">!Skin.HasSetting(noallowscroll)</autoscroll>
   </include>
@@ -921,7 +921,7 @@
     <height>40</height>
     <align>center</align>
     <aligny>center</aligny>
-    <font>Font_Neon_30</font>
+    <font>font30</font>
     <textcolor>mainblue</textcolor>
     <animation effect="slide" start="0,0" end="0,-10" time="50" tween="cubic" easing="inout" condition="Container(300).HasFocus(1)">Conditional</animation>
   </include>

@@ -117,13 +117,13 @@
           <left>-75</left>
           <top>0</top>
           <colordiffuse>mainblue</colordiffuse>
-          <texture flipx="true">MenuItemFO_small.png</texture>
+          <texture flipx="true">upper_item_back.png</texture>
         </control>
         <control type="label">
           <top>2</top>
           <left>10</left>
           <width>960</width>
-          <font>Font_Date</font>
+          <font>font13</font>
           <textcolor>white</textcolor>
           <align>left</align>
           <label>$ADDON[script.tv.show.next.aired 32019][COLOR=mainblue] - [/COLOR]$LOCALIZE[31201]</label>
@@ -216,7 +216,7 @@
           <label>$LOCALIZE[41]</label>
           <align>right</align>
           <aligny>center</aligny>
-          <font>font15_title</font>
+          <font>font24_title</font>
           <textcolor>FFFFFFFF</textcolor>
           <animation effect="fade" start="100" end="65" time="0" condition="!StringCompare(System.Date(ddd),$LOCALIZE[41])">Conditional</animation>
         </control>
@@ -229,7 +229,7 @@
           <label>$LOCALIZE[42]</label>
           <align>right</align>
           <aligny>center</aligny>
-          <font>font15_title</font>
+          <font>font24_title</font>
           <textcolor>FFFFFFFF</textcolor>
           <animation effect="fade" start="100" end="65" time="0" condition="!StringCompare(System.Date(ddd),$LOCALIZE[42])">Conditional</animation>
         </control>
@@ -242,7 +242,7 @@
           <label>$LOCALIZE[43]</label>
           <align>right</align>
           <aligny>center</aligny>
-          <font>font15_title</font>
+          <font>font24_title</font>
           <textcolor>FFFFFFFF</textcolor>
           <animation effect="fade" start="100" end="65" time="0" condition="!StringCompare(System.Date(ddd),$LOCALIZE[43])">Conditional</animation>
         </control>
@@ -255,7 +255,7 @@
           <label>$LOCALIZE[44]</label>
           <align>right</align>
           <aligny>center</aligny>
-          <font>font15_title</font>
+          <font>font24_title</font>
           <textcolor>FFFFFFFF</textcolor>
           <animation effect="fade" start="100" end="65" time="0" condition="!StringCompare(System.Date(ddd),$LOCALIZE[44])">Conditional</animation>
         </control>
@@ -268,7 +268,7 @@
           <label>$LOCALIZE[45]</label>
           <align>right</align>
           <aligny>center</aligny>
-          <font>font15_title</font>
+          <font>font24_title</font>
           <textcolor>FFFFFFFF</textcolor>
           <animation effect="fade" start="100" end="65" time="0" condition="!StringCompare(System.Date(ddd),$LOCALIZE[45])">Conditional</animation>
         </control>
@@ -281,7 +281,7 @@
           <label>$LOCALIZE[46]</label>
           <align>right</align>
           <aligny>center</aligny>
-          <font>font15_title</font>
+          <font>font24_title</font>
           <textcolor>FFFFFFFF</textcolor>
           <animation effect="fade" start="100" end="65" time="0" condition="!StringCompare(System.Date(ddd),$LOCALIZE[46])">Conditional</animation>
         </control>
@@ -294,7 +294,7 @@
           <label>$LOCALIZE[47]</label>
           <align>right</align>
           <aligny>center</aligny>
-          <font>font15_title</font>
+          <font>font24_title</font>
           <textcolor>FFFFFFFF</textcolor>
           <animation effect="fade" start="100" end="65" time="0" condition="!StringCompare(System.Date(ddd),$LOCALIZE[47])">Conditional</animation>
         </control>
@@ -1084,7 +1084,7 @@
           <width>302</width>
           <height>15</height>
           <label>$INFO[Container(200).ListItem.Property(Runtime),, $LOCALIZE[12391]]</label>
-          <font>Font_Neon_20</font>
+          <font>font13</font>
           <align>center</align>
           <aligny>center</aligny>
         </control>
@@ -1094,7 +1094,7 @@
           <width>302</width>
           <height>15</height>
           <label>$INFO[Container(200).ListItem.Property(Genre)]</label>
-          <font>Font_Neon_20</font>
+          <font>font13</font>
           <align>center</align>
           <aligny>center</aligny>
         </control>
@@ -1104,7 +1104,7 @@
           <width>302</width>
           <height>15</height>
           <label>$INFO[Container(200).ListItem.Property(ShortTime)]</label>
-          <font>Font_Neon_20</font>
+          <font>font13</font>
           <align>center</align>
           <aligny>center</aligny>
         </control>
@@ -1114,7 +1114,7 @@
           <width>302</width>
           <height>15</height>
           <label>$INFO[Container(200).ListItem.Property(NextDate)]</label>
-          <font>Font_Neon_20</font>
+          <font>font13</font>
           <align>center</align>
           <aligny>center</aligny>
         </control>
@@ -1124,7 +1124,7 @@
           <width>302</width>
           <height>15</height>
           <label>$INFO[Container(200).ListItem.Property(Network)]</label>
-          <font>Font_Neon_20</font>
+          <font>font13</font>
           <align>center</align>
           <aligny>center</aligny>
         </control>
@@ -1191,7 +1191,7 @@
           <width>302</width>
           <height>15</height>
           <label>$INFO[Container(201).ListItem.Property(Runtime),, $LOCALIZE[12391]]</label>
-          <font>Font_Neon_20</font>
+          <font>font13</font>
           <align>center</align>
           <aligny>center</aligny>
         </control>
@@ -1201,7 +1201,7 @@
           <width>302</width>
           <height>15</height>
           <label>$INFO[Container(201).ListItem.Property(Genre)]</label>
-          <font>Font_Neon_20</font>
+          <font>font13</font>
           <align>center</align>
           <aligny>center</aligny>
         </control>
@@ -1211,7 +1211,7 @@
           <width>302</width>
           <height>15</height>
           <label>$INFO[Container(201).ListItem.Property(ShortTime)]</label>
-          <font>Font_Neon_20</font>
+          <font>font13</font>
           <align>center</align>
           <aligny>center</aligny>
         </control>
@@ -1221,7 +1221,7 @@
           <width>302</width>
           <height>15</height>
           <label>$INFO[Container(201).ListItem.Property(NextDate)]</label>
-          <font>Font_Neon_20</font>
+          <font>font13</font>
           <align>center</align>
           <aligny>center</aligny>
         </control>
@@ -1231,7 +1231,7 @@
           <width>302</width>
           <height>15</height>
           <label>$INFO[Container(201).ListItem.Property(Network)]</label>
-          <font>Font_Neon_20</font>
+          <font>font13</font>
           <align>center</align>
           <aligny>center</aligny>
         </control>
@@ -1298,7 +1298,7 @@
           <width>302</width>
           <height>15</height>
           <label>$INFO[Container(202).ListItem.Property(Runtime),, $LOCALIZE[12391]]</label>
-          <font>Font_Neon_20</font>
+          <font>font13</font>
           <align>center</align>
           <aligny>center</aligny>
         </control>
@@ -1308,7 +1308,7 @@
           <width>302</width>
           <height>15</height>
           <label>$INFO[Container(202).ListItem.Property(Genre)]</label>
-          <font>Font_Neon_20</font>
+          <font>font13</font>
           <align>center</align>
           <aligny>center</aligny>
         </control>
@@ -1318,7 +1318,7 @@
           <width>302</width>
           <height>15</height>
           <label>$INFO[Container(202).ListItem.Property(ShortTime)]</label>
-          <font>Font_Neon_20</font>
+          <font>font13</font>
           <align>center</align>
           <aligny>center</aligny>
         </control>
@@ -1328,7 +1328,7 @@
           <width>302</width>
           <height>15</height>
           <label>$INFO[Container(202).ListItem.Property(NextDate)]</label>
-          <font>Font_Neon_20</font>
+          <font>font13</font>
           <align>center</align>
           <aligny>center</aligny>
         </control>
@@ -1338,7 +1338,7 @@
           <width>302</width>
           <height>15</height>
           <label>$INFO[Container(202).ListItem.Property(Network)]</label>
-          <font>Font_Neon_20</font>
+          <font>font13</font>
           <align>center</align>
           <aligny>center</aligny>
         </control>
@@ -1405,7 +1405,7 @@
           <width>302</width>
           <height>15</height>
           <label>$INFO[Container(203).ListItem.Property(Runtime),, $LOCALIZE[12391]]</label>
-          <font>Font_Neon_20</font>
+          <font>font13</font>
           <align>center</align>
           <aligny>center</aligny>
         </control>
@@ -1415,7 +1415,7 @@
           <width>302</width>
           <height>15</height>
           <label>$INFO[Container(203).ListItem.Property(Genre)]</label>
-          <font>Font_Neon_20</font>
+          <font>font13</font>
           <align>center</align>
           <aligny>center</aligny>
         </control>
@@ -1425,7 +1425,7 @@
           <width>302</width>
           <height>15</height>
           <label>$INFO[Container(203).ListItem.Property(ShortTime)]</label>
-          <font>Font_Neon_20</font>
+          <font>font13</font>
           <align>center</align>
           <aligny>center</aligny>
         </control>
@@ -1435,7 +1435,7 @@
           <width>302</width>
           <height>15</height>
           <label>$INFO[Container(203).ListItem.Property(NextDate)]</label>
-          <font>Font_Neon_20</font>
+          <font>font13</font>
           <align>center</align>
           <aligny>center</aligny>
         </control>
@@ -1445,7 +1445,7 @@
           <width>302</width>
           <height>15</height>
           <label>$INFO[Container(203).ListItem.Property(Network)]</label>
-          <font>Font_Neon_20</font>
+          <font>font13</font>
           <align>center</align>
           <aligny>center</aligny>
         </control>
@@ -1512,7 +1512,7 @@
           <width>302</width>
           <height>15</height>
           <label>$INFO[Container(204).ListItem.Property(Runtime),, $LOCALIZE[12391]]</label>
-          <font>Font_Neon_20</font>
+          <font>font13</font>
           <align>center</align>
           <aligny>center</aligny>
         </control>
@@ -1522,7 +1522,7 @@
           <width>302</width>
           <height>15</height>
           <label>$INFO[Container(204).ListItem.Property(Genre)]</label>
-          <font>Font_Neon_20</font>
+          <font>font13</font>
           <align>center</align>
           <aligny>center</aligny>
         </control>
@@ -1532,7 +1532,7 @@
           <width>302</width>
           <height>15</height>
           <label>$INFO[Container(204).ListItem.Property(ShortTime)]</label>
-          <font>Font_Neon_20</font>
+          <font>font13</font>
           <align>center</align>
           <aligny>center</aligny>
         </control>
@@ -1542,7 +1542,7 @@
           <width>302</width>
           <height>15</height>
           <label>$INFO[Container(204).ListItem.Property(NextDate)]</label>
-          <font>Font_Neon_20</font>
+          <font>font13</font>
           <align>center</align>
           <aligny>center</aligny>
         </control>
@@ -1552,7 +1552,7 @@
           <width>302</width>
           <height>15</height>
           <label>$INFO[Container(204).ListItem.Property(Network)]</label>
-          <font>Font_Neon_20</font>
+          <font>font13</font>
           <align>center</align>
           <aligny>center</aligny>
         </control>
@@ -1619,7 +1619,7 @@
           <width>302</width>
           <height>15</height>
           <label>$INFO[Container(205).ListItem.Property(Runtime),, $LOCALIZE[12391]]</label>
-          <font>Font_Neon_20</font>
+          <font>font13</font>
           <align>center</align>
           <aligny>center</aligny>
         </control>
@@ -1629,7 +1629,7 @@
           <width>302</width>
           <height>15</height>
           <label>$INFO[Container(205).ListItem.Property(Genre)]</label>
-          <font>Font_Neon_20</font>
+          <font>font13</font>
           <align>center</align>
           <aligny>center</aligny>
         </control>
@@ -1639,7 +1639,7 @@
           <width>302</width>
           <height>15</height>
           <label>$INFO[Container(205).ListItem.Property(ShortTime)]</label>
-          <font>Font_Neon_20</font>
+          <font>font13</font>
           <align>center</align>
           <aligny>center</aligny>
         </control>
@@ -1649,7 +1649,7 @@
           <width>302</width>
           <height>15</height>
           <label>$INFO[Container(205).ListItem.Property(NextDate)]</label>
-          <font>Font_Neon_20</font>
+          <font>font13</font>
           <align>center</align>
           <aligny>center</aligny>
         </control>
@@ -1659,7 +1659,7 @@
           <width>302</width>
           <height>15</height>
           <label>$INFO[Container(205).ListItem.Property(Network)]</label>
-          <font>Font_Neon_20</font>
+          <font>font13</font>
           <align>center</align>
           <aligny>center</aligny>
         </control>
@@ -1726,7 +1726,7 @@
           <width>302</width>
           <height>15</height>
           <label>$INFO[Container(206).ListItem.Property(Runtime),, $LOCALIZE[12391]]</label>
-          <font>Font_Neon_20</font>
+          <font>font13</font>
           <align>center</align>
           <aligny>center</aligny>
         </control>
@@ -1736,7 +1736,7 @@
           <width>302</width>
           <height>15</height>
           <label>$INFO[Container(206).ListItem.Property(Genre)]</label>
-          <font>Font_Neon_20</font>
+          <font>font13</font>
           <align>center</align>
           <aligny>center</aligny>
         </control>
@@ -1746,7 +1746,7 @@
           <width>302</width>
           <height>15</height>
           <label>$INFO[Container(206).ListItem.Property(ShortTime)]</label>
-          <font>Font_Neon_20</font>
+          <font>font13</font>
           <align>center</align>
           <aligny>center</aligny>
         </control>
@@ -1756,7 +1756,7 @@
           <width>302</width>
           <height>15</height>
           <label>$INFO[Container(206).ListItem.Property(NextDate)]</label>
-          <font>Font_Neon_20</font>
+          <font>font13</font>
           <align>center</align>
           <aligny>center</aligny>
         </control>
@@ -1766,16 +1766,16 @@
           <width>302</width>
           <height>15</height>
           <label>$INFO[Container(206).ListItem.Property(Network)]</label>
-          <font>Font_Neon_20</font>
+          <font>font13</font>
           <align>center</align>
           <aligny>center</aligny>
         </control>
       </control>
       <control type="group">
-        <left>-839</left>
+        <left>-246</left>
         <include>SideBladeLeft</include>
         <control type="grouplist" id="7000">
-          <left>579</left>
+          <left>0</left>
           <top>130</top>
           <include>WindowMenuVars_Vertical</include>
           <control type="image" id="2">
@@ -1788,7 +1788,7 @@
           <control type="label" id="7">
             <width>250</width>
             <height>35</height>
-            <font>font12caps</font>
+            <font>font12_title</font>
             <label>$LOCALIZE[31513]</label>
             <textcolor>mainblue</textcolor>
             <align>center</align>

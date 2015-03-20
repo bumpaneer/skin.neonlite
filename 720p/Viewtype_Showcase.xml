@@ -20,7 +20,7 @@
         <width>1280</width>
         <height>50</height>
         <align>center</align>
-        <font>Font_Bartowski_BigMusic</font>
+        <font>font30</font>
         <shadowcolor>678b8b8b</shadowcolor>
         <textcolor>678b8b8b</textcolor>
         <label>$LOCALIZE[31235]</label>
@@ -35,7 +35,7 @@
         <width>1280</width>
         <height>50</height>
         <align>center</align>
-        <font>Font_Bartowski_BigMusic</font>
+        <font>font30</font>
         <shadowcolor>678b8b8b</shadowcolor>
         <textcolor>678b8b8b</textcolor>
         <label>$INFO[ListItem.label]</label>
@@ -278,7 +278,7 @@
         <top>57</top>
         <width>540</width>
         <height>298</height>
-        <font>Font_Bartowski_Showcase_plot</font>
+        <font>font13</font>
         <textcolor>white</textcolor>
         <label>$INFO[ListItem.Plot]</label>
         <align>justify</align>
@@ -304,7 +304,7 @@
           <width>420</width>
           <height>50</height>
           <aligny>center</aligny>
-          <font>Font_Bartowski_Showcase_Title</font>
+          <font>font30</font>
           <textcolor>mainblue</textcolor>
           <label>$INFO[ListItem.Label]</label>
         </control>
@@ -314,7 +314,7 @@
           <width>394</width>
           <height>50</height>
           <aligny>center</aligny>
-          <font>Font_RSS_Big</font>
+          <font>font16</font>
           <textcolor>white</textcolor>
           <label>31508</label>
           <visible>IsEmpty(ListItem.foldername) + !substring(Container.Listitem.Label,..,left) + !Container.Content(genres) + Window.IsActive(videolibrary)</visible>
@@ -326,7 +326,7 @@
           <width>394</width>
           <height>50</height>
           <aligny>center</aligny>
-          <font>Font_RSS_Big</font>
+          <font>font16</font>
           <textcolor>white</textcolor>
           <label>$INFO[ListItem.Duration] $LOCALIZE[12391]</label>
           <visible>!IsEmpty(ListItem.Duration) + !SubString(ListItem.Duration,min) + !substring(container.folderpath,plugin://plugin.video.apple.movie.trailers.lite)</visible>
@@ -338,7 +338,7 @@
           <width>394</width>
           <height>50</height>
           <aligny>center</aligny>
-          <font>Font_RSS_Big</font>
+          <font>font16</font>
           <textcolor>white</textcolor>
           <label>$INFO[ListItem.Duration]</label>
           <visible>!IsEmpty(ListItem.Duration) + SubString(ListItem.Duration,min) + !substring(container.folderpath,plugin://plugin.video.apple.movie.trailers.lite)</visible>
@@ -350,7 +350,7 @@
           <width>406</width>
           <height>50</height>
           <aligny>center</aligny>
-          <font>Font_RSS_Big</font>
+          <font>font16</font>
           <textcolor>white</textcolor>
           <label>$LOCALIZE[172]: $INFO[ListItem.Property(releasedate)]</label>
           <visible>substring(container.folderpath,plugin://plugin.video.apple.movie.trailers.lite)</visible>
@@ -362,7 +362,7 @@
           <width>394</width>
           <height>50</height>
           <aligny>center</aligny>
-          <font>Font_RSS_Big</font>
+          <font>font16</font>
           <textcolor>white</textcolor>
           <label>$INFO[ListItem.year]</label>
           <animation effect="slide" start="0,0" end="0,-23" time="0" condition="IsEmpty(ListItem.Duration)">Conditional</animation>
@@ -375,7 +375,7 @@
           <width>394</width>
           <height>50</height>
           <aligny>center</aligny>
-          <font>Font_RSS_Big</font>
+          <font>font16</font>
           <textcolor>white</textcolor>
           <label>$LOCALIZE[31226]</label>
           <visible>substring(container.folderpath,plugin://plugin.video.apple.movie.trailers.lite)</visible>
@@ -396,7 +396,7 @@
         <width>370</width>
         <height>50</height>
         <aligny>center</aligny>
-        <font>Font_Neon_16</font>
+        <font>font12</font>
         <textcolor>white</textcolor>
         <label>*$LOCALIZE[31237]*</label>
         <shadowcolor>black</shadowcolor>
@@ -412,7 +412,7 @@
         <width>370</width>
         <height>50</height>
         <aligny>center</aligny>
-        <font>Font_Neon_16</font>
+        <font>font12</font>
         <textcolor>white</textcolor>
         <label>*$LOCALIZE[31238]*</label>
         <shadowcolor>black</shadowcolor>
@@ -431,7 +431,7 @@
           <top>0</top>
           <width>390</width>
           <height>24</height>
-          <font>Font_Bartowski_Showcase_Right_Main</font>
+          <font>font16</font>
           <textcolor>mainblue</textcolor>
           <label>$LOCALIZE[20339]</label>
         </control>
@@ -441,7 +441,7 @@
           <top>0</top>
           <width>390</width>
           <height>24</height>
-          <font>Font_Bartowski_Showcase_Right_Under</font>
+          <font>font14</font>
           <textcolor>white</textcolor>
           <label fallback="Not Available">$INFO[ListItem.Director]</label>
         </control>
@@ -450,7 +450,7 @@
           <top>0</top>
           <width>390</width>
           <height>10</height>
-          <font>Font_Bartowski_Showcase_Right_Main</font>
+          <font>font16</font>
           <textcolor>mainblue</textcolor>
         </control>
         <control type="label">
@@ -459,7 +459,7 @@
           <top>0</top>
           <width>390</width>
           <height>24</height>
-          <font>Font_Bartowski_Showcase_Right_Main</font>
+          <font>font16</font>
           <textcolor>mainblue</textcolor>
           <label>$LOCALIZE[20417]</label>
         </control>
@@ -469,7 +469,7 @@
           <top>0</top>
           <width>390</width>
           <height>24</height>
-          <font>Font_Bartowski_Showcase_Right_Under</font>
+          <font>font14</font>
           <textcolor>white</textcolor>
           <label fallback="Not Available">$INFO[ListItem.Writer]</label>
         </control>
@@ -479,7 +479,7 @@
           <top>0</top>
           <width>390</width>
           <height>10</height>
-          <font>Font_Bartowski_Showcase_Right_Main</font>
+          <font>font16</font>
           <textcolor>mainblue</textcolor>
         </control>
         <control type="label">
@@ -488,7 +488,7 @@
           <top>0</top>
           <width>390</width>
           <height>24</height>
-          <font>Font_Bartowski_Showcase_Right_Main</font>
+          <font>font16</font>
           <textcolor>mainblue</textcolor>
           <label>$LOCALIZE[515]</label>
         </control>
@@ -498,7 +498,7 @@
           <top>0</top>
           <width>390</width>
           <height>24</height>
-          <font>Font_Bartowski_Showcase_Right_Under</font>
+          <font>font14</font>
           <textcolor>white</textcolor>
           <label fallback="Not Available">$INFO[ListItem.Genre]</label>
         </control>
@@ -508,7 +508,7 @@
           <top>0</top>
           <width>390</width>
           <height>10</height>
-          <font>Font_Bartowski_Showcase_Right_Main</font>
+          <font>font16</font>
           <textcolor>mainblue</textcolor>
         </control>
         <control type="label">
@@ -517,7 +517,7 @@
           <top>0</top>
           <width>390</width>
           <height>24</height>
-          <font>Font_Bartowski_Showcase_Right_Main</font>
+          <font>font16</font>
           <textcolor>mainblue</textcolor>
           <label>$LOCALIZE[563]</label>
         </control>
@@ -527,7 +527,7 @@
           <top>0</top>
           <width>390</width>
           <height>24</height>
-          <font>Font_Bartowski_Showcase_Right_Under</font>
+          <font>font14</font>
           <textcolor>white</textcolor>
           <label fallback="Not Available">$INFO[ListItem.Rating]</label>
         </control>
@@ -537,7 +537,7 @@
           <top>0</top>
           <width>390</width>
           <height>10</height>
-          <font>Font_Bartowski_Showcase_Right_Main</font>
+          <font>font16</font>
           <textcolor>mainblue</textcolor>
         </control>
         <control type="label">
@@ -546,7 +546,7 @@
           <top>0</top>
           <width>390</width>
           <height>24</height>
-          <font>Font_Bartowski_Showcase_Right_Main</font>
+          <font>font16</font>
           <textcolor>mainblue</textcolor>
           <label>$LOCALIZE[572]</label>
         </control>
@@ -556,7 +556,7 @@
           <top>0</top>
           <width>390</width>
           <height>24</height>
-          <font>Font_Bartowski_Showcase_Right_Under</font>
+          <font>font14</font>
           <textcolor>white</textcolor>
           <label fallback="Not Available">$INFO[ListItem.studio]</label>
         </control>

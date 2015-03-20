@@ -39,7 +39,7 @@
           <top>30</top>
           <width>750</width>
           <height>30</height>
-          <font>Font_Bartowski_Title_Movie</font>
+          <font>font30</font>
           <label>[B]$INFO[Listitem.Title][/B]</label>
           <align>center</align>
           <aligny>center</aligny>
@@ -51,7 +51,7 @@
           <top>65</top>
           <width>750</width>
           <height>30</height>
-          <font>Font_Neon_20</font>
+          <font>font13</font>
           <align>center</align>
           <textcolor>white</textcolor>
           <label>"$INFO[ListItem.TagLine]"</label>
@@ -92,7 +92,7 @@
           <control type="label">
             <left>230</left>
             <top>25</top>
-            <font>Font_Neon_24</font>
+            <font>font16</font>
             <textcolor>mainblue</textcolor>
             <label>$ADDON[script.artwork.downloader 32126]</label>
           </control>
@@ -110,7 +110,7 @@
           <control type="label">
             <left>220</left>
             <top>210</top>
-            <font>Font_Neon_24</font>
+            <font>font16</font>
             <textcolor>mainblue</textcolor>
             <label>$ADDON[script.artwork.downloader 32125]</label>
           </control>
@@ -128,7 +128,7 @@
           <control type="label">
             <left>630</left>
             <top>25</top>
-            <font>Font_Neon_24</font>
+            <font>font16</font>
             <textcolor>mainblue</textcolor>
             <label>$ADDON[script.artwork.downloader 32128]</label>
           </control>
@@ -155,7 +155,7 @@
             <top>40</top>
             <width>360</width>
             <align>center</align>
-            <font>Font_Neon_30</font>
+            <font>font30</font>
             <textcolor>mainblue</textcolor>
             <label>$ADDON[script.artwork.downloader 32133]</label>
           </control>
@@ -173,14 +173,14 @@
             <top>75</top>
             <width>330</width>
             <align>left</align>
-            <font>Font_Neon_22</font>
+            <font>font14</font>
             <label>31978</label>
             <wrapmultiline>true</wrapmultiline>
           </control>
           <control type="label">
             <left>980</left>
             <top>235</top>
-            <font>Font_Neon_24</font>
+            <font>font16</font>
             <textcolor>mainblue</textcolor>
             <label>$ADDON[script.artwork.downloader 32121]</label>
           </control>
@@ -199,7 +199,7 @@
           <control type="label">
             <left>100</left>
             <top>535</top>
-            <font>Font_Neon_24</font>
+            <font>font16</font>
             <textcolor>mainblue</textcolor>
             <label>$ADDON[script.artwork.downloader 32123]</label>
           </control>
@@ -240,7 +240,7 @@
               <top>0</top>
               <width>675</width>
               <height>380</height>
-              <font>font30caps_title</font>
+              <font>font30_title</font>
               <textcolor>white</textcolor>
               <shadowcolor>black</shadowcolor>
               <align>center</align>
@@ -261,7 +261,7 @@
             <top>412</top>
             <width>730</width>
             <height>178</height>
-            <font>Font_RSS_Unicode</font>
+            <font>font16</font>
             <align>justify</align>
             <textcolor>white</textcolor>
             <pagecontrol>61</pagecontrol>
@@ -374,7 +374,7 @@
                 <top>0</top>
                 <width>160</width>
                 <height>30</height>
-                <font>Font_Neon_25</font>
+                <font>font16</font>
                 <align>right</align>
                 <aligny>center</aligny>
                 <textcolor>mainblue</textcolor>
@@ -386,7 +386,7 @@
                 <top>2</top>
                 <width>640</width>
                 <height>30</height>
-                <font>Font_Neon_20_title</font>
+                <font>font13_title</font>
                 <align>left</align>
                 <aligny>center</aligny>
                 <textcolor>white</textcolor>
@@ -412,7 +412,7 @@
                 <top>0</top>
                 <width>160</width>
                 <height>30</height>
-                <font>Font_Neon_25</font>
+                <font>font16</font>
                 <align>right</align>
                 <aligny>center</aligny>
                 <textcolor>mainblue</textcolor>
@@ -424,7 +424,7 @@
                 <top>2</top>
                 <width>540</width>
                 <height>30</height>
-                <font>Font_Neon_20_title</font>
+                <font>font13_title</font>
                 <align>left</align>
                 <aligny>center</aligny>
                 <textcolor>white</textcolor>
@@ -525,7 +525,7 @@
                 <top>0</top>
                 <width>160</width>
                 <height>30</height>
-                <font>Font_Neon_25</font>
+                <font>font16</font>
                 <align>right</align>
                 <aligny>center</aligny>
                 <textcolor>mainblue</textcolor>
@@ -537,7 +537,7 @@
                 <top>2</top>
                 <width>380</width>
                 <height>30</height>
-                <font>Font_Neon_20_title</font>
+                <font>font13_title</font>
                 <align>left</align>
                 <aligny>center</aligny>
                 <textcolor>white</textcolor>
@@ -561,7 +561,7 @@
                 <top>0</top>
                 <width>160</width>
                 <height>30</height>
-                <font>Font_Neon_25</font>
+                <font>font16</font>
                 <align>right</align>
                 <aligny>center</aligny>
                 <textcolor>mainblue</textcolor>
@@ -573,7 +573,7 @@
                 <top>2</top>
                 <width>665</width>
                 <height>30</height>
-                <font>Font_Neon_20_title</font>
+                <font>font13_title</font>
                 <align>left</align>
                 <aligny>center</aligny>
                 <textcolor>white</textcolor>
@@ -660,7 +660,7 @@
             <top>292</top>
             <width>500</width>
             <height>118</height>
-            <font>Font_RSS_Unicode</font>
+            <font>font16</font>
             <align>justify</align>
             <textcolor>white</textcolor>
             <pagecontrol>61</pagecontrol>
@@ -677,7 +677,7 @@
             <top>10</top>
             <width>700</width>
             <height>30</height>
-            <font>Font_Bartowski_Title_TVShow</font>
+            <font>font30</font>
             <label>[B]$INFO[Listitem.Title][/B]</label>
             <align>center</align>
             <aligny>center</aligny>
@@ -732,7 +732,7 @@
                 <top>0</top>
                 <width>160</width>
                 <height>30</height>
-                <font>Font_Neon_25</font>
+                <font>font16</font>
                 <align>right</align>
                 <aligny>center</aligny>
                 <textcolor>mainblue</textcolor>
@@ -744,7 +744,7 @@
                 <top>0</top>
                 <width>1000</width>
                 <height>30</height>
-                <font>Font_Neon_20_title</font>
+                <font>font13_title</font>
                 <align>left</align>
                 <aligny>center</aligny>
                 <textcolor>white</textcolor>
@@ -758,7 +758,7 @@
                 <top>0</top>
                 <width>160</width>
                 <height>30</height>
-                <font>Font_Neon_25</font>
+                <font>font16</font>
                 <align>right</align>
                 <aligny>center</aligny>
                 <textcolor>mainblue</textcolor>
@@ -770,7 +770,7 @@
                 <top>0</top>
                 <width>1000</width>
                 <height>30</height>
-                <font>Font_Neon_20_title</font>
+                <font>font13_title</font>
                 <align>left</align>
                 <aligny>center</aligny>
                 <textcolor>white</textcolor>
@@ -883,7 +883,7 @@
             <top>-40</top>
             <width>1000</width>
             <height>30</height>
-            <font>Font_Bartowski_Title_TVShow</font>
+            <font>font30</font>
             <label>[B]$INFO[Listitem.Title][/B]</label>
             <align>center</align>
             <aligny>center</aligny>
@@ -917,7 +917,7 @@
                 <top>0</top>
                 <width>160</width>
                 <height>30</height>
-                <font>Font_Neon_20</font>
+                <font>font13</font>
                 <align>right</align>
                 <aligny>center</aligny>
                 <textcolor>mainblue</textcolor>
@@ -929,7 +929,7 @@
                 <top>0</top>
                 <width>465</width>
                 <height>30</height>
-                <font>Font_Neon_20</font>
+                <font>font13</font>
                 <align>left</align>
                 <aligny>center</aligny>
                 <textcolor>white</textcolor>
@@ -953,7 +953,7 @@
                 <top>0</top>
                 <width>160</width>
                 <height>30</height>
-                <font>Font_Neon_20</font>
+                <font>font13</font>
                 <align>right</align>
                 <aligny>center</aligny>
                 <textcolor>mainblue</textcolor>
@@ -965,7 +965,7 @@
                 <top>0</top>
                 <width>465</width>
                 <height>30</height>
-                <font>Font_Neon_20</font>
+                <font>font13</font>
                 <align>left</align>
                 <aligny>center</aligny>
                 <textcolor>white</textcolor>
@@ -1031,7 +1031,7 @@
           <top>482</top>
           <width>700</width>
           <height>118</height>
-          <font>Font_RSS_Unicode</font>
+          <font>font16</font>
           <align>justify</align>
           <textcolor>white</textcolor>
           <pagecontrol>61</pagecontrol>
@@ -1135,7 +1135,7 @@
               <top>0</top>
               <width>450</width>
               <height>40</height>
-              <font>Font_MediaMenu</font>
+              <font>font16</font>
               <align>left</align>
               <aligny>center</aligny>
               <selectedcolor>white</selectedcolor>
@@ -1158,7 +1158,7 @@
               <top>0</top>
               <width>660</width>
               <height>40</height>
-              <font>Font_MediaMenu</font>
+              <font>font16</font>
               <align>left</align>
               <aligny>center</aligny>
               <textcolor>white</textcolor>
