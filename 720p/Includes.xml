@@ -2043,4 +2043,20 @@
       </control>
     </control>
   </include>
+  <include name="DebugFileLabel">
+    <width>780</width>
+    <height>21</height>
+    <textcolor>FF0000FF</textcolor>
+    <shadowcolor>FF000000</shadowcolor>
+    <font>font13</font>
+    <align>left</align>
+  </include>
+  <include name="DebugDialogLabel">
+    <width>780</width>
+    <height>21</height>
+    <textcolor>FFFF0000</textcolor>
+    <shadowcolor>FF000000</shadowcolor>
+    <font>font13</font>
+    <align>left</align>
+  </include>
 </includes>

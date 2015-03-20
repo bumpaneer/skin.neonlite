@@ -10,7 +10,7 @@
       <top>0</top>
       <width>1280</width>
       <height>720</height>
-      <texture>common/debuggrid.png</texture>
+      <texture>debuggrid.png</texture>
     </control>
     <!-- Window/Dialog debug -->
     <control type="grouplist">
@@ -21,803 +21,452 @@
       <visible>Skin.HasSetting(HideDebugInfo)</visible>
       <!-- Window labels -->
       <control type="label">
-        <width>780</width>
-        <height>21</height>
-        <textcolor>FF0000FF</textcolor>
-        <shadowcolor>FF000000</shadowcolor>
-        <font>font13</font>
-        <align>left</align>
-        <label>AddonBrowser.xml</label>
-        <visible>Window.IsVisible(AddonBrowser.xml)</visible>
-      </control>
-      <control type="label">
-        <width>780</width>
-        <height>21</height>
-        <textcolor>FF0000FF</textcolor>
-        <shadowcolor>FF000000</shadowcolor>
-        <font>font13</font>
-        <align>left</align>
-        <label>CustomSettings.xml</label>
-        <visible>Window.IsVisible(CustomSettings.xml)</visible>
-      </control>
-      <control type="label">
-        <width>780</width>
-        <height>21</height>
-        <textcolor>FF0000FF</textcolor>
-        <shadowcolor>FF000000</shadowcolor>
-        <font>font13</font>
-        <align>left</align>
-        <label>FileManager.xml</label>
-        <visible>Window.IsVisible(FileManager.xml)</visible>
-      </control>
-      <control type="label">
-        <width>780</width>
-        <height>21</height>
-        <textcolor>FF0000FF</textcolor>
-        <shadowcolor>FF000000</shadowcolor>
-        <font>font13</font>
-        <align>left</align>
-        <label>Home.xml</label>
-        <visible>Window.IsVisible(Home.xml)</visible>
-      </control>
-      <control type="label">
-        <width>780</width>
-        <height>21</height>
-        <textcolor>FF0000FF</textcolor>
-        <shadowcolor>FF000000</shadowcolor>
-        <font>font13</font>
-        <align>left</align>
-        <label>LoginScreen.xml</label>
-        <visible>Window.IsVisible(LoginScreen.xml)</visible>
-      </control>
-      <control type="label">
-        <width>780</width>
-        <height>21</height>
-        <textcolor>FF0000FF</textcolor>
-        <shadowcolor>FF000000</shadowcolor>
-        <font>font13</font>
-        <align>left</align>
-        <label>MyMusicNav.xml</label>
-        <visible>Window.IsVisible(MyMusicNav.xml)</visible>
-      </control>
-      <control type="label">
-        <width>780</width>
-        <height>21</height>
-        <textcolor>FF0000FF</textcolor>
-        <shadowcolor>FF000000</shadowcolor>
-        <font>font13</font>
-        <align>left</align>
-        <label>MyMusicPlaylist.xml</label>
-        <visible>Window.IsVisible(MyMusicPlaylist.xml)</visible>
-      </control>
-      <control type="label">
-        <width>780</width>
-        <height>21</height>
-        <textcolor>FF0000FF</textcolor>
-        <shadowcolor>FF000000</shadowcolor>
-        <font>font13</font>
-        <align>left</align>
-        <label>MyMusicPlaylistEditor.xml</label>
-        <visible>Window.IsVisible(MyMusicPlaylistEditor.xml)</visible>
-      </control>
-      <control type="label">
-        <width>780</width>
-        <height>21</height>
-        <textcolor>FF0000FF</textcolor>
-        <shadowcolor>FF000000</shadowcolor>
-        <font>font13</font>
-        <align>left</align>
-        <label>MyMusicSongs.xml</label>
-        <visible>Window.IsVisible(MyMusicSongs.xml)</visible>
-      </control>
-      <control type="label">
-        <width>780</width>
-        <height>21</height>
-        <textcolor>FF0000FF</textcolor>
-        <shadowcolor>FF000000</shadowcolor>
-        <font>font13</font>
-        <align>left</align>
-        <label>MyPics.xml</label>
-        <visible>Window.IsVisible(MyPics.xml)</visible>
-      </control>
-      <control type="label">
-        <width>780</width>
-        <height>21</height>
-        <textcolor>FF0000FF</textcolor>
-        <shadowcolor>FF000000</shadowcolor>
-        <font>font13</font>
-        <align>left</align>
-        <label>MyPrograms.xml</label>
-        <visible>Window.IsVisible(MyPrograms.xml)</visible>
-      </control>
-      <control type="label">
-        <width>780</width>
-        <height>21</height>
-        <textcolor>FF0000FF</textcolor>
-        <shadowcolor>FF000000</shadowcolor>
-        <font>font13</font>
-        <align>left</align>
-        <label>MyPVR.xml</label>
-        <visible>Window.IsVisible(MyPVR.xml)</visible>
-      </control>
-      <control type="label">
-        <width>780</width>
-        <height>21</height>
-        <textcolor>FF0000FF</textcolor>
-        <shadowcolor>FF000000</shadowcolor>
-        <font>font13</font>
-        <align>left</align>
-        <label>MyVideoNav.xml</label>
-        <visible>Window.IsVisible(MyVideoNav.xml)</visible>
-      </control>
-      <control type="label">
-        <width>780</width>
-        <height>21</height>
-        <textcolor>FF0000FF</textcolor>
-        <shadowcolor>FF000000</shadowcolor>
-        <font>font13</font>
-        <align>left</align>
-        <label>MyVideoPlaylist.xml</label>
-        <visible>Window.IsVisible(MyVideoPlaylist.xml)</visible>
-      </control>
-      <control type="label">
-        <width>780</width>
-        <height>21</height>
-        <textcolor>FF0000FF</textcolor>
-        <shadowcolor>FF000000</shadowcolor>
-        <font>font13</font>
-        <align>left</align>
-        <label>MyWeather.xml</label>
-        <visible>Window.IsVisible(MyWeather.xml)</visible>
-      </control>
-      <control type="label">
-        <width>780</width>
-        <height>21</height>
-        <textcolor>FF0000FF</textcolor>
-        <shadowcolor>FF000000</shadowcolor>
-        <font>font13</font>
-        <align>left</align>
-        <label>Settings.xml</label>
-        <visible>Window.IsVisible(Settings.xml)</visible>
-      </control>
-      <control type="label">
-        <width>780</width>
-        <height>21</height>
-        <textcolor>FF0000FF</textcolor>
-        <shadowcolor>FF000000</shadowcolor>
-        <font>font13</font>
-        <align>left</align>
-        <label>SkinSettings.xml</label>
-        <visible>Window.IsVisible(SkinSettings.xml)</visible>
-      </control>
-      <control type="label">
-        <width>780</width>
-        <height>21</height>
-        <textcolor>FF0000FF</textcolor>
-        <shadowcolor>FF000000</shadowcolor>
-        <font>font13</font>
-        <align>left</align>
-        <label>SettingsCategory.xml</label>
-        <visible>Window.IsVisible(SettingsCategory.xml)</visible>
-      </control>
-      <control type="label">
-        <width>780</width>
-        <height>21</height>
-        <textcolor>FF0000FF</textcolor>
-        <shadowcolor>FF000000</shadowcolor>
-        <font>font13</font>
-        <align>left</align>
-        <label>SettingsProfile.xml</label>
-        <visible>Window.IsVisible(SettingsProfile.xml)</visible>
-      </control>
-      <control type="label">
-        <width>780</width>
-        <height>21</height>
-        <textcolor>FF0000FF</textcolor>
-        <shadowcolor>FF000000</shadowcolor>
-        <font>font13</font>
-        <align>left</align>
-        <label>VideoFullScreen.xml</label>
-        <visible>Window.IsVisible(VideoFullScreen.xml)</visible>
-      </control>
-      <!-- Dialog labels -->
-      <control type="label">
-        <width>780</width>
-        <height>21</height>
-        <textcolor>FFFF0000</textcolor>
-        <shadowcolor>FF000000</shadowcolor>
-        <font>font13</font>
-        <align>left</align>
+        <include>DebugDialogLabel</include>
         <label>DialogAddonInfo.xml</label>
         <visible>Window.IsVisible(DialogAddonInfo.xml)</visible>
       </control>
       <control type="label">
-        <width>780</width>
-        <height>21</height>
-        <textcolor>FFFF0000</textcolor>
-        <shadowcolor>FF000000</shadowcolor>
-        <font>font13</font>
-        <align>left</align>
+        <include>DebugDialogLabel</include>
         <label>DialogAddonSettings.xml</label>
         <visible>Window.IsVisible(DialogAddonSettings.xml)</visible>
       </control>
       <control type="label">
-        <width>780</width>
-        <height>21</height>
-        <textcolor>FFFF0000</textcolor>
-        <shadowcolor>FF000000</shadowcolor>
-        <font>font13</font>
-        <align>left</align>
+        <include>DebugDialogLabel</include>
         <label>DialogAlbumInfo.xml</label>
         <visible>Window.IsVisible(DialogAlbumInfo.xml)</visible>
       </control>
       <control type="label">
-        <width>780</width>
-        <height>21</height>
-        <textcolor>FFFF0000</textcolor>
-        <shadowcolor>FF000000</shadowcolor>
-        <font>font13</font>
-        <align>left</align>
+        <include>DebugDialogLabel</include>
         <label>DialogBusy.xml</label>
         <visible>Window.IsVisible(DialogBusy.xml)</visible>
       </control>
       <control type="label">
-        <width>780</width>
-        <height>21</height>
-        <textcolor>FFFF0000</textcolor>
-        <shadowcolor>FF000000</shadowcolor>
-        <font>font13</font>
-        <align>left</align>
+        <include>DebugDialogLabel</include>
+        <label>DialogButtonMenu-lower.xml</label>
+        <visible>Window.IsVisible(DialogButtonMenu-lower.xml)</visible>
+      </control>
+      <control type="label">
+        <include>DebugDialogLabel</include>
         <label>DialogButtonMenu.xml</label>
         <visible>Window.IsVisible(DialogButtonMenu.xml)</visible>
       </control>
       <control type="label">
-        <width>780</width>
-        <height>21</height>
-        <textcolor>FFFF0000</textcolor>
-        <shadowcolor>FF000000</shadowcolor>
-        <font>font13</font>
-        <align>left</align>
+        <include>DebugDialogLabel</include>
         <label>DialogContentSettings.xml</label>
         <visible>Window.IsVisible(DialogContentSettings.xml)</visible>
       </control>
       <control type="label">
-        <width>780</width>
-        <height>21</height>
-        <textcolor>FFFF0000</textcolor>
-        <shadowcolor>FF000000</shadowcolor>
-        <font>font13</font>
-        <align>left</align>
+        <include>DebugDialogLabel</include>
         <label>DialogContextMenu.xml</label>
         <visible>Window.IsVisible(DialogContextMenu.xml)</visible>
       </control>
       <control type="label">
-        <width>780</width>
-        <height>21</height>
-        <textcolor>FFFF0000</textcolor>
-        <shadowcolor>FF000000</shadowcolor>
-        <font>font13</font>
-        <align>left</align>
+        <include>DebugDialogLabel</include>
         <label>DialogExtendedProgressBar.xml</label>
         <visible>Window.IsVisible(DialogExtendedProgressBar.xml)</visible>
       </control>
       <control type="label">
-        <width>780</width>
-        <height>21</height>
-        <textcolor>FFFF0000</textcolor>
-        <shadowcolor>FF000000</shadowcolor>
-        <font>font13</font>
-        <align>left</align>
+        <include>DebugDialogLabel</include>
         <label>DialogFavourites.xml</label>
         <visible>Window.IsVisible(DialogFavourites.xml)</visible>
       </control>
       <control type="label">
-        <width>780</width>
-        <height>21</height>
-        <textcolor>FFFF0000</textcolor>
-        <shadowcolor>FF000000</shadowcolor>
-        <font>font13</font>
-        <align>left</align>
+        <include>DebugDialogLabel</include>
         <label>DialogFileStacking.xml</label>
         <visible>Window.IsVisible(DialogFileStacking.xml)</visible>
       </control>
       <control type="label">
-        <width>780</width>
-        <height>21</height>
-        <textcolor>FFFF0000</textcolor>
-        <shadowcolor>FF000000</shadowcolor>
-        <font>font13</font>
-        <align>left</align>
+        <include>DebugDialogLabel</include>
         <label>DialogFullScreenInfo.xml</label>
         <visible>Window.IsVisible(DialogFullScreenInfo.xml)</visible>
       </control>
       <control type="label">
-        <width>780</width>
-        <height>21</height>
-        <textcolor>FFFF0000</textcolor>
-        <shadowcolor>FF000000</shadowcolor>
-        <font>font13</font>
-        <align>left</align>
+        <include>DebugDialogLabel</include>
+        <label>DialogGamepad.xml</label>
+        <visible>Window.IsVisible(DialogGamepad.xml)</visible>
+      </control>
+      <control type="label">
+        <include>DebugDialogLabel</include>
         <label>DialogKaiToast.xml</label>
         <visible>Window.IsVisible(DialogKaiToast.xml)</visible>
       </control>
       <control type="label">
-        <width>780</width>
-        <height>21</height>
-        <textcolor>FFFF0000</textcolor>
-        <shadowcolor>FF000000</shadowcolor>
-        <font>font13</font>
-        <align>left</align>
-        <label>DialogKaraokeSongSelector.xml</label>
-        <visible>Window.IsVisible(DialogKaraokeSongSelector.xml)</visible>
-      </control>
-      <control type="label">
-        <width>780</width>
-        <height>21</height>
-        <textcolor>FFFF0000</textcolor>
-        <shadowcolor>FF000000</shadowcolor>
-        <font>font13</font>
-        <align>left</align>
-        <label>DialogKaraokeSongSelectorLarge.xml</label>
-        <visible>Window.IsVisible(DialogKaraokeSongSelectorLarge.xml)</visible>
-      </control>
-      <control type="label">
-        <width>780</width>
-        <height>21</height>
-        <textcolor>FFFF0000</textcolor>
-        <shadowcolor>FF000000</shadowcolor>
-        <font>font13</font>
-        <align>left</align>
+        <include>DebugDialogLabel</include>
         <label>DialogKeyboard.xml</label>
         <visible>Window.IsVisible(DialogKeyboard.xml)</visible>
       </control>
       <control type="label">
-        <width>780</width>
-        <height>21</height>
-        <textcolor>FFFF0000</textcolor>
-        <shadowcolor>FF000000</shadowcolor>
-        <font>font13</font>
-        <align>left</align>
+        <include>DebugDialogLabel</include>
+        <label>DialogMediaFilter.xml</label>
+        <visible>Window.IsVisible(DialogMediaFilter.xml)</visible>
+      </control>
+      <control type="label">
+        <include>DebugDialogLabel</include>
         <label>DialogMediaSource.xml</label>
         <visible>Window.IsVisible(DialogMediaSource.xml)</visible>
       </control>
       <control type="label">
-        <width>780</width>
-        <height>21</height>
-        <textcolor>FFFF0000</textcolor>
-        <shadowcolor>FF000000</shadowcolor>
-        <font>font13</font>
-        <align>left</align>
-        <label>DialogMusicScan.xml</label>
-        <visible>Window.IsVisible(DialogMusicScan.xml)</visible>
-      </control>
-      <control type="label">
-        <width>780</width>
-        <height>21</height>
-        <textcolor>FFFF0000</textcolor>
-        <shadowcolor>FF000000</shadowcolor>
-        <font>font13</font>
-        <align>left</align>
+        <include>DebugDialogLabel</include>
         <label>DialogMuteBug.xml</label>
         <visible>Window.IsVisible(DialogMuteBug.xml)</visible>
       </control>
       <control type="label">
-        <width>780</width>
-        <height>21</height>
-        <textcolor>FFFF0000</textcolor>
-        <shadowcolor>FF000000</shadowcolor>
-        <font>font13</font>
-        <align>left</align>
+        <include>DebugDialogLabel</include>
         <label>DialogNetworkSetup.xml</label>
         <visible>Window.IsVisible(DialogNetworkSetup.xml)</visible>
       </control>
       <control type="label">
-        <width>780</width>
-        <height>21</height>
-        <textcolor>FFFF0000</textcolor>
-        <shadowcolor>FF000000</shadowcolor>
-        <font>font13</font>
-        <align>left</align>
+        <include>DebugDialogLabel</include>
         <label>DialogNumeric.xml</label>
         <visible>Window.IsVisible(DialogNumeric.xml)</visible>
       </control>
       <control type="label">
-        <width>780</width>
-        <height>21</height>
-        <textcolor>FFFF0000</textcolor>
-        <shadowcolor>FF000000</shadowcolor>
-        <font>font13</font>
-        <align>left</align>
-        <label>DialogOK.xml</label>
-        <visible>Window.IsVisible(DialogOK.xml)</visible>
+        <include>DebugDialogLabel</include>
+        <label>DialogOk.xml</label>
+        <visible>Window.IsVisible(DialogOk.xml)</visible>
       </control>
       <control type="label">
-        <width>780</width>
-        <height>21</height>
-        <textcolor>FFFF0000</textcolor>
-        <shadowcolor>FF000000</shadowcolor>
-        <font>font13</font>
-        <align>left</align>
+        <include>DebugDialogLabel</include>
         <label>DialogPeripheralManager.xml</label>
         <visible>Window.IsVisible(DialogPeripheralManager.xml)</visible>
       </control>
       <control type="label">
-        <width>780</width>
-        <height>21</height>
-        <textcolor>FFFF0000</textcolor>
-        <shadowcolor>FF000000</shadowcolor>
-        <font>font13</font>
-        <align>left</align>
+        <include>DebugDialogLabel</include>
         <label>DialogPeripheralSettings.xml</label>
         <visible>Window.IsVisible(DialogPeripheralSettings.xml)</visible>
       </control>
       <control type="label">
-        <width>780</width>
-        <height>21</height>
-        <textcolor>FFFF0000</textcolor>
-        <shadowcolor>FF000000</shadowcolor>
-        <font>font13</font>
-        <align>left</align>
+        <include>DebugDialogLabel</include>
         <label>DialogPictureInfo.xml</label>
         <visible>Window.IsVisible(DialogPictureInfo.xml)</visible>
       </control>
       <control type="label">
-        <width>780</width>
-        <height>21</height>
-        <textcolor>FFFF0000</textcolor>
-        <shadowcolor>FF000000</shadowcolor>
-        <font>font13</font>
-        <align>left</align>
+        <include>DebugDialogLabel</include>
+        <label>DialogPluginSettings.xml</label>
+        <visible>Window.IsVisible(DialogPluginSettings.xml)</visible>
+      </control>
+      <control type="label">
+        <include>DebugDialogLabel</include>
         <label>DialogProgress.xml</label>
         <visible>Window.IsVisible(DialogProgress.xml)</visible>
       </control>
       <control type="label">
-        <width>780</width>
-        <height>21</height>
-        <textcolor>FFFF0000</textcolor>
-        <shadowcolor>FF000000</shadowcolor>
-        <font>font13</font>
-        <align>left</align>
+        <include>DebugDialogLabel</include>
         <label>DialogPVRChannelManager.xml</label>
         <visible>Window.IsVisible(DialogPVRChannelManager.xml)</visible>
       </control>
       <control type="label">
-        <width>780</width>
-        <height>21</height>
-        <textcolor>FFFF0000</textcolor>
-        <shadowcolor>FF000000</shadowcolor>
-        <font>font13</font>
-        <align>left</align>
+        <include>DebugDialogLabel</include>
         <label>DialogPVRChannelsOSD.xml</label>
         <visible>Window.IsVisible(DialogPVRChannelsOSD.xml)</visible>
       </control>
       <control type="label">
-        <width>780</width>
-        <height>21</height>
-        <textcolor>FFFF0000</textcolor>
-        <shadowcolor>FF000000</shadowcolor>
-        <font>font13</font>
-        <align>left</align>
+        <include>DebugDialogLabel</include>
         <label>DialogPVRGroupManager.xml</label>
         <visible>Window.IsVisible(DialogPVRGroupManager.xml)</visible>
       </control>
       <control type="label">
-        <width>780</width>
-        <height>21</height>
-        <textcolor>FFFF0000</textcolor>
-        <shadowcolor>FF000000</shadowcolor>
-        <font>font13</font>
-        <align>left</align>
+        <include>DebugDialogLabel</include>
         <label>DialogPVRGuideInfo.xml</label>
         <visible>Window.IsVisible(DialogPVRGuideInfo.xml)</visible>
       </control>
       <control type="label">
-        <width>780</width>
-        <height>21</height>
-        <textcolor>FFFF0000</textcolor>
-        <shadowcolor>FF000000</shadowcolor>
-        <font>font13</font>
-        <align>left</align>
+        <include>DebugDialogLabel</include>
         <label>DialogPVRGuideOSD.xml</label>
         <visible>Window.IsVisible(DialogPVRGuideOSD.xml)</visible>
       </control>
       <control type="label">
-        <width>780</width>
-        <height>21</height>
-        <textcolor>FFFF0000</textcolor>
-        <shadowcolor>FF000000</shadowcolor>
-        <font>font13</font>
-        <align>left</align>
+        <include>DebugDialogLabel</include>
         <label>DialogPVRGuideSearch.xml</label>
         <visible>Window.IsVisible(DialogPVRGuideSearch.xml)</visible>
       </control>
       <control type="label">
-        <width>780</width>
-        <height>21</height>
-        <textcolor>FFFF0000</textcolor>
-        <shadowcolor>FF000000</shadowcolor>
-        <font>font13</font>
-        <align>left</align>
+        <include>DebugDialogLabel</include>
         <label>DialogPVRRecordingInfo.xml</label>
         <visible>Window.IsVisible(DialogPVRRecordingInfo.xml)</visible>
       </control>
       <control type="label">
-        <width>780</width>
-        <height>21</height>
-        <textcolor>FFFF0000</textcolor>
-        <shadowcolor>FF000000</shadowcolor>
-        <font>font13</font>
-        <align>left</align>
+        <include>DebugDialogLabel</include>
         <label>DialogPVRTimerSettings.xml</label>
         <visible>Window.IsVisible(DialogPVRTimerSettings.xml)</visible>
       </control>
       <control type="label">
-        <width>780</width>
-        <height>21</height>
-        <textcolor>FFFF0000</textcolor>
-        <shadowcolor>FF000000</shadowcolor>
-        <font>font13</font>
-        <align>left</align>
-        <label>DialogSeekbar.xml</label>
-        <visible>Window.IsVisible(DialogSeekbar.xml)</visible>
+        <include>DebugDialogLabel</include>
+        <label>DialogPVRUpdateProgressBar.xml</label>
+        <visible>Window.IsVisible(DialogPVRUpdateProgressBar.xml)</visible>
       </control>
       <control type="label">
-        <width>780</width>
-        <height>21</height>
-        <textcolor>FFFF0000</textcolor>
-        <shadowcolor>FF000000</shadowcolor>
-        <font>font13</font>
-        <align>left</align>
+        <include>DebugDialogLabel</include>
+        <label>DialogScriptInfo.xml</label>
+        <visible>Window.IsVisible(DialogScriptInfo.xml)</visible>
+      </control>
+      <control type="label">
+        <include>DebugDialogLabel</include>
+        <label>DialogSeekBar.xml</label>
+        <visible>Window.IsVisible(DialogSeekBar.xml)</visible>
+      </control>
+      <control type="label">
+        <include>DebugDialogLabel</include>
         <label>DialogSelect.xml</label>
         <visible>Window.IsVisible(DialogSelect.xml)</visible>
       </control>
       <control type="label">
-        <width>780</width>
-        <height>21</height>
-        <textcolor>FFFF0000</textcolor>
-        <shadowcolor>FF000000</shadowcolor>
-        <font>font13</font>
-        <align>left</align>
+        <include>DebugDialogLabel</include>
         <label>DialogSlider.xml</label>
         <visible>Window.IsVisible(DialogSlider.xml)</visible>
       </control>
       <control type="label">
-        <width>780</width>
-        <height>21</height>
-        <textcolor>FFFF0000</textcolor>
-        <shadowcolor>FF000000</shadowcolor>
-        <font>font13</font>
-        <align>left</align>
+        <include>DebugDialogLabel</include>
         <label>DialogSongInfo.xml</label>
         <visible>Window.IsVisible(DialogSongInfo.xml)</visible>
       </control>
       <control type="label">
-        <width>780</width>
-        <height>21</height>
-        <textcolor>FFFF0000</textcolor>
-        <shadowcolor>FF000000</shadowcolor>
-        <font>font13</font>
-        <align>left</align>
+        <include>DebugDialogLabel</include>
+        <label>DialogSubtitles.xml</label>
+        <visible>Window.IsVisible(DialogSubtitles.xml)</visible>
+      </control>
+      <control type="label">
+        <include>DebugDialogLabel</include>
         <label>DialogTextViewer.xml</label>
         <visible>Window.IsVisible(DialogTextViewer.xml)</visible>
       </control>
       <control type="label">
-        <width>780</width>
-        <height>21</height>
-        <textcolor>FFFF0000</textcolor>
-        <shadowcolor>FF000000</shadowcolor>
-        <font>font13</font>
-        <align>left</align>
+        <include>DebugDialogLabel</include>
         <label>DialogVideoInfo.xml</label>
         <visible>Window.IsVisible(DialogVideoInfo.xml)</visible>
       </control>
       <control type="label">
-        <width>780</width>
-        <height>21</height>
-        <textcolor>FFFF0000</textcolor>
-        <shadowcolor>FF000000</shadowcolor>
-        <font>font13</font>
-        <align>left</align>
-        <label>DialogVideoScan.xml</label>
-        <visible>Window.IsVisible(DialogVideoScan.xml)</visible>
-      </control>
-      <control type="label">
-        <width>780</width>
-        <height>21</height>
-        <textcolor>FFFF0000</textcolor>
-        <shadowcolor>FF000000</shadowcolor>
-        <font>font13</font>
-        <align>left</align>
+        <include>DebugDialogLabel</include>
         <label>DialogVolumeBar.xml</label>
         <visible>Window.IsVisible(DialogVolumeBar.xml)</visible>
       </control>
       <control type="label">
-        <width>780</width>
-        <height>21</height>
-        <textcolor>FFFF0000</textcolor>
-        <shadowcolor>FF000000</shadowcolor>
-        <font>font13</font>
-        <align>left</align>
+        <include>DebugDialogLabel</include>
         <label>DialogYesNo.xml</label>
         <visible>Window.IsVisible(DialogYesNo.xml)</visible>
       </control>
       <control type="label">
-        <width>780</width>
-        <height>21</height>
-        <textcolor>FFFF0000</textcolor>
-        <shadowcolor>FF000000</shadowcolor>
-        <font>font13</font>
-        <align>left</align>
+        <include>DebugFileLabel</include>
+        <label>AddonBrowser.xml</label>
+        <visible>Window.IsVisible(AddonBrowser.xml)</visible>
+      </control>
+      <control type="label">
+        <include>DebugFileLabel</include>
+        <label>custom_DialogFavourites.xml</label>
+        <visible>Window.IsVisible(custom_DialogFavourites.xml)</visible>
+      </control>
+      <control type="label">
+        <include>DebugFileLabel</include>
         <label>FileBrowser.xml</label>
         <visible>Window.IsVisible(FileBrowser.xml)</visible>
       </control>
       <control type="label">
-        <width>780</width>
-        <height>21</height>
-        <textcolor>FFFF0000</textcolor>
-        <shadowcolor>FF000000</shadowcolor>
-        <font>font13</font>
-        <align>left</align>
+        <include>DebugFileLabel</include>
+        <label>FileManager.xml</label>
+        <visible>Window.IsVisible(FileManager.xml)</visible>
+      </control>
+      <control type="label">
+        <include>DebugFileLabel</include>
+        <label>Home.xml</label>
+        <visible>Window.IsVisible(Home.xml)</visible>
+      </control>
+      <control type="label">
+        <include>DebugFileLabel</include>
         <label>LockSettings.xml</label>
         <visible>Window.IsVisible(LockSettings.xml)</visible>
       </control>
       <control type="label">
-        <width>780</width>
-        <height>21</height>
-        <textcolor>FFFF0000</textcolor>
-        <shadowcolor>FF000000</shadowcolor>
-        <font>font13</font>
-        <align>left</align>
-        <label>MusicKaraokeLyrics.xml</label>
-        <visible>Window.IsVisible(MusicKaraokeLyrics.xml)</visible>
+        <include>DebugFileLabel</include>
+        <label>LoginScreen.xml</label>
+        <visible>Window.IsVisible(LoginScreen.xml)</visible>
       </control>
       <control type="label">
-        <width>780</width>
-        <height>21</height>
-        <textcolor>FFFF0000</textcolor>
-        <shadowcolor>FF000000</shadowcolor>
-        <font>font13</font>
-        <align>left</align>
+        <include>DebugFileLabel</include>
         <label>MusicOSD.xml</label>
         <visible>Window.IsVisible(MusicOSD.xml)</visible>
       </control>
       <control type="label">
-        <width>780</width>
-        <height>21</height>
-        <textcolor>FFFF0000</textcolor>
-        <shadowcolor>FF000000</shadowcolor>
-        <font>font13</font>
-        <align>left</align>
+        <include>DebugFileLabel</include>
+        <label>MusicOSDVisSettings.xml</label>
+        <visible>Window.IsVisible(MusicOSDVisSettings.xml)</visible>
+      </control>
+      <control type="label">
+        <include>DebugFileLabel</include>
         <label>MusicOverlay.xml</label>
         <visible>Window.IsVisible(MusicOverlay.xml)</visible>
       </control>
       <control type="label">
-        <width>780</width>
-        <height>21</height>
-        <textcolor>FFFF0000</textcolor>
-        <shadowcolor>FF000000</shadowcolor>
-        <font>font13</font>
-        <align>left</align>
+        <include>DebugFileLabel</include>
         <label>MusicVisualisation.xml</label>
         <visible>Window.IsVisible(MusicVisualisation.xml)</visible>
       </control>
       <control type="label">
-        <width>780</width>
-        <height>21</height>
-        <textcolor>FFFF0000</textcolor>
-        <shadowcolor>FF000000</shadowcolor>
-        <font>font13</font>
-        <align>left</align>
+        <include>DebugFileLabel</include>
+        <label>MyMusicNav.xml</label>
+        <visible>Window.IsVisible(MyMusicNav.xml)</visible>
+      </control>
+      <control type="label">
+        <include>DebugFileLabel</include>
+        <label>MyMusicPlaylist.xml</label>
+        <visible>Window.IsVisible(MyMusicPlaylist.xml)</visible>
+      </control>
+      <control type="label">
+        <include>DebugFileLabel</include>
+        <label>MyMusicPlaylistEditor.xml</label>
+        <visible>Window.IsVisible(MyMusicPlaylistEditor.xml)</visible>
+      </control>
+      <control type="label">
+        <include>DebugFileLabel</include>
+        <label>MyMusicSongs.xml</label>
+        <visible>Window.IsVisible(MyMusicSongs.xml)</visible>
+      </control>
+      <control type="label">
+        <include>DebugFileLabel</include>
+        <label>MyPics.xml</label>
+        <visible>Window.IsVisible(MyPics.xml)</visible>
+      </control>
+      <control type="label">
+        <include>DebugFileLabel</include>
+        <label>MyPrograms.xml</label>
+        <visible>Window.IsVisible(MyPrograms.xml)</visible>
+      </control>
+      <control type="label">
+        <include>DebugFileLabel</include>
+        <label>MyPVRChannels.xml</label>
+        <visible>Window.IsVisible(MyPVRChannels.xml)</visible>
+      </control>
+      <control type="label">
+        <include>DebugFileLabel</include>
+        <label>MyPVRGuide.xml</label>
+        <visible>Window.IsVisible(MyPVRGuide.xml)</visible>
+      </control>
+      <control type="label">
+        <include>DebugFileLabel</include>
+        <label>MyPVRRecordings.xml</label>
+        <visible>Window.IsVisible(MyPVRRecordings.xml)</visible>
+      </control>
+      <control type="label">
+        <include>DebugFileLabel</include>
+        <label>MyPVRSearch.xml</label>
+        <visible>Window.IsVisible(MyPVRSearch.xml)</visible>
+      </control>
+      <control type="label">
+        <include>DebugFileLabel</include>
+        <label>MyPVRTimers.xml</label>
+        <visible>Window.IsVisible(MyPVRTimers.xml)</visible>
+      </control>
+      <control type="label">
+        <include>DebugFileLabel</include>
+        <label>MyVideoNav.xml</label>
+        <visible>Window.IsVisible(MyVideoNav.xml)</visible>
+      </control>
+      <control type="label">
+        <include>DebugFileLabel</include>
+        <label>MyVideoPlaylist.xml</label>
+        <visible>Window.IsVisible(MyVideoPlaylist.xml)</visible>
+      </control>
+      <control type="label">
+        <include>DebugFileLabel</include>
+        <label>MyWeather.xml</label>
+        <visible>Window.IsVisible(MyWeather.xml)</visible>
+      </control>
+      <control type="label">
+        <include>DebugFileLabel</include>
         <label>PlayerControls.xml</label>
         <visible>Window.IsVisible(PlayerControls.xml)</visible>
       </control>
       <control type="label">
-        <width>780</width>
-        <height>21</height>
-        <textcolor>FFFF0000</textcolor>
-        <shadowcolor>FF000000</shadowcolor>
-        <font>font13</font>
-        <align>left</align>
+        <include>DebugFileLabel</include>
         <label>ProfileSettings.xml</label>
         <visible>Window.IsVisible(ProfileSettings.xml)</visible>
       </control>
       <control type="label">
-        <width>780</width>
-        <height>21</height>
-        <textcolor>FFFF0000</textcolor>
-        <shadowcolor>FF000000</shadowcolor>
-        <font>font13</font>
-        <align>left</align>
+        <include>DebugFileLabel</include>
+        <label>script-NextAired-TVGuide.xml</label>
+        <visible>Window.IsVisible(script-NextAired-TVGuide.xml)</visible>
+      </control>
+      <control type="label">
+        <include>DebugFileLabel</include>
+        <label>Settings.xml</label>
+        <visible>Window.IsVisible(Settings.xml)</visible>
+      </control>
+      <control type="label">
+        <include>DebugFileLabel</include>
+        <label>SettingsCategory.xml</label>
+        <visible>Window.IsVisible(SettingsCategory.xml)</visible>
+      </control>
+      <control type="label">
+        <include>DebugFileLabel</include>
+        <label>SettingsProfile.xml</label>
+        <visible>Window.IsVisible(SettingsProfile.xml)</visible>
+      </control>
+      <control type="label">
+        <include>DebugFileLabel</include>
         <label>SettingsScreenCalibration.xml</label>
         <visible>Window.IsVisible(SettingsScreenCalibration.xml)</visible>
       </control>
       <control type="label">
-        <width>780</width>
-        <height>21</height>
-        <textcolor>FFFF0000</textcolor>
-        <shadowcolor>FF000000</shadowcolor>
-        <font>font13</font>
-        <align>left</align>
+        <include>DebugFileLabel</include>
         <label>SettingsSystemInfo.xml</label>
         <visible>Window.IsVisible(SettingsSystemInfo.xml)</visible>
       </control>
       <control type="label">
-        <width>780</width>
-        <height>21</height>
-        <textcolor>FFFF0000</textcolor>
-        <shadowcolor>FF000000</shadowcolor>
-        <font>font13</font>
-        <align>left</align>
+        <include>DebugFileLabel</include>
+        <label>SkinSettings.xml</label>
+        <visible>Window.IsVisible(SkinSettings.xml)</visible>
+      </control>
+      <control type="label">
+        <include>DebugFileLabel</include>
         <label>SlideShow.xml</label>
         <visible>Window.IsVisible(SlideShow.xml)</visible>
       </control>
       <control type="label">
-        <width>780</width>
-        <height>21</height>
-        <textcolor>FFFF0000</textcolor>
-        <shadowcolor>FF000000</shadowcolor>
-        <font>font13</font>
-        <align>left</align>
-        <label>SmartPlaylistEditor.xml</label>
-        <visible>Window.IsVisible(SmartPlaylistEditor.xml)</visible>
+        <include>DebugFileLabel</include>
+        <label>SmartPlayListEditor.xml</label>
+        <visible>Window.IsVisible(SmartPlayListEditor.xml)</visible>
       </control>
       <control type="label">
-        <width>780</width>
-        <height>21</height>
-        <textcolor>FFFF0000</textcolor>
-        <shadowcolor>FF000000</shadowcolor>
-        <font>font13</font>
-        <align>left</align>
+        <include>DebugFileLabel</include>
         <label>SmartPlaylistRule.xml</label>
         <visible>Window.IsVisible(SmartPlaylistRule.xml)</visible>
       </control>
       <control type="label">
-        <width>780</width>
-        <height>21</height>
-        <textcolor>FFFF0000</textcolor>
-        <shadowcolor>FF000000</shadowcolor>
-        <font>font13</font>
-        <align>left</align>
+        <include>DebugFileLabel</include>
+        <label>Startup.xml</label>
+        <visible>Window.IsVisible(Startup.xml)</visible>
+      </control>
+      <control type="label">
+        <include>DebugFileLabel</include>
+        <label>TrainerSettings.xml</label>
+        <visible>Window.IsVisible(TrainerSettings.xml)</visible>
+      </control>
+      <control type="label">
+        <include>DebugFileLabel</include>
+        <label>VideoFullScreen.xml</label>
+        <visible>Window.IsVisible(VideoFullScreen.xml)</visible>
+      </control>
+      <control type="label">
+        <include>DebugFileLabel</include>
         <label>VideoOSD.xml</label>
         <visible>Window.IsVisible(VideoOSD.xml)</visible>
       </control>
       <control type="label">
-        <width>780</width>
-        <height>21</height>
-        <textcolor>FFFF0000</textcolor>
-        <shadowcolor>FF000000</shadowcolor>
-        <font>font13</font>
-        <align>left</align>
+        <include>DebugFileLabel</include>
         <label>VideoOSDBookmarks.xml</label>
         <visible>Window.IsVisible(VideoOSDBookmarks.xml)</visible>
       </control>
       <control type="label">
-        <width>780</width>
-        <height>21</height>
-        <textcolor>FFFF0000</textcolor>
-        <shadowcolor>FF000000</shadowcolor>
-        <font>font13</font>
-        <align>left</align>
+        <include>DebugFileLabel</include>
         <label>VideoOSDSettings.xml</label>
         <visible>Window.IsVisible(VideoOSDSettings.xml)</visible>
       </control>
       <control type="label">
-        <width>780</width>
-        <height>21</height>
-        <textcolor>FFFF0000</textcolor>
-        <shadowcolor>FF000000</shadowcolor>
-        <font>font13</font>
-        <align>left</align>
+        <include>DebugFileLabel</include>
         <label>VideoOverlay.xml</label>
         <visible>Window.IsVisible(VideoOverlay.xml)</visible>
       </control>
       <control type="label">
-        <width>780</width>
-        <height>21</height>
-        <textcolor>FFFF0000</textcolor>
-        <shadowcolor>FF000000</shadowcolor>
-        <font>font13</font>
-        <align>left</align>
+        <include>DebugFileLabel</include>
         <label>VisualisationPresetList.xml</label>
         <visible>Window.IsVisible(VisualisationPresetList.xml)</visible>
       </control>
