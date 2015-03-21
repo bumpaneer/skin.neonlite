@@ -355,13 +355,13 @@
         <top>195</top>
         <width>1200</width>
         <height>30</height>
-        <font>font30</font>
+        <font>font30_title</font>
         <textcolor>mainblue</textcolor>
         <shadowcolor>black</shadowcolor>
         <scroll>true</scroll>
         <align>center</align>
         <aligny>center</aligny>
-        <label>[B]$INFO[ListItem.Label][/B]</label>
+        <label>$INFO[ListItem.Label]</label>
       </control>
       <control type="scrollbar" id="60">
         <left>100</left>
@@ -568,11 +568,11 @@
           <top>410</top>
           <width>400</width>
           <height>25</height>
-          <label>[B]$INFO[ListItem.Artist][/B]</label>
+          <label>$INFO[ListItem.Artist]</label>
           <scroll>true</scroll>
           <align>center</align>
           <aligny>center</aligny>
-          <font>font30</font>
+          <font>font30_title</font>
           <textcolor>mainblue</textcolor>
           <shadowcolor>black</shadowcolor>
         </control>
@@ -752,10 +752,10 @@
           <top>0</top>
           <width>600</width>
           <height>15</height>
-          <label>[B]$INFO[ListItem.Label][/B]</label>
+          <label>$INFO[ListItem.Label]</label>
           <align>center</align>
           <aligny>center</aligny>
-          <font>font30</font>
+          <font>font30_title</font>
           <textcolor>mainblue</textcolor>
           <shadowcolor>black</shadowcolor>
           <wrapmultiline>true</wrapmultiline>
@@ -1076,11 +1076,11 @@
           <top>450</top>
           <width>400</width>
           <height>25</height>
-          <label>[B]$INFO[ListItem.Artist][/B]</label>
+          <label>$INFO[ListItem.Artist]</label>
           <scroll>true</scroll>
           <align>center</align>
           <aligny>center</aligny>
-          <font>font30</font>
+          <font>font30_title</font>
           <textcolor>mainblue</textcolor>
           <shadowcolor>black</shadowcolor>
         </control>

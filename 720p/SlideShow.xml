@@ -61,8 +61,8 @@
         <left>175</left>
         <top>121</top>
         <width>1034</width>
-        <font>font13</font>
-        <label>[B]$INFO[MusicPlayer.Title][/B]</label>
+        <font>font13_title</font>
+        <label>$INFO[MusicPlayer.Title]</label>
         <textcolor>NowPlayingTrack</textcolor>
       </control>
     </control>

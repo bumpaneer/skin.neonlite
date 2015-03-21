@@ -122,13 +122,13 @@
             <top>0</top>
             <width>690</width>
             <height>20</height>
-            <font>font13</font>
+            <font>font13_title</font>
             <textcolor>white</textcolor>
             <shadowcolor>black</shadowcolor>
             <scroll>true</scroll>
             <align>center</align>
             <aligny>center</aligny>
-            <label>[B]$INFO[Container(50).ListItem.Title][/B]</label>
+            <label>$INFO[Container(50).ListItem.Title]</label>
           </control>
           <control type="label">
             <left>0</left>

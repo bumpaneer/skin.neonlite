@@ -132,9 +132,9 @@
           <height>89</height>
           <align>center</align>
           <aligny>bottom</aligny>
-          <font>font30</font>
+          <font>font30_title</font>
           <textcolor>ffffffff</textcolor>
-          <label>[B]$LOCALIZE[20359] $INFO[ListItem.Episode][/B]</label>
+          <label>$LOCALIZE[20359] $INFO[ListItem.Episode]</label>
         </control>
         <control type="label">
           <visible>Container.Content(artists) | Container.Content(seasons) | [Container.Content(episodes) + IsEmpty(ListItem.Title)] | [Container.Content(tvshows) + IsEmpty(ListItem.Title)]</visible>
@@ -144,9 +144,9 @@
           <height>89</height>
           <align>center</align>
           <aligny>bottom</aligny>
-          <font>font30</font>
+          <font>font30_title</font>
           <textcolor>ffffffff</textcolor>
-          <label>[B]$INFO[ListItem.Label][/B]</label>
+          <label>$INFO[ListItem.Label]</label>
         </control>
         <control type="label">
           <visible>Container.Content(seasons)</visible>
@@ -156,9 +156,9 @@
           <height>89</height>
           <align>center</align>
           <aligny>bottom</aligny>
-          <font>font30</font>
+          <font>font30_title</font>
           <textcolor>ffffffff</textcolor>
-          <label>[B]$INFO[ListItem.Label][/B]</label>
+          <label>$INFO[ListItem.Label]</label>
         </control>
         <control type="label">
           <left>0</left>
@@ -166,9 +166,9 @@
           <width>230</width>
           <height>89</height>
           <align>center</align>
-          <font>fontContextMenu</font>
+          <font>font13_title</font>
           <textcolor>ListTrackNF</textcolor>
-          <label>[B]-$LOCALIZE[16102]-[/B]</label>
+          <label>-$LOCALIZE[16102]-</label>
           <visible>!Skin.HasSetting(DisableTvOverlays) + Container.Content(tvshows) + stringcompare(ListItem.Overlay,OverlayWatched.png)</visible>
         </control>
         <control type="image">
@@ -217,9 +217,9 @@
         <width>1200</width>
         <height>50</height>
         <aligny>center</aligny>
-        <font>font30</font>
+        <font>font30_title</font>
         <textcolor>mainblue</textcolor>
-        <label>[B]$INFO[ListItem.TVShowTitle][/B]</label>
+        <label>$INFO[ListItem.TVShowTitle]</label>
         <visible>IsEmpty(Control.GetLabel(37015)) + IsEmpty(Control.GetLabel(39015))</visible>
       </control>
       <control type="label">
@@ -228,9 +228,9 @@
         <width>230</width>
         <height>89</height>
         <align>center</align>
-        <font>font16</font>
+        <font>font24_title</font>
         <textcolor>white</textcolor>
-        <label>[B]$LOCALIZE[20373] $INFO[ListItem.Season][/B]</label>
+        <label>$LOCALIZE[20373] $INFO[ListItem.Season]</label>
         <visible>Container.Content(episodes) + !IsEmpty(ListItem.Title)</visible>
       </control>
     </control>
@@ -274,9 +274,9 @@
         <left>460</left>
         <top>612</top>
         <width>390</width>
-        <label>[B]$INFO[ListItem.Title][/B]</label>
+        <label>$INFO[ListItem.Title]</label>
         <align>center</align>
-        <font>font14</font>
+        <font>font13_title</font>
         <textcolor>ffffffff</textcolor>
         <visible>!IsEmpty(ListItem.Title)</visible>
       </control>

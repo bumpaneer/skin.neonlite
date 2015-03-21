@@ -123,9 +123,9 @@
         <height>50</height>
         <align>center</align>
         <aligny>center</aligny>
-        <font>font30</font>
+        <font>font30_title</font>
         <textcolor>mainblue</textcolor>
-        <label>"[B]$INFO[ListItem.Label][/B]"</label>
+        <label>"$INFO[ListItem.Label]"</label>
         <include>Animation_Bartowski_Context_Zoom</include>
         <visible></visible>
       </control>

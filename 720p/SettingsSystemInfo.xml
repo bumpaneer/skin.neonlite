@@ -178,8 +178,8 @@
         <top>20</top>
         <width>740</width>
         <height>30</height>
-        <font>font16</font>
-        <label>[B]$LOCALIZE[130] - $INFO[Control.GetLabel(40)][/B]</label>
+        <font>font24_title</font>
+        <label>$LOCALIZE[130] - $INFO[Control.GetLabel(40)]</label>
         <align>left</align>
         <aligny>center</aligny>
         <textcolor>mainblue</textcolor>

@@ -160,14 +160,14 @@
                 <top>123</top>
                 <width>260</width>
                 <height>10</height>
-                <font>font13</font>
+                <font>font13_title</font>
                 <textcolor>mainblue</textcolor>
                 <shadowcolor>black</shadowcolor>
                 <selectedcolor>selected</selectedcolor>
                 <align>right</align>
                 <aligny>center</aligny>
                 <scroll>false</scroll>
-                <label>[B]$INFO[ListItem.TVshowTitle] - [UPPERCASE]$INFO[ListItem.Property(episodeno)][/UPPERCASE][/B]</label>
+                <label>$INFO[ListItem.TVshowTitle] - [UPPERCASE]$INFO[ListItem.Property(episodeno)][/UPPERCASE]</label>
               </control>
               <control type="label">
                 <left>22</left>
@@ -175,13 +175,13 @@
                 <width>260</width>
                 <scroll>false</scroll>
                 <height>20</height>
-                <font>font12</font>
+                <font>font12_title</font>
                 <textcolor>white</textcolor>
                 <shadowcolor>black</shadowcolor>
                 <selectedcolor>selected</selectedcolor>
                 <align>right</align>
                 <aligny>center</aligny>
-                <label>[B]$INFO[ListItem.Label][/B]</label>
+                <label>$INFO[ListItem.Label]</label>
               </control>
             </control>
           </itemlayout>

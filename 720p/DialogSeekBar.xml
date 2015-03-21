@@ -311,8 +311,8 @@
         <width>1280</width>
         <align>center</align>
         <!-- <label>[LOWERCASE]$LOCALIZE[112][/LOWERCASE]</label> -->
-        <label>[B]=[/B]</label>
-        <font>font30</font>
+        <label>=</label>
+        <font>WeatherTemp</font>
         <angle>90</angle>
         <textcolor>33ffffff</textcolor>
         <visible>Player.Paused + ![[Player.Paused + Player.Caching] + !Player.Seeking]</visible>

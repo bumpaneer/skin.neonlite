@@ -98,9 +98,9 @@
       <height>50</height>
       <align>right</align>
       <aligny>center</aligny>
-      <font>font30</font>
+      <font>font30_title</font>
       <textcolor>mainblue</textcolor>
-      <label>[B]$INFO[ListItem.Label][/B]</label>
+      <label>$INFO[ListItem.Label]</label>
       <visible>Control.IsVisible(54) + Window.IsVisible(VideoFiles)</visible>
     </control>
     <control type="group">

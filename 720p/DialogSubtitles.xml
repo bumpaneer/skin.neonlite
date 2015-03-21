@@ -330,8 +330,8 @@
           <top>150</top>
           <width>240</width>
           <height>26</height>
-          <label>[B]$LOCALIZE[24018][/B]</label>
-          <font>font13</font>
+          <label>$LOCALIZE[24018]</label>
+          <font>font13_title</font>
           <align>center</align>
           <aligny>top</aligny>
           <textcolor>blue</textcolor>

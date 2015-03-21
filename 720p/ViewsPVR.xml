@@ -238,8 +238,8 @@
           <top>0</top>
           <width>840</width>
           <height>20</height>
-          <label>[B]$INFO[ListItem.Label][/B]</label>
-          <font>font13</font>
+          <label>$INFO[ListItem.Label]</label>
+          <font>font13_title</font>
           <textcolor>white</textcolor>
         </control>
         <control type="label">

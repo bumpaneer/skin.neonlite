@@ -262,9 +262,9 @@
         <width>1200</width>
         <height>50</height>
         <aligny>center</aligny>
-        <font>font30</font>
+        <font>font30_title</font>
         <textcolor>mainblue</textcolor>
-        <label>[B]$INFO[ListItem.Album][/B]</label>
+        <label>$INFO[ListItem.Album]</label>
       </control>
       <control type="label">
         <left>20</left>
@@ -297,9 +297,9 @@
         <width>1200</width>
         <height>50</height>
         <aligny>center</aligny>
-        <font>font30</font>
+        <font>font30_title</font>
         <textcolor>mainblue</textcolor>
-        <label>[B]$INFO[ListItem.Label][/B]</label>
+        <label>$INFO[ListItem.Label]</label>
       </control>
       <control type="label">
         <left>20</left>

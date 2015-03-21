@@ -3315,9 +3315,9 @@
           <scrollout>false</scrollout>
           <pauseatend>600</pauseatend>
           <scrollspeed>20</scrollspeed>
-          <font>font30</font>
+          <font>font30_title</font>
           <textcolor>mainblue</textcolor>
-          <label>[B]$INFO[ListItem.Label][/B]</label>
+          <label>$INFO[ListItem.Label]</label>
         </control>
       </control>
       <control type="group">

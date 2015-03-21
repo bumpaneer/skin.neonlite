@@ -204,12 +204,12 @@
             <top>30</top>
             <width>390</width>
             <height>30</height>
-            <font>font13</font>
+            <font>font13_title</font>
             <textcolor>white</textcolor>
             <selectedcolor>selected</selectedcolor>
             <align>left</align>
             <aligny>center</aligny>
-            <label>[B]$INFO[ListItem.Label][/B]</label>
+            <label>$INFO[ListItem.Label]</label>
             <visible>![ListItem.IsRecording | ListItem.HasTimer]</visible>
           </control>
           <control type="label">
@@ -217,12 +217,12 @@
             <top>30</top>
             <width>350</width>
             <height>30</height>
-            <font>font13</font>
+            <font>font13_title</font>
             <textcolor>white</textcolor>
             <selectedcolor>selected</selectedcolor>
             <align>left</align>
             <aligny>center</aligny>
-            <label>[B]$INFO[ListItem.Label][/B]</label>
+            <label>$INFO[ListItem.Label]</label>
             <visible>ListItem.IsRecording | ListItem.HasTimer</visible>
           </control>
           <control type="image">

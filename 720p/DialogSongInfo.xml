@@ -42,9 +42,9 @@
         <height>30</height>
         <align>center</align>
         <aligny>center</aligny>
-        <font>font30</font>
+        <font>font30_title</font>
         <textcolor>mainblue</textcolor>
-        <label>[B]"$INFO[ListItem.Title]"[/B]</label>
+        <label>"$INFO[ListItem.Title]"</label>
       </control>
       <control type="group">
         <left>30</left>

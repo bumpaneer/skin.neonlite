@@ -46,11 +46,11 @@
           <left>-85</left>
           <top>25</top>
           <width>200</width>
-          <font>font13</font>
+          <font>font13_title</font>
           <textcolor>mainblue</textcolor>
           <align>center</align>
           <aligny>center</aligny>
-          <label>[B]$LOCALIZE[31073][/B]</label>
+          <label>$LOCALIZE[31073]</label>
           <visible>!IntegerGreaterThan(player.volume,1)</visible>
         </control>
       </control>

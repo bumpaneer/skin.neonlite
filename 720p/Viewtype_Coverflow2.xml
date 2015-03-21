@@ -2769,7 +2769,7 @@
           <scrollspeed>20</scrollspeed>
           <font>font24_title</font>
           <textcolor>LandscapeTitle</textcolor>
-          <label>[B]$INFO[ListItem.Label][/B]</label>
+          <label>$INFO[ListItem.Label]</label>
           <visible>[Container.Content(movies) + Skin.HasSetting(HideMovieWatchedOverlays)] | [!Container.Content(movies) + Skin.HasSetting(HideTVWatchedOverlays)] | !stringcompare(ListItem.Overlay,OverlayWatched.png)</visible>
         </control>
         <!-- attention needed: unmatched parenthesis in visible tag above, need to figure out what correct modification is  -->
@@ -2795,9 +2795,9 @@
           <height>50</height>
           <align>center</align>
           <aligny>center</aligny>
-          <font>font13</font>
+          <font>font13_title</font>
           <textcolor>LandscapeTitle</textcolor>
-          <label>[B]$INFO[ListItem.Genre][/B]</label>
+          <label>$INFO[ListItem.Genre]</label>
           <visible>!IsEmpty(ListItem.Genre)</visible>
         </control>
         <control type="label">

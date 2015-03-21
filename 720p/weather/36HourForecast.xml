@@ -21,8 +21,8 @@
         <top>15</top>
         <width>610</width>
         <height>30</height>
-        <font>font16</font>
-        <label>[B]$LOCALIZE[31901][/B]</label>
+        <font>font24_title</font>
+        <label>$LOCALIZE[31901]</label>
         <align>center</align>
         <aligny>center</aligny>
         <textcolor>white</textcolor>

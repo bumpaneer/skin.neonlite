@@ -118,22 +118,22 @@
         </control>
         <!-- current temp -->
         <control type="label">
-          <label>[B]$LOCALIZE[143][/B]</label>
+          <label>$LOCALIZE[143]</label>
           <left>60</left>
           <top>100</top>
           <width>95</width>
           <height>20</height>
-          <font>font13</font>
+          <font>font13_title</font>
           <align>center</align>
           <textcolor>mainblue</textcolor>
         </control>
         <control type="label">
-          <label>[B]$INFO[Window(Weather).Property(Current.Temperature)]$INFO[System.TemperatureUnits][/B]</label>
+          <label>$INFO[Window(Weather).Property(Current.Temperature)]$INFO[System.TemperatureUnits]</label>
           <width>95</width>
           <height>20</height>
           <left>60</left>
           <top>126</top>
-          <font>font13</font>
+          <font>font13_title</font>
           <align>center</align>
           <textcolor>white</textcolor>
         </control>
@@ -201,8 +201,8 @@
           <top>190</top>
           <width>195</width>
           <height>20</height>
-          <label>[B]$INFO[Window(Weather).Property(Day2.Title)][/B]</label>
-          <font>font13</font>
+          <label>$INFO[Window(Weather).Property(Day2.Title)]</label>
+          <font>font13_title</font>
           <textcolor>white</textcolor>
           <align>center</align>
           <animation effect="slide" start="450,0" end="0,0" time="600" delay="400" tween="cubic" easing="inout" condition="!Skin.HasSetting(horizontal_bottom_align) + [Container(301).HasFocus(8) | Container(301).HasFocus(14)]">Conditional</animation>
@@ -232,8 +232,8 @@
           <top>190</top>
           <width>195</width>
           <height>20</height>
-          <label>[B]$INFO[Window(Weather).Property(Day1.Title)][/B]</label>
-          <font>font13</font>
+          <label>$INFO[Window(Weather).Property(Day1.Title)]</label>
+          <font>font13_title</font>
           <textcolor>white</textcolor>
           <align>center</align>
           <animation effect="slide" start="450,0" end="0,0" time="600" delay="800" tween="cubic" easing="inout" condition="!Skin.HasSetting(horizontal_bottom_align) + [Container(301).HasFocus(8) | Container(301).HasFocus(14)]">Conditional</animation>
@@ -274,22 +274,22 @@
         </control>
         <!-- current temp -->
         <control type="label">
-          <label>[B]$LOCALIZE[143][/B]</label>
+          <label>$LOCALIZE[143]</label>
           <left>60</left>
           <top>100</top>
           <width>95</width>
           <height>20</height>
-          <font>font13</font>
+          <font>font13_title</font>
           <align>center</align>
           <textcolor>mainblue</textcolor>
         </control>
         <control type="label">
-          <label>[B]$INFO[Window(Weather).Property(Current.Temperature)]$INFO[System.TemperatureUnits][/B]</label>
+          <label>$INFO[Window(Weather).Property(Current.Temperature)]$INFO[System.TemperatureUnits]</label>
           <width>95</width>
           <height>20</height>
           <left>60</left>
           <top>126</top>
-          <font>font13</font>
+          <font>font13_title</font>
           <align>center</align>
           <textcolor>white</textcolor>
         </control>
@@ -356,8 +356,8 @@
             <top>503</top>
             <width>195</width>
             <height>20</height>
-            <label>[B]$INFO[Window(Weather).Property(Day3.Title)][/B]</label>
-            <font>font13</font>
+            <label>$INFO[Window(Weather).Property(Day3.Title)]</label>
+            <font>font13_title</font>
             <textcolor>white</textcolor>
             <align>center</align>
           </control>
@@ -405,8 +405,8 @@
             <top>325</top>
             <width>195</width>
             <height>20</height>
-            <label>[B]$INFO[Window(Weather).Property(Day2.Title)][/B]</label>
-            <font>font13</font>
+            <label>$INFO[Window(Weather).Property(Day2.Title)]</label>
+            <font>font13_title</font>
             <textcolor>white</textcolor>
             <align>center</align>
           </control>
@@ -455,8 +455,8 @@
             <top>150</top>
             <width>195</width>
             <height>20</height>
-            <label>[B]$INFO[Window(Weather).Property(Day1.Title)][/B]</label>
-            <font>font13</font>
+            <label>$INFO[Window(Weather).Property(Day1.Title)]</label>
+            <font>font13_title</font>
             <textcolor>white</textcolor>
             <align>center</align>
           </control>
