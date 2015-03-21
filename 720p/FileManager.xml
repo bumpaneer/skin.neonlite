@@ -34,6 +34,14 @@
         <texture border="20">panel_background.png</texture>
       </control>
       <control type="image">
+        <left>0</left>
+        <top>0</top>
+        <width>610</width>
+        <height>620</height>
+        <colordiffuse>mainblue</colordiffuse>
+        <texture border="20">panel_content_background.png</texture>
+      </control>
+      <control type="image">
         <left>510</left>
         <top>20</top>
         <width>80</width>
@@ -203,6 +211,14 @@
         <height>620</height>
         <colordiffuse>mainblue</colordiffuse>
         <texture border="20">panel_background.png</texture>
+      </control>
+      <control type="image">
+        <left>0</left>
+        <top>0</top>
+        <width>610</width>
+        <height>620</height>
+        <colordiffuse>mainblue</colordiffuse>
+        <texture border="20">panel_content_background.png</texture>
       </control>
       <control type="image">
         <left>20</left>
