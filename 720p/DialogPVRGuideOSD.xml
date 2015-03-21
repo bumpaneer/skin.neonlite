@@ -16,7 +16,16 @@
         <width>480</width>
         <height>660</height>
         <colordiffuse>mainblue</colordiffuse>
-        <texture border="40">DialogBack.png</texture>
+        <texture border="40">panel_background.png</texture>
+      </control>
+      <control type="image">
+        <description>background image</description>
+        <left>0</left>
+        <top>0</top>
+        <width>480</width>
+        <height>660</height>
+        <colordiffuse>mainblue</colordiffuse>
+        <texture border="40">panel_content_background.png</texture>
       </control>
       <control type="button">
         <description>Close Window button</description>
