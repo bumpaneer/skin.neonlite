@@ -17,7 +17,7 @@
       <width>500</width>
       <height>544</height>
       <colordiffuse>mainblue</colordiffuse>
-      <texture>DialogBackwht.png</texture>
+      <texture>panel_background.png</texture>
       <!-- <colordiffuse>clearblack</colordiffuse> -->
     </control>
     <control type="image">

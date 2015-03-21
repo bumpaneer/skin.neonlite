@@ -520,7 +520,7 @@
       <width>200</width>
       <height>103</height>
       <colordiffuse>mainblue</colordiffuse>
-      <texture border="40">DialogBackwht.png</texture>
+      <texture border="40">panel_background.png</texture>
       <visible>Control.HasFocus(570) | Control.HasFocus(705) | ControlGroup(550).HasFocus</visible>
       </control>
     <control type="image">

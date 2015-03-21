@@ -150,7 +150,7 @@
           <width>840</width>
           <height>600</height>
           <colordiffuse>mainblue</colordiffuse>
-          <texture border="20">DialogBackwht.png</texture>
+          <texture border="20">panel_background.png</texture>
         </control>
         <control type="image">
           <left>50</left>
@@ -158,7 +158,7 @@
           <width>840</width>
           <height>600</height>
           <colordiffuse>mainblue</colordiffuse>
-          <texture border="20">ContentPanel.png</texture>
+          <texture border="20">panel_content_background.png</texture>
         </control>
         <control type="image">
           <left>900</left>
@@ -166,7 +166,7 @@
           <width>330</width>
           <height>600</height>
           <colordiffuse>mainblue</colordiffuse>
-          <texture border="20">DialogBackwht.png</texture>
+          <texture border="20">panel_background.png</texture>
         </control>
         <control type="image">
           <left>900</left>
@@ -174,7 +174,7 @@
           <width>330</width>
           <height>600</height>
           <colordiffuse>mainblue</colordiffuse>
-          <texture border="20">ContentPanel.png</texture>
+          <texture border="20">panel_content_background.png</texture>
         </control>
       </control>
     </control>

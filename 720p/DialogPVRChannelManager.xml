@@ -321,7 +321,8 @@
         <top>60</top>
         <width>380</width>
         <height>530</height>
-        <texture>ContentPanel.png</texture>
+        <colordiffuse>mainblue</colordiffuse>
+        <texture border="15">panel_background.png</texture>
       </control>
       <control type="list" id="20">
         <left>680</left>

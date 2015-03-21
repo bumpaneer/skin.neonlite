@@ -16,7 +16,7 @@
         <animation effect="slide" start="275,0" end="0,0" time="600" delay="400" tween="cubic" easing="inout" condition="Container(301).HasFocus(8) | Container(301).HasFocus(14)">Conditional</animation>
         <!-- today -->
         <control type="image">
-          <texture border="20">ContentPanel.png</texture>
+          <texture border="20">panel_content_background.png</texture>
           <left>-50</left>
           <top>5</top>
           <width>240</width>
@@ -105,7 +105,7 @@
           <top>-13</top>
           <width>170</width>
           <height>250</height>
-          <texture border="20">ContentPanel.png</texture>
+          <texture border="20">panel_content_background.png</texture>
         </control>
         <!-- condition icon -->
         <control type="image">
@@ -182,7 +182,7 @@
           <top>105</top>
           <width>120</width>
           <height>130</height>
-          <texture border="20">ContentPanel.png</texture>
+          <texture border="20">panel_content_background.png</texture>
           <animation effect="slide" start="450,0" end="0,0" time="600" delay="400" tween="cubic" easing="inout" condition="!Skin.HasSetting(horizontal_bottom_align) + [Container(301).HasFocus(8) | Container(301).HasFocus(14)]">Conditional</animation>
           <animation effect="slide" start="0,250" end="0,0" time="600" delay="600" tween="cubic" easing="inout" condition="Skin.HasSetting(horizontal_bottom_align) + [Container(301).HasFocus(8) | Container(301).HasFocus(14)]">Conditional</animation>
         </control>
@@ -213,7 +213,7 @@
           <top>105</top>
           <width>120</width>
           <height>130</height>
-          <texture border="20">ContentPanel.png</texture>
+          <texture border="20">panel_content_background.png</texture>
           <animation effect="slide" start="450,0" end="0,0" time="600" delay="800" tween="cubic" easing="inout" condition="!Skin.HasSetting(horizontal_bottom_align) + [Container(301).HasFocus(8) | Container(301).HasFocus(14)]">Conditional</animation>
           <animation effect="slide" start="450,0" end="0,0" time="600" delay="600" tween="cubic" easing="inout" condition="Skin.HasSetting(horizontal_bottom_align) + [Container(301).HasFocus(8) | Container(301).HasFocus(14)]">Conditional</animation>
         </control>
@@ -260,7 +260,7 @@
           <top>-13</top>
           <width>170</width>
           <height>250</height>
-          <texture border="20">ContentPanel.png</texture>
+          <texture border="20">panel_content_background.png</texture>
         </control>
         <!-- today -->
         <!-- condition icon -->
@@ -341,7 +341,7 @@
             <top>420</top>
             <width>135</width>
             <height>170</height>
-            <texture border="20">ContentPanel.png</texture>
+            <texture border="20">panel_content_background.png</texture>
           </control>
           <control type="image">
             <texture>$INFO[Window(Weather).Property(Day3.OutlookIcon)]</texture>
@@ -391,7 +391,7 @@
             <top>242</top>
             <width>135</width>
             <height>170</height>
-            <texture border="20">ContentPanel.png</texture>
+            <texture border="20">panel_content_background.png</texture>
           </control>
           <control type="image">
             <texture>$INFO[Window(Weather).Property(Day2.OutlookIcon)]</texture>
@@ -440,7 +440,7 @@
             <top>67</top>
             <width>135</width>
             <height>170</height>
-            <texture border="20">ContentPanel.png</texture>
+            <texture border="20">panel_content_background.png</texture>
           </control>
           <control type="image">
             <texture>$INFO[Window(Weather).Property(Day1.OutlookIcon)]</texture>

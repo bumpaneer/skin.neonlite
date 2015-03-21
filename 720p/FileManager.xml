@@ -30,14 +30,8 @@
         <top>0</top>
         <width>610</width>
         <height>620</height>
-        <texture border="20">ContentPanel.png</texture>
-      </control>
-      <control type="image">
-        <left>0</left>
-        <top>612</top>
-        <width>610</width>
-        <height>64</height>
-        <texture border="10">ContentPanelMirror.png</texture>
+        <colordiffuse>mainblue</colordiffuse>
+        <texture border="20">panel_background.png</texture>
       </control>
       <control type="image">
         <left>510</left>
@@ -207,14 +201,8 @@
         <top>0</top>
         <width>610</width>
         <height>620</height>
-        <texture border="20">ContentPanel.png</texture>
-      </control>
-      <control type="image">
-        <left>0</left>
-        <top>612</top>
-        <width>610</width>
-        <height>64</height>
-        <texture border="10">ContentPanelMirror.png</texture>
+        <colordiffuse>mainblue</colordiffuse>
+        <texture border="20">panel_background.png</texture>
       </control>
       <control type="image">
         <left>20</left>
@@ -228,7 +216,7 @@
       </control>
       <control type="label">
         <description>header label</description>
-        <left>0</left>
+        <left>100</left>
         <top>30</top>
         <width>470</width>
         <height>30</height>
@@ -241,7 +229,7 @@
       </control>
       <control type="label" id="102">
         <description>current directory text label</description>
-        <left>0</left>
+        <left>100</left>
         <top>70</top>
         <width>470</width>
         <height>30</height>

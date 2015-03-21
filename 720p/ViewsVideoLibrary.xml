@@ -479,7 +479,7 @@
         <top>0</top>
         <width>920</width>
         <height>410</height>
-        <texture border="20">ContentPanel.png</texture>
+        <texture border="20">panel_content_background.png</texture>
       </control>
       <control type="group">
         <left>40</left>

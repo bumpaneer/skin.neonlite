@@ -33,7 +33,7 @@
         <width>800</width>
         <height>544</height>
         <colordiffuse>mainblue</colordiffuse>
-        <texture>dialogbackwht.png</texture>
+        <texture>panel_background.png</texture>
         <!--<colordiffuse>FavListPanel</colordiffuse>-->
       </control>
       <control type="image">

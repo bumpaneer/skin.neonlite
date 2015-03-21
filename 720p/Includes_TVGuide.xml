@@ -34,7 +34,7 @@
             <width>600</width>
             <height>350</height>
             <colordiffuse>mainblue</colordiffuse>
-            <texture>DialogBackwht.png</texture>
+            <texture>panel_background.png</texture>
           </control>
           <control type="image">
             <description>background</description>
@@ -43,7 +43,7 @@
             <width>600</width>
             <height>350</height>
             <colordiffuse>mainblue</colordiffuse>
-            <texture>ContentPanel.png</texture>
+            <texture>panel_content_background.png</texture>
           </control>
           <control type="image">
             <left>8</left>

@@ -17,7 +17,7 @@
         <width>320</width>
         <height>430</height>
         <colordiffuse>mainblue</colordiffuse>
-        <texture border="20">DialogBackwht.png</texture>
+        <texture border="20">panel_background.png</texture>
       </control>
       <control type="image">
         <left>0</left>
