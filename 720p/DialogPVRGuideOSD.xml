@@ -28,8 +28,8 @@
         <font>-</font>
         <onclick>PreviousMenu</onclick>
         <colordiffuse>mainblue</colordiffuse>
-        <texturefocus>DialogCloseButton-focus.png</texturefocus>
-        <texturenofocus>DialogCloseButton.png</texturenofocus>
+        <texturefocus>close_button_focus.png</texturefocus>
+        <texturenofocus>close_button.png</texturenofocus>
         <onleft>2</onleft>
         <onright>2</onright>
         <onup>2</onup>
